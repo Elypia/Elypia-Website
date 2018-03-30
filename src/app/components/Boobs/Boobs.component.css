@@ -1,0 +1,83 @@
+.boobs-arrow {
+  position: absolute;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+
+.fill-arrow {
+  margin-left: 100px;
+  position: absolute;
+  background-color: var(--navbar-color);
+  width: 300px;
+  height: 100px;
+}
+
+.slide {
+  position: absolute;
+  transition: all 0.5s;
+}
+
+#boobs-imitator {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 400px;
+}
+
+#logo-boobs {
+  margin-top: 180px;
+  margin-left: -95px;
+  position: absolute;
+  width: 155px;
+  padding: 15px;
+}
+
+#banners {
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 1;
+  position: absolute;
+  margin-left: calc(50% - 518px);
+}
+
+#right-arrow-container {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  margin-left: calc(50% + 100px);
+}
+
+#right-arrow-container .boobs-arrow {
+  border-left: 100px solid var(--navbar-color);
+  margin-left: 400px
+}
+
+#right-arrow-container span {
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 2;
+  position: absolute;
+  margin-left: 350px;
+}
+
+#left-arrow-container {
+  cursor: pointer;  
+  position: absolute;
+  margin-top: 250px;
+  display: flex;
+  align-items: center;  
+  margin-left: calc(50% - 600px);
+}
+
+#left-arrow-container .boobs-arrow {
+  border-right: 100px solid var(--navbar-color);
+}
+
+#left-arrow-container span {
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 2;
+  position: absolute;
+  margin-left: 50px;
+}

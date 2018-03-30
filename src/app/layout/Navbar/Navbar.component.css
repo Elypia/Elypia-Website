@@ -1,0 +1,98 @@
+.navbar {  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  transition: all 0.2s;
+  background-color: var(--navbar-color);
+  border-bottom: solid 4px var(--border-color);
+  font-family: var(--header-font);  
+}
+
+.navbar * {
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.navHidden {
+  margin-top: -100px !important;
+}
+
+.hiddenNavArrow {
+  transform: rotateX(180deg) !important;
+}
+
+.navbar .links {
+  margin-left: 30px;
+  margin-right: 250px;    
+}
+
+.navbar .links .discord {
+  position: absolute;
+  width: 50px;
+  margin-top: -10px;
+  margin-left: 110px;
+  cursor: pointer;  
+  opacity: 0.8;
+  transition: all 0.2s;  
+}
+
+.navbar .links .discord:hover {
+  opacity: 1.0;
+}
+
+.navbar .login {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -50px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 160px;  
+  background-color: var(--border-color);
+}
+
+.navbar .login a {
+  opacity: 0.8;
+  transition: all 0.2s;
+  cursor: pointer;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.navbar .login a:hover {
+  opacity: 1.0;
+}
+
+.hideNavArrow {
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 1;
+  position: absolute;
+  background-color: var(--border-color);
+  margin-left: calc(50% + 600px);
+  height: 145px;
+  width: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.hideNavArrow span {
+  font-family: var(--header-font);  
+  font-size: 40px;
+  color: var(--foreground-color);
+}
+
+.hideNavArrow {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.hideNavArrow div {
+  margin-top: 95px; 
+  display: flex;
+  justify-content: center;
+}

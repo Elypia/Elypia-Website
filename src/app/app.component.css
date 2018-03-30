@@ -1,0 +1,23 @@
+.content #discord-widget {
+  position: absolute;  
+  margin-left: calc(50% + 300px);
+}
+
+.content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;  
+  height: calc(100% - 100px);
+  width: 100%;
+  transition: all 0.3s;  
+}
+
+.content #background {
+  -moz-user-select: none;
+  user-select: none;
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  opacity: .25;
+}
