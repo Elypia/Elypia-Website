@@ -1,0 +1,37 @@
+.high-form {
+  width: 240px;
+  height: 200px;
+  border-radius: 5px;
+  transition: all .3s;
+  border-top-left-radius: 0px;  
+  border-top-right-radius: 0px;
+  font-family: var(--text-font);
+  background-color: var(--border-color);
+}
+
+.expanded {
+  margin-top: 190px;
+}
+
+.low-button {
+  margin-left: 80px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 80px;  
+  background-color: var(--border-color);
+}
+
+.low-button a {
+  opacity: 0.8;
+  transition: all 0.2s;
+  cursor: pointer;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.low-button a:hover {
+  opacity: 1.0;
+}
