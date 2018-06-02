@@ -23,7 +23,7 @@ deploy:
     - echo "$SSH_KEY" | tr -d '\r' | ssh-add - > /dev/null
     - mkdir -p ~/.ssh
     - ssh-keyscan -p $SSH_PORT $SSH_ADDRESS >> ~/.ssh/known_hosts
-    - echo "rm /var/www/dev/*" > run.sh
+    - echo "rm /var/www/dev/" > run.sh
     - echo "put dist/* /var/www/dev/*" >> run.sh
     - sftp -b run.sh -oPort=$SSH_PORT $SSH_USER@$SSH_ADDRESS
   cache:
