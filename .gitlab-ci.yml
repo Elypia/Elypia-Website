@@ -24,7 +24,7 @@ deploy:
     - mkdir -p ~/.ssh
     - ssh-keyscan -p $SSH_PORT $SSH_ADDRESS >> ~/.ssh/known_hosts
     - mv ./dist ./dev
-    - echo "rm /var/www/dev/*" > run.sh
+    - echo "rmdir /var/www/dev" > run.sh
     - echo "put -r ./dev /var/www" >> run.sh
     - sftp -b run.sh -oPort=$SSH_PORT $SSH_USER@$SSH_ADDRESS
   cache:
