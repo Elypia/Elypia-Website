@@ -1,3 +1,13 @@
+* {
+  user-select: none;
+  -moz-user-select: none;
+}
+
+span {
+  z-index: 1;
+  font-size: 75px;
+}
+
 .boobs-arrow {
   position: absolute;
   border-top: 50px solid transparent;
@@ -15,19 +25,29 @@
 .slide {
   position: absolute;
   transition: all 0.5s;
+  margin-top: -360px;  
+
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  cursor: pointer;
+  position: absolute;
+  margin-top: -150px;
+  z-index: -1;
 }
 
 #boobs-imitator {
-  font-size: 100px;
-  text-align: center;
-  margin-bottom: 400px;
+  margin-left: calc(50% - 518px);
+  margin-bottom: 45px;
 }
 
 #logo-boobs {
   margin-top: 180px;
   margin-left: -95px;
   position: absolute;
-  width: 155px;
+  width: 200px;
   padding: 15px;
 }
 
@@ -40,12 +60,7 @@
 }
 
 #right-arrow-container {
-  cursor: pointer;
-  position: absolute;
-  margin-top: 250px;
-  display: flex;
-  align-items: center;
-  margin-left: calc(50% + 100px);
+  margin-left: calc(50% + 150px);
 }
 
 #right-arrow-container .boobs-arrow {
@@ -53,21 +68,8 @@
   margin-left: 400px
 }
 
-#right-arrow-container span {
-  -moz-user-select: none;
-  user-select: none;
-  z-index: 2;
-  position: absolute;
-  margin-left: 350px;
-}
-
 #left-arrow-container {
-  cursor: pointer;  
-  position: absolute;
-  margin-top: 250px;
-  display: flex;
-  align-items: center;  
-  margin-left: calc(50% - 600px);
+  margin-left: calc(50% - 650px);
 }
 
 #left-arrow-container .boobs-arrow {
@@ -75,9 +77,24 @@
 }
 
 #left-arrow-container span {
-  -moz-user-select: none;
-  user-select: none;
-  z-index: 2;
-  position: absolute;
-  margin-left: 50px;
+  margin-left: 75px;  
+}
+
+#right-arrow-container span {
+  margin-left: 350px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  span {
+    font-size: 110px;
+    margin-top: -35px;    
+  }
+
+  #right-arrow-container span {
+    margin-left: 330px; 
+  }
+
+  #left-arrow-container span {
+    margin-left: 50px; 
+  }
 }

@@ -12,13 +12,13 @@ export class NavbarComponent {
     { title: 'Company', href: '#' },
     { title: 'Services', href: '#' },
     { title: 'Games', children: [
-       { title: 'J.A.C.G', href: '' } 
+       { title: 'J.A.C.G', href: '' }
     ] },
     { title: 'Discord', children: [
-      { title: 'Guild', href: '' },
+      { title: 'Guilds', href: '' },
       { title: 'Bots', href: '' }
     ] },
-    { title: 'Twitch', children: [ 
+    { title: 'Twitch', children: [
       { title: 'Widgets', href: '' } 
     ] },
   ]

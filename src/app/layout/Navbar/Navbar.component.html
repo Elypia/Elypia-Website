@@ -1,18 +1,17 @@
-<div class="hideNavArrow" (click)="changeNavState()"w>
-  <div [ngClass]="{ hiddenNavArrow: navBarHidden }">
+<div class="nav-arrow" (click)="changeNavState()"w>
+  <div [ngClass]="{ 'navbar-arrow-hidden': navBarHidden }">
     <span>↑</span>
   </div>
 </div>
 
-<div class="navbar" [ngClass]="{ navHidden: navBarHidden }">
+<div class="navbar" [ngClass]="{ 'nav-hidden': navBarHidden }">
   <animated-logo></animated-logo>
   <dropdown *ngFor="let d of dropdownData" [d]="d"></dropdown>
 
   <div class="links">
     <img class="discord" src="assets/Branding/Discord/Logo/White/Discord-Logo-White.png">
     <div class="login">
-      <a>SIGN IN</a>
-      <a>SIGN UP</a>
+      <a href="#">SIGN IN</a>
     </div>
   </div>
 </div>

@@ -1,5 +1,6 @@
-.content #discord-widget {
+.content discord-widget {
   position: absolute;  
+  margin-top: 375px;
   margin-left: calc(50% + 300px);
 }
 
@@ -10,6 +11,10 @@
   height: calc(100% - 100px);
   width: 100%;
   transition: all 0.3s;  
+}
+
+footer {
+  padding-top: calc(50% - 125px);
 }
 
 .content #background {

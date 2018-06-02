@@ -7,6 +7,12 @@ import { Component } from '@angular/core'
 })
 export class NewsListComponent {
   news = [
+    { title: 'I cri', date: '1st of April 2018',
+      content: 'Ladies and gentlemen,\
+      <br>I have to tell u that the roodie named SethX3 made reset of Elypia\'s minecraft server.\
+      <br>I am very depressed right now cuz i lost my horse named Snooty that i loved with my whole small body.\
+      <br><br>Thank you for sharing my pain and damn u steph :c'
+    },
     { title: 'Progress Report III', date: '29th of March 2018',
       content: 'Dropdowns are now components and can be easly created. Now it is JSON object with title, href and children variables.\
       <br>Another news is that seth is mean and told Abba to stop boobs imitator and now he will do it himself.'

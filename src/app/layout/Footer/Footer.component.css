@@ -1,8 +1,6 @@
 .footer {
-  position: fixed;
   height: 100px;
   width: 100%;
-  bottom: 0%;
   background-color: var(--navbar-color);
   border-top: solid 4px var(--border-color);
 }

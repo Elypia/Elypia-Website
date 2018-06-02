@@ -6,6 +6,7 @@ import { NavbarComponent } from './layout/Navbar/Navbar.component'
 import { NewsListComponent } from './layout/NewsList/NewsList.component'
 import { FooterComponent } from './layout/Footer/Footer.component'
 import { NewsComponent } from './components/News/News.component'
+import { DiscordComponent } from './components/Discord/Discord.component'
 import { LogoComponent } from './components/Logo/Logo.component'
 import { BoobsComponent } from './components/Boobs/Boobs.component'
 import { DropdownComponent } from './components/Dropdown/Dropdown.component'
@@ -14,6 +15,7 @@ import { DropdownComponent } from './components/Dropdown/Dropdown.component'
   declarations: [
     AppComponent,
     NavbarComponent,
+    DiscordComponent,
     NewsListComponent,
     NewsComponent,
     LogoComponent,

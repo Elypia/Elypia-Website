@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component, ViewChild } from '@angular/core'
 
 @Component({
   selector: 'animated-logo',
@@ -6,19 +6,17 @@ import { Component } from '@angular/core'
   styleUrls: [ 'Logo.component.css' ]
 })
 export class LogoComponent {
-  logo: any
+  @ViewChild('logo') logo
   interval: any
   animatedPos: number = 0
 
-  ngOnInit() {
-    this.logo = document.getElementsByClassName('logo')[0]
-
-    this.logo.addEventListener('mouseover', () => {
+  ngAfterViewInit() {
+    this.logo.nativeElement.addEventListener('mouseover', () => {
       clearInterval(this.interval)    
       this.interval = setInterval(() => { this.animate(true) }, 25)
     })
     
-    this.logo.addEventListener('mouseleave', () => {
+    this.logo.nativeElement.addEventListener('mouseleave', () => {
       clearInterval(this.interval)
       this.interval = setInterval(() => { this.animate(false) }, 25)
     })
@@ -27,13 +25,13 @@ export class LogoComponent {
   animate(forward: boolean) {
     if(forward && this.animatedPos < 24) {
       this.animatedPos++
-      this.logo.style.backgroundPosition = -this.animatedPos * 182 + 'px'
+      this.logo.nativeElement.style.backgroundPosition = -this.animatedPos * 182 + 'px'
       return
     } 
 
     if(!forward && this.animatedPos !== 0) {
       this.animatedPos--
-      this.logo.style.backgroundPosition = -this.animatedPos * 182 + 'px'
+      this.logo.nativeElement.style.backgroundPosition = -this.animatedPos * 182 + 'px'
       return
     }
     
