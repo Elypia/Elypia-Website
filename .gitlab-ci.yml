@@ -24,7 +24,8 @@ deploy:
     - mkdir -p ~/.ssh
     - ssh-keyscan -p $SSH_PORT $SSH_ADDRESS >> ~/.ssh/known_hosts
     - echo "rm /var/www/dev/*" > run.sh
-    - echo "put dist/* /var/www/dev/" >> run.sh
+    - echo "mv ./dist ./dev" > run.sh
+    - echo "put -r ./dev /var/www/dev" >> run.sh
     - sftp -b run.sh -oPort=$SSH_PORT $SSH_USER@$SSH_ADDRESS
   cache:
     key: $CI_PROJECT_ID
