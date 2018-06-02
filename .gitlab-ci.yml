@@ -9,7 +9,7 @@ build:
   cache:
     key: $CI_PROJECT_ID
     paths:
-    - /
+    - ./
     
 deploy:
   only:
@@ -30,5 +30,5 @@ deploy:
     key: $CI_PROJECT_ID
     policy: pull
     paths:
-    - /dist
+    - ./dist
     
