@@ -1,0 +1,25 @@
+image: node:latest
+
+before_script:
+  - npm install -g @angular/cli
+
+build:
+  stage: build
+  script: ng build
+  cache:
+    paths:
+    - node_modules/
+    
+deploy:
+  only:
+    - dev
+  stage: deploy
+  image: alpine:3.6
+  script:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - ssh-keyscan -p $SSH_PORT $SSH_ADDRESS >> ~/.ssh/known_hosts
+    - echo "rm -rf /var/www/dev" > run.sh
+    - echo "put dist/ /var/www/dev" >> run.sh
+    - sftp -b run.sh -oPort=$SSH_PORT $SSH_USER@$SSH_ADDRESS
