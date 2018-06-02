@@ -16,6 +16,8 @@ deploy:
   stage: deploy
   image: alpine:3.6
   script:
+    - apk update
+    - apk add openssh-client
     - eval $(ssh-agent -s)
     - echo "$SSH_KEY" | tr -d '\r' | ssh-add - > /dev/null
     - mkdir -p ~/.ssh
