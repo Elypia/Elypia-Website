@@ -2,6 +2,7 @@ image: node:latest
 
 before_script:
   - npm install -g @angular/cli
+  - npm i angular
 
 build:
   stage: build
