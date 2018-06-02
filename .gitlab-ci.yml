@@ -3,7 +3,8 @@ image: node:latest
 build:
   stage: build
   script:
-    - npm install -g @angular/cli@next
+    - npm install -g @angular/cli
+    - npm i angular
     - ng build
   cache:
     key: $CI_PROJECT_ID
