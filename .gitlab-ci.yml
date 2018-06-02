@@ -1,0 +1,34 @@
+image: node:latest
+
+build:
+  stage: build
+  script:
+    - npm install -g @angular/cli
+    - npm i angular
+    - ng build
+  cache:
+    key: $CI_PROJECT_ID
+    paths:
+    - ./
+    
+deploy:
+  only:
+    - dev
+  stage: deploy
+  image: alpine:3.6
+  script:
+    - apk update
+    - apk add openssh-client
+    - eval $(ssh-agent -s)
+    - echo "$SSH_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - ssh-keyscan -p $SSH_PORT $SSH_ADDRESS >> ~/.ssh/known_hosts
+    - mv ./dist ./dev
+    - echo "put -r ./dev /var/www" >> run.sh
+    - sftp -b run.sh -oPort=$SSH_PORT $SSH_USER@$SSH_ADDRESS
+  cache:
+    key: $CI_PROJECT_ID
+    policy: pull
+    paths:
+    - ./dist
+    
