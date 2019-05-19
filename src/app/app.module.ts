@@ -1,32 +1,86 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './layout/Navbar/Navbar.component'
-import { NewsListComponent } from './layout/NewsList/NewsList.component'
-import { FooterComponent } from './layout/Footer/Footer.component'
-import { NewsComponent } from './components/News/News.component'
-import { DiscordComponent } from './layout/Discord/Discord.component'
-import { LogoComponent } from './components/Logo/Logo.component'
-import { LoginComponent } from './components/LoginForm/LoginForm.component'
-import { BoobsComponent } from './components/Boobs/Boobs.component'
-import { DropdownComponent } from './components/Dropdown/Dropdown.component'
+import {AppComponent} from './app.component';
+import {HeaderComponent} from './components/header/header.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {HomeComponent} from './pages/home/home.component';
+import {RouterModule, Routes} from '@angular/router';
+import {ArticleComponent} from './components/article/article.component';
+import {CommentComponent} from './components/comment/comment.component';
+import {MarkdownModule, MarkdownModuleConfig, MarkedOptions} from 'ngx-markdown';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
+import {
+  MatButtonModule,
+  MatCheckboxModule,
+  MatIconModule,
+  MatInputModule,
+  MatProgressSpinnerModule,
+  MatRippleModule,
+  MatSelectModule,
+  MatSlideToggleModule,
+  MatTooltipModule
+} from '@angular/material';
+import {BannerComponent} from './components/banner/banner.component';
+import {ArticlePageComponent} from './pages/article/article-page.component';
+import {LoginComponent} from './components/login/login.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/elypian-angular';
+
+const appRoutes: Routes = [
+  { path: 'article/:id', component: ArticlePageComponent },
+  { path: 'login', component: LoginComponent },
+  { path: '', component: HomeComponent },
+  { path: '**', redirectTo: '' },
+];
+
+const markdownOptions: MarkdownModuleConfig = {
+  markedOptions: {
+    provide: MarkedOptions,
+    useValue: {
+      tables: true,
+    }
+  }
+};
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    NavbarComponent,
-    DiscordComponent,
-    NewsListComponent,
-    NewsComponent,
-    LogoComponent,
-    BoobsComponent,
+    HeaderComponent,
     FooterComponent,
-    DropdownComponent
+    HomeComponent,
+    ArticleComponent,
+    CommentComponent,
+    BannerComponent,
+    ArticlePageComponent,
+    LoginComponent,
   ],
   imports: [
-    BrowserModule
+    RouterModule.forRoot(appRoutes),
+    MarkdownModule.forRoot(markdownOptions),
+    BrowserModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+
+    // Material Angular
+    MatTooltipModule,
+    MatProgressSpinnerModule,
+    MatSelectModule,
+    MatInputModule,
+    MatCheckboxModule,
+    MatButtonModule,
+    MatSlideToggleModule,
+    MatRippleModule,
+    MatIconModule,
+
+    // Elypian Angular
+    ElyLoadableModule,
+    ElyTimestampModule,
+    ElyEqualsModule,
+    ElyStatefulButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

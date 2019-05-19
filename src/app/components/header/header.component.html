@@ -1,0 +1,20 @@
+<div class="outside-container">
+  <div class="container">
+    <header>
+      <a [routerLink]="''">
+        <img src="assets/elypia_white.png" alt="Elypia Logo">
+      </a>
+      <ul>
+        <li><button mat-button>About</button></li>
+        <li><button mat-button>Games</button></li>
+        <li><button mat-button>Services</button></li>
+        <li><button mat-button>Libraries</button></li>
+        <li><button mat-button>Support</button></li>
+      </ul>
+      <div>
+        <a [routerLink]="'login'">Login</a>
+        <a [routerLink]="'login'" [queryParams]="{registering: true}">Register</a>
+      </div>
+    </header>
+  </div>
+</div>

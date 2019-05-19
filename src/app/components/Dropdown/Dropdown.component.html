@@ -1,8 +1,0 @@
-<div [ngClass]="{ dropdown: d.children }">
-  <a class="header" [href]="d.href ? d.href : '#'">
-    {{d.title}}<span *ngIf="d.children">↓</span>
-  </a>
-  <div class="hidden" *ngIf="d.children">
-    <a class="header" *ngFor="let h of d.children" [href]="h.href" >{{h.title}}</a>
-  </div>
-</div>

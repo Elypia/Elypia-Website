@@ -1,0 +1,67 @@
+<form class="login-form" #form="ngForm" (ngSubmit)="onSubmit()">
+  <div class="fields">
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput required email
+             [(ngModel)]="registerationForm.email" #email="ngModel"
+             (blur)="checkEmailExists()"
+             name="email" type="email" placeholder="panda@elypia.com"
+             tabindex="1"/>
+      <mat-hint *ngIf="registering">You'll be asked to verify it post-registration!</mat-hint>
+      <mat-error *ngIf="email.invalid">
+        <mat-error *ngIf="email.errors['email']">
+          Please enter a valid email address!
+        </mat-error>
+        <mat-error *ngIf="email.errors['required']">
+          Email is <strong>required</strong>!
+        </mat-error>
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="registering">
+      <mat-label>Username</mat-label>
+      <input matInput [ngModel]="registerationForm.username"
+             name="username" type="text" placeholder="Panda"
+             tabindex="3"/>
+      <mat-hint>Non unique and changeable!</mat-hint>
+    </mat-form-field>
+  </div>
+
+  <div ngModelGroup="pmg" #pmg="ngModelGroup" [elyEquals]="['password', 'verifyPassword']">
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matNativeControl required minlength="8" maxlength="72"
+             [(ngModel)]="registerationForm.password" #pm="ngModel"
+             name="password" type="password" placeholder="anything but 'password'"
+             tabindex="2"/>
+      <mat-hint *ngIf="registering">Considered using a password manager?</mat-hint>
+      <mat-error *ngIf="pm.invalid && (pm.errors['minlength'] || pm.errors['maxlength'])">
+        Password must be between 8 and 72 characters!
+      </mat-error>
+      <mat-error *ngIf="pm.invalid && pm.errors['required']">
+        Password is required!
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="registering">
+      <mat-label>Verify Password</mat-label>
+      <input matNativeControl [(ngModel)]="registerationForm.verifyPassword"
+             [errorStateMatcher]="matcher"
+             name="verifyPassword" type="password" placeholder="<-"
+             tabindex="4"/>
+      <mat-error *ngIf="pm.valid && pmg.invalid && pmg.errors['equals']">
+        Password must match!
+      </mat-error>
+    </mat-form-field>
+  </div>
+
+  <mat-checkbox name="rememberMe" [(ngModel)]="rememberMe">Remember me!</mat-checkbox>
+
+  <ely-stateful-button [state]="submissionState">
+    {{(registering) ? 'Register' : 'Login'}}
+  </ely-stateful-button>
+
+  <div *ngIf="newEmail">
+    It looks like you're new here so we brought up registration form instead for you!
+  </div>
+</form>

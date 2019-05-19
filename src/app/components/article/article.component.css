@@ -1,0 +1,20 @@
+article {
+  background-color: var(--sec-color);
+  padding: 1em;
+  border: var(--tir-color) solid 2px;
+  border-radius: 1em;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+.fas.fa-calendar-edit {
+  padding-right: 0.25em;
+}
+
+.tag {
+  font-size: .8em;
+}

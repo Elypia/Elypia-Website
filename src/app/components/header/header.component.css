@@ -1,0 +1,28 @@
+.outside-container {
+  background-color: var(--sec-color);
+  border-bottom: var(--tir-color) solid 0.25em;
+
+  position: sticky;
+  top: 0;
+}
+
+header {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+img {
+  height: 64px;
+}
+
+ul, li {
+  display: inline;
+  list-style: none;
+  padding: 0 0.5em;
+}

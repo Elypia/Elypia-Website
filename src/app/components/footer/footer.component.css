@@ -1,0 +1,12 @@
+.outside-container {
+  background-color: var(--sec-color);
+  border-top: var(--tir-color) solid 0.25em;
+}
+
+footer {
+  padding: 1em;
+}
+
+img {
+  max-height: 64px;
+}

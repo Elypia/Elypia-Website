@@ -1,23 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+/*
+  Reset / Default / Variables
+ */
 body {
-  --body-color: #202020;
-  --navbar-color: #282828;
-  --border-color: #3b3b3b;
-  --dropdown-color: #191919;
-  --foreground-color: white;
-  --header-font: 'Megrim';
-  --title-font: 'Wire One';
-  --text-font: 'Raleway';
-  width: 100%;
+  --pri-color: rgb(32, 32, 32);
+  --sec-color: rgb(40, 40, 40);
+  --tir-color: rgb(59, 59, 59);
+
+  background-color: var(--pri-color);
+}
+
+html, body, app-root, div, header, footer,
+h1, h2, h3, h4, h5, h6,
+p, a, li {
   margin: 0;
   padding: 0;
-  background-color: var(--body-color);
-  color: var(--foreground-color);
-  overflow: hidden;    
+
+  color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+}
+
+html, body, app-root {
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1265px;
+  min-width: 705px;
 }
 
 a {
-  color: var(--text-color);
   text-decoration: none;
-  outline: none;
 }

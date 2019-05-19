@@ -1,28 +1,14 @@
-.content discord-widget {
-  position: absolute;  
-  margin-top: 375px;
-  margin-left: calc(50% + 300px);
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+router-outlet {
+  padding: 1em;
 }
 
 .content {
-  overflow-y: auto;
-  overflow-x: hidden;
-  position: absolute;  
-  height: calc(100% - 100px);
-  width: 100%;
-  transition: all 0.3s;  
-}
-
-footer {
-  padding-top: calc(50% - 125px);
-}
-
-.content #background {
-  -moz-user-select: none;
-  user-select: none;
-  z-index: -1;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  opacity: .25;
+  padding: 1em;
 }

@@ -1,9 +1,9 @@
-<navbar></navbar>
-
-<div class="content">
-  <img id="background" src="assets/Backgrounds/Night.png" class="nonGravity">
-  <discord-widget></discord-widget>
-  <boobs-imitator></boobs-imitator>
-  <news-list></news-list>
-  <script></script>
+<div class="root">
+  <div>
+    <app-header></app-header>
+    <div class="container content">
+      <router-outlet ></router-outlet>
+    </div>
+  </div>
+  <app-footer></app-footer>
 </div>
