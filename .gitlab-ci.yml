@@ -6,7 +6,6 @@ build:
     - npm install
     - npm rebuild node-sass
     - npm run-script build
-    - npm run-script docs
   cache:
     paths:
       - node_modules/
