@@ -4,7 +4,14 @@ import {RegisterationForm} from '../../classes/forms/registeration-form';
 import {UserService} from '../../services/user/user.service';
 import {LoadState} from '@elypia/elypian-angular';
 import {ActivatedRoute} from '@angular/router';
-import { ErrorStateMatcher } from '@angular/material/core';
+import {ErrorStateMatcher} from '@angular/material/core';
+
+class PasswordErrorMatcher implements ErrorStateMatcher {
+
+  public isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
+    return control.invalid;
+  }
+}
 
 @Component({
   selector: 'app-login',
@@ -53,12 +60,5 @@ export class LoginComponent implements OnInit {
         () => this.submissionState = LoadState.Loaded,
         () => this.submissionState = LoadState.Failed
       );
-  }
-}
-
-class PasswordErrorMatcher implements ErrorStateMatcher {
-
-  public isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
-    return control.invalid;
   }
 }
