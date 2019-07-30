@@ -1,7 +1,4 @@
 .outside-container {
-  background-color: var(--sec-color);
-  border-bottom: var(--tir-color) solid 0.25em;
-
   position: sticky;
   top: 0;
 }

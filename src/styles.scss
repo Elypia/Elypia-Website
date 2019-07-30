@@ -1,19 +1,9 @@
-@import '~@angular/material/theming';
-
-$primary: mat-palette($mat-blue, 600, 200, 800);
-$accent: mat-palette($mat-blue-gray);
-$theme: mat-dark-theme($primary, $accent);
-
-@include mat-core();
-@include angular-material-theme($theme);
-
 html, body, app-root, div, header, footer,
 h1, h2, h3, h4, h5, h6,
 p, a, li {
   margin: 0;
   padding: 0;
 
-  color: rgb(255, 255, 255);
   font-family: Roboto, sans-serif;
 }
 

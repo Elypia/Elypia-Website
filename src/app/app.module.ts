@@ -11,23 +11,22 @@ import {CommentComponent} from './components/comment/comment.component';
 import {MarkdownModule, MarkdownModuleConfig, MarkedOptions} from 'ngx-markdown';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
-import {
-  MatButtonModule,
-  MatCheckboxModule,
-  MatIconModule,
-  MatInputModule,
-  MatProgressSpinnerModule,
-  MatRippleModule,
-  MatSelectModule,
-  MatSlideToggleModule,
-  MatTooltipModule
-} from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRippleModule } from '@angular/material/core';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import {BannerComponent} from './components/banner/banner.component';
 import {ArticlePageComponent} from './pages/article/article-page.component';
 import {LoginComponent} from './components/login/login.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/elypian-angular';
 import { AboutComponent } from './pages/about/about.component';
+import {OverlayContainer} from '@angular/cdk/overlay';
 
 const appRoutes: Routes = [
   { path: 'article/:id', component: ArticlePageComponent },
@@ -88,4 +87,9 @@ const markdownOptions: MarkdownModuleConfig = {
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor(overlayContainer: OverlayContainer) {
+    overlayContainer.getContainerElement().classList.add('elypia-light-theme');
+  }
+}

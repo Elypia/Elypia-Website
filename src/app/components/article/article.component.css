@@ -1,7 +1,5 @@
 article {
-  background-color: var(--sec-color);
   padding: 1em;
-  border: var(--tir-color) solid 2px;
   border-radius: 1em;
 }
 

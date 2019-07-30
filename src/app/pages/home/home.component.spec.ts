@@ -4,7 +4,7 @@ import {HomeComponent} from './home.component';
 import {ElyLoadableModule, ElyTimestampModule} from '@elypia/elypian-angular';
 import {ArticleComponent} from '../../components/article/article.component';
 import {RouterTestingModule} from '@angular/router/testing';
-import {MatIconModule} from '@angular/material';
+import { MatIconModule } from '@angular/material/icon';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClientModule} from '@angular/common/http';
 

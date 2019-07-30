@@ -4,7 +4,7 @@ import {RegisterationForm} from '../../classes/forms/registeration-form';
 import {UserService} from '../../services/user/user.service';
 import {LoadState} from '@elypia/elypian-angular';
 import {ActivatedRoute} from '@angular/router';
-import {ErrorStateMatcher} from '@angular/material';
+import { ErrorStateMatcher } from '@angular/material/core';
 
 @Component({
   selector: 'app-login',
