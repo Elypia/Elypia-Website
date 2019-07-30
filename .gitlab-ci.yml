@@ -9,22 +9,20 @@ stages:
   - build
   - deploy
 
-before_script:
-  - npm install
-  - npm rebuild node-sass
-
 test:
   stage: test
   script:
+    - npm install
+    - npm rebuild node-sass
     - npm run-script lint
     - npm run-script test
     - npm run-script e2e
-  cache:
-    policy: pull
-    paths:
-      - node_modules/
 
 build:
   stage: build
   script:
     - npm run-script build --prod
+  cache:
+    policy: pull
+    paths:
+      - node_modules/
