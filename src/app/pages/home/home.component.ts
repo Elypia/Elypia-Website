@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ArticleService} from '../../services/article/article.service';
 import {Article} from '../../classes/article';
 import {LoadState} from '@elypia/elypian-angular';
+import {EnvironmentService} from '../../services/environment/environment.service';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,10 @@ export class HomeComponent implements OnInit {
   public articles: Article[];
   public state: LoadState;
 
-  constructor(private articleService: ArticleService) {
+  constructor(
+    private env: EnvironmentService,
+    private articleService: ArticleService
+  ) {
     this.state = LoadState.NotLoaded;
   }
 

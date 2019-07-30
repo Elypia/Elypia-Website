@@ -1,4 +1,8 @@
-image: trion/ng-cli-karma
+image: trion/ng-cli-e2e:8.1.2
+
+cache:
+  paths:
+    - node_modules/
 
 build:
   stage: build
@@ -6,16 +10,13 @@ build:
     - npm install
     - npm rebuild node-sass
     - npm run-script build
-  cache:
-    paths:
-      - node_modules/
-    policy: pull-push
 
 test:
   stage: test
   script:
-    - npm test
+    - npm run-script test
+    - npm run-script e2e
   cache:
+    policy: pull
     paths:
       - node_modules/
-    policy: pull

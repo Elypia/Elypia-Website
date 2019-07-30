@@ -1,15 +1,11 @@
-@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+@import '~@angular/material/theming';
 
-/*
-  Reset / Default / Variables
- */
-body {
-  --pri-color: rgb(32, 32, 32);
-  --sec-color: rgb(40, 40, 40);
-  --tir-color: rgb(59, 59, 59);
+$primary: mat-palette($mat-blue, 600, 200, 800);
+$accent: mat-palette($mat-blue-gray);
+$theme: mat-dark-theme($primary, $accent);
 
-  background-color: var(--pri-color);
-}
+@include mat-core();
+@include angular-material-theme($theme);
 
 html, body, app-root, div, header, footer,
 h1, h2, h3, h4, h5, h6,

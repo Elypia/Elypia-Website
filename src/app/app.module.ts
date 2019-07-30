@@ -27,10 +27,12 @@ import {ArticlePageComponent} from './pages/article/article-page.component';
 import {LoginComponent} from './components/login/login.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/elypian-angular';
+import { AboutComponent } from './pages/about/about.component';
 
 const appRoutes: Routes = [
   { path: 'article/:id', component: ArticlePageComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'about', component: AboutComponent },
   { path: '', component: HomeComponent },
   { path: '**', redirectTo: '' },
 ];
@@ -55,6 +57,7 @@ const markdownOptions: MarkdownModuleConfig = {
     BannerComponent,
     ArticlePageComponent,
     LoginComponent,
+    AboutComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
