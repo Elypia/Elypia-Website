@@ -2,6 +2,16 @@ footer {
   padding: 1em;
 }
 
+#footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 img {
   max-height: 64px;
+}
+
+#source-code {
+  text-align: center;
 }

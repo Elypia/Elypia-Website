@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroupDirective, NgForm} from '@angular/forms';
 import {RegisterationForm} from '../../classes/forms/registeration-form';
 import {UserService} from '../../services/user/user.service';
-import {LoadState} from '@elypia/elypian-angular';
+import {LoadState} from '@elypia/ng-elypian';
 import {ActivatedRoute} from '@angular/router';
 import {ErrorStateMatcher} from '@angular/material/core';
 

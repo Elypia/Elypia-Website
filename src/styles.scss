@@ -18,5 +18,17 @@ html, body, app-root {
 }
 
 a {
+  color: white;
   text-decoration: none;
+}
+
+/** Anything hovertable that's not hovered should be dimmed. */
+.hover:not(:hover) {
+  opacity: 0.8;
+}
+
+/** Hide content statically from the webpage. */
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
 }

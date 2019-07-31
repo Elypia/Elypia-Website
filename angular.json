@@ -32,8 +32,12 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "./node_modules/cookieconsent/build/cookieconsent.min.css",
               "src/styles.scss",
               "src/styles.themes.scss"
+            ],
+            "scripts": [
+              "./node_modules/cookieconsent/build/cookieconsent.min.js"
             ],
             "es5BrowserSupport": true
           },
@@ -102,8 +106,12 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "./node_modules/cookieconsent/build/cookieconsent.min.css",
               "src/styles.scss",
               "src/styles.themes.scss"
+            ],
+            "scripts": [
+              "./node_modules/cookieconsent/build/cookieconsent.min.js"
             ]
           }
         },

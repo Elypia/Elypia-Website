@@ -1,18 +1,19 @@
-.outside-container {
+mat-toolbar {
+  height: 72px;
   position: sticky;
   top: 0;
-}
-
-header {
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {

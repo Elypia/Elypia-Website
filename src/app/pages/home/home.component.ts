@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {ArticleService} from '../../services/article/article.service';
 import {Article} from '../../classes/article';
-import {LoadState} from '@elypia/elypian-angular';
 import {EnvironmentService} from '../../services/environment/environment.service';
+import {LoadState} from '@elypia/ng-elypian';
 
 @Component({
   selector: 'app-home',

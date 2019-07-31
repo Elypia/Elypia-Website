@@ -4,7 +4,7 @@ import {ActivatedRoute} from '@angular/router';
 import {Article} from '../../classes/article';
 import {CommentService} from '../../services/comment/comment.service';
 import {ArticleComment} from '../../classes/articleComment';
-import {LoadState} from '@elypia/elypian-angular';
+import {LoadState} from '@elypia/ng-elypian';
 
 @Component({
   selector: 'app-article-page',

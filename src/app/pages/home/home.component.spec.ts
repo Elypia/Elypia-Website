@@ -1,10 +1,10 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {HomeComponent} from './home.component';
-import {ElyLoadableModule, ElyTimestampModule} from '@elypia/elypian-angular';
+import {ElyLoadableModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {ArticleComponent} from '../../components/article/article.component';
 import {RouterTestingModule} from '@angular/router/testing';
-import { MatIconModule } from '@angular/material/icon';
+import {MatIconModule} from '@angular/material/icon';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClientModule} from '@angular/common/http';
 

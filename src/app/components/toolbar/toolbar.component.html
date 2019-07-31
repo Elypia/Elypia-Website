@@ -1,0 +1,38 @@
+<mat-toolbar class="mat-elevation-z8" color="primary">
+  <div class="container">
+    <a [routerLink]="''">
+      <img src="assets/elypia_white.png" alt="Elypia Logo">
+    </a>
+    <div>
+      <ul>
+        <li><button mat-button routerLink="/about">About</button></li>
+        <li class="hidden"><button mat-button routerLink="/games">Games</button></li>
+        <li class="hidden"><button mat-button routerLink="/services">Services</button></li>
+        <li><button mat-button routerLink="/libraries">Libraries</button></li>
+        <li><button mat-button routerLink="/support">Support</button></li>
+        <li><button mat-button routerLink="/donate">Donate</button></li>
+      </ul>
+      <div *ngIf="env.isDynamicMode()">
+        <a [routerLink]="'login'">Login</a>
+        <a [routerLink]="'login'" [queryParams]="{registering: true}">Register</a>
+      </div>
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
+      </button>
+    </div>
+  </div>
+</mat-toolbar>
+
+<mat-menu #appMenu="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="themeMenu">
+    <mat-icon fontSet="fas" fontIcon="fa-fill-drip"></mat-icon>
+    <span>Themes</span>
+  </button>
+</mat-menu>
+
+<mat-menu #themeMenu="matMenu">
+  <button ngDefaultControl mat-menu-item *ngFor="let theme of themeService.All" (click)="themeService.selectedTheme = theme">
+    <mat-icon fontSet="fad" fontIcon="fa-circle" [style.color]="theme.color"></mat-icon>
+    <span>{{theme.name}}</span>
+  </button>
+</mat-menu>

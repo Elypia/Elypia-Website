@@ -1,8 +1,8 @@
-<div class="root mat-app-background">
+<div class="root mat-app-background" [ngClass]="themeService.selectedTheme.class">
   <div>
-    <app-header></app-header>
+    <app-toolbar></app-toolbar>
     <div class="container content">
-      <router-outlet ></router-outlet>
+      <router-outlet></router-outlet>
     </div>
   </div>
   <app-footer></app-footer>
