@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {EnvironmentService} from '../../services/environment/environment.service';
-import {ThemeService} from '../../themes/theme.service';
+import {ThemeService} from '../../theme/theme.service';
 
 @Component({
   selector: 'app-toolbar',

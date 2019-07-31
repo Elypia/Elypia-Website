@@ -34,4 +34,15 @@ export class ThemeService {
   get All(): Theme[] {
     return ThemeService.All;
   }
+
+  /**
+   * Change the selected theme to the new one and store the class
+   * of this theme in local storage to retrieve again.
+   *
+   * @param theme The new theme the user wants to have.
+   */
+  public changeTheme(theme: Theme): void {
+    this.selectedTheme = theme;
+    localStorage.setItem('theme', theme.class);
+  }
 }

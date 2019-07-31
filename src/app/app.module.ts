@@ -33,6 +33,8 @@ import {SupportComponent} from './pages/support/support.component';
 import {DonateComponent} from './pages/donate/donate.component';
 import {MatMenuModule, MatToolbarModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
+import {LoggerModule} from 'ngx-logger';
+import {environment} from '../environments/environment';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -95,6 +97,7 @@ const markdownOptions: MarkdownModuleConfig = {
   imports: [
     // Configured
     RouterModule.forRoot(appRoutes),
+    LoggerModule.forRoot({level: environment.loggingLevel}),
     MarkdownModule.forRoot(markdownOptions),
     NgcCookieConsentModule.forRoot(cookieConfig),
 
@@ -129,6 +132,6 @@ const markdownOptions: MarkdownModuleConfig = {
 export class AppModule {
 
   constructor(overlayContainer: OverlayContainer) {
-    overlayContainer.getContainerElement().classList.add('elypia-light-themes');
+    overlayContainer.getContainerElement().classList.add('elypia-light-theme');
   }
 }

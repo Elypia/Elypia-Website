@@ -1,14 +1,34 @@
-import {Component} from '@angular/core';
-import {ThemeService} from './themes/theme.service';
+import {Component, OnInit} from '@angular/core';
+import {Theme, ThemeService} from './theme/theme.service';
+import {NGXLogger} from 'ngx-logger';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
-  constructor(public themeService: ThemeService) {
+  constructor(
+    private ngxLogger: NGXLogger,
+    public themeService: ThemeService
+  ) {
 
+  }
+
+  ngOnInit(): void {
+    const storedThemeClass: string = localStorage.getItem('theme');
+
+    if (!storedThemeClass)
+      return;
+
+    this.ngxLogger.debug('Current theme is set to:', storedThemeClass);
+
+    const theme: Theme[] = ThemeService.All.filter((t) => t.class === storedThemeClass);
+
+    if (theme.length === 1)
+      this.themeService.selectedTheme = theme[0];
+    else if (theme.length > 1)
+      this.ngxLogger.warn('Multiple theme matched the class stored class name.');
   }
 }
