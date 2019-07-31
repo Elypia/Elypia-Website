@@ -1,4 +1,5 @@
 @import '~@angular/material/theming';
+@import "app/components/footer/footer.component.theme";
 
 @include mat-core();
 
@@ -9,6 +10,7 @@ $dark-theme: mat-dark-theme($dark-primary, $dark-accent);
 
 .elypia-dark-theme {
   @include angular-material-theme($dark-theme);
+  @include app-footer-theme($dark-theme);
 }
 
 /** Light Theme */
@@ -18,4 +20,5 @@ $light-theme: mat-light-theme($light-primary, $light-accent);
 
 .elypia-light-theme {
   @include angular-material-theme($light-theme);
+  @include app-footer-theme($light-theme);
 }
