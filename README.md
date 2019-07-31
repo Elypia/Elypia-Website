@@ -11,7 +11,7 @@ This is the frontend for the Elypia website.
 > to be easier to develop; this setup isn't ideal for production as it will not have any dynamic content.
 
 ## Open-Source
-This project is open-source under the [GNU Affero General Public License][agpl]! 
+This project is open-source under the [GNU Affero General Public License][agpl]!  
 While not legal advice, you can find a [TL;DR][agpl-tldr] that sums up what
 you can and can't do and any requirements if you want to use or derive work from this source code!  
 
