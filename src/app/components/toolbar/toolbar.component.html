@@ -12,7 +12,7 @@
         <li><button mat-button [matMenuTriggerFor]="supportMenu">Support</button></li>
         <li><button mat-button routerLink="/donate">Donate</button></li>
       </ul>
-      <div *ngIf="env.isDynamicMode()">
+      <div class="hidden">
         <a [routerLink]="'login'">Login</a>
         <a [routerLink]="'login'" [queryParams]="{registering: true}">Register</a>
       </div>

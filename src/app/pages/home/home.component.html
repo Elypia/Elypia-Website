@@ -1,5 +1,5 @@
 <div id="home" class="container">
-  <ely-loadable *ngIf="env.isDynamicMode()" [state]="state">
+  <ely-loadable [state]="state">
     <app-article *ngFor="let article of articles"
                  [article]="article">
     </app-article>

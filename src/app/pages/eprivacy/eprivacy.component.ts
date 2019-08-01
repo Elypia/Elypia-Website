@@ -38,7 +38,7 @@ const PRIVACY_DATA: EprivacyEntry[] = [
   },
   {
     type: 'cookie',
-    name: '__cfduid',
+    name: '__cfduid, _ga, _gid, locale',
     domain: '.discordapp.com *',
     expires: 365,
     description: 'Get information from CloudFlare and Discord respectively.'

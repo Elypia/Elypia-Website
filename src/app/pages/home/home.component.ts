@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ArticleService} from '../../services/article/article.service';
 import {Article} from '../../classes/article';
-import {EnvironmentService} from '../../services/environment/environment.service';
 import {LoadState} from '@elypia/ng-elypian';
 
 @Component({
@@ -15,7 +14,6 @@ export class HomeComponent implements OnInit {
   public state: LoadState;
 
   constructor(
-    private env: EnvironmentService,
     private articleService: ArticleService
   ) {
     this.state = LoadState.NotLoaded;

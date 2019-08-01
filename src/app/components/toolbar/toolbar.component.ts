@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {EnvironmentService} from '../../services/environment/environment.service';
 import {ThemeService} from '../../theme/theme.service';
 
 @Component({
@@ -9,7 +8,7 @@ import {ThemeService} from '../../theme/theme.service';
 })
 export class ToolbarComponent {
 
-  constructor(public env: EnvironmentService, public themeService: ThemeService) {
+  constructor(public themeService: ThemeService) {
 
   }
 }
