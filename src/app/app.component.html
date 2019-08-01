@@ -1,9 +1,7 @@
-<div class="root mat-app-background" [ngClass]="themeService.selectedTheme.class">
+<div id="elypia-app" class="mat-app-background" [ngClass]="themeService.selectedTheme.class">
   <div>
     <app-toolbar></app-toolbar>
-    <div class="container content">
-      <router-outlet></router-outlet>
-    </div>
+    <router-outlet></router-outlet>
   </div>
   <app-footer></app-footer>
 </div>

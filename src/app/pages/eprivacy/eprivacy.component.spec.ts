@@ -1,24 +1,24 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {LibrariesComponent} from './libraries.component';
-import {MatCardModule} from '@angular/material';
+import {EprivacyComponent} from './eprivacy.component';
+import {MatTableModule} from '@angular/material';
 
-describe('LibrariesComponent', () => {
-  let component: LibrariesComponent;
-  let fixture: ComponentFixture<LibrariesComponent>;
+describe('EprivacyComponent', () => {
+  let component: EprivacyComponent;
+  let fixture: ComponentFixture<EprivacyComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LibrariesComponent ],
+      declarations: [ EprivacyComponent ],
       imports: [
-        MatCardModule
+        MatTableModule
       ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LibrariesComponent);
+    fixture = TestBed.createComponent(EprivacyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

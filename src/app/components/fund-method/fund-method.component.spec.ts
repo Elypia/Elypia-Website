@@ -1,15 +1,15 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {LibrariesComponent} from './libraries.component';
+import {FundMethodComponent} from './fund-method.component';
 import {MatCardModule} from '@angular/material';
 
-describe('LibrariesComponent', () => {
-  let component: LibrariesComponent;
-  let fixture: ComponentFixture<LibrariesComponent>;
+describe('FundMethodComponent', () => {
+  let component: FundMethodComponent;
+  let fixture: ComponentFixture<FundMethodComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LibrariesComponent ],
+      declarations: [ FundMethodComponent ],
       imports: [
         MatCardModule
       ]
@@ -18,7 +18,7 @@ describe('LibrariesComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LibrariesComponent);
+    fixture = TestBed.createComponent(FundMethodComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -29,12 +29,15 @@ import {AboutComponent} from './pages/about/about.component';
 import {OverlayContainer} from '@angular/cdk/overlay';
 import {SocialComponent} from './components/social/social.component';
 import {LibrariesComponent} from './pages/libraries/libraries.component';
-import {SupportComponent} from './pages/support/support.component';
 import {DonateComponent} from './pages/donate/donate.component';
-import {MatMenuModule, MatToolbarModule} from '@angular/material';
+import {MatCardModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
 import {LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
+import {ThanksComponent} from './pages/thanks/thanks.component';
+import {FundMethodComponent} from './components/fund-method/fund-method.component';
+import {PrivacyComponent} from './pages/privacy/privacy.component';
+import {EprivacyComponent} from './pages/eprivacy/eprivacy.component';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -44,7 +47,8 @@ const appRoutes: Routes = [
   /** Works without API, may lose some features. */
   { path: 'about', component: AboutComponent },
   { path: 'libraries', component: LibrariesComponent },
-  { path: 'support', component: SupportComponent },
+  { path: 'privacy', component: PrivacyComponent },
+  { path: 'eprivacy', component: EprivacyComponent },
   { path: 'donate', component: DonateComponent },
   { path: '', component: HomeComponent },
 
@@ -91,8 +95,11 @@ const markdownOptions: MarkdownModuleConfig = {
     AboutComponent,
     SocialComponent,
     LibrariesComponent,
-    SupportComponent,
     DonateComponent,
+    ThanksComponent,
+    FundMethodComponent,
+    PrivacyComponent,
+    EprivacyComponent,
   ],
   imports: [
     // Configured
@@ -124,7 +131,9 @@ const markdownOptions: MarkdownModuleConfig = {
     ElyEqualsModule,
     ElyStatefulButtonModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

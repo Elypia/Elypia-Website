@@ -1,5 +1,3 @@
-@import '~@angular/material/theming';
-
 html, body, app-root, div, header, footer,
 h1, h2, h3, h4, h5, h6,
 p, a, li {
@@ -9,21 +7,21 @@ p, a, li {
   font-family: Roboto, sans-serif;
 }
 
-html, body, app-root {
+html, body, #elypia-app {
   min-height: 100vh;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1265px;
-  min-width: 705px;
+  padding: 1em;
 }
 
 a {
   text-decoration: none;
 }
 
-/** Anything hovertable that's not hovered should be dimmed. */
+/** Anything hoverable that's not hovered should be dimmed. */
 .hover:not(:hover) {
   opacity: 0.8;
 }

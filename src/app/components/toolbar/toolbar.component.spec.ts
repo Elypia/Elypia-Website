@@ -2,6 +2,7 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {ToolbarComponent} from './toolbar.component';
 import {RouterTestingModule} from '@angular/router/testing';
+import {MatButtonModule, MatIconModule, MatMenuModule, MatToolbarModule} from '@angular/material';
 
 describe('HeaderComponent', () => {
   let component: ToolbarComponent;
@@ -11,7 +12,11 @@ describe('HeaderComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ ToolbarComponent ],
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        MatMenuModule,
+        MatButtonModule,
+        MatToolbarModule,
+        MatIconModule
       ]
     })
     .compileComponents();

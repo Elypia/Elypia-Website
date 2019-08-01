@@ -1,14 +1,5 @@
-.root {
-  height: 100vh;
+#elypia-app {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-router-outlet {
-  padding: 1em;
-}
-
-.content {
-  padding: 1em;
 }

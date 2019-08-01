@@ -1,5 +1,5 @@
 mat-toolbar {
-  height: 72px;
+  height: 80px;
   position: sticky;
   top: 0;
 
@@ -17,7 +17,9 @@ mat-toolbar {
 }
 
 img {
+  display: block;
   height: 64px;
+  margin: auto 0;
 }
 
 ul, li {

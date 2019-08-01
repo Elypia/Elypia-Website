@@ -33,7 +33,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "./node_modules/cookieconsent/build/cookieconsent.min.css",
-              "src/styles.scss",
+              "src/styles.css",
               "src/styles.themes.scss"
             ],
             "scripts": [
@@ -107,7 +107,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "./node_modules/cookieconsent/build/cookieconsent.min.css",
-              "src/styles.scss",
+              "src/styles.css",
               "src/styles.themes.scss"
             ],
             "scripts": [

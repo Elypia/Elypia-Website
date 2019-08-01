@@ -5,6 +5,9 @@ import {RouterTestingModule} from '@angular/router/testing';
 import {MatButtonModule} from '@angular/material/button';
 import {ToolbarComponent} from './components/toolbar/toolbar.component';
 import {FooterComponent} from './components/footer/footer.component';
+import {MatCardModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
+import {SocialComponent} from './components/social/social.component';
+import {LoggerTestingModule} from 'ngx-logger/testing';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -12,12 +15,19 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         ToolbarComponent,
-        FooterComponent
+        FooterComponent,
+        SocialComponent
       ],
       imports: [
         MatButtonModule,
         RouterTestingModule,
-        CommonModule
+        CommonModule,
+        MatCardModule,
+        MatIconModule,
+        MatMenuModule,
+        MatTableModule,
+        MatToolbarModule,
+        LoggerTestingModule
       ]
     }).compileComponents();
   }));

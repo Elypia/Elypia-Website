@@ -1,4 +1,4 @@
-<mat-toolbar class="mat-elevation-z8" color="primary">
+<mat-toolbar class="mat-elevation-z8">
   <div class="container">
     <a [routerLink]="''">
       <img src="assets/elypia_white.png" alt="Elypia Logo">
@@ -9,7 +9,7 @@
         <li class="hidden"><button mat-button routerLink="/games">Games</button></li>
         <li class="hidden"><button mat-button routerLink="/services">Services</button></li>
         <li><button mat-button routerLink="/libraries">Libraries</button></li>
-        <li><button mat-button routerLink="/support">Support</button></li>
+        <li><button mat-button [matMenuTriggerFor]="supportMenu">Support</button></li>
         <li><button mat-button routerLink="/donate">Donate</button></li>
       </ul>
       <div *ngIf="env.isDynamicMode()">
@@ -22,6 +22,12 @@
     </div>
   </div>
 </mat-toolbar>
+
+<mat-menu #supportMenu="matMenu">
+  <button mat-menu-item routerLink="/privacy">Privacy Policy</button>
+  <button mat-menu-item routerLink="/tos" class="hidden">Terms of Service</button>
+  <button mat-menu-item routerLink="/eprivacy">ePrivacy Policy</button>
+</mat-menu>
 
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">
