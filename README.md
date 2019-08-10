@@ -22,7 +22,7 @@ you can and can't do and any requirements if you want to use or derive work from
 [gitlab-coverage]: https://gitlab.com/Elypia/elypia.com-website/badges/master/coverage.svg "GitLab Coverage Shield"
 [i18n]: https://i18n.elypia.com/engage/elypia-website/?utm "Weblate Translations"
 [i18n-badge]: https://i18n.elypia.com/widgets/elypia-website/-/svg-badge.svg "Weblate Translation Badge"
-[elypia-api]: https://gitlab.com/Elypia/elypia.com-api "Elypia API"
+[elypia-api]: https://gitlab.com/Elypia/elypia-api "Elypia API"
 [angular]: https://angular.io "Angular CLI"
 [node]: https://nodejs.org/en/ "NodeJS"
 [agpl]: https://www.gnu.org/licenses/agpl-3.0.en.html "AGPL"
