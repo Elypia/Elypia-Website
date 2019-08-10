@@ -38,6 +38,13 @@ const PRIVACY_DATA: EprivacyEntry[] = [
   },
   {
     type: 'cookie',
+    name: 'cookieconsent_status',
+    domain: '.elypia.com',
+    expires: 365,
+    description: 'Stores if the cookie consent popup has appeared.'
+  },
+  {
+    type: 'cookie',
     name: '__cfduid, _ga, _gid, locale',
     domain: '.discordapp.com *',
     expires: 365,

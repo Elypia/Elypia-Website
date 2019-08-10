@@ -1,4 +1,5 @@
 @import '~@angular/material/theming';
+@import "app/components/toolbar/toolbar.component.theme";
 @import "app/components/footer/footer.component.theme";
 @import "app/pages/donate/donate.component.theme";
 
@@ -13,6 +14,7 @@ $dark-theme: mat-dark-theme($dark-primary, $dark-accent);
   @include angular-material-theme($dark-theme);
   @include app-footer-theme($dark-theme);
   @include app-donate-theme($dark-theme);
+  @include app-toolbar-theme($dark-theme);
 }
 
 /** Light Theme */
@@ -24,4 +26,5 @@ $light-theme: mat-light-theme($light-primary, $light-accent);
   @include angular-material-theme($light-theme);
   @include app-footer-theme($light-theme);
   @include app-donate-theme($light-theme);
+  @include app-toolbar-theme($light-theme);
 }

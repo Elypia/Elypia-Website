@@ -1,15 +1,17 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Theme, ThemeService} from './theme/theme.service';
 import {NGXLogger} from 'ngx-logger';
+import {NgcCookieConsentService} from 'ngx-cookieconsent';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
 
   constructor(
+    private concentService: NgcCookieConsentService,
     private ngxLogger: NGXLogger,
     public themeService: ThemeService
   ) {
@@ -30,5 +32,9 @@ export class AppComponent implements OnInit {
       this.themeService.selectedTheme = theme[0];
     else if (theme.length > 1)
       this.ngxLogger.warn('Multiple theme matched the class stored class name.');
+  }
+
+  ngOnDestroy() {
+
   }
 }

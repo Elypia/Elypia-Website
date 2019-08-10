@@ -22,7 +22,7 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {BannerComponent} from './components/banner/banner.component';
 import {ArticlePageComponent} from './pages/article/article-page.component';
-import {LoginComponent} from './components/login/login.component';
+import {LoginFormComponent} from './dialogs/login-form/login-form.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {AboutComponent} from './pages/about/about.component';
@@ -30,7 +30,7 @@ import {OverlayContainer} from '@angular/cdk/overlay';
 import {SocialComponent} from './components/social/social.component';
 import {LibrariesComponent} from './pages/libraries/libraries.component';
 import {DonateComponent} from './pages/donate/donate.component';
-import {MatCardModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
+import {MatCardModule, MatDialogModule, MatMenuModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
 import {LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
@@ -42,7 +42,7 @@ import {EprivacyComponent} from './pages/eprivacy/eprivacy.component';
 const appRoutes: Routes = [
   /** Useless without API */
   { path: 'article/:id', component: ArticlePageComponent },
-  { path: 'login', component: LoginComponent },
+  { path: 'login-form', component: LoginFormComponent },
 
   /** Works without API, may lose some features. */
   { path: 'about', component: AboutComponent },
@@ -58,7 +58,8 @@ const appRoutes: Routes = [
 
 const cookieConfig: NgcCookieConsentConfig = {
   cookie: {
-    domain: 'elypia.com'
+    domain: environment.domain,
+    secure: environment.https
   },
   palette: {
     popup: {
@@ -69,7 +70,7 @@ const cookieConfig: NgcCookieConsentConfig = {
     }
   },
   theme: 'edgeless',
-  type: 'opt-out'
+  type: 'info'
 };
 
 const markdownOptions: MarkdownModuleConfig = {
@@ -91,7 +92,7 @@ const markdownOptions: MarkdownModuleConfig = {
     CommentComponent,
     BannerComponent,
     ArticlePageComponent,
-    LoginComponent,
+    LoginFormComponent,
     AboutComponent,
     SocialComponent,
     LibrariesComponent,
@@ -107,14 +108,11 @@ const markdownOptions: MarkdownModuleConfig = {
     LoggerModule.forRoot({level: environment.loggingLevel}),
     MarkdownModule.forRoot(markdownOptions),
     NgcCookieConsentModule.forRoot(cookieConfig),
-
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
-
-    // Material Angular
     MatTooltipModule,
     MatProgressSpinnerModule,
     MatSelectModule,
@@ -124,16 +122,16 @@ const markdownOptions: MarkdownModuleConfig = {
     MatSlideToggleModule,
     MatRippleModule,
     MatIconModule,
-
-    // Elypian Angular
+    MatToolbarModule,
+    MatMenuModule,
+    MatCardModule,
+    MatTableModule,
+    MatDialogModule,
     ElyLoadableModule,
     ElyTimestampModule,
     ElyEqualsModule,
     ElyStatefulButtonModule,
-    MatToolbarModule,
-    MatMenuModule,
-    MatCardModule,
-    MatTableModule
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

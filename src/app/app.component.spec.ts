@@ -8,6 +8,7 @@ import {FooterComponent} from './components/footer/footer.component';
 import {MatCardModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
 import {SocialComponent} from './components/social/social.component';
 import {LoggerTestingModule} from 'ngx-logger/testing';
+import {NgcCookieConsentConfig, NgcCookieConsentService, WindowService} from 'ngx-cookieconsent';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -28,6 +29,11 @@ describe('AppComponent', () => {
         MatTableModule,
         MatToolbarModule,
         LoggerTestingModule
+      ],
+      providers: [
+        NgcCookieConsentService,
+        WindowService,
+        NgcCookieConsentConfig
       ]
     }).compileComponents();
   }));

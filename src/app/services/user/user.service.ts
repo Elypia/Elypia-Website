@@ -2,9 +2,9 @@ import {Injectable} from '@angular/core';
 import {HttpClient, HttpErrorResponse, HttpParams} from '@angular/common/http';
 import {Observable, of, throwError} from 'rxjs';
 import {environment} from '../../../environments/environment';
-import {RegisterationForm} from '../../classes/forms/registeration-form';
 import {User} from '../../classes/user';
 import {catchError, map} from 'rxjs/operators';
+import LoginForm from '../../dialogs/login-form/login-form';
 
 @Injectable({
   providedIn: 'root'
@@ -34,7 +34,7 @@ export class UserService {
       );
   }
 
-  public register(form: RegisterationForm): Observable<User> {
+  public register(form: LoginForm): Observable<User> {
     return this.client.post<User>(environment.baseUrl + 'users/register', form);
   }
 }
