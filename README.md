@@ -6,9 +6,9 @@ This is the frontend for the Elypia website.
 * [Elypia API][elypia-api] *
 * [NodeJS 10.16.0][node]
 * [Angular 8+][angular]
-
-> \* The project is capable of running without the API in static (non-backend) mode which allows parts of the website
-> to be easier to develop; this setup isn't ideal for production as it will not have any dynamic content.
+> \* Where possible this website will still try to render reasonably well even with no backend
+> to allow development without it where applicable. It's recommend to have it set up and running
+> regardless however.
 
 ## Open-Source
 This project is open-source under the [GNU Affero General Public License][agpl]!  
