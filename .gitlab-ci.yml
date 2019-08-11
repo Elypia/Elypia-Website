@@ -1,9 +1,13 @@
-image: trion/ng-cli-e2e:8.1.2
+image: trion/ng-cli-e2e:8.2.1
 
 # Defining some variables rather than repeating them everywhere.
 variables:
   IMAGE_NAME: us.gcr.io/elypia/elypia-website
   SERIALIZED_IMAGE: elypia-website-image.tar
+
+before_script:
+  - npm install
+  - npm rebuild node-sass
 
 stages:
   - test
@@ -11,13 +15,26 @@ stages:
   - build-docker
   - deploy
 
-# Run all tests and make sure we're happy with the commit.
+lint:
+  stage: test
+  script:
+    - npm run-script lint
+  cache:
+    paths:
+      - node_modules/
+
 test:
   stage: test
   script:
-    - npm install
-    - npm rebuild node-sass
-    - npm run-script check
+    - npm run-script test
+  cache:
+    paths:
+      - node_modules/
+
+e2e:
+  stage: test
+  script:
+    - npm run-script e2e
   cache:
     paths:
       - node_modules/
