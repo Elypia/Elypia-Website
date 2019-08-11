@@ -1,6 +1,6 @@
 {
   "name": "elypia-com",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0",
@@ -10,7 +10,8 @@
     "e2e": "npm run-script wd-update && ng e2e --webdriver-update=false",
 
     "wd-update": "webdriver-manager update --versions.chrome 2.42",
-    "check": "npm run-script lint && npm run-script test && npm run-script e2e"
+    "check": "npm run-script lint && npm run-script test && npm run-script e2e",
+    "version": "grep -ohP '(?<=\"version\":\\s\")\\d+\\.\\d+\\.\\d+(?=\")' ./package.json"
   },
   "private": true,
   "dependencies": {
