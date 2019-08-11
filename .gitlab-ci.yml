@@ -54,7 +54,6 @@ build-website:
   script:
     - npm run-script build --prod
   cache:
-    key: ${CI_PIPELINE_ID}
     policy: pull-push
     paths:
       - dist/
@@ -68,10 +67,9 @@ build-docker:
     - docker:19.03.1-dind
   script:
     - docker build -t ${IMAGE_NAME}:latest .
-    - mkdir images
+    - mkdir -p images
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
   cache:
-    key: ${CI_PIPELINE_ID}
     policy: pull-push
     paths:
       - dist/
@@ -93,7 +91,6 @@ deploy:
     - gcloud auth activate-service-account --key-file ${GCP_SA_KEY}
     - docker push ${IMAGE_NAME}:${CI_COMMIT_TAG}
   cache:
-    key: ${CI_PIPELINE_ID}
     policy: pull
     paths:
       - images/
