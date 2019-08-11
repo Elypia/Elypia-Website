@@ -62,7 +62,7 @@ build-website:
 # Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
 build-docker:
   stage: build-docker
-  image: docker
+  image: docker:19.03.1
   services:
     - docker:dind
   script:
@@ -80,7 +80,7 @@ deploy:
   only:
     - tags
   stage: deploy
-  image: google/cloud-sdk
+  image: google/cloud-sdk:257.0.0
   services:
     - docker:dind
   script:
