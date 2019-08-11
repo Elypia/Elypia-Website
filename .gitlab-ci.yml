@@ -33,6 +33,8 @@ lint:
     - npm run-script lint
   cache:
     policy: pull
+    paths:
+      - node_modules/
 
 test:
   stage: test
@@ -40,6 +42,8 @@ test:
     - npm run-script test
   cache:
     policy: pull
+    paths:
+      - node_modules/
 
 e2e:
   stage: test
@@ -47,6 +51,8 @@ e2e:
     - npm run-script e2e
   cache:
     policy: pull
+    paths:
+      - node_modules/
 
 # Compile the website into static assets.
 build-website:
@@ -80,3 +86,5 @@ deploy:
     - docker push ${IMAGE_NAME}:${CI_COMMIT_TAG}
   cache:
     policy: pull
+    paths:
+      - dist/
