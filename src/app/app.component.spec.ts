@@ -5,7 +5,7 @@ import {RouterTestingModule} from '@angular/router/testing';
 import {MatButtonModule} from '@angular/material/button';
 import {ToolbarComponent} from './components/toolbar/toolbar.component';
 import {FooterComponent} from './components/footer/footer.component';
-import {MatCardModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
+import {MatCardModule, MatDialogModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
 import {SocialComponent} from './components/social/social.component';
 import {LoggerTestingModule} from 'ngx-logger/testing';
 import {NgcCookieConsentConfig, NgcCookieConsentService, WindowService} from 'ngx-cookieconsent';
@@ -28,7 +28,8 @@ describe('AppComponent', () => {
         MatMenuModule,
         MatTableModule,
         MatToolbarModule,
-        LoggerTestingModule
+        LoggerTestingModule,
+        MatDialogModule
       ],
       providers: [
         NgcCookieConsentService,

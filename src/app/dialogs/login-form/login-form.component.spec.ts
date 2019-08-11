@@ -8,6 +8,7 @@ import {ElyEqualsModule, ElyStatefulButtonModule} from '@elypia/ng-elypian';
 import {RouterTestingModule} from '@angular/router/testing';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatTabsModule} from '@angular/material';
 
 describe('LoginFormComponent', () => {
   let component: LoginFormComponent;
@@ -25,7 +26,8 @@ describe('LoginFormComponent', () => {
         MatInputModule,
         MatCheckboxModule,
         ElyStatefulButtonModule,
-        ElyEqualsModule
+        ElyEqualsModule,
+        MatTabsModule
       ]
     })
     .compileComponents();

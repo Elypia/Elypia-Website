@@ -92,6 +92,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
+            "codeCoverage": true,
             "assets": [
               "src/android-chrome-192x192.png",
               "src/android-chrome-256x256.png",

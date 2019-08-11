@@ -58,9 +58,6 @@ spec:
           volumeMounts:
             - mountPath: /etc/nginx/certs/
               name: https
-          resources:
-            requests:
-              cpu: 100m
           readinessProbe:
             httpGet:
               path: /index.html
