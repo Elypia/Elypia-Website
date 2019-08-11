@@ -62,7 +62,9 @@ build-website:
 # Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
 build-docker:
   stage: build-docker
-  image: docker:19.03.1-dind
+  image: docker:19.03.1
+  services:
+    - docker:19.03.1-dind
   script:
     - docker build -t ${IMAGE_NAME}:latest .
     - mkdir images
@@ -78,8 +80,9 @@ deploy:
   only:
     - tags
   stage: deploy
-  image: docker:19.03.1-dind
+  image: docker:19.03.1
   services:
+    - docker:19.03.1-dind
     - google/cloud-sdk:257.0.0
   script:
     - docker load -i images/${SERIALIZED_IMAGE}
