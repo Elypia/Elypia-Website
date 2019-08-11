@@ -81,6 +81,8 @@ deploy:
     - tags
   stage: deploy
   image: google/cloud-sdk
+  services:
+    - docker:dind
   script:
     - docker load -i images/${SERIALIZED_IMAGE}
     - docker tag ${IMAGE_NAME}:latest ${IMAGE_NAME}:${CI_COMMIT_TAG}
