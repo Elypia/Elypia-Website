@@ -1,0 +1,93 @@
+image: trion/ng-cli-e2e:8.2.1
+
+# Defining some variables rather than repeating them everywhere.
+variables:
+  IMAGE_NAME: us.gcr.io/elypia/elypia-website
+  SERIALIZED_IMAGE: elypia-website-image.tar
+
+stages:
+  - init
+  - test
+  - build-website
+  - build-docker
+  - deploy
+
+init:
+  stage: init
+  script:
+    - npm install
+    - npm rebuild node-sass
+  cache:
+    policy: pull-push
+    paths:
+      - node_modules/
+
+lint:
+  stage: test
+  script:
+    - npm run-script lint
+  cache:
+    policy: pull
+    paths:
+      - node_modules/
+
+test:
+  stage: test
+  script:
+    - npm run-script test
+  cache:
+    policy: pull
+    paths:
+      - node_modules/
+e2e:
+  stage: test
+  script:
+    - npm run-script e2e
+  cache:
+    policy: pull
+    paths:
+      - node_modules/
+
+# Compile the website into static assets.
+build-website:
+  stage: build-website
+  script:
+    - npm run-script build --prod
+  cache:
+    policy: pull-push
+    paths:
+      - dist/
+      - node_modules/
+
+# Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
+build-docker:
+  stage: build-docker
+  image: docker
+  services:
+    - docker:dind
+  script:
+    - docker build -t ${IMAGE_NAME}:latest .
+    - mkdir images
+    - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
+  cache:
+    policy: pull-push
+    paths:
+      - dist/
+      - images/
+
+# Deploy our new Docker Image and Kubernetes cluster configuration.
+deploy:
+  only:
+    - tags
+  stage: deploy
+  image: google/cloud-sdk
+  script:
+    - docker load -i images/${SERIALIZED_IMAGE}
+    - docker tag ${IMAGE_NAME}:latest ${IMAGE_NAME}:${CI_COMMIT_TAG}
+    - gcloud auth configure-docker --quiet
+    - gcloud auth activate-service-account --key-file ${GCP_SA_KEY}
+    - docker push ${IMAGE_NAME}:${CI_COMMIT_TAG}
+  cache:
+    policy: pull
+    paths:
+      - images/

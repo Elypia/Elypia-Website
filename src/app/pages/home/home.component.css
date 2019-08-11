@@ -1,0 +1,14 @@
+#home {
+  display: flex;
+}
+
+ely-loadable {
+  width: 65%;
+}
+
+iframe {
+  min-height: 512px;
+  width: 35%;
+  padding-left: 1em;
+  border: 0;
+}

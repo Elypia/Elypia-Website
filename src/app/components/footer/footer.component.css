@@ -1,0 +1,30 @@
+footer {
+  padding: 1em;
+}
+
+#footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-left {
+  display: flex;
+  align-items: center;
+}
+
+address {
+  margin-left: 1em;
+}
+
+img {
+  max-height: 64px;
+}
+
+pre {
+  font-family: Roboto, sans-serif;
+}
+
+#source-code {
+  text-align: center;
+}

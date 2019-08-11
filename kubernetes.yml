@@ -1,0 +1,77 @@
+# The configuration assumes a private configuration that looks like the following has been applied manually.
+#
+# apiVersion: v1
+# kind: Secret
+# metadata:
+#   name: https
+# data:
+#   cert.pem:
+#   key.pem:
+#   ca.pem:
+
+---
+# Expose the Elypia Backend
+apiVersion: v1
+kind: Service
+metadata:
+  name: elypia-website-https
+  labels:
+    app: elypia-website
+spec:
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 80
+    - port: 443
+      protocol: TCP
+      targetPort: 443
+---
+# Deploy the Elypia Backend
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elypia-website
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: elypia-website
+  template:
+    metadata:
+      labels:
+        app: elypia-website
+    spec:
+      volumes:
+        - name: https
+          secret:
+            secretName: https
+      containers:
+        - name: elypia-website
+          image: us.gcr.io/elypia/elypia-website:1.0.0
+          ports:
+            - containerPort: 80
+              name: http
+              protocol: TCP
+            - containerPort: 443
+              name: https
+              protocol: TCP
+          volumeMounts:
+            - mountPath: /etc/nginx/certs/
+              name: https
+          readinessProbe:
+            httpGet:
+              path: /index.html
+              port: 443
+            initialDelaySeconds: 15
+            timeoutSeconds: 5
+            periodSeconds: 15
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /index.html
+              port: 443
+            initialDelaySeconds: 15
+            timeoutSeconds: 5
+            periodSeconds: 15
+            failureThreshold: 3
+---

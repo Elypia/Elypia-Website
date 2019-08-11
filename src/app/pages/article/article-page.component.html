@@ -1,0 +1,10 @@
+<ely-loadable [state]="articleState">
+  <app-article [article]="article"
+               [link]="false">
+  </app-article>
+</ely-loadable>
+<div *ngIf="comments">
+  <app-comment *ngFor="let comment of comments"
+               [comment]="comment">
+  </app-comment>
+</div>

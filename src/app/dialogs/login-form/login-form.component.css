@@ -1,0 +1,25 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.fields {
+  padding-bottom: 1em;
+}
+
+mat-form-field {
+  width: 256px;
+  padding: 0 1em;
+}
+
+.toggles {
+  padding-top: 1em;
+}
+
+.inline {
+  padding: 0 1em;
+}
+
+
