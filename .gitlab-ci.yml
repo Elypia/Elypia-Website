@@ -5,10 +5,6 @@ variables:
   IMAGE_NAME: us.gcr.io/elypia/elypia-website
   SERIALIZED_IMAGE: elypia-website-image.tar
 
-cache:
-  paths:
-    - node_modules/
-
 stages:
   - init
   - test
@@ -21,21 +17,36 @@ init:
   script:
     - npm install
     - npm rebuild node-sass
+  cache:
+    policy: pull-push
+    paths:
+      - node_modules/
 
 lint:
   stage: test
   script:
     - npm run-script lint
+  cache:
+    policy: pull
+    paths:
+      - node_modules/
 
 test:
   stage: test
   script:
     - npm run-script test
-
+  cache:
+    policy: pull
+    paths:
+      - node_modules/
 e2e:
   stage: test
   script:
     - npm run-script e2e
+  cache:
+    policy: pull
+    paths:
+      - node_modules/
 
 # Compile the website into static assets.
 build-website:
@@ -43,6 +54,7 @@ build-website:
   script:
     - npm run-script build --prod
   cache:
+    policy: pull-push
     paths:
       - dist/
       - node_modules/
