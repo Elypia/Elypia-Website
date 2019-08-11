@@ -67,7 +67,7 @@ build-docker:
     - docker:19.03.1-dind
   script:
     - docker build -t ${IMAGE_NAME}:latest .
-    - mkdir images
+    - mkdir -p images
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
   cache:
     policy: pull-push
