@@ -52,7 +52,7 @@ spec:
             secretName: https
       containers:
         - name: elypia-website
-          image: us.gcr.io/elypia/elypia-website:1.0.6
+          image: us.gcr.io/elypia/elypia-website:1.0.7
           ports:
             - name: http
               containerPort: 80
