@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test -- --no-progress --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "e2e": "npm run-script wd-update && ng e2e --webdriver-update=false",

@@ -59,9 +59,8 @@ e2e:
 # Compile the website into static assets.
 build-website:
   stage: build-website
-  image: trion/ng-cli:8.2.1
   script:
-    - npm run-script build --prod
+    - npm run-script build
 
 # Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
 build-docker:
