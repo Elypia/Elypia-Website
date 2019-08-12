@@ -11,7 +11,8 @@ stages:
   - test
   - build-website
   - build-docker
-  - deploy
+  - deploy-docker
+  - deploy-kubernetes
 
 # All cache are uploaded and downloaded everywhere to avoids
 # tasks or other builds from removing eachothers files.
@@ -75,10 +76,10 @@ build-docker:
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
 
 # Deploy our new Docker Image and Kubernetes cluster configuration.
-deploy-gcp:
+deploy-docker:
   only:
     - tags
-  stage: deploy
+  stage: deploy-docker
   image: docker:19.03.1
   services:
     - docker:19.03.1-dind
@@ -91,3 +92,14 @@ deploy-gcp:
     policy: pull
     paths:
       - images/
+
+deploy-kubernetes:
+  only:
+    - tags
+  stage: deploy-kubernetes
+  image: google/cloud-sdk:257.0.0
+  script:
+    - gcloud auth activate-service-account --key-file ${GCP_SA_KEY}
+    - gcloud container clusters get-credentials ${K8_CLUSTER} --zone ${K8_ZONE} --project elypia
+    - kubectl apply -f kubernetes.yml
+  cache: {}
