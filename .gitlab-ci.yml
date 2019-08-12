@@ -1,16 +1,18 @@
-image: trion/ng-cli-e2e:8.2.1
+image: node:10.16.2-alpine
 
 # Defining some variables rather than repeating them everywhere.
 variables:
+  DOCKER_DRIVER: overlay2
   IMAGE_NAME: us.gcr.io/elypia/elypia-website
   SERIALIZED_IMAGE: elypia-website.tar
 
 stages:
-  - init
+  - prepare
   - test
   - build-website
   - build-docker
-  - deploy
+  - deploy-docker
+  - deploy-kubernetes
 
 # All cache are uploaded and downloaded everywhere to avoids
 # tasks or other builds from removing eachothers files.
@@ -21,13 +23,13 @@ cache:
     - images/
     - node_modules/
 
-init:
-  stage: init
+prepare-init:
+  stage: prepare
   script:
     - npm install
     - npm rebuild node-sass
 
-lint:
+test-lint:
   stage: test
   script:
     - npm run-script lint
@@ -36,8 +38,9 @@ lint:
     paths:
       - node_modules/
 
-test:
+test-unit:
   stage: test
+  image: trion/ng-cli-karma:8.2.1
   script:
     - npm run-script test
   cache:
@@ -45,8 +48,9 @@ test:
     paths:
       - node_modules/
 
-e2e:
+test-e2e:
   stage: test
+  image: trion/ng-cli-e2e:8.2.1
   script:
     - npm run-script e2e
   cache:
@@ -58,7 +62,7 @@ e2e:
 build-website:
   stage: build-website
   script:
-    - npm run-script build --prod
+    - npm run-script build
 
 # Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
 build-docker:
@@ -72,10 +76,10 @@ build-docker:
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
 
 # Deploy our new Docker Image and Kubernetes cluster configuration.
-deploy:
+deploy-docker:
   only:
     - tags
-  stage: deploy
+  stage: deploy-docker
   image: docker:19.03.1
   services:
     - docker:19.03.1-dind
@@ -88,3 +92,14 @@ deploy:
     policy: pull
     paths:
       - images/
+
+deploy-kubernetes:
+  only:
+    - tags
+  stage: deploy-kubernetes
+  image: google/cloud-sdk:257.0.0
+  script:
+    - gcloud auth activate-service-account --key-file ${GCP_SA_KEY}
+    - gcloud container clusters get-credentials ${K8_CLUSTER} --zone ${K8_ZONE} --project elypia
+    - kubectl apply -f kubernetes.yml
+  cache: {}
