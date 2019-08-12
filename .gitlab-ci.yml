@@ -7,7 +7,7 @@ variables:
   SERIALIZED_IMAGE: elypia-website.tar
 
 stages:
-  - init
+  - prepare
   - test
   - build-website
   - build-docker
@@ -22,13 +22,13 @@ cache:
     - images/
     - node_modules/
 
-init:
-  stage: init
+prepare-init:
+  stage: prepare
   script:
     - npm install
     - npm rebuild node-sass
 
-lint:
+test-lint:
   stage: test
   script:
     - npm run-script lint
@@ -37,7 +37,7 @@ lint:
     paths:
       - node_modules/
 
-test:
+test-unit:
   stage: test
   image: trion/ng-cli-karma:8.2.1
   script:
@@ -47,7 +47,7 @@ test:
     paths:
       - node_modules/
 
-e2e:
+test-e2e:
   stage: test
   image: trion/ng-cli-e2e:8.2.1
   script:
@@ -75,7 +75,7 @@ build-docker:
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
 
 # Deploy our new Docker Image and Kubernetes cluster configuration.
-deploy:
+deploy-gcp:
   only:
     - tags
   stage: deploy
