@@ -2,6 +2,7 @@ image: node:10.16.2-alpine
 
 # Defining some variables rather than repeating them everywhere.
 variables:
+  DOCKER_DRIVER: overlay2
   IMAGE_NAME: us.gcr.io/elypia/elypia-website
   SERIALIZED_IMAGE: elypia-website.tar
 
