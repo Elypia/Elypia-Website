@@ -87,4 +87,4 @@ deploy:
   cache:
     policy: pull
     paths:
-      - dist/
+      - images/

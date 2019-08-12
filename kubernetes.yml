@@ -11,20 +11,25 @@
 
 ---
 # Expose the Elypia Backend
+# If using Cloud Hosting, this may create a new static IP
+# on the host, make sure to update your DNS records to use it.
 apiVersion: v1
 kind: Service
 metadata:
-  name: elypia-website-https
+  name: elypia-website-service
   labels:
     app: elypia-website
 spec:
+  type: LoadBalancer
+  selector:
+    app: elypia-website
   ports:
-    - port: 80
+    - name: http
+      port: 80
       protocol: TCP
-      targetPort: 80
-    - port: 443
+    - name: https
+      port: 443
       protocol: TCP
-      targetPort: 443
 ---
 # Deploy the Elypia Backend
 apiVersion: apps/v1
@@ -47,21 +52,21 @@ spec:
             secretName: https
       containers:
         - name: elypia-website
-          image: us.gcr.io/elypia/elypia-website:1.0.0
+          image: us.gcr.io/elypia/elypia-website:1.0.5
           ports:
-            - containerPort: 80
-              name: http
+            - name: http
+              containerPort: 80
               protocol: TCP
-            - containerPort: 443
-              name: https
+            - name: https
+              containerPort: 443
               protocol: TCP
           volumeMounts:
-            - mountPath: /etc/nginx/certs/
-              name: https
+            - name: https
+              mountPath: /etc/nginx/certs/
           readinessProbe:
             httpGet:
               path: /index.html
-              port: 443
+              port: 80
             initialDelaySeconds: 15
             timeoutSeconds: 5
             periodSeconds: 15
@@ -69,7 +74,7 @@ spec:
           livenessProbe:
             httpGet:
               path: /index.html
-              port: 443
+              port: 80
             initialDelaySeconds: 15
             timeoutSeconds: 5
             periodSeconds: 15
