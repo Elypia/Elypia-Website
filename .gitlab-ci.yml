@@ -1,4 +1,4 @@
-image: trion/ng-cli-e2e:8.2.1
+image: node:10.16.2-alpine
 
 # Defining some variables rather than repeating them everywhere.
 variables:
@@ -8,7 +8,8 @@ variables:
 stages:
   - init
   - test
-  - build
+  - build-website
+  - build-docker
   - deploy
 
 # All cache are uploaded and downloaded everywhere to avoids
@@ -37,6 +38,7 @@ lint:
 
 test:
   stage: test
+  image: trion/ng-cli-karma:8.2.1
   script:
     - npm run-script test
   cache:
@@ -46,6 +48,7 @@ test:
 
 e2e:
   stage: test
+  image: trion/ng-cli-e2e:8.2.1
   script:
     - npm run-script e2e
   cache:
@@ -54,12 +57,19 @@ e2e:
       - node_modules/
 
 # Compile the website into static assets.
-build:
-  stage: build
+build-website:
+  stage: build-website
+  image: trion/ng-cli:8.2.1
+  script:
+    - npm run-script build --prod
+
+# Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
+build-docker:
+  stage: build-docker
+  image: docker:19.03.1
   services:
     - docker:19.03.1-dind
   script:
-    - npm run-script build --prod
     - docker build -t ${IMAGE_NAME}:latest .
     - mkdir -p images
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
