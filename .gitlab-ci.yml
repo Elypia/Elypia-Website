@@ -8,8 +8,7 @@ variables:
 stages:
   - init
   - test
-  - build-website
-  - build-docker
+  - build
   - deploy
 
 # All cache are uploaded and downloaded everywhere to avoids
@@ -55,18 +54,12 @@ e2e:
       - node_modules/
 
 # Compile the website into static assets.
-build-website:
-  stage: build-website
-  script:
-    - npm run-script build --prod
-
-# Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
-build-docker:
-  stage: build-docker
-  image: docker:19.03.1
+build:
+  stage: build
   services:
     - docker:19.03.1-dind
   script:
+    - npm run-script build --prod
     - docker build -t ${IMAGE_NAME}:latest .
     - mkdir -p images
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
