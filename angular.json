@@ -27,7 +27,7 @@
               "src/favicon-32x32.png",
               "src/mstile-150x150.png",
               "src/safari-pinned-tab.svg",
-              "src/site.webmanifest",
+              "src/manifest.webmanifest",
               "src/assets"
             ],
             "styles": [
@@ -102,7 +102,7 @@
               "src/favicon-32x32.png",
               "src/mstile-150x150.png",
               "src/safari-pinned-tab.svg",
-              "src/site.webmanifest",
+              "src/manifest.webmanifest",
               "src/assets"
             ],
             "styles": [

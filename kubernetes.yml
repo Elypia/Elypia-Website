@@ -11,8 +11,8 @@
 
 ---
 # Expose the Elypia Frontend
-# If using Cloud Hosting, this may create a new static IP
-# on the host, make sure to update your DNS records to use it.
+# If using Google Kubernetes Engine, this will create a new static IP,
+# make sure to update your DNS records to direct to it.
 apiVersion: v1
 kind: Service
 metadata:
@@ -47,12 +47,12 @@ spec:
         app: elypia-website
     spec:
       volumes:
-        - name: https
+        - name: ssl-certs
           secret:
             secretName: https
       containers:
         - name: elypia-website
-          image: us.gcr.io/elypia/elypia-website:1.0.7
+          image: us.gcr.io/elypia/elypia-website:1.0.8
           ports:
             - name: http
               containerPort: 80
@@ -61,7 +61,7 @@ spec:
               containerPort: 443
               protocol: TCP
           volumeMounts:
-            - name: https
+            - name: ssl-certs
               mountPath: /etc/nginx/certs/
           readinessProbe:
             httpGet:

@@ -64,7 +64,7 @@ build-website:
   script:
     - npm run-script build
 
-# Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
+# Build the Dockerfile, the image is only used when by deploy-docker if deploying.
 build-docker:
   stage: build-docker
   image: docker:19.03.1
