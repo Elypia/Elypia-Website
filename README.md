@@ -9,7 +9,7 @@ This is the frontend for the Elypia website.
 > \* The frontend should still render well without an available backend in order to make
 > development easier, and to give a consistent look and feel where it may be down.
 > It's still recommended to set up the backend and run it in your 
-> development environment when convinient to do so.
+> development environment when convenient to do so.
 
 ## Open-Source
 This project is open-source under the [GNU Affero General Public License][agpl]!  
