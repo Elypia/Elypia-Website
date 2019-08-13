@@ -12,7 +12,6 @@ export const environment = {
   /** The minimum logging level before printing to console. */
   loggingLevel: NgxLoggerLevel.WARN,
 
-  // TODO: HTTPS?
   /** The endpoint that the API exists. */
-  baseUrl: 'http://api.elypia.com/'
+  baseUrl: 'https://api.elypia.com/'
 };

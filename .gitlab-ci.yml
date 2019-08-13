@@ -12,7 +12,7 @@ stages:
   - build-website
   - build-docker
   - deploy-docker
-  - deploy-kubernetes
+  - deploy-k8s
 
 # All cache are uploaded and downloaded everywhere to avoids
 # tasks or other builds from removing eachothers files.
@@ -64,7 +64,7 @@ build-website:
   script:
     - npm run-script build
 
-# Build the Dockerfile, this isn't used anywhere, we just want to make sure it still builds.
+# Build the Dockerfile, the image is only used when by deploy-docker if deploying.
 build-docker:
   stage: build-docker
   image: docker:19.03.1
@@ -75,7 +75,7 @@ build-docker:
     - mkdir -p images
     - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
 
-# Deploy our new Docker Image and Kubernetes cluster configuration.
+# Deploy our new Docker Image to Google Container Registry (Private)
 deploy-docker:
   only:
     - tags
@@ -93,13 +93,14 @@ deploy-docker:
     paths:
       - images/
 
-deploy-kubernetes:
+# Apply the current Kubernetes Configuration
+deploy-k8s:
   only:
     - tags
-  stage: deploy-kubernetes
+  stage: deploy-k8s
   image: google/cloud-sdk:257.0.0
   script:
     - gcloud auth activate-service-account --key-file ${GCP_SA_KEY}
-    - gcloud container clusters get-credentials ${K8_CLUSTER} --zone ${K8_ZONE} --project elypia
+    - gcloud container clusters get-credentials ${K8S_CLUSTER} --zone ${GCP_ZONE} --project elypia
     - kubectl apply -f kubernetes.yml
   cache: {}
