@@ -10,7 +10,7 @@
 #   ca.pem:
 
 ---
-# Expose the Elypia Backend
+# Expose the Elypia Frontend
 # If using Cloud Hosting, this may create a new static IP
 # on the host, make sure to update your DNS records to use it.
 apiVersion: v1
