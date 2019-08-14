@@ -58,6 +58,20 @@ test-e2e:
     paths:
       - node_modules/
 
+test-version:
+  stage: test
+  image: alpine:3.10.1
+  only:
+    - tags
+  script:
+    - |
+      PROJECT_VERSION=`grep -ohP '(?<="version":\s")\d+\.\d+\.\d+(?=")' ./package.json`
+      if [ "${PROJECT_VERSION}" != "${CI_COMMIT_TAG}" ]; then
+        echo git tag does not match version specified in package.json
+        exit 1
+      fi
+  cache: {}
+
 # Compile the website into static assets.
 build-website:
   stage: build-website
@@ -102,5 +116,6 @@ deploy-k8s:
   script:
     - gcloud auth activate-service-account --key-file ${GCP_SA_KEY}
     - gcloud container clusters get-credentials ${K8S_CLUSTER} --zone ${GCP_ZONE} --project elypia
+    - sed -i 's/{{CI_COMMIT_TAG}}/'${CI_COMMIT_TAG}'/g' kubernetes.yml
     - kubectl apply -f kubernetes.yml
   cache: {}
