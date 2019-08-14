@@ -58,6 +58,8 @@ test-e2e:
     paths:
       - node_modules/
 
+# Before releasing a new version, make sure the package.json version
+# matches the name (tag) of the version being deployed.
 test-version:
   stage: test
   image: alpine:3.10.1
@@ -65,7 +67,7 @@ test-version:
     - tags
   script:
     - |
-      PROJECT_VERSION=`grep -ohP '(?<="version":\s")\d+\.\d+\.\d+(?=")' ./package.json`
+      PROJECT_VERSION=`grep -ohEm 1 '\d+\.\d+\.\d+' ./package.json`
       if [ "${PROJECT_VERSION}" != "${CI_COMMIT_TAG}" ]; then
         echo git tag does not match version specified in package.json
         exit 1
