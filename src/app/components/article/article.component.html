@@ -1,13 +1,12 @@
-<article *ngIf="article">
-  <div class="title">
-    <h2>
-      <a *ngIf="link" [routerLink]="['/article', article.id]">{{article.title}}</a>
-      <span *ngIf="!link">{{article.title}}</span>
-    </h2>
-    <ely-timestamp [date]="article.createdDate" [updateDate]="article.modifiedDate">
-      <mat-icon fontSet="fas" fontIcon="fa-calendar-edit"></mat-icon>
-    </ely-timestamp>
-  </div>
+<mat-expansion-panel *ngIf="article" [expanded]="open">
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      <span>{{article.title}}</span>
+      <ely-timestamp [date]="article.createdDate" [updateDate]="article.modifiedDate">
+        <mat-icon fontSet="fas" fontIcon="fa-calendar-edit"></mat-icon>
+      </ely-timestamp>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
   <markdown class="content">{{article.content}}</markdown>
   <p class="tag">{{article.tags.join(' | ')}}</p>
-</article>
+</mat-expansion-panel>

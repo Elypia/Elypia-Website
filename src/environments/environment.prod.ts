@@ -5,7 +5,7 @@ export const environment = {
   /** If we are running in a production or development environment or locally. */
   production: true,
 
-  domain: 'elypia.com',
+  domain: 'elypia.org',
 
   https: true,
 
@@ -13,5 +13,5 @@ export const environment = {
   loggingLevel: NgxLoggerLevel.WARN,
 
   /** The endpoint that the API exists. */
-  baseUrl: 'https://api.elypia.com/'
+  baseUrl: 'https://api.elypia.org/'
 };

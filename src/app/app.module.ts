@@ -38,6 +38,9 @@ import {ThanksComponent} from './pages/thanks/thanks.component';
 import {FundMethodComponent} from './components/fund-method/fund-method.component';
 import {PrivacyComponent} from './pages/privacy/privacy.component';
 import {EprivacyComponent} from './pages/eprivacy/eprivacy.component';
+import {EmotesComponent} from './pages/emotes/emotes.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatTreeModule} from '@angular/material/tree';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -47,6 +50,7 @@ const appRoutes: Routes = [
   /** Works without API, may lose some features. */
   { path: 'about', component: AboutComponent },
   { path: 'libraries', component: LibrariesComponent },
+  { path: 'emotes', component: EmotesComponent },
   { path: 'privacy', component: PrivacyComponent },
   { path: 'eprivacy', component: EprivacyComponent },
   { path: 'donate', component: DonateComponent },
@@ -101,6 +105,7 @@ const markdownOptions: MarkdownModuleConfig = {
     FundMethodComponent,
     PrivacyComponent,
     EprivacyComponent,
+    EmotesComponent,
   ],
   imports: [
     // Configured
@@ -131,7 +136,9 @@ const markdownOptions: MarkdownModuleConfig = {
     ElyTimestampModule,
     ElyEqualsModule,
     ElyStatefulButtonModule,
-    MatTabsModule
+    MatTabsModule,
+    MatExpansionModule,
+    MatTreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

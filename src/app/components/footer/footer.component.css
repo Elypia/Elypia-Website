@@ -6,11 +6,13 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 
-#footer-left {
+#footer-one {
   display: flex;
   align-items: center;
+  margin-bottom: 0.5em;
 }
 
 address {
@@ -21,10 +23,21 @@ img {
   max-height: 64px;
 }
 
-pre {
-  font-family: Roboto, sans-serif;
+#address-info {
+  margin-left: 1em;
 }
 
-#source-code {
+#meta {
+  padding-top: 0.5em;
   text-align: center;
+}
+
+#copyright {
+  margin-top: 0.5em;
+}
+
+@media all and (min-width: 720px) {
+  #footer-top {
+    flex-direction: row;
+  }
 }

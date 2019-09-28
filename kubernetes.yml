@@ -31,7 +31,7 @@ spec:
       port: 443
       protocol: TCP
 ---
-# Deploy the Elypia Backend
+# Deploy the Elypia Frontend
 apiVersion: apps/v1
 kind: Deployment
 metadata:

@@ -1,7 +1,15 @@
 #donation-methods {
-  column-count: 2;
+  margin-top: 1em;
+  display: block;
 }
 
 app-fund-method {
-  padding: 1em;
+   margin: 0 0.5em;
+}
+
+@media all and (min-width: 1024px) {
+  #donation-methods {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }

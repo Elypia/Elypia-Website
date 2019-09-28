@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {ArticleComment} from '../../classes/articleComment';
+import {ArticleComment} from '../../classes/article';
 
 @Component({
   selector: 'app-comment',

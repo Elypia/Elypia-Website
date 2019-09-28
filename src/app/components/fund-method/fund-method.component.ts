@@ -9,6 +9,5 @@ export class FundMethodComponent {
 
   @Input() url: string;
   @Input() name: string;
-  @Input() fontIcon: string;
   @Input() description: string;
 }

@@ -1,7 +1,11 @@
-mat-toolbar {
-  height: 80px;
+#toolbar {
   position: sticky;
   top: 0;
+  z-index: 1;
+}
+
+mat-toolbar {
+  height: 80px;
 
   user-select: none;
   -moz-user-select: none;
@@ -9,7 +13,7 @@ mat-toolbar {
   -webkit-user-select: none;
 }
 
-.container {
+.content {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -22,8 +26,10 @@ img {
   margin: auto 0;
 }
 
-ul, li {
-  display: inline;
-  list-style: none;
-  padding: 0 0.5em;
+@media all and (min-width: 720px) {
+  ul, li {
+    display: inline;
+    list-style: none;
+    padding: 0 0.5em;
+  }
 }

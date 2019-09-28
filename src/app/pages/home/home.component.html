@@ -1,8 +1,21 @@
-<div id="home" class="container">
+<div id="home-top">
+  <mat-card id="mission-statement">
+    <div class="mission-statement-title">
+      <img id="top-logo" src="/assets/elypia_logo.png" alt="Elypia Logo"/>
+      <h2>Elypia</h2>
+    </div>
+    <h3 id="statement">We love free and open-source software!</h3>
+    <p>
+      We want to make enterprise grade software development simpler to learn and utilize,
+      and to support sectors that aren't up-to-date or stuck by legacy proprietary abandonware.
+    </p>
+  </mat-card>
   <ely-loadable [state]="state">
-    <app-article *ngFor="let article of articles"
-                 [article]="article">
-    </app-article>
+    <mat-accordion>
+      <div class="article" *ngFor="let article of articles; let first = first;">
+        <app-article *ngIf="first" [article]="article" [open]="true"></app-article>
+        <app-article *ngIf="!first" [article]="article"></app-article>
+      </div>
+    </mat-accordion>
   </ely-loadable>
-  <iframe src="https://discordapp.com/widget?id=184657525990359041&theme=dark"></iframe>
 </div>

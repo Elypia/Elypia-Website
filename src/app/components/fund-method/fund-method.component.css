@@ -1,13 +1,29 @@
 mat-card {
+  height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.5em 1em;
 }
 
-.fund-left {
-  vertical-align: inherit;
+.fund-details {
+  margin: 1em 0 0 0;
 }
 
-.fund-right {
-  padding-left: 1em;
+@media all and (min-width: 512px) {
+  mat-card {
+    display: grid;
+    grid-template-columns: 15% 84%;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .fund-details {
+    margin: 0 0 0 1em;
+  }
 }

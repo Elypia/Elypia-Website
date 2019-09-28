@@ -28,7 +28,7 @@ const PRIVACY_DATA: EprivacyEntry[] = [
   {
     type: 'cookie',
     name: '__cfduid',
-    domain: '.elypia.com',
+    domain: '.elypia.org',
     expires: 365,
     description: 'Provided by CloudFlare in order to identify clients, for example, if you\'re ' +
                  'at McDonalds where there could be infected machines, but your machine is trusted ' +
@@ -39,7 +39,7 @@ const PRIVACY_DATA: EprivacyEntry[] = [
   {
     type: 'cookie',
     name: 'cookieconsent_status',
-    domain: '.elypia.com',
+    domain: '.elypia.org',
     expires: 365,
     description: 'Stores if the cookie consent popup has appeared.'
   },

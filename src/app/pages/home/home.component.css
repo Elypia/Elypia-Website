@@ -1,14 +1,28 @@
-#home {
+.mission-statement-title {
   display: flex;
+  align-items: center;
 }
 
-ely-loadable {
-  width: 65%;
+#statement {
+  padding: 1em 0;
 }
 
-iframe {
-  min-height: 512px;
-  width: 35%;
-  padding-left: 1em;
-  border: 0;
+#top-logo {
+  height: 64px;
+  margin: 0 1em 0 0;
+}
+
+.article {
+  margin: 1em 0;
+}
+
+@media all and (min-width: 720px) {
+  #home-top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  #mission-statement {
+    margin-right: 1em;
+  }
 }

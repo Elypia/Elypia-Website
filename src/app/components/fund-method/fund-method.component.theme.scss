@@ -15,13 +15,13 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import '~@angular/material/theming';
+@import '../../../../node_modules/@angular/material/theming';
 
-@mixin app-toolbar-theme($theme) {
+@mixin app-fund-method-theme($theme) {
 
   $accent: map-get($theme, accent);
 
-  .current-theme {
-    color: mat-color($accent, text);
+  mat-card.fund-method:hover {
+    background-color: mat-color($accent, text);
   }
 }

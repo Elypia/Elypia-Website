@@ -12,4 +12,7 @@ export class ArticleComponent {
 
   /** Should this article include a link to the full page. */
   @Input() link: boolean = true;
+
+  /** Is this article open in the UI. */
+  @Input() open: boolean = false;
 }

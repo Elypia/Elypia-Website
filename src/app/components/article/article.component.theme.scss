@@ -1,5 +1,5 @@
 /*!
- * Copyright (C) 2019-2019  Elypia
+ * Copyright (C) 2019-2019  Elypia CIC
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -17,11 +17,11 @@
 
 @import '~@angular/material/theming';
 
-@mixin app-donate-theme($theme) {
+@mixin app-article-theme($theme) {
 
   $accent: map-get($theme, accent);
 
-  mat-card:hover {
+  mat-expansion-panel.expanded {
     background-color: mat-color($accent, text);
   }
 }

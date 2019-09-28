@@ -13,5 +13,5 @@ export const environment = {
   loggingLevel: NgxLoggerLevel.TRACE,
 
   /** The endpoint that the API exists. */
-  baseUrl: 'http://localhost:8080/api/'
+  baseUrl: 'http://localhost:8081/api/'
 };
