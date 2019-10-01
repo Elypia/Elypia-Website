@@ -1,5 +1,5 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {Theme, ThemeService} from './theme/theme.service';
+import {Theme, ThemeService} from './services/theme/theme.service';
 import {NGXLogger} from 'ngx-logger';
 import {NgcCookieConsentService} from 'ngx-cookieconsent';
 

@@ -13,7 +13,7 @@ mat-toolbar {
   -webkit-user-select: none;
 }
 
-.content {
+.toolbar-content {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -24,12 +24,4 @@ img {
   display: block;
   height: 64px;
   margin: auto 0;
-}
-
-@media all and (min-width: 720px) {
-  ul, li {
-    display: inline;
-    list-style: none;
-    padding: 0 0.5em;
-  }
 }

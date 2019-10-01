@@ -3,7 +3,7 @@ import {HttpClient, HttpParams} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Slice} from '../../classes/spring/slice';
 import {environment} from '../../../environments/environment';
-import {ArticleComment} from '../../classes/article';
+import {ArticleComment} from '../article/article';
 
 @Injectable({
   providedIn: 'root'

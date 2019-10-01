@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient, HttpErrorResponse, HttpParams} from '@angular/common/http';
 import {Observable, of, throwError} from 'rxjs';
 import {environment} from '../../../environments/environment';
-import {User} from '../../classes/user';
+import {User} from './user';
 import {catchError, map} from 'rxjs/operators';
 import LoginForm from '../../dialogs/login-form/login-form';
 

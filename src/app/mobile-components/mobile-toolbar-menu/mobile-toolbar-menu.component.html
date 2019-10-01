@@ -1,0 +1,27 @@
+<mat-tree id="mobile-menu" [dataSource]="dataSource" [treeControl]="treeControl">
+  <mat-tree-node *matTreeNodeDef="let node;">
+    <div class="content fill elypia-tree-menu-node">
+      <ng-container *ngIf="node.href.startsWith('/') else externalurl">
+        <button mat-button [routerLink]="node.href" class="fill">{{node.name}}</button>
+      </ng-container>
+      <ng-template #externalurl>
+        <a mat-button [href]="node.href" target="_blank" class="fill">{{node.name}}</a>
+      </ng-template>
+    </div>
+  </mat-tree-node>
+  <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
+    <div class="content fill">
+      <div class="mat-tree-node elypia-tree-menu-node">
+        <button mat-button matTreeNodeToggle [attr.aria-label]="'toggle ' + node.name" class="fill">
+            <span class="fill split">
+              <span>{{node.name}}</span>
+              <span><i class="fad fa-chevron-down"></i></span>
+            </span>
+        </button>
+      </div>
+      <ul [ngClass]="{'mat-tree-invisible': !treeControl.isExpanded(node)}">
+        <ng-container matTreeNodeOutlet></ng-container>
+      </ul>
+    </div>
+  </mat-nested-tree-node>
+</mat-tree>

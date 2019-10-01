@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ArticleService} from '../../services/article/article.service';
 import {ActivatedRoute} from '@angular/router';
-import {Article, ArticleComment} from '../../classes/article';
+import {Article, ArticleComment} from '../../services/article/article';
 import {CommentService} from '../../services/comment/comment.service';
 import {LoadState} from '@elypia/ng-elypian';
 

@@ -1,0 +1,13 @@
+#mobile-menu {
+  padding: 0
+}
+
+.fill {
+  width: 100%;
+  border-radius: 0;
+  text-align: left;
+}
+
+.mat-tree-invisible {
+  display: none;
+}

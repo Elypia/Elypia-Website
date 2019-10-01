@@ -36,11 +36,13 @@ import {LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
 import {ThanksComponent} from './pages/thanks/thanks.component';
 import {FundMethodComponent} from './components/fund-method/fund-method.component';
-import {PrivacyComponent} from './pages/privacy/privacy.component';
-import {EprivacyComponent} from './pages/eprivacy/eprivacy.component';
-import {EmotesComponent} from './pages/emotes/emotes.component';
+import {PrivacyComponent} from './pages/support/privacy/privacy.component';
+import {EprivacyComponent} from './pages/support/eprivacy/eprivacy.component';
+import {EmotesComponent} from './pages/projects/emotes/emotes.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTreeModule} from '@angular/material/tree';
+import {MatListModule} from '@angular/material/list';
+import {MobileToolbarMenuComponent} from './mobile-components/mobile-toolbar-menu/mobile-toolbar-menu.component';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -106,6 +108,7 @@ const markdownOptions: MarkdownModuleConfig = {
     PrivacyComponent,
     EprivacyComponent,
     EmotesComponent,
+    MobileToolbarMenuComponent,
   ],
   imports: [
     // Configured
@@ -138,7 +141,8 @@ const markdownOptions: MarkdownModuleConfig = {
     ElyStatefulButtonModule,
     MatTabsModule,
     MatExpansionModule,
-    MatTreeModule
+    MatTreeModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

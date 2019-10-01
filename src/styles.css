@@ -26,6 +26,13 @@ a {
   text-decoration: none;
 }
 
+/** Split an element up with all elements spread out. */
+.split {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
 /** Anything hoverable that's not hovered should be dimmed. */
 .hover:not(:hover) {
   opacity: 0.8;
