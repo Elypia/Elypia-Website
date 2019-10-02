@@ -22,16 +22,41 @@
       <a [routerLink]="''">
         <img id="toolbar-logo" src="/assets/elypia_white_by_sevdev.png" alt="Elypia Logo">
       </a>
-      <div class="menu-items">
-        <button mat-button class="mobile-only" (click)="onMobileMenuToggle()">Menu</button>
+      <div>
+        <div class="large-only">
+          <ng-container *ngFor="let node of MenuTree">
+            <ng-container *ngIf="node.href else treeSubMenu">
+              <ng-container *ngIf="node.href.startsWith('/') else externalurl">
+                <button mat-button [routerLink]="node.href">{{node.name}}</button>
+              </ng-container>
+              <!-- TODO: THIS IS A COPY AND PASTE FROM ANOTHER COMPONENT. -->
+              <ng-template #externalurl>
+                <a mat-button [href]="node.href" target="_blank">{{node.name}}</a>
+              </ng-template>
+            </ng-container>
+            <ng-template #treeSubMenu>
+              <button mat-button [matMenuTriggerFor]="childMenu" #childMenuTrigger="matMenuTrigger">
+                <span>{{node.name}}</span>
+                <span class="tree-sub-menu-icon" [ngClass]="{'child-menu-open': childMenuTrigger.menuOpen}">
+                  <i class="fad fa-chevron-down"></i>
+                </span>
+              </button>
+              <mat-menu #childMenu="matMenu">
+                <button *ngFor="let child of node.children" mat-menu-item>{{child.name}}</button>
+              </mat-menu>
+            </ng-template>
+          </ng-container>
+        </div>
+        <button mat-button class="small-only" (click)="onMobileMenuToggle()">Menu</button>
         <button mat-icon-button [matMenuTriggerFor]="appMenu">
           <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
         </button>
       </div>
     </div>
   </mat-toolbar>
-  <app-mobile-toolbar-menu class="mobile-only"
-                           [ngClass]="{'mobile-menu-toggled': mobileMenuVisible}">
+  <app-mobile-toolbar-menu class="small-only"
+                           [ngClass]="{'mobile-menu-toggled': mobileMenuVisible}"
+                           [MenuTree]="MenuTree">
   </app-mobile-toolbar-menu>
 </div>
 

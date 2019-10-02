@@ -16,32 +16,24 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-.mission-statement-title {
-  display: flex;
-  align-items: center;
-}
+/**
+ * Used to define navigation menu elements for mobile
+ * and desktop devices.
+ */
+interface MenuNode {
 
-#statement {
-  padding: 1em 0;
-}
+  /** The name to display on the navigation element. */
+  name: string;
 
-#top-logo {
-  height: 64px;
-  margin: 0 1em 0 0;
-}
+  /**
+   * If this is a flat element, where it links too.
+   * This should be null if {@link children} is not non-null.
+   */
+  href?: string;
 
-/** Give all articles except the first one margin top/bottom. */
-.article:not(:first-child) {
-  margin: 1em 0;
-}
-
-@media all and (min-width: 720px) {
-  #home-top {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-  #mission-statement {
-    margin-right: 1em;
-  }
+  /**
+   * If this element has any child elements.
+   * This should be null if {@link href} is not non-null.
+   */
+  children?: MenuNode[];
 }

@@ -44,13 +44,35 @@ img {
   margin: auto 0;
 }
 
+.large-only {
+  display: none;
+}
+
+.tree-sub-menu-icon {
+  display: inline-block;
+  margin-left: .5em;
+
+  transition: transform .2s ease-in-out;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+}
+
+.tree-sub-menu-icon.child-menu-open {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
 app-mobile-toolbar-menu:not(.mobile-menu-toggled) {
   display: none;
 }
 
-@media all and (min-width: 512px) {
+@media all and (min-width: 720px) {
 
-  .mobile-only {
+  .large-only {
+    display: inline-block;
+  }
+
+  .small-only {
     display: none;
   }
 }

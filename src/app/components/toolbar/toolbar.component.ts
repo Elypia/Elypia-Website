@@ -29,13 +29,37 @@ import {MobileToolbarMenuComponent} from '../../mobile-components/mobile-toolbar
 })
 export class ToolbarComponent {
 
+  /**
+   * This defined the menu structure, it's passed to the {@link NestedTreeControl}
+   * if on mobile, otherwise is read to create lots of buttons for desktop devices.
+   */
+  public readonly MenuTree: MenuNode[] = [
+    { name: 'About', href: '/about' },
+    {
+      name: 'Projects',
+      children: [
+        { name: 'Alexis', href: 'https://gitlab.com/Elypia/alexis' },
+        { name: 'Commandler', href: 'https://gitlab.com/Elypia/commandler' },
+        { name: 'Elypiai', href: 'https://gitlab.com/Elypia/elypiai' }
+      ]
+    },
+    {
+      name: 'Support',
+      children: [
+        { name: 'Privacy Policy', href: '/support/privacy' },
+        { name: 'ePrivacy Policy', href: '/support/eprivacy' }
+      ]
+    },
+    { name: 'Donate', href: '/donate' }
+  ];
+
   /** Child view of mobile toolbar to interact with it during resize. */
-  @ViewChild(MobileToolbarMenuComponent, {static: false}) mobileToolbar: MobileToolbarMenuComponent;
+  @ViewChild(MobileToolbarMenuComponent, {static: false}) private readonly mobileToolbar: MobileToolbarMenuComponent;
 
   /** If the mobile toolbar should be visible to the user. */
   public mobileMenuVisible: boolean;
 
-  constructor(public themeService: ThemeService, public dialog: MatDialog) {
+  public constructor(public themeService: ThemeService, public dialog: MatDialog) {
 
   }
 

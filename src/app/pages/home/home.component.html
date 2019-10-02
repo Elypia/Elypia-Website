@@ -31,8 +31,7 @@
   <ely-loadable [state]="state">
     <mat-accordion>
       <div class="article" *ngFor="let article of articles; let first = first;">
-        <app-article *ngIf="first" [article]="article" [open]="true"></app-article>
-        <app-article *ngIf="!first" [article]="article"></app-article>
+        <app-article [article]="article" [open]="first"></app-article>
       </div>
     </mat-accordion>
   </ely-loadable>

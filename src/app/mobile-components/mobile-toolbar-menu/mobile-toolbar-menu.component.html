@@ -34,9 +34,9 @@
         <button mat-button matTreeNodeToggle [attr.aria-label]="'toggle ' + node.name" class="fill">
           <span class="fill split">
             <span>{{node.name}}</span>
-            <span class="menu-toggle" [ngClass]="{'menu-expanded': treeControl.isExpanded(node)}">
-              <i class="fad fa-chevron-down"></i>
-            </span>
+              <span class="menu-toggle" [ngClass]="{'menu-expanded': treeControl.isExpanded(node)}">
+                <i class="fad fa-chevron-down"></i>
+              </span>
           </span>
         </button>
       </div>

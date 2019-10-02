@@ -16,51 +16,29 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {NestedTreeControl} from '@angular/cdk/tree';
 import {MatTreeNestedDataSource} from '@angular/material/tree';
 
-interface MenuNode {
-  name: string;
-  href?: string;
-  children?: MenuNode[];
-}
-
+/**
+ * This is a mobile specific component which reveals a smaller
+ * and easier to navigate toolbar for smaller resolution devices.
+ * (Or just in browser when it's set small enough.)
+ */
 @Component({
   selector: 'app-mobile-toolbar-menu',
   templateUrl: './mobile-toolbar-menu.component.html',
   styleUrls: ['./mobile-toolbar-menu.component.css']
 })
-export class MobileToolbarMenuComponent {
+export class MobileToolbarMenuComponent implements OnInit {
 
-  /**
-   * This defined the menu structure, it's passed to the {@link NestedTreeControl}
-   * if on mobile, otherwise is read to create lots of buttons for desktop devices.
-   */
-  MenuTree: MenuNode[] = [
-    { name: 'About', href: '/about' },
-    {
-      name: 'Projects',
-      children: [
-        { name: 'Alexis', href: 'https://gitlab.com/Elypia/alexis' },
-        { name: 'Commandler', href: 'https://gitlab.com/Elypia/commandler' },
-        { name: 'Elypiai', href: 'https://gitlab.com/Elypia/elypiai' }
-      ]
-    },
-    {
-      name: 'Support',
-      children: [
-        { name: 'Privacy Policy', href: '/support/privacy' },
-        { name: 'ePrivacy Policy', href: '/support/eprivacy' }
-      ]
-    },
-    { name: 'Donate', href: '/donate' }
-  ];
+  /** The menu items for users to navigate. */
+  @Input() public readonly MenuTree: MenuNode[];
 
-  treeControl = new NestedTreeControl<MenuNode>(node => node.children);
-  dataSource = new MatTreeNestedDataSource<MenuNode>();
+  public readonly treeControl = new NestedTreeControl<MenuNode>(node => node.children);
+  public readonly dataSource = new MatTreeNestedDataSource<MenuNode>();
 
-  constructor() {
+  public ngOnInit(): void {
     this.dataSource.data = this.MenuTree;
   }
 
