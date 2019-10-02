@@ -1,3 +1,21 @@
+/*
+ * Elypia Website - The company website for Elypia.
+ * Copyright (C) 2019-2019  Elypia CIC
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 import {Component} from '@angular/core';
 import {NestedTreeControl} from '@angular/cdk/tree';
 import {MatTreeNestedDataSource} from '@angular/material/tree';
@@ -44,6 +62,14 @@ export class MobileToolbarMenuComponent {
 
   constructor() {
     this.dataSource.data = this.MenuTree;
+  }
+
+  /**
+   * Reset the mobile component. This is useful if the menu has been
+   * hidden either manually or because of the resolution changing.
+   */
+  public reset(): void {
+    this.treeControl.collapseAll();
   }
 
   public hasChild(_: number, node: MenuNode): boolean {
