@@ -30,7 +30,7 @@ footer {
 #footer-one {
   display: flex;
   align-items: center;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
 }
 
 address {
@@ -46,12 +46,12 @@ img {
 }
 
 #meta {
-  padding-top: 0.5em;
+  padding-top: .5em;
   text-align: center;
 }
 
 #copyright {
-  margin-top: 0.5em;
+  margin-top: .5em;
 }
 
 @media all and (min-width: 720px) {

@@ -16,6 +16,58 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#elypia-banner {
+#about-title {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-title-logo {
+  height: 64px;
+  margin-right: 1em;
+}
+
+#about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#elypia-chan {
+  width: 75%;
+  margin: 0 0 1em 1em;
+}
+
+#elypia-chan-image {
   width: 100%;
+}
+
+mat-card:not(:first-child) {
+  margin-top: 1em;
+}
+
+#about-text mat-card p {
+  margin: 1em 0;
+}
+
+@media all and (min-width: 720px) {
+
+  #about-title {
+    justify-content: left;
+  }
+
+  #about-info {
+    flex-direction: row-reverse;
+    align-items: start;
+  }
+
+  #elypia-chan {
+    width: 35%;
+    margin-bottom: 0;
+  }
+
+  #about-text {
+    width: 65%;
+  }
 }
