@@ -16,9 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/**
-  Reset
- */
+/** Reset */
 html, body, app-root, div, header, footer,
 h1, h2, h3, h4, h5, h6,
 p, a, ul, li {
@@ -29,8 +27,14 @@ p, a, ul, li {
 }
 
 /**
-  Use full view height and width to anchor the footer to the bottom.
+  Make the scrollbar always visible to prevent page jumping
+  between big and small pages.
  */
+html {
+  overflow-y: scroll;
+}
+
+/** Use full view height and width to anchor the footer to the bottom. */
 html, body, #elypia-app {
   min-height: 100vh;
 }
@@ -57,7 +61,10 @@ a {
   opacity: 0.8;
 }
 
-/** Hide content statically from the webpage. */
+/**
+  Hide content statically from the webpage.
+  SHOULD ONLY BE USED FOR DEBUGGING OR WIP ELEMENTS!
+ */
 .hidden {
   display: none !important;
   visibility: hidden !important;
