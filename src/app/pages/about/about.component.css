@@ -51,7 +51,7 @@ mat-card:not(:first-child) {
   margin: 1em 0;
 }
 
-@media all and (min-width: 720px) {
+@media (min-width: 720px) {
 
   #about-title {
     justify-content: left;

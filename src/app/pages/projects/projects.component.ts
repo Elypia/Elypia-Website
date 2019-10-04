@@ -16,3 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import {Component, OnInit} from '@angular/core';
+
+@Component({
+  selector: 'app-emotes',
+  templateUrl: './projects.component.html',
+  styleUrls: ['./projects.component.css']
+})
+export class ProjectsComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+
+  }
+}

@@ -29,7 +29,7 @@ mat-card {
   margin: 1em 0 0 0;
 }
 
-@media all and (min-width: 512px) {
+@media (min-width: 512px) {
   mat-card {
     display: grid;
     grid-template-columns: 15% 84%;

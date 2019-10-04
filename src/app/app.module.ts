@@ -38,7 +38,6 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSelectModule} from '@angular/material/select';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import {BannerComponent} from './components/banner/banner.component';
 import {ArticlePageComponent} from './pages/article/article-page.component';
 import {LoginFormComponent} from './dialogs/login-form/login-form.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -46,17 +45,15 @@ import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestam
 import {AboutComponent} from './pages/about/about.component';
 import {OverlayContainer} from '@angular/cdk/overlay';
 import {SocialComponent} from './components/social/social.component';
-import {LibrariesComponent} from './pages/libraries/libraries.component';
 import {DonateComponent} from './pages/donate/donate.component';
 import {MatCardModule, MatDialogModule, MatMenuModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
 import {LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
-import {ThanksComponent} from './pages/thanks/thanks.component';
 import {FundMethodComponent} from './components/fund-method/fund-method.component';
-import {PrivacyComponent} from './pages/support/privacy/privacy.component';
-import {EprivacyComponent} from './pages/support/eprivacy/eprivacy.component';
-import {EmotesComponent} from './pages/projects/emotes/emotes.component';
+import {PrivacyComponent} from './pages/privacy/privacy.component';
+import {EprivacyComponent} from './pages/eprivacy/eprivacy.component';
+import {ProjectsComponent} from './pages/projects/projects.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatListModule} from '@angular/material/list';
@@ -69,11 +66,10 @@ const appRoutes: Routes = [
   { path: 'login-form', component: LoginFormComponent },
 
   /** Works without API, may lose some features. */
+  { path: 'support/privacy', component: PrivacyComponent },
+  { path: 'support/eprivacy', component: EprivacyComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'libraries', component: LibrariesComponent },
-  { path: 'emotes', component: EmotesComponent },
-  { path: 'privacy', component: PrivacyComponent },
-  { path: 'eprivacy', component: EprivacyComponent },
+  { path: 'projects', component: ProjectsComponent },
   { path: 'donate', component: DonateComponent },
   { path: '', component: HomeComponent },
 
@@ -115,18 +111,15 @@ const markdownOptions: MarkdownModuleConfig = {
     HomeComponent,
     ArticleComponent,
     CommentComponent,
-    BannerComponent,
     ArticlePageComponent,
     LoginFormComponent,
     AboutComponent,
     SocialComponent,
-    LibrariesComponent,
     DonateComponent,
-    ThanksComponent,
     FundMethodComponent,
     PrivacyComponent,
     EprivacyComponent,
-    EmotesComponent,
+    ProjectsComponent,
     MobileToolbarMenuComponent,
   ],
   imports: [

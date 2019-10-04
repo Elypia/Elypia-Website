@@ -35,6 +35,7 @@ html, body, #elypia-app {
   min-height: 100vh;
 }
 
+/** Max-width and center content, useful to be consistent with window space utilized. */
 .content {
   margin: 0 auto;
   max-width: 1265px;

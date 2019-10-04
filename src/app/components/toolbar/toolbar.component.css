@@ -66,7 +66,7 @@ app-mobile-toolbar-menu:not(.mobile-menu-toggled) {
   display: none;
 }
 
-@media all and (min-width: 720px) {
+@media (min-width: 720px) {
 
   .large-only {
     display: inline-block;

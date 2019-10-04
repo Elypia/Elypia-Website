@@ -35,22 +35,15 @@ export class ToolbarComponent {
    */
   public readonly MenuTree: MenuNode[] = [
     { name: 'About', href: '/about' },
-    {
-      name: 'Projects',
-      children: [
-        { name: 'Alexis', href: 'https://gitlab.com/Elypia/alexis' },
-        { name: 'Commandler', href: 'https://gitlab.com/Elypia/commandler' },
-        { name: 'Elypiai', href: 'https://gitlab.com/Elypia/elypiai' }
-      ]
-    },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Donate', href: '/donate' },
     {
       name: 'Support',
       children: [
         { name: 'Privacy Policy', href: '/support/privacy' },
         { name: 'ePrivacy Policy', href: '/support/eprivacy' }
       ]
-    },
-    { name: 'Donate', href: '/donate' }
+    }
   ];
 
   /** Child view of mobile toolbar to interact with it during resize. */

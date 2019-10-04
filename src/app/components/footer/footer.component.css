@@ -54,7 +54,7 @@ img {
   margin-top: .5em;
 }
 
-@media all and (min-width: 720px) {
+@media (min-width: 720px) {
   #footer-top {
     flex-direction: row;
   }

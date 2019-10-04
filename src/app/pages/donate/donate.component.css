@@ -16,18 +16,42 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#donation-methods {
-  margin-top: 1em;
-  display: block;
+#donate-methods {
+  margin: 1em 0;
 }
 
 app-fund-method {
    margin: 0 .5em;
 }
 
-@media all and (min-width: 1024px) {
-  #donation-methods {
-    display: grid;
-    grid-template-columns: 50% 50%;
+mat-divider {
+  padding-bottom: 1em;
+}
+
+mat-card {
+  margin-top: 1em;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  mat-card {
+    text-align: left;
+  }
+}
+
+p {
+  margin-top: 1em;
+}
+
+@media (min-width: 1024px) {
+  #donate-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  app-fund-method {
+    width: 48%;
+    margin-bottom: 2em;
   }
 }
