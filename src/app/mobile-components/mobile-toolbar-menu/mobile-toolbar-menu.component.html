@@ -17,19 +17,23 @@
   -->
 
 <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
-  <mat-tree-node *matTreeNodeDef="let node;">
-    <div class="content fill">
+  <mat-tree-node *matTreeNodeDef="let node;" [ngClass]="{'selected': node.href === currentPage}">
+    <div class="container fill">
       <ng-container *ngIf="node.href.startsWith('/') else externalurl">
-        <button mat-button [routerLink]="node.href" class="fill">{{node.name}}</button>
+        <button mat-button [routerLink]="node.href" class="fill" (click)="reset()">
+          {{node.name}}
+        </button>
       </ng-container>
       <!-- If the link takes the user to an external location, use href instead of routerLink. -->
       <ng-template #externalurl>
-        <a mat-button [href]="node.href" target="_blank" class="fill">{{node.name}}</a>
+        <a mat-button [href]="node.href" target="_blank"
+           class="fill" (click)="reset()">
+          {{node.name}}</a>
       </ng-template>
     </div>
   </mat-tree-node>
   <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
-    <div class="content fill">
+    <div class="container fill">
       <div class="mat-tree-node">
         <button mat-button matTreeNodeToggle [attr.aria-label]="'toggle ' + node.name" class="fill">
           <span class="fill split">

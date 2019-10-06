@@ -48,7 +48,7 @@ import {SocialComponent} from './components/social/social.component';
 import {DonateComponent} from './pages/donate/donate.component';
 import {MatCardModule, MatDialogModule, MatMenuModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
-import {LoggerModule} from 'ngx-logger';
+import {LoggerConfig, LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
 import {FundMethodComponent} from './components/fund-method/fund-method.component';
 import {PrivacyComponent} from './pages/privacy/privacy.component';
@@ -76,6 +76,10 @@ const appRoutes: Routes = [
   /** Redirect instead of 404 */
   { path: '**', redirectTo: '' },
 ];
+
+const loggerConfig: LoggerConfig = {
+  level: environment.loggingLevel
+};
 
 const cookieConfig: NgcCookieConsentConfig = {
   cookie: {
@@ -125,7 +129,7 @@ const markdownOptions: MarkdownModuleConfig = {
   imports: [
     // Configured
     RouterModule.forRoot(appRoutes),
-    LoggerModule.forRoot({level: environment.loggingLevel}),
+    LoggerModule.forRoot(loggerConfig),
     MarkdownModule.forRoot(markdownOptions),
     NgcCookieConsentModule.forRoot(cookieConfig),
     BrowserModule,

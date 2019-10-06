@@ -17,11 +17,9 @@
   -->
 
 <div id="elypia-app" class="mat-app-background" [ngClass]="themeService.selectedTheme.class">
-  <div>
-    <app-toolbar></app-toolbar>
-    <div id="container" class="content">
-      <router-outlet></router-outlet>
-    </div>
+  <app-toolbar [MenuTree]="MenuTree"></app-toolbar>
+  <div id="content">
+    <router-outlet></router-outlet>
   </div>
   <app-footer></app-footer>
 </div>

@@ -25,7 +25,7 @@ app-fund-method {
 }
 
 mat-divider {
-  padding-bottom: 1em;
+  margin: 1em 0 2em 0;
 }
 
 mat-card {

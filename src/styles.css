@@ -17,12 +17,11 @@
  */
 
 /** Reset */
-html, body, app-root, div, header, footer,
+html, body, div, header, footer,
 h1, h2, h3, h4, h5, h6,
-p, a, ul, li {
+ul, li, p, a {
   margin: 0;
   padding: 0;
-
   font-family: Roboto, sans-serif;
 }
 
@@ -35,16 +34,17 @@ html {
 }
 
 /** Use full view height and width to anchor the footer to the bottom. */
-html, body, #elypia-app {
+html, body {
   min-height: 100vh;
 }
 
 /** Max-width and center content, useful to be consistent with window space utilized. */
-.content {
-  margin: 0 auto;
+.container {
   max-width: 1265px;
+  margin: 0 auto;
 }
 
+/** Use our own styling for all links on the pages. */
 a {
   text-decoration: none;
 }

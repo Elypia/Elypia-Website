@@ -16,35 +16,23 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, HostListener, ViewChild} from '@angular/core';
+import {Component, HostListener, Input, OnInit, ViewChild} from '@angular/core';
 import {ThemeService} from '../../services/theme/theme.service';
 import {LoginFormComponent} from '../../dialogs/login-form/login-form.component';
 import {MatDialog} from '@angular/material';
 import {MobileToolbarMenuComponent} from '../../mobile-components/mobile-toolbar-menu/mobile-toolbar-menu.component';
+import {NavigationStart, Router, RouterEvent} from '@angular/router';
+import {NGXLogger} from 'ngx-logger';
 
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',
   styleUrls: ['./toolbar.component.css']
 })
-export class ToolbarComponent {
+export class ToolbarComponent implements OnInit {
 
-  /**
-   * This defined the menu structure, it's passed to the {@link NestedTreeControl}
-   * if on mobile, otherwise is read to create lots of buttons for desktop devices.
-   */
-  public readonly MenuTree: MenuNode[] = [
-    { name: 'About', href: '/about' },
-    { name: 'Projects', href: '/projects' },
-    { name: 'Donate', href: '/donate' },
-    {
-      name: 'Support',
-      children: [
-        { name: 'Privacy Policy', href: '/support/privacy' },
-        { name: 'ePrivacy Policy', href: '/support/eprivacy' }
-      ]
-    }
-  ];
+  /** The menu items for users to navigate. */
+  @Input() public readonly MenuTree: MenuNode[];
 
   /** Child view of mobile toolbar to interact with it during resize. */
   @ViewChild(MobileToolbarMenuComponent, {static: false}) private readonly mobileToolbar: MobileToolbarMenuComponent;
@@ -52,14 +40,40 @@ export class ToolbarComponent {
   /** If the mobile toolbar should be visible to the user. */
   public mobileMenuVisible: boolean;
 
-  public constructor(public themeService: ThemeService, public dialog: MatDialog) {
+  /** The relative name to the current page we're on. */
+  public currentPage: string;
 
+  public constructor(
+    public router: Router,
+    private logger: NGXLogger,
+    public themeService: ThemeService,
+    public dialog: MatDialog
+  ) {
+
+  }
+
+  public ngOnInit(): void {
+    this.router.events.subscribe((event: RouterEvent) => {
+      if (event instanceof NavigationStart) {
+        const url: string = event.url;
+
+        this.currentPage = url
+          .split('#', 1)[0]
+          .split('?', 1)[0];
+
+        this.logger.debug('Current page is:', this.currentPage);
+      }
+    });
   }
 
   public openDialog(): void {
     this.dialog.open(LoginFormComponent);
   }
 
+  /**
+   * Invert the visibility of the mobile menu,
+   * if this is set to invisible then reset the menu as well.
+   */
   public onMobileMenuToggle(): void {
     this.mobileMenuVisible = !this.mobileMenuVisible;
 

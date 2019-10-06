@@ -35,6 +35,9 @@ export class MobileToolbarMenuComponent implements OnInit {
   /** The menu items for users to navigate. */
   @Input() public readonly MenuTree: MenuNode[];
 
+  /** The current page we're on. */
+  @Input() public readonly currentPage: string;
+
   public readonly treeControl = new NestedTreeControl<MenuNode>(node => node.children);
   public readonly dataSource = new MatTreeNestedDataSource<MenuNode>();
 

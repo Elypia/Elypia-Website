@@ -18,7 +18,7 @@
 
 <div id="toolbar">
   <mat-toolbar class="mat-elevation-z8">
-    <div class="content toolbar-content">
+    <div class="container toolbar-content">
       <a [routerLink]="''">
         <img id="toolbar-logo" src="/assets/elypia_white_by_sevdev.png" alt="Elypia Logo">
       </a>
@@ -26,12 +26,16 @@
         <div class="large-only">
           <ng-container *ngFor="let node of MenuTree">
             <ng-container *ngIf="node.href else treeSubMenu">
-              <ng-container *ngIf="node.href.startsWith('/') else externalurl">
-                <button mat-button [routerLink]="node.href">{{node.name}}</button>
-              </ng-container>
-              <!-- TODO: THIS IS A COPY AND PASTE FROM ANOTHER COMPONENT. -->
+              <button *ngIf="node.href.startsWith('/') else externalurl"
+                      mat-button
+                      class="desktop-button" [ngClass]="{'selected': node.href === currentPage}"
+                      [routerLink]="node.href">
+                {{node.name}}
+              </button>
               <ng-template #externalurl>
-                <a mat-button [href]="node.href" target="_blank">{{node.name}}</a>
+                <a mat-button class="desktop-button" [href]="node.href" target="_blank">
+                  {{node.name}}
+                </a>
               </ng-template>
             </ng-container>
             <ng-template #treeSubMenu>
@@ -56,23 +60,11 @@
   </mat-toolbar>
   <app-mobile-toolbar-menu class="small-only"
                            [ngClass]="{'mobile-menu-toggled': mobileMenuVisible}"
-                           [MenuTree]="MenuTree">
+                           [MenuTree]="MenuTree"
+                           [currentPage]="currentPage"
+                           (click)="onMobileMenuToggle()">
   </app-mobile-toolbar-menu>
 </div>
-
-<mat-menu #mainMenu="matMenu">
-  <button mat-button routerLink="/about">About</button>
-  <button mat-button routerLink="/projects">Projects</button>
-  <button mat-button [matMenuTriggerFor]="supportMenu">Support</button>
-  <button mat-button routerLink="/donate">Donate</button>
-  <button mat-button (click)="openDialog()" class="hidden">Login</button>
-</mat-menu>
-
-<mat-menu #supportMenu="matMenu">
-  <button mat-menu-item routerLink="/privacy">Privacy Policy</button>
-  <button mat-menu-item routerLink="/tos" class="hidden">Terms of Service</button>
-  <button mat-menu-item routerLink="/eprivacy">ePrivacy Policy</button>
-</mat-menu>
 
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">

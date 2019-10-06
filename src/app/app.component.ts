@@ -28,12 +28,34 @@ import {NgcCookieConsentService} from 'ngx-cookieconsent';
 })
 export class AppComponent implements OnInit, OnDestroy {
 
+  /**
+   * This defined the menu structure, it's passed to the {@link NestedTreeControl}
+   * if on mobile, otherwise is read to create lots of buttons for desktop devices.
+   */
+  public readonly MenuTree: MenuNode[] = [
+    { name: 'About', href: '/about' },
+    { name: 'Projects', href: '/projects' },
+    { name: 'Donate', href: '/donate' },
+    {
+      name: 'Support',
+      children: [
+        { name: 'Privacy Policy', href: '/support/privacy' },
+        { name: 'ePrivacy Policy', href: '/support/eprivacy' }
+      ]
+    }
+  ];
+
   constructor(
     private concentService: NgcCookieConsentService,
     private ngxLogger: NGXLogger,
     public themeService: ThemeService
   ) {
-
+    console.log('%cHold on!', 'color: red; font-size: 64px;');
+    console.log('If someone\'s told you to open this panel or console to perform ' +
+      'commands or check something on your browser, chances are they\'re trying to access ' +
+      'sensitive information which could compromise your account or data. ' +
+      'Only continue if you know what you\'re doing; if you do know what you\'re doing ' +
+      'feel free to contribute to our projects at <https://gitlab.com/Elypia>!');
   }
 
   ngOnInit(): void {

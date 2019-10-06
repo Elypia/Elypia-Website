@@ -25,4 +25,8 @@
   .current-theme {
     color: mat-color($accent, text);
   }
+
+  .selected {
+    background-color: mat-color($accent, text);
+  }
 }
