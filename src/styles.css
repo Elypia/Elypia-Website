@@ -60,12 +60,3 @@ a {
 .hover:not(:hover) {
   opacity: 0.8;
 }
-
-/**
-  Hide content statically from the webpage.
-  SHOULD ONLY BE USED FOR DEBUGGING OR WIP ELEMENTS!
- */
-.hidden {
-  display: none !important;
-  visibility: hidden !important;
-}

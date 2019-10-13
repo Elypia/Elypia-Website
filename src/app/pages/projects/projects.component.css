@@ -16,20 +16,17 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#projects-list {
-  margin-top: 1em;
-  display: flex;
-  justify-content: space-between;
+h1 {
+  margin-bottom: .25em;
 }
 
-#projects mat-card {
-  display: flex;
-  flex-direction: column;
-  width: 33.33%;
-  padding: 1em 2em;
-  margin: 0 1em;
+app-project {
+  margin: 1em;
 }
 
-mat-card-content {
-  flex-grow: 1;
+@media (min-width: 720px) {
+  #projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

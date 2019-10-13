@@ -20,6 +20,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Theme, ThemeService} from './services/theme/theme.service';
 import {NGXLogger} from 'ngx-logger';
 import {NgcCookieConsentService} from 'ngx-cookieconsent';
+import {MenuNode} from './toolbar/toolbar';
 
 @Component({
   selector: 'app-root',
@@ -39,6 +40,7 @@ export class AppComponent implements OnInit, OnDestroy {
     {
       name: 'Support',
       children: [
+        { name: 'Presskit', href: '/support/presskit' },
         { name: 'Privacy Policy', href: '/support/privacy' },
         { name: 'ePrivacy Policy', href: '/support/eprivacy' }
       ]

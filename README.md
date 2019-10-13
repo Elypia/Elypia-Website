@@ -14,7 +14,12 @@ This is the frontend for the Elypia website.
 ## Open-Source
 This project is open-source under the [GNU Affero General Public License][agpl]!  
 While not legal advice, you can find a [TL;DR][agpl-tldr] that sums up what
-you can and can't do and any requirements if you want to use or derive work from this source code!  
+you're allowed and not allowed to do along with any requirements if you want to 
+use or derive work from this source code!  
+
+**All non-code files including bitmaps, vectors, and animated images such as gifs,
+videos, models, and audio are not under the aforementioned license; all rights
+are reserved by Elypia CIC.** 
 
 [discord]: https://discord.gg/hprGMaM "Discord Invite"
 [discord-members]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"

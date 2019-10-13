@@ -5,13 +5,11 @@
 # metadata:
 #   name: https
 # data:
-#   cert.pem:
-#   key.pem:
 #   ca.pem:
 
 ---
 # Expose the Elypia Frontend
-# If using Google Kubernetes Engine, this will create a new static IP,
+# If using Google Kubernetes Engine to host, this will create a new static IP,
 # make sure to update your DNS records to direct to it.
 apiVersion: v1
 kind: Service

@@ -19,14 +19,22 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {ProjectsComponent} from './projects.component';
+import {ProjectComponent} from '../../components/project/project.component';
+import {MatCardModule} from '@angular/material/card';
 
-describe('EmotesComponent', () => {
+describe('ProjectsComponent', () => {
   let component: ProjectsComponent;
   let fixture: ComponentFixture<ProjectsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProjectsComponent ]
+      declarations: [
+        ProjectsComponent,
+        ProjectComponent
+      ],
+      imports: [
+        MatCardModule
+      ]
     })
     .compileComponents();
   }));

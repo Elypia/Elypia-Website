@@ -20,16 +20,12 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {ToolbarComponent} from './components/toolbar/toolbar.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {HomeComponent} from './pages/home/home.component';
 import {RouterModule, Routes} from '@angular/router';
-import {ArticleComponent} from './components/article/article.component';
-import {CommentComponent} from './components/comment/comment.component';
 import {MarkdownModule, MarkdownModuleConfig, MarkedOptions} from 'ngx-markdown';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
-import {MatButtonModule} from '@angular/material/button';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRippleModule} from '@angular/material/core';
 import {MatIconModule} from '@angular/material/icon';
@@ -38,31 +34,34 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSelectModule} from '@angular/material/select';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import {ArticlePageComponent} from './pages/article/article-page.component';
+import {ArticlePageComponent} from './article/article-page/article-page.component';
 import {LoginFormComponent} from './dialogs/login-form/login-form.component';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {AboutComponent} from './pages/about/about.component';
 import {OverlayContainer} from '@angular/cdk/overlay';
 import {SocialComponent} from './components/social/social.component';
-import {DonateComponent} from './pages/donate/donate.component';
-import {MatCardModule, MatDialogModule, MatMenuModule, MatTableModule, MatTabsModule, MatToolbarModule} from '@angular/material';
+import {DonateComponent} from './donate/donate/donate.component';
+import {MatCardModule, MatDialogModule, MatTableModule, MatTabsModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
 import {LoggerConfig, LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
-import {FundMethodComponent} from './components/fund-method/fund-method.component';
 import {PrivacyComponent} from './pages/privacy/privacy.component';
 import {EprivacyComponent} from './pages/eprivacy/eprivacy.component';
 import {ProjectsComponent} from './pages/projects/projects.component';
 import {MatExpansionModule} from '@angular/material/expansion';
-import {MatTreeModule} from '@angular/material/tree';
 import {MatListModule} from '@angular/material/list';
-import {MobileToolbarMenuComponent} from './mobile-components/mobile-toolbar-menu/mobile-toolbar-menu.component';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {ToolbarModule} from './toolbar/toolbar.module';
+import {FormsModule} from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
+import {ProjectComponent} from './components/project/project.component';
+import {CarouselModule} from './carousel/carousel.module';
+import {DonateModule} from './donate/donate.module';
+import {ArticleModule} from './article/article.module';
 
 const appRoutes: Routes = [
   /** Useless without API */
-  { path: 'article/:id', component: ArticlePageComponent },
+  { path: 'article-page/:id', component: ArticlePageComponent },
   { path: 'login-form', component: LoginFormComponent },
 
   /** Works without API, may lose some features. */
@@ -110,21 +109,15 @@ const markdownOptions: MarkdownModuleConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent,
     FooterComponent,
     HomeComponent,
-    ArticleComponent,
-    CommentComponent,
-    ArticlePageComponent,
     LoginFormComponent,
     AboutComponent,
     SocialComponent,
-    DonateComponent,
-    FundMethodComponent,
     PrivacyComponent,
     EprivacyComponent,
     ProjectsComponent,
-    MobileToolbarMenuComponent,
+    ProjectComponent
   ],
   imports: [
     // Configured
@@ -132,37 +125,44 @@ const markdownOptions: MarkdownModuleConfig = {
     LoggerModule.forRoot(loggerConfig),
     MarkdownModule.forRoot(markdownOptions),
     NgcCookieConsentModule.forRoot(cookieConfig),
+
+    // Modules Defined in this Application
+    ArticleModule,
+    CarouselModule,
+    DonateModule,
+    ToolbarModule,
+
+    // Modules from Angular Elypian
+    ElyLoadableModule,
+    ElyTimestampModule,
+    ElyEqualsModule,
+    ElyStatefulButtonModule,
+
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    FormsModule,
-    ReactiveFormsModule,
     MatTooltipModule,
     MatProgressSpinnerModule,
     MatSelectModule,
     MatInputModule,
     MatCheckboxModule,
-    MatButtonModule,
     MatSlideToggleModule,
     MatRippleModule,
     MatIconModule,
-    MatToolbarModule,
-    MatMenuModule,
     MatCardModule,
     MatTableModule,
     MatDialogModule,
-    ElyLoadableModule,
-    ElyTimestampModule,
-    ElyEqualsModule,
-    ElyStatefulButtonModule,
     MatTabsModule,
     MatExpansionModule,
-    MatTreeModule,
     MatListModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    FormsModule,
+    MatButtonModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule {
 

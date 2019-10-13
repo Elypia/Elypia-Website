@@ -40,7 +40,6 @@ test-lint:
 
 test-unit:
   stage: test
-  image: trion/ng-cli-karma:8.2.1
   script:
     - npm run-script test
   cache:
@@ -48,9 +47,9 @@ test-unit:
     paths:
       - node_modules/
 
-test-e2e:
+# TODO: Enable e2e tests.
+.test-e2e:
   stage: test
-  image: trion/ng-cli-e2e:8.2.1
   script:
     - npm run-script e2e
   cache:

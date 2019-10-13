@@ -47,8 +47,12 @@ mat-card:not(:first-child) {
   margin-top: 1em;
 }
 
+mat-card h2 {
+  text-align: center;
+}
+
 #about-text mat-card p {
-  margin: 1em 0;
+  margin-top: .5em;
 }
 
 @media (min-width: 720px) {
@@ -65,6 +69,10 @@ mat-card:not(:first-child) {
   #elypia-chan {
     width: 35%;
     margin-bottom: 0;
+  }
+
+  mat-card h2 {
+    text-align: left;
   }
 
   #about-text {

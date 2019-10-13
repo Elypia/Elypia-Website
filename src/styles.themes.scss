@@ -17,10 +17,10 @@
  */
 
 @import '~@angular/material/theming';
-@import "app/components/article/article.component.theme";
+@import "app/article/article/article.component.theme";
 @import "app/components/footer/footer.component.theme";
-@import "app/components/toolbar/toolbar.component.theme";
-@import "app/components/fund-method/fund-method.component.theme";
+@import "app/toolbar/toolbar/toolbar.component.theme";
+@import "app/donate/fund-method/fund-method.component.theme";
 
 @include mat-core();
 

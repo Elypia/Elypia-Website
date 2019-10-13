@@ -19,12 +19,12 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {HomeComponent} from './home.component';
-import {ElyLoadableModule, ElyTimestampModule} from '@elypia/ng-elypian';
-import {ArticleComponent} from '../../components/article/article.component';
+import {ElyLoadableModule} from '@elypia/ng-elypian';
 import {RouterTestingModule} from '@angular/router/testing';
-import {MatIconModule} from '@angular/material/icon';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClientModule} from '@angular/common/http';
+import {ArticleModule} from '../../article/article.module';
+import {MatCardModule} from '@angular/material/card';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -33,16 +33,15 @@ describe('HomeComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        HomeComponent,
-        ArticleComponent
+        HomeComponent
       ],
       imports: [
+        MarkdownModule.forRoot({markedOptions: {provide: MarkedOptions}}),
         HttpClientModule,
         RouterTestingModule,
-        MarkdownModule.forRoot({markedOptions: {provide: MarkedOptions}}),
-        MatIconModule,
+        ArticleModule,
         ElyLoadableModule,
-        ElyTimestampModule
+        MatCardModule
       ]
     })
     .compileComponents();

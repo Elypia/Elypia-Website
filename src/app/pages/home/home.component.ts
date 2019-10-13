@@ -17,8 +17,8 @@
  */
 
 import {Component, OnInit} from '@angular/core';
-import {ArticleService} from '../../services/article/article.service';
-import {Article} from '../../services/article/article';
+import {ArticleService} from '../../article/article.service';
+import {Article} from '../../article/article';
 import {LoadState} from '@elypia/ng-elypian';
 
 @Component({
