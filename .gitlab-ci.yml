@@ -1,4 +1,4 @@
-image: node:10.16.2-alpine
+image: node:10.16.3-alpine
 
 # Defining some variables rather than repeating them everywhere.
 variables:
