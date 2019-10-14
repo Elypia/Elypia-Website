@@ -40,6 +40,7 @@ test-lint:
 
 test-unit:
   stage: test
+  image: buildkite/puppeteer:v1.15.0
   script:
     - npm run-script test
   cache:
@@ -50,6 +51,7 @@ test-unit:
 # TODO: Enable e2e tests.
 .test-e2e:
   stage: test
+  image: buildkite/puppeteer:v1.15.0
   script:
     - npm run-script e2e
   cache:
