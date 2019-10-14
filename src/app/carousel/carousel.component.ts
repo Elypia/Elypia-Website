@@ -14,12 +14,12 @@ export class CarouselComponent implements AfterViewInit {
    * carousel items individually so we'll place the templates in ourselves
    * with a loop rather than using the ng-content as is.
    */
-  @ContentChildren(CarouselItemDirective) private carouselItems: QueryList<CarouselItemDirective>;
+  @ContentChildren(CarouselItemDirective) public carouselItems: QueryList<CarouselItemDirective>;
 
   /** Collate all creates carousel elements into a list. */
   @ViewChild('item', {static: false, read: ElementRef}) private firstCarouselItem: ElementRef;
 
-  private carouselWrapperStyle = {};
+  public carouselWrapperStyle = {};
 
   ngAfterViewInit(): void {
     if (!this.carouselItems)
