@@ -1,0 +1,52 @@
+<!--
+  ~ Elypia Website - The company website for Elypia.
+  ~ Copyright (C) 2019-2019  Elypia CIC
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+  <mat-tree-node *matTreeNodeDef="let node;" [ngClass]="{'selected': node.href === currentPage}">
+    <div class="container fill">
+      <ng-container *ngIf="node.href.startsWith('/') else externalurl">
+        <button mat-button [routerLink]="node.href" class="fill" (click)="reset()">
+          {{node.name}}
+        </button>
+      </ng-container>
+      <!-- If the link takes the user to an external location, use href instead of routerLink. -->
+      <ng-template #externalurl>
+        <a mat-button [href]="node.href" target="_blank"
+           class="fill" (click)="reset()">
+          {{node.name}}</a>
+      </ng-template>
+    </div>
+  </mat-tree-node>
+  <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
+    <div class="container fill">
+      <div class="mat-tree-node">
+        <button mat-button matTreeNodeToggle [attr.aria-label]="'toggle ' + node.name" class="fill">
+          <span class="fill split">
+            <span>{{node.name}}</span>
+              <span class="menu-toggle" [ngClass]="{'menu-expanded': treeControl.isExpanded(node)}">
+                <i class="fad fa-chevron-down"></i>
+              </span>
+          </span>
+        </button>
+      </div>
+      <ul [ngClass]="{'tree-closed': !treeControl.isExpanded(node)}">
+        <ng-container matTreeNodeOutlet></ng-container>
+      </ul>
+    </div>
+  </mat-nested-tree-node>
+</mat-tree>

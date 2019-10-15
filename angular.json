@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "elypia-com": {
+    "elypia-website": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/elypia-com",
+            "outputPath": "dist/elypia-website",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "elypia-com:build"
+            "browserTarget": "elypia-website:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "elypia-com:build:production"
+              "browserTarget": "elypia-website:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "elypia-com:build"
+            "browserTarget": "elypia-website:build"
           }
         },
         "test": {
@@ -130,7 +130,7 @@
         }
       }
     },
-    "elypia-com-e2e": {
+    "elypia-website-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -139,11 +139,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "elypia-com:serve"
+            "devServerTarget": "elypia-website:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "elypia-com:serve:production"
+              "devServerTarget": "elypia-website:serve:production"
             }
           }
         },
@@ -159,5 +159,5 @@
       }
     }
   },
-  "defaultProject": "elypia-com"
+  "defaultProject": "elypia-website"
 }

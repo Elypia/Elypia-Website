@@ -1,7 +1,26 @@
+/*!
+ * Elypia Website - The company website for Elypia.
+ * Copyright (C) 2019-2019  Elypia CIC
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 @import '~@angular/material/theming';
-@import "app/components/toolbar/toolbar.component.theme";
+@import "app/article/article/article.component.theme";
 @import "app/components/footer/footer.component.theme";
-@import "app/pages/donate/donate.component.theme";
+@import "app/toolbar/toolbar/toolbar.component.theme";
+@import "app/donate/fund-method/fund-method.component.theme";
 
 @include mat-core();
 
@@ -12,9 +31,11 @@ $dark-theme: mat-dark-theme($dark-primary, $dark-accent);
 
 .elypia-dark-theme {
   @include angular-material-theme($dark-theme);
+  @include app-article-theme($dark-theme);
   @include app-footer-theme($dark-theme);
-  @include app-donate-theme($dark-theme);
   @include app-toolbar-theme($dark-theme);
+
+  @include app-fund-method-theme($dark-theme);
 }
 
 /** Light Theme */
@@ -24,7 +45,9 @@ $light-theme: mat-light-theme($light-primary, $light-accent);
 
 .elypia-light-theme {
   @include angular-material-theme($light-theme);
+  @include app-article-theme($light-theme);
   @include app-footer-theme($light-theme);
-  @include app-donate-theme($light-theme);
   @include app-toolbar-theme($light-theme);
+
+  @include app-fund-method-theme($light-theme);
 }
