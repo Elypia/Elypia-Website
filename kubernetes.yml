@@ -1,11 +1,7 @@
-# The configuration assumes a private configuration that looks like the following has been applied manually.
-#
-# apiVersion: v1
-# kind: Secret
-# metadata:
-#   name: client-certificate
-# data:
-#   client-certificate.pem:
+# The configuration assumes a the Kubernetes cluster has Helm installed
+# with the following charts (packages):
+# * nginx-ingress - Load balancer to internal web applciation instances.
+# * cert-manager - Automatically provisions Let's Encrypt SSL certificates.
 
 ---
 # Deploy the Elypia Website
