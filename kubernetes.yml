@@ -1,4 +1,4 @@
-# The configuration assumes a the Kubernetes cluster has Helm installed
+# The configuration assumes the Kubernetes cluster has Helm installed
 # with the following charts (packages):
 # * nginx-ingress - Load balancer to internal web application instances.
 # * cert-manager - Automatically provision Let's Encrypt certificates.
