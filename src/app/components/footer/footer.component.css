@@ -1,3 +1,21 @@
+/*
+ * Elypia Website - The company website for Elypia.
+ * Copyright (C) 2019-2019  Elypia CIC
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 footer {
   padding: 1em;
 }
@@ -6,11 +24,13 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 
-#footer-left {
+#footer-one {
   display: flex;
   align-items: center;
+  margin-bottom: .5em;
 }
 
 address {
@@ -21,10 +41,21 @@ img {
   max-height: 64px;
 }
 
-pre {
-  font-family: Roboto, sans-serif;
+#address-info {
+  margin-left: 1em;
 }
 
-#source-code {
+#meta {
+  padding-top: .5em;
   text-align: center;
+}
+
+#copyright {
+  margin-top: .5em;
+}
+
+@media (min-width: 720px) {
+  #footer-top {
+    flex-direction: row;
+  }
 }

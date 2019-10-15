@@ -1,0 +1,7 @@
+<section class="carousel-wrapper" [ngStyle]="carouselWrapperStyle">
+  <ul class="carousel-inner" #carousel>
+    <li *ngFor="let carouselItem of carouselItems;" #item>
+      <ng-container [ngTemplateOutlet]="carouselItem.templateRef"></ng-container>
+    </li>
+  </ul>
+</section>

@@ -1,4 +1,4 @@
-image: node:10.16.2-alpine
+image: node:10.16.3-alpine
 
 # Defining some variables rather than repeating them everywhere.
 variables:
@@ -40,7 +40,7 @@ test-lint:
 
 test-unit:
   stage: test
-  image: trion/ng-cli-karma:8.2.1
+  image: buildkite/puppeteer:v1.15.0
   script:
     - npm run-script test
   cache:
@@ -48,9 +48,10 @@ test-unit:
     paths:
       - node_modules/
 
-test-e2e:
+# TODO: Enable e2e tests.
+.test-e2e:
   stage: test
-  image: trion/ng-cli-e2e:8.2.1
+  image: buildkite/puppeteer:v1.15.0
   script:
     - npm run-script e2e
   cache:

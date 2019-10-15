@@ -1,3 +1,81 @@
-#elypia-banner {
+/*
+ * Elypia Website - The company website for Elypia.
+ * Copyright (C) 2019-2019  Elypia CIC
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+#about-title {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-title-logo {
+  height: 64px;
+  margin-right: 1em;
+}
+
+#about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#elypia-chan {
+  width: 75%;
+  margin: 0 0 1em 1em;
+}
+
+#elypia-chan-image {
   width: 100%;
+}
+
+mat-card:not(:first-child) {
+  margin-top: 1em;
+}
+
+mat-card h2 {
+  text-align: center;
+}
+
+#about-text mat-card p {
+  margin-top: .5em;
+}
+
+@media (min-width: 720px) {
+
+  #about-title {
+    justify-content: left;
+  }
+
+  #about-info {
+    flex-direction: row-reverse;
+    align-items: start;
+  }
+
+  #elypia-chan {
+    width: 35%;
+    margin-bottom: 0;
+  }
+
+  mat-card h2 {
+    text-align: left;
+  }
+
+  #about-text {
+    width: 65%;
+  }
 }
