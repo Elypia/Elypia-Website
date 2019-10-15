@@ -3,33 +3,12 @@
 # apiVersion: v1
 # kind: Secret
 # metadata:
-#   name: https
+#   name: client-certificate
 # data:
-#   ca.pem:
+#   client-certificate.pem:
 
 ---
-# Expose the Elypia Frontend
-# If using Google Kubernetes Engine to host, this will create a new static IP,
-# make sure to update your DNS records to direct to it.
-apiVersion: v1
-kind: Service
-metadata:
-  name: elypia-website-service
-  labels:
-    app: elypia-website
-spec:
-  type: LoadBalancer
-  selector:
-    app: elypia-website
-  ports:
-    - name: http
-      port: 80
-      protocol: TCP
-    - name: https
-      port: 443
-      protocol: TCP
----
-# Deploy the Elypia Frontend
+# Deploy the Elypia Website
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -45,9 +24,9 @@ spec:
         app: elypia-website
     spec:
       volumes:
-        - name: ssl-certs
+        - name: client-certificate
           secret:
-            secretName: https
+            secretName: client-certificate
       containers:
         - name: elypia-website
           image: us.gcr.io/elypia/elypia-website:{{CI_COMMIT_TAG}}
@@ -59,8 +38,8 @@ spec:
               containerPort: 443
               protocol: TCP
           volumeMounts:
-            - name: ssl-certs
-              mountPath: /etc/nginx/certs/
+            - name: client-certificate
+              mountPath: /etc/nginx/client-certificate.pem
           readinessProbe:
             httpGet:
               path: /index.html
