@@ -1,7 +1,7 @@
 # The configuration assumes a the Kubernetes cluster has Helm installed
 # with the following charts (packages):
-# * nginx-ingress - Load balancer to internal web applciation instances.
-# * cert-manager - Automatically provisions Let's Encrypt SSL certificates.
+# * nginx-ingress - Load balancer to internal web application instances.
+# * cert-manager - Automatically provision Let's Encrypt certificates.
 
 ---
 # Deploy the Elypia Website
@@ -19,10 +19,6 @@ spec:
       labels:
         app: elypia-website
     spec:
-      volumes:
-        - name: client-certificate
-          secret:
-            secretName: client-certificate
       containers:
         - name: elypia-website
           image: us.gcr.io/elypia/elypia-website:{{CI_COMMIT_TAG}}
@@ -33,9 +29,6 @@ spec:
             - name: https
               containerPort: 443
               protocol: TCP
-          volumeMounts:
-            - name: client-certificate
-              mountPath: /etc/nginx/client-certificate.pem
           readinessProbe:
             httpGet:
               path: /index.html
@@ -52,4 +45,18 @@ spec:
             timeoutSeconds: 5
             periodSeconds: 15
             failureThreshold: 3
+---
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: ClusterIssuer
+metadata:
+  labels:
+    name: letsencrypt-prod
+  name: letsencrypt-prod
+spec:
+  acme:
+    email: seth@elypia.org
+    http01: {}
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    server: https://acme-v02.api.letsencrypt.org/directory
 ---
