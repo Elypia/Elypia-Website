@@ -89,6 +89,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/server-alias: "www.elypia.org"
 spec:
   tls:
     - secretName: letsencrypt-prod
@@ -97,13 +98,6 @@ spec:
         - www.elypia.org
   rules:
     - host: elypia.org
-      http:
-        paths:
-          - path: /
-            backend:
-              serviceName: elypia-website-service
-              servicePort: 80
-    - host: www.elypia.org
       http:
         paths:
           - path: /

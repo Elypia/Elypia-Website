@@ -58,6 +58,9 @@ import {ProjectComponent} from './components/project/project.component';
 import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ArticleModule} from './article/article.module';
+import {registerLocaleData} from '@angular/common';
+import localeFr from '@angular/common/locales/fr';
+import localeNl from '@angular/common/locales/nl';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -167,6 +170,8 @@ const markdownOptions: MarkdownModuleConfig = {
 export class AppModule {
 
   constructor(overlayContainer: OverlayContainer) {
+    registerLocaleData(localeFr);
+    registerLocaleData(localeNl);
     overlayContainer.getContainerElement().classList.add('elypia-light-theme');
   }
 }
