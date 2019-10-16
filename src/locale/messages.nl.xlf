@@ -171,10 +171,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="b833c823f920b72bf3f5a2a19bdf1fa18451b042" datatype="html">
-        <source>
-      We want to make enterprise grade software development simpler to learn and utilize,
-      and to support sectors that aren't up-to-date or stuck by legacy proprietary abandonware.
-    </source>
+        <source>We want to make enterprise grade software development simpler to learn and utilize, and to support sectors that aren't up-to-date or stuck by legacy proprietary abandonware.</source>
+        <target>We willen softwareontwikkeling op ondernemingsniveau eenvoudiger maken om te leren en te gebruiken, en om sectoren te ondersteunen die niet up-to-date zijn of vastzitten door legacy gepatenteerde applicaties.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/home/home.component.html</context>
           <context context-type="linenumber">26</context>
@@ -182,20 +180,15 @@
       </trans-unit>
       <trans-unit id="5499b81e5db6d551e39b1731b360d787148bfea2" datatype="html">
         <source>Introduction</source>
+        <target>Introductie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7f6857b9a4047b30cea39a36d80b820d30c83ff3" datatype="html">
-        <source>
-          Elypia CIC is a non-profit
-          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Community Interest Company<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-          based in the United Kingdom that wants to bring more free and open-source software to
-          different sectors. This is starting with software development, aimed at junior developers,
-          and will hopefully move towards other areas outside of software that may aid educational institutions or
-          less developed sectors attain alternatives over abandoned legacy applications.
-        </source>
+        <source>Elypia CIC is a non-profit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Community Interest Company<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> based in the United Kingdom that wants to bring more free and open-source software to different sectors. This is starting with software development, aimed at junior developers, and will hopefully move towards other areas outside of software that may aid educational institutions or less developed sectors attain alternatives over abandoned legacy applications. </source>
+        <target>Elypia CIC is een non-profit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> Community Interest Company<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> gevestigd in het Verenigd Koninkrijk dat meer gratis en open-source software naar verschillende sectoren wil brengen. Dit begint met software-ontwikkeling, gericht op junior-ontwikkelaars, en zal hopelijk naar andere gebieden buiten software gaan die onderwijsinstellingen of minder ontwikkelde sectoren kunnen helpen om alternatieven te vinden ten opzichte van legacy gepatenteerde applicaties. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">31</context>
@@ -203,20 +196,15 @@
       </trans-unit>
       <trans-unit id="9a91783e9c0f790ed49edae730f9156070ed9dd5" datatype="html">
         <source>Legal</source>
+        <target>Legaal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4d65fed31fff5b3d71eac59f09e9665e07ae18ed" datatype="html">
-        <source>
-          A Community Interest Company is a non-profit organization in the United Kingdom which
-          has the structure of a limited company, but pledges to use its surplus for community benefit,
-          as opposed to the benefit of its directors. As a CIC, Elypia has a responsibility to follow
-          its Articles of Association and Community Interest Statement which can both be found on the
-          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Companies House<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-          website. All projects Elypia takes on will adhere to the objectives in the aforementioned documents.
-        </source>
+        <source>A Community Interest Company is a non-profit organization in the United Kingdom which has the structure of a limited company, but pledges to use its surplus for community benefit, as opposed to the benefit of its directors. As a CIC, Elypia has a responsibility to follow its Articles of Association and Community Interest Statement which can both be found on the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Companies House<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> website. All projects Elypia takes on will adhere to the objectives in the aforementioned documents. </source>
+        <target>Een Community Interest Company is een organisatie zonder winstoogmerk in het Verenigd Koninkrijk die de structuur heeft van een naamloze vennootschap, maar belooft haar overschot te gebruiken als voordeel voor de gemeenschap, in tegenstelling tot het voordeel van haar bestuurders. Als CIC is Elypia verantwoordelijk voor het naleven van haar statuten en Community Interest Statement die beide te vinden zijn op de <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Company House <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> website. Alle projecten die Elypia op zich neemt, houden zich aan de doelstellingen in de bovengenoemde documenten. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">42</context>
@@ -224,21 +212,15 @@
       </trans-unit>
       <trans-unit id="fd8fea6883aa5d60999b1ab27276b128d51441fa" datatype="html">
         <source>Mission</source>
+        <target>Missie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ac7cf7d5673c5a91150df8c7a11952bd5baa5e4d" datatype="html">
-        <source>
-          Elypia wants to aid the future of software and technology by providing FOSS
-          (free and open-source software) to the public free of charge. We want to see more libraries and frameworks that allow
-          junior developers to create enterprise grade applications for small-scale purposes,
-          ready to take that knowledge with them to support other projects and businesses.
-          We also want to help create modern, secure, and reliable software, that can be referenced
-          or derived from for small businesses without worrying about legacy applications that are no longer
-          supported with no viable or affordable alternative.
-        </source>
+        <source>Elypia wants to aid the future of software and technology by providing FOSS (free and open-source software) to the public free of charge. We want to see more libraries and frameworks that allow junior developers to create enterprise grade applications for small-scale purposes, ready to take that knowledge with them to support other projects and businesses. We also want to help create modern, secure, and reliable software, that can be referenced or derived from for small businesses without worrying about legacy applications that are no longer supported with no viable or affordable alternative.</source>
+        <target>Elypia wil de toekomst van software en technologie helpen door FOSS (free and open-source software) aan het publiek aan te bieden. We willen meer bibliotheken en frameworks zien waarmee junior-ontwikkelaars enterprise-grade applicaties kunnen maken voor kleinschalige doeleinden, klaar om die kennis mee te nemen om andere projecten en bedrijven te ondersteunen. We willen ook helpen bij het creëren van moderne, veilige en betrouwbare software, waarnaar kan worden verwezen of afgeleid voor kleine bedrijven zonder ons zorgen te maken over legacy-applicaties die niet langer worden ondersteund zonder een haalbaar of betaalbaar alternatief.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">53</context>
@@ -246,6 +228,7 @@
       </trans-unit>
       <trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
         <source>Privacy Policy</source>
+        <target>Privacybeleid</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
           <context context-type="linenumber">20</context>
@@ -253,6 +236,7 @@
       </trans-unit>
       <trans-unit id="78e4cee5a05521ae7132aba1014ceffa97daaa42" datatype="html">
         <source>Last updated on 1st August 2019</source>
+        <target>Laatst bijgewerkt op 1 augustus 2019</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
           <context context-type="linenumber">21</context>
@@ -263,21 +247,16 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ddf43dd9f2d98f6b828e37c238e1b274717d721c" datatype="html">
-        <source>
-    This privacy policy will try cover a broad range of Elypia's websites and services. It may be a good idea
-    to check if a particular service you're curious about has it's own policy on top of this general one.
-  </source>
+        <source>This privacy policy will try cover a broad range of Elypia's websites and services. It may be a good idea to check if a particular service you're curious about has it's own policy on top of this general one.</source>
+        <target>Dit privacybeleid zal proberen een breed scala van Elypia's websites en diensten te dekken. Het kan een goed idee zijn om te controleren of een bepaalde service waar u nieuwsgierig naar bent, zijn eigen beleid heeft boven op de algemene privacybeleid.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d01e0fca9dbcd10a99a65b57ed614f5fcb21a252" datatype="html">
-        <source>
-    The Elypia website currently doesn't store any information on users, however the web server that
-    is running the webpage you are viewing right now will have logged basic information about your connection such
-    as IP address.
-  </source>
+        <source>The Elypia website currently doesn't store any information on users, however the web server that is running the webpage you are viewing right now will have logged basic information about your connection such as IP address.</source>
+        <target>De Elypia website slaat momenteel geen informatie over gebruikers op, maar de webserver die de webpagina uitvoert die u nu bekijkt, heeft basisinformatie over uw verbinding vastgelegd, zoals het IP-adres.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
           <context context-type="linenumber">26</context>
@@ -285,37 +264,31 @@
       </trans-unit>
       <trans-unit id="78ab20361c236d2fa3bd642eb6cc1afe0ce9e759" datatype="html">
         <source>ePrivacy Directive</source>
+        <target>e-privacyrichtlijn</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4f31cf7be67e6a6f0b6888a6639887f921adcf65" datatype="html">
-        <source>
-    We try to minimize the use of cookies or local storage where possible without reducing
-    the functionality if the website or services. Due to this <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>we<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> don't add any tracking
-    or analytics cookies so see what you do nor send that data to advertisers.
-  </source>
+        <source>We try to minimize the use of cookies or local storage where possible without reducing the functionality if the website or services. Due to this <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>we<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> don't add any tracking or analytics cookies so see what you do nor send that data to advertisers. </source>
+        <target>We proberen het gebruik van cookies of lokale opslag waar mogelijk te minimaliseren zonder de functionaliteit van de website of services te verminderen. Vanwege dit voegen <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/> we <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> geen tracking- of analysecookies toe, noch kijken we naar wat u doet en we sturen die gegevens niet naar adverteerders. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4864be04ce8ffd2354c4e624dca48051686aa02a" datatype="html">
-        <source>
-    We are embedding code from other websites so they may also add cookies while your browse this website,
-    for example Discord or FontAwesome.
-  </source>
+        <source>We are embedding code from other websites so they may also add cookies while your browse this website, for example Discord or FontAwesome.</source>
+        <target>We voegen code van andere websites in, ze kunnen ook cookies toevoegen terwijl u deze website bezoekt, bijvoorbeeld Discord of FontAwesome.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1dd2ae650db5084fd9b37e7d07e41800f3c8666f" datatype="html">
-        <source>
-    This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage)
-    that's in active use.
-  </source>
+        <source>This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage) that's in active use.</source>
+        <target>Dit is een handmatige lijst die alle (of in elk geval de meeste) cookies (of lokale opslag en sessie opslag) opslaat die actief worden gebruikt.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
           <context context-type="linenumber">31</context>
@@ -323,100 +296,79 @@
       </trans-unit>
       <trans-unit id="d2a7deb7096cada2c3177157652680fe7e6de0ed" datatype="html">
         <source>Projects</source>
+        <target>Projecten</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7f3e68b4fb4b89d9d122b5108b3527b2dc76df1b" datatype="html">
-        <source>
-        Alexis is a free and open-source multi-purpose chatbot for Discord
-        and provides various integrations and moderation features to help
-        you have fun, and automate manage and moderation of your guild!
-      </source>
+        <source>Alexis is a free and open-source multi-purpose chatbot for Discord and provides various integrations and moderation features to help you have fun, and automate manage and moderation of your guild!</source>
+        <target>Alexis is een gratis en open-source multifunctionele chatbot voor Discord. Deze biedt verschillende integraties en moderatorfuncties om je te helpen plezier te hebben, het beheren en modereren van je gilde te automatiseren!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="defcc86d2359224945158bac8a1351d33535408b" datatype="html">
-        <source>
-        Commandler is a generic command handling framework for Java that
-        allows you to write your code once and integrate it anywhere
-        or multiple places in a single application.
-      </source>
+        <source>Commandler is a generic command handling framework for Java that allows you to write your code once and integrate it anywhere or multiple places in a single application.</source>
+        <target>Commandler is een generiek raamwerk voor opdrachtverwerking voor Java waarmee u uw code één keer kunt schrijven en deze overal of op meerdere plaatsen in één toepassing kunt integreren.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0ef84a4052a584037f69b3e467dd5dcc2647f3f5" datatype="html">
-        <source>
-        Commandler will handle all the work so it keeps implementing
-        commands quick and simple while the bulk of the work is handled by the framework.
-      </source>
+        <source>Commandler will handle all the work so it keeps implementing commands quick and simple while the bulk of the work is handled by the framework.</source>
+        <target>Commandler zal al het werk afhandelen, zodat commando's snel en eenvoudig blijft uitgevoerd worden, terwijl het grootste deel van het werk door het framework wordt afgehandeld.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="404b62356e04bbb96b591075d377283a7f5fbf64" datatype="html">
-        <source>
-        Confiler is a small service which can be online or self-hosted,
-        it's a cloud configuration service which will allow
-        users to define entities to process or store configuration for them.
-      </source>
+        <source>Confiler is a small service which can be online or self-hosted, it's a cloud configuration service which will allow users to define entities to process or store configuration for them.</source>
+        <target>Confiler is een kleine service die online of zelf kan worden gehost, het is een cloudconfiguratie-service waarmee gebruikers entiteiten kunnen definiëren om de configuratie voor hen te verwerken of op te slaan.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0513175d5ff5bd88d3786bbea0a4b205e605a62" datatype="html">
-        <source>
-        This is great for applications where you want to have a UI
-        for users to tailor their experience without having to write your
-        own web service dedicated to the generic job we all need.
-      </source>
+        <source>This is great for applications where you want to have a UI for users to tailor their experience without having to write your own web service dedicated to the generic job we all need.</source>
+        <target>Dit is geweldig voor toepassingen waarbij u een gebruikersinterface voor gebruikers wilt om hun ervaring aan te passen zonder dat u uw eigen webservice hoeft te schrijven die is toegewijd aan de generieke taak die we allemaal nodig hebben.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c6eed15b54d7a53fb2c3ad50589957ccf008eb2c" datatype="html">
-        <source>
-        Elypiai is a small but useful library that provides wraps for
-        many APIs available online that don't already have official implementations.
-      </source>
+        <source>Elypiai is a small but useful library that provides wraps for many APIs available online that don't already have official implementations.</source>
+        <target>Elypiai is een kleine, maar handige bibliotheek die wraps biedt voor veel online beschikbare API's die nog geen officiële implementaties hebben.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="40dcaaedf0983f5b3e387b7190e008103bed786e" datatype="html">
-        <source>
-        All wraps have been abstracted as to make it more consistent between
-        web services you're implementing and maximize pooling resources.
-      </source>
+        <source>All wraps have been abstracted as to make it more consistent between web services you're implementing and maximize pooling resources.</source>
+        <target>Alle wraps zijn abstract om het consistenter te maken tussen de webservices die u implementeert en het maximaliseren van pool-resources.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5a8c3a58c4d6aefad0098d935bd9dbb0fdff57da" datatype="html">
-        <source>
-        The Elypia Emotes are a free and open-source set of cute
-        red panda emoticons available under the Apache license.
-      </source>
+        <source>The Elypia Emotes are a free and open-source set of cute red panda emoticons available under the Apache license.</source>
+        <target>De Elypia Emotes zijn een gratis en open-source set of schattige rode panda-emoticons, beschikbaar onder de Apache licentie.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6c4d7806a345c0ae37e59d698f4e46ab1fa19626" datatype="html">
-        <source>
-        You can download, modify, reference, or redistribute them
-        as you see fit for any purpose, including commercial.
-      </source>
+        <source>You can download, modify, reference, or redistribute them as you see fit for any purpose, including commercial.</source>
+        <target>U kunt ze downloaden, wijzigen, ernaar verwijzen of herdistribueren als u dat nodig acht voor elk doel, inclusief voor commerciële doelstellingen.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
           <context context-type="linenumber">77</context>
@@ -424,6 +376,7 @@
       </trans-unit>
       <trans-unit id="6834fa6b43d1ecbdf147c48dd9c4d72f1484571d" datatype="html">
         <source>Source</source>
+        <target>Bron</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/project/project.component.html</context>
           <context context-type="linenumber">13</context>
