@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="nl">
     <body>
       <trans-unit id="66dabf2326a7946d29f9db1cc8f82462281e37f0" datatype="html">
         <source>Support Elypia</source>
+        <target>Steun Elypia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
           <context context-type="linenumber">20</context>
@@ -11,30 +12,23 @@
       </trans-unit>
       <trans-unit id="ff449555e304faec2f91d4dbe4ad0022763a574d" datatype="html">
         <source>Elypia is a Community Interest Company</source>
+        <target>Elypia is een Community Interest Company</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="55f152415f48d1f4d0ad4f0d89327c3bc53c5ed6" datatype="html">
-        <source>
-      While we try to be sustainable through subscriptions and services, it&apos;s favorable to receive
-      donations to keep everything as free as possible. As a non-profit, funding is what allows us to
-      continue to develop free and open-source software and push to provide free or affordable services.
-    </source>
+        <source>While we try to be sustainable through subscriptions and services, it's favorable to receive donations to keep everything as free as possible. As a non-profit, funding is what allows us to continue to develop free and open-source software and push to provide free or affordable services.</source>
+        <target>Hoewel we proberen duurzaam te zijn door middel van abonnementen en diensten, is het gunstig om donaties te ontvangen om alles zo gratis mogelijk te houden. Als een non-profit, financiering stelt ons in staat om gratis en open-source software te blijven ontwikkelen en deze gratis of betaalbare diensten aan te bieden.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b7bbe2f429b6d8cbb9d21f067dfc7b0e2fc1fe20" datatype="html">
-        <source>
-      As a Community Interest Company we will also be able to generate income
-      through selling subscriptions and services or by providing hosted solutions
-      for our open-source projects.
-      Donations will not be the only form of income for Elypia but strongly encouraged
-      and appreciated.
-    </source>
+        <source>As a Community Interest Company we will also be able to generate income through selling subscriptions and services or by providing hosted solutions for our open-source projects. Donations will not be the only form of income for Elypia but strongly encouraged and appreciated.</source>
+        <target>Als een Community Interest Company kunnen we ook inkomsten genereren door abonnementen en diensten te verkopen of door gehoste oplossingen te bieden voor onze open-sourceprojecten. Donaties zullen niet de enige vorm van inkomsten zijn voor Elypia, maar worden sterk aangemoedigd en gewaardeerd.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
           <context context-type="linenumber">48</context>
@@ -42,21 +36,15 @@
       </trans-unit>
       <trans-unit id="faa2e36d8a02346d34d5960e4b104ace3c98c127" datatype="html">
         <source>Where do donations go?</source>
+        <target>Waar gaan donaties naartoe?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
           <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="057abcc6d53753d7f3ebaa5d2f560dade8d429fb" datatype="html">
-        <source>
-      At present most costs are for technical infrastructure or legal obligations to keep
-      Elypia CIC and it&apos;s websites and services up. This includes domains, hosting,
-      content delivery, travel or paperwork, and any annual fees or requirements in order
-      to fulfill company wide obligations under legal justification.
-      Some projects may incur costs if new assets or branding is desired for them.
-      We are hopeful that in the future Elypia will be able to provide salaries
-      to those contributing and managing Elypia&apos;s projects.
-    </source>
+        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and it's websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
+        <target>Op dit moment zijn de meeste kosten voor technische infrastructuur of wettelijke verplichtingen om Elypia CIC en zijn websites en services up-to-date te houden. Dit omvat domeinen, hosting, levering van inhoud, reizen of papierwerk, en eventuele jaarlijkse kosten of vereisten om te voldoen aan bedrijfsbrede verplichtingen op basis van wettelijke rechtvaardiging. Sommige projecten kunnen kosten met zich meebrengen als nieuwe assets of branding voor hen gewenst zijn. We hopen dat Elypia in de toekomst in staat zal zijn om salarissen te verstrekken aan degenen die bijdragen aan Elypia's projecten en deze beheren.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
           <context context-type="linenumber">58</context>
@@ -64,31 +52,31 @@
       </trans-unit>
       <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
         <source>Email</source>
+        <target>E-mail</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4861e6e2bb02b8bab6e7da4fc3a069a05fbee272" datatype="html">
-        <source>You&apos;ll be asked to verify it post-registration!</source>
+        <source>You'll be asked to verify it post-registration!</source>
+        <target>U wordt gevraagd om het na registratie te verifiëren!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2da217bb0248e900437a6a4224280d238de92f6c" datatype="html">
-        <source>
-              Please enter a valid email address!
-            </source>
+        <source>Please enter a valid email address!</source>
+        <target>Gelieve een geldig e-mailadres in te geven!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="339e91ae7bdbea4e5271b735253fa4238181a4ac" datatype="html">
-        <source>
-              Email is required!
-            </source>
+        <source>Email is required!</source>
+        <target>Email is verplicht!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">35</context>
@@ -96,33 +84,31 @@
       </trans-unit>
       <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
         <source>Password</source>
+        <target>Wachtwoord</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="84dafd890f7a415e69a7e8a11b8c397b1916b769" datatype="html">
-        <source>
-            Considered using a password manager?
-          </source>
+        <source>Considered using a password manager?</source>
+        <target>Overweegt u een wachtwoordbeheerder te gebruiken?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="032fff8849ccc29d1ab02ac37420606a976cdd24" datatype="html">
-        <source>
-            Password must be between 8 and 72 characters!
-          </source>
+        <source>Password must be between 8 and 72 characters!</source>
+        <target>Wachtwoord moet tussen de 8 en 72 tekens lang zijn!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c562b9f9ce8bd9a18001ba5ba8f3545748089514" datatype="html">
-        <source>
-            Password is required!
-          </source>
+        <source>Password is required!</source>
+        <target>Wachtwoord is verplicht!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">55</context>
@@ -130,15 +116,15 @@
       </trans-unit>
       <trans-unit id="bcd1e439caba9926b076fbcad03d4837a1674a8c" datatype="html">
         <source>Verify Password</source>
+        <target>Bevestig wachtwoord</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c3bc24a3fbe456746530df41a51215ec6e81c15c" datatype="html">
-        <source>
-            Password must match!
-          </source>
+        <source>Password must match!</source>
+        <target>Wachtwoorden moeten overeenkomen!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">66</context>
@@ -146,15 +132,15 @@
       </trans-unit>
       <trans-unit id="7996757c79a1c08f21ec4be3208d6e7a8684ba4d" datatype="html">
         <source>Remember me!</source>
+        <target>Onthoud me!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d5b4cd0272163bc86ab653f5d4ea93f8145b9a5c" datatype="html">
-        <source>
-        It looks like you&apos;re new here so we brought up registration form instead for you!
-      </source>
+        <source>It looks like you're new here so we brought up registration form instead for you!</source>
+        <target>Het lijkt erop dat je hier nieuw bent, dus in plaats daarvan hebben we het registratieformulier voor je geopend!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">78</context>
@@ -162,6 +148,7 @@
       </trans-unit>
       <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
         <source>Source Code</source>
+        <target>Broncode</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/footer/footer.component.html</context>
           <context context-type="linenumber">37</context>
@@ -169,6 +156,7 @@
       </trans-unit>
       <trans-unit id="cc82fa89983785cb60daa0a7516c611fc02b5cd1" datatype="html">
         <source>Copyright</source>
+        <target>Auteursrechten</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/footer/footer.component.html</context>
           <context context-type="linenumber">40</context>
@@ -176,6 +164,7 @@
       </trans-unit>
       <trans-unit id="1bd566f1e843040be061facc31fee721112397ab" datatype="html">
         <source>We love free and open-source software!</source>
+        <target>We houden van gratis en open-source software!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/home/home.component.html</context>
           <context context-type="linenumber">25</context>
@@ -184,7 +173,7 @@
       <trans-unit id="b833c823f920b72bf3f5a2a19bdf1fa18451b042" datatype="html">
         <source>
       We want to make enterprise grade software development simpler to learn and utilize,
-      and to support sectors that aren&apos;t up-to-date or stuck by legacy proprietary abandonware.
+      and to support sectors that aren't up-to-date or stuck by legacy proprietary abandonware.
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/home/home.component.html</context>
@@ -275,8 +264,8 @@
       </trans-unit>
       <trans-unit id="ddf43dd9f2d98f6b828e37c238e1b274717d721c" datatype="html">
         <source>
-    This privacy policy will try cover a broad range of Elypia&apos;s websites and services. It may be a good idea
-    to check if a particular service you&apos;re curious about has it&apos;s own policy on top of this general one.
+    This privacy policy will try cover a broad range of Elypia's websites and services. It may be a good idea
+    to check if a particular service you're curious about has it's own policy on top of this general one.
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
@@ -285,7 +274,7 @@
       </trans-unit>
       <trans-unit id="d01e0fca9dbcd10a99a65b57ed614f5fcb21a252" datatype="html">
         <source>
-    The Elypia website currently doesn&apos;t store any information on users, however the web server that
+    The Elypia website currently doesn't store any information on users, however the web server that
     is running the webpage you are viewing right now will have logged basic information about your connection such
     as IP address.
   </source>
@@ -304,7 +293,7 @@
       <trans-unit id="4f31cf7be67e6a6f0b6888a6639887f921adcf65" datatype="html">
         <source>
     We try to minimize the use of cookies or local storage where possible without reducing
-    the functionality if the website or services. Due to this <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>we<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> don&apos;t add any tracking
+    the functionality if the website or services. Due to this <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>we<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> don't add any tracking
     or analytics cookies so see what you do nor send that data to advertisers.
   </source>
         <context-group purpose="location">
@@ -325,7 +314,7 @@
       <trans-unit id="1dd2ae650db5084fd9b37e7d07e41800f3c8666f" datatype="html">
         <source>
     This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage)
-    that&apos;s in active use.
+    that's in active use.
   </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
@@ -374,7 +363,7 @@
       <trans-unit id="404b62356e04bbb96b591075d377283a7f5fbf64" datatype="html">
         <source>
         Confiler is a small service which can be online or self-hosted,
-        it&apos;s a cloud configuration service which will allow
+        it's a cloud configuration service which will allow
         users to define entities to process or store configuration for them.
       </source>
         <context-group purpose="location">
@@ -396,7 +385,7 @@
       <trans-unit id="c6eed15b54d7a53fb2c3ad50589957ccf008eb2c" datatype="html">
         <source>
         Elypiai is a small but useful library that provides wraps for
-        many APIs available online that don&apos;t already have official implementations.
+        many APIs available online that don't already have official implementations.
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
@@ -406,7 +395,7 @@
       <trans-unit id="40dcaaedf0983f5b3e387b7190e008103bed786e" datatype="html">
         <source>
         All wraps have been abstracted as to make it more consistent between
-        web services you&apos;re implementing and maximize pooling resources.
+        web services you're implementing and maximize pooling resources.
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
