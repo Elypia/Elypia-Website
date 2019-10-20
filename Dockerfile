@@ -4,12 +4,12 @@ FROM nginx:1.17.4-alpine
 LABEL maintainer="seth@elypia.org"
 
 # Copy over the website over, it's just a single directory.
-COPY ./dist/elypia-website/ /usr/share/nginx/html/
+COPY ./dist/ /usr/share/nginx/html/
 
 # Copy NGINX configuration.
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
+# No need to export port 443 unless users will connect directly to this webserver.
 EXPOSE 80
-EXPOSE 443
 
 # Check the README.md to find our what else you'll want to do with the resulting image.

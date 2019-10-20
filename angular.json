@@ -39,7 +39,9 @@
             "scripts": [
               "./node_modules/cookieconsent/build/cookieconsent.min.js"
             ],
-            "es5BrowserSupport": true
+            "es5BrowserSupport": true,
+              "i18nFormat": "xlf",
+              "i18nMissingTranslation": "ignore"
           },
           "configurations": {
             "production": {
@@ -65,6 +67,18 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "fr": {
+              "baseHref": "/fr/",
+              "outputPath": "dist/fr/",
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nLocale": "fr"
+            },
+            "nl": {
+              "baseHref": "/nl/",
+              "outputPath": "dist/nl/",
+              "i18nFile": "src/locale/messages.nl.xlf",
+              "i18nLocale": "nl"
             }
           }
         },
@@ -76,6 +90,12 @@
           "configurations": {
             "production": {
               "browserTarget": "elypia-website:build:production"
+            },
+            "fr": {
+              "browserTarget": "elypia-website:build:fr"
+            },
+            "nl": {
+              "browserTarget": "elypia-website:build:nl"
             }
           }
         },
