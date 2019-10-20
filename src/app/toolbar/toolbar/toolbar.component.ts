@@ -46,9 +46,9 @@ export class ToolbarComponent implements OnInit {
 
   public constructor(
     public router: Router,
-    private logger: NGXLogger,
     public themeService: ThemeService,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    private logger: NGXLogger
   ) {
 
   }

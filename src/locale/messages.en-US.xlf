@@ -7,7 +7,6 @@
       </notes>
       <segment>
         <source>Support Elypia</source>
-        <target>Steun Elypia</target>
       </segment>
     </unit>
     <unit id="6430322565289651888">
@@ -16,7 +15,6 @@
       </notes>
       <segment>
         <source>Elypia is a Community Interest Company</source>
-        <target>Elypia is een Community Interest Company</target>
       </segment>
     </unit>
     <unit id="3181849337930656089">
@@ -29,7 +27,6 @@
       donations to keep everything as free as possible. As a non-profit, funding is what allows us to
       continue to develop free and open-source software and push to provide free or affordable services.
     </source>
-    <target>Hoewel we proberen duurzaam te zijn door middel van abonnementen en diensten, is het gunstig om donaties te ontvangen om alles zo gratis mogelijk te houden. Als een non-profit, financiering stelt ons in staat om gratis en open-source software te blijven ontwikkelen en deze gratis of betaalbare diensten aan te bieden.</target>
       </segment>
     </unit>
     <unit id="591533936414519442">
@@ -44,7 +41,6 @@
       Donations will not be the only form of income for Elypia but strongly encouraged
       and appreciated.
     </source>
-    <target>Als een Community Interest Company kunnen we ook inkomsten genereren door abonnementen en diensten te verkopen of door gehoste oplossingen te bieden voor onze open-sourceprojecten. Donaties zullen niet de enige vorm van inkomsten zijn voor Elypia, maar worden sterk aangemoedigd en gewaardeerd.</target>
       </segment>
     </unit>
     <unit id="3553291105288726297">
@@ -53,7 +49,6 @@
       </notes>
       <segment>
         <source>Where do donations go?</source>
-        <target>Waar gaan donaties naartoe?</target>
       </segment>
     </unit>
     <unit id="2591721272514064203">
@@ -70,7 +65,6 @@
       We are hopeful that in the future Elypia will be able to provide salaries
       to those contributing and managing Elypia&apos;s projects.
     </source>
-    <target>Op dit moment zijn de meeste kosten voor technische infrastructuur of wettelijke verplichtingen om Elypia CIC en zijn websites en services up-to-date te houden. Dit omvat domeinen, hosting, levering van inhoud, reizen of papierwerk, en eventuele jaarlijkse kosten of vereisten om te voldoen aan bedrijfsbrede verplichtingen op basis van wettelijke rechtvaardiging. Sommige projecten kunnen kosten met zich meebrengen als nieuwe assets of branding voor hen gewenst zijn. We hopen dat Elypia in de toekomst in staat zal zijn om salarissen te verstrekken aan degenen die bijdragen aan Elypia's projecten en deze beheren.</target>
       </segment>
     </unit>
     <unit id="4768749765465246664">
@@ -79,7 +73,6 @@
       </notes>
       <segment>
         <source>Email</source>
-        <target>E-mail</target>
       </segment>
     </unit>
     <unit id="4187964759170916454">
@@ -88,7 +81,6 @@
       </notes>
       <segment>
         <source>You&apos;ll be asked to verify it post-registration!</source>
-        <target>U wordt gevraagd om het na registratie te verifiëren!</target>
       </segment>
     </unit>
     <unit id="7377880154319072359">
@@ -99,7 +91,6 @@
         <source>
               Please enter a valid email address!
             </source>
-        <target>Gelieve een geldig e-mailadres in te geven!</target>
       </segment>
     </unit>
     <unit id="4279604917856186372">
@@ -110,7 +101,6 @@
         <source>
               Email is required!
             </source>
-        <target>Email is verplicht!</target>
       </segment>
     </unit>
     <unit id="1431416938026210429">
@@ -119,7 +109,6 @@
       </notes>
       <segment>
         <source>Password</source>
-        <target>Wachtwoord</target>
       </segment>
     </unit>
     <unit id="873228831895191877">
@@ -130,7 +119,6 @@
         <source>
             Considered using a password manager?
           </source>
-        <target>Overweegt u een wachtwoordbeheerder te gebruiken?</target>
       </segment>
     </unit>
     <unit id="4587072979811232044">
@@ -141,7 +129,6 @@
         <source>
             Password must be between 8 and 72 characters!
           </source>
-        <target>Wachtwoord moet tussen de 8 en 72 tekens lang zijn!</target>
       </segment>
     </unit>
     <unit id="1854993118946808150">
@@ -152,7 +139,6 @@
         <source>
             Password is required!
           </source>
-        <target>Wachtwoord is verplicht!</target>
       </segment>
     </unit>
     <unit id="2624407564538901883">
@@ -161,7 +147,6 @@
       </notes>
       <segment>
         <source>Verify Password</source>
-        <target>Bevestig wachtwoord</target>
       </segment>
     </unit>
     <unit id="2564664384236756990">
@@ -172,7 +157,6 @@
         <source>
             Password must match!
           </source>
-        <target>Wachtwoorden moeten overeenkomen!</target>
       </segment>
     </unit>
     <unit id="2028495304834716313">
@@ -181,7 +165,6 @@
       </notes>
       <segment>
         <source>Remember me!</source>
-        <target>Onthoud me!</target>
       </segment>
     </unit>
     <unit id="4414374839112968876">
@@ -192,7 +175,6 @@
         <source>
         It looks like you&apos;re new here so we brought up registration form instead for you!
       </source>
-      <target>Het lijkt erop dat je hier nieuw bent, dus in plaats daarvan hebben we het registratieformulier voor je geopend!</target>
       </segment>
     </unit>
     <unit id="4352526755847379280">
@@ -201,7 +183,6 @@
       </notes>
       <segment>
         <source>Source Code</source>
-        <target>Broncode</target>
       </segment>
     </unit>
     <unit id="8768506950499277937">
@@ -210,7 +191,6 @@
       </notes>
       <segment>
         <source>Copyright</source>
-        <target>Auteursrechten</target>
       </segment>
     </unit>
     <unit id="5558148313235533564">
@@ -219,7 +199,6 @@
       </notes>
       <segment>
         <source>We love free and open-source software!</source>
-        <target>We houden van gratis en open-source software!</target>
       </segment>
     </unit>
     <unit id="7769279246545383677">
@@ -231,7 +210,6 @@
       We want to make enterprise grade software development simpler to learn and utilize,
       and to support sectors that aren&apos;t up-to-date or stuck by legacy proprietary abandonware.
     </source>
-    <target>We willen softwareontwikkeling op ondernemingsniveau eenvoudiger maken om te leren en te gebruiken, en om sectoren te ondersteunen die niet up-to-date zijn of vastzitten door legacy gepatenteerde applicaties.</target>
       </segment>
     </unit>
     <unit id="2171894153326157864">
@@ -240,7 +218,6 @@
       </notes>
       <segment>
         <source>Introduction</source>
-        <target>Introductie</target>
       </segment>
     </unit>
     <unit id="7955281247214711376">
@@ -256,7 +233,6 @@
           and will hopefully move towards other areas outside of software that may aid educational institutions or
           less developed sectors attain alternatives over abandoned legacy applications.
         </source>
-        <target>Elypia CIC is een non-profit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> Community Interest Company<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> gevestigd in het Verenigd Koninkrijk dat meer gratis en open-source software naar verschillende sectoren wil brengen. Dit begint met software-ontwikkeling, gericht op junior-ontwikkelaars, en zal hopelijk naar andere gebieden buiten software gaan die onderwijsinstellingen of minder ontwikkelde sectoren kunnen helpen om alternatieven te vinden ten opzichte van legacy gepatenteerde applicaties. </target>
       </segment>
     </unit>
     <unit id="7814069298939347422">
@@ -265,7 +241,6 @@
       </notes>
       <segment>
         <source>Legal</source>
-        <target>Legaal</target>
       </segment>
     </unit>
     <unit id="7020349658687925330">
@@ -281,7 +256,6 @@
           <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a&gt;" dispEnd="&lt;/a&gt;">Companies House</pc>
           website. All projects Elypia takes on will adhere to the objectives in the aforementioned documents.
         </source>
-        <target>Een Community Interest Company is een organisatie zonder winstoogmerk in het Verenigd Koninkrijk die de structuur heeft van een naamloze vennootschap, maar belooft haar overschot te gebruiken als voordeel voor de gemeenschap, in tegenstelling tot het voordeel van haar bestuurders. Als CIC is Elypia verantwoordelijk voor het naleven van haar statuten en Community Interest Statement die beide te vinden zijn op de <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Company House <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> website. Alle projecten die Elypia op zich neemt, houden zich aan de doelstellingen in de bovengenoemde documenten. </target>
       </segment>
     </unit>
     <unit id="333846312452076555">
@@ -290,7 +264,6 @@
       </notes>
       <segment>
         <source>Mission</source>
-        <target>Missie</target>
       </segment>
     </unit>
     <unit id="7359224189680464943">
@@ -307,7 +280,6 @@
           or derived from for small businesses without worrying about legacy applications that are no longer
           supported with no viable or affordable alternative.
         </source>
-        <target>Elypia wil de toekomst van software en technologie helpen door FOSS (free and open-source software) aan het publiek aan te bieden. We willen meer bibliotheken en frameworks zien waarmee junior-ontwikkelaars enterprise-grade applicaties kunnen maken voor kleinschalige doeleinden, klaar om die kennis mee te nemen om andere projecten en bedrijven te ondersteunen. We willen ook helpen bij het creëren van moderne, veilige en betrouwbare software, waarnaar kan worden verwezen of afgeleid voor kleine bedrijven zonder ons zorgen te maken over legacy-applicaties die niet langer worden ondersteund zonder een haalbaar of betaalbaar alternatief.</target>
       </segment>
     </unit>
     <unit id="8439955599488894226">
@@ -316,7 +288,6 @@
       </notes>
       <segment>
         <source>Privacy Policy</source>
-        <target>Privacybeleid</target>
       </segment>
     </unit>
     <unit id="8883668681775036643">
@@ -326,7 +297,6 @@
       </notes>
       <segment>
         <source>Last updated on 1st August 2019</source>
-        <target>Laatst bijgewerkt op 1 augustus 2019</target>
       </segment>
     </unit>
     <unit id="3390150543323007733">
@@ -338,7 +308,6 @@
     This privacy policy will try cover a broad range of Elypia&apos;s websites and services. It may be a good idea
     to check if a particular service you&apos;re curious about has it&apos;s own policy on top of this general one.
   </source>
-        <target>Dit privacybeleid zal proberen een breed scala van Elypia's websites en diensten te dekken. Het kan een goed idee zijn om te controleren of een bepaalde service waar u nieuwsgierig naar bent, zijn eigen beleid heeft boven op de algemene privacybeleid.</target>
       </segment>
     </unit>
     <unit id="5587216025101261407">
@@ -351,7 +320,6 @@
     is running the webpage you are viewing right now will have logged basic information about your connection such
     as IP address.
   </source>
-        <target>De Elypia website slaat momenteel geen informatie over gebruikers op, maar de webserver die de webpagina uitvoert die u nu bekijkt, heeft basisinformatie over uw verbinding vastgelegd, zoals het IP-adres.</target>
       </segment>
     </unit>
     <unit id="925097765995858526">
@@ -360,7 +328,6 @@
       </notes>
       <segment>
         <source>ePrivacy Directive</source>
-        <target>e-privacyrichtlijn</target>
       </segment>
     </unit>
     <unit id="2234740756040952779">
@@ -373,7 +340,6 @@
     the functionality if the website or services. Due to this <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">we</pc> don&apos;t add any tracking
     or analytics cookies so see what you do nor send that data to advertisers.
   </source>
-        <target>We proberen het gebruik van cookies of lokale opslag waar mogelijk te minimaliseren zonder de functionaliteit van de website of services te verminderen. Vanwege dit voegen <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/> we <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> geen tracking- of analysecookies toe, noch kijken we naar wat u doet en we sturen die gegevens niet naar adverteerders. </target>
       </segment>
     </unit>
     <unit id="2696695702206930727">
@@ -385,7 +351,6 @@
     We are embedding code from other websites so they may also add cookies while your browse this website,
     for example Discord or FontAwesome.
   </source>
-        <target>We voegen code van andere websites in, ze kunnen ook cookies toevoegen terwijl u deze website bezoekt, bijvoorbeeld Discord of FontAwesome.</target>
       </segment>
     </unit>
     <unit id="5813675142612780645">
@@ -397,7 +362,6 @@
     This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage)
     that&apos;s in active use.
   </source>
-        <target>Dit is een handmatige lijst die alle (of in elk geval de meeste) cookies (of lokale opslag en sessie opslag) opslaat die actief worden gebruikt.</target>
       </segment>
     </unit>
     <unit id="7091571651222742304">
@@ -406,7 +370,6 @@
       </notes>
       <segment>
         <source>Projects</source>
-        <target>Projecten</target>
       </segment>
     </unit>
     <unit id="432830611096051697">
@@ -419,7 +382,6 @@
         and provides various integrations and moderation features to help
         you have fun, and automate manage and moderation of your guild!
       </source>
-        <target>Alexis is een gratis en open-source multifunctionele chatbot voor Discord. Deze biedt verschillende integraties en moderatorfuncties om je te helpen plezier te hebben, het beheren en modereren van je gilde te automatiseren!</target>
       </segment>
     </unit>
     <unit id="4161509291961455190">
@@ -432,7 +394,6 @@
         allows you to write your code once and integrate it anywhere
         or multiple places in a single application.
       </source>
-        <target>Commandler is een generiek raamwerk voor opdrachtverwerking voor Java waarmee u uw code één keer kunt schrijven en deze overal of op meerdere plaatsen in één toepassing kunt integreren.</target>
       </segment>
     </unit>
     <unit id="7905975320081534057">
@@ -444,7 +405,6 @@
         Commandler will handle all the work so it keeps implementing
         commands quick and simple while the bulk of the work is handled by the framework.
       </source>
-        <target>Commandler zal al het werk afhandelen, zodat commando's snel en eenvoudig blijft uitgevoerd worden, terwijl het grootste deel van het werk door het framework wordt afgehandeld.</target>
       </segment>
     </unit>
     <unit id="984256389927634082">
@@ -457,7 +417,6 @@
         it&apos;s a cloud configuration service which will allow
         users to define entities to process or store configuration for them.
       </source>
-        <target>Confiler is een kleine service die online of zelf kan worden gehost, het is een cloudconfiguratie-service waarmee gebruikers entiteiten kunnen definiëren om de configuratie voor hen te verwerken of op te slaan.</target>
       </segment>
     </unit>
     <unit id="854901176962488091">
@@ -470,7 +429,6 @@
         for users to tailor their experience without having to write your
         own web service dedicated to the generic job we all need.
       </source>
-        <target>Dit is geweldig voor toepassingen waarbij u een gebruikersinterface voor gebruikers wilt om hun ervaring aan te passen zonder dat u uw eigen webservice hoeft te schrijven die is toegewijd aan de generieke taak die we allemaal nodig hebben.</target>
       </segment>
     </unit>
     <unit id="7553351457679207875">
@@ -482,7 +440,6 @@
         Elypiai is a small but useful library that provides wraps for
         many APIs available online that don&apos;t already have official implementations.
       </source>
-        <target>Elypiai is een kleine, maar handige bibliotheek die wraps biedt voor veel online beschikbare API's die nog geen officiële implementaties hebben.</target>
       </segment>
     </unit>
     <unit id="626381122117791964">
@@ -494,7 +451,6 @@
         All wraps have been abstracted as to make it more consistent between
         web services you&apos;re implementing and maximize pooling resources.
       </source>
-        <target>Alle wraps zijn abstract om het consistenter te maken tussen de webservices die u implementeert en het maximaliseren van pool-resources.</target>
       </segment>
     </unit>
     <unit id="7732637234197301786">
@@ -506,7 +462,6 @@
         The Elypia Emotes are a free and open-source set of cute
         red panda emoticons available under the Apache license.
       </source>
-        <target>De Elypia Emotes zijn een gratis en open-source set of schattige rode panda-emoticons, beschikbaar onder de Apache licentie.</target>
       </segment>
     </unit>
     <unit id="728722169853993035">
@@ -518,7 +473,6 @@
         You can download, modify, reference, or redistribute them
         as you see fit for any purpose, including commercial.
       </source>
-        <target>U kunt ze downloaden, wijzigen, ernaar verwijzen of herdistribueren als u dat nodig acht voor elk doel, inclusief voor commerciële doelstellingen.</target>
       </segment>
     </unit>
     <unit id="9155608366859514313">
