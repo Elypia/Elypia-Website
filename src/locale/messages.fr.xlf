@@ -1,41 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
-  <file original="ng.template" id="ngi18n">
-    <unit id="4511367519237754898">
-      <notes>
-        <note category="location">app/donate/donate/donate.component.html:20</note>
-      </notes>
-      <segment>
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="fr">
+    <body>
+      <trans-unit id="66dabf2326a7946d29f9db1cc8f82462281e37f0" datatype="html">
         <source>Support Elypia</source>
         <target>Soutenir Elypia</target>
-      </segment>
-    </unit>
-    <unit id="6430322565289651888">
-      <notes>
-        <note category="location">app/donate/donate/donate.component.html:42</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff449555e304faec2f91d4dbe4ad0022763a574d" datatype="html">
         <source>Elypia is a Community Interest Company</source>
         <target>Elypia est une société d'intérêt communautaire</target>
-      </segment>
-    </unit>
-    <unit id="3181849337930656089">
-      <notes>
-        <note category="location">app/donate/donate/donate.component.html:43,47</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55f152415f48d1f4d0ad4f0d89327c3bc53c5ed6" datatype="html">
         <source>
-      While we try to be sustainable through subscriptions and services, it&apos;s favorable to receive
+      While we try to be sustainable through subscriptions and services, it's favorable to receive
       donations to keep everything as free as possible. As a non-profit, funding is what allows us to
       continue to develop free and open-source software and push to provide free or affordable services.
     </source>
-      </segment>
-    </unit>
-    <unit id="591533936414519442">
-      <notes>
-        <note category="location">app/donate/donate/donate.component.html:48,54</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7bbe2f429b6d8cbb9d21f067dfc7b0e2fc1fe20" datatype="html">
         <source>
       As a Community Interest Company we will also be able to generate income
       through selling subscriptions and services or by providing hosted solutions
@@ -43,249 +37,219 @@
       Donations will not be the only form of income for Elypia but strongly encouraged
       and appreciated.
     </source>
-      </segment>
-    </unit>
-    <unit id="3553291105288726297">
-      <notes>
-        <note category="location">app/donate/donate/donate.component.html:57</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faa2e36d8a02346d34d5960e4b104ace3c98c127" datatype="html">
         <source>Where do donations go?</source>
         <target>Où vont les dons ?</target>
-      </segment>
-    </unit>
-    <unit id="2591721272514064203">
-      <notes>
-        <note category="location">app/donate/donate/donate.component.html:58,66</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="057abcc6d53753d7f3ebaa5d2f560dade8d429fb" datatype="html">
         <source>
       At present most costs are for technical infrastructure or legal obligations to keep
-      Elypia CIC and it&apos;s websites and services up. This includes domains, hosting,
+      Elypia CIC and it's websites and services up. This includes domains, hosting,
       content delivery, travel or paperwork, and any annual fees or requirements in order
       to fulfill company wide obligations under legal justification.
       Some projects may incur costs if new assets or branding is desired for them.
       We are hopeful that in the future Elypia will be able to provide salaries
-      to those contributing and managing Elypia&apos;s projects.
+      to those contributing and managing Elypia's projects.
     </source>
-      </segment>
-    </unit>
-    <unit id="4768749765465246664">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:24</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
         <source>Email</source>
         <target>Email</target>
-      </segment>
-    </unit>
-    <unit id="4187964759170916454">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:30</note>
-      </notes>
-      <segment>
-        <source>You&apos;ll be asked to verify it post-registration!</source>
-      </segment>
-    </unit>
-    <unit id="7377880154319072359">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:32,34</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4861e6e2bb02b8bab6e7da4fc3a069a05fbee272" datatype="html">
+        <source>You'll be asked to verify it post-registration!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2da217bb0248e900437a6a4224280d238de92f6c" datatype="html">
         <source>
               Please enter a valid email address!
             </source>
-      </segment>
-    </unit>
-    <unit id="4279604917856186372">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:35,37</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="339e91ae7bdbea4e5271b735253fa4238181a4ac" datatype="html">
         <source>
               Email is required!
             </source>
-      </segment>
-    </unit>
-    <unit id="1431416938026210429">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:44</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
         <source>Password</source>
         <target>Mot de passe</target>
-      </segment>
-    </unit>
-    <unit id="873228831895191877">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:49,51</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84dafd890f7a415e69a7e8a11b8c397b1916b769" datatype="html">
         <source>
             Considered using a password manager?
           </source>
-      </segment>
-    </unit>
-    <unit id="4587072979811232044">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:52,54</note>
-      </notes>
-      <segment>
-        <source>
-            Password must be between 8 and 72 characters!
-          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="032fff8849ccc29d1ab02ac37420606a976cdd24" datatype="html">
+        <source>Password must be between 8 and 72 characters!</source>
         <target>Le mot de passe doit avoir entre 8 et 72 caractères !</target>
-      </segment>
-    </unit>
-    <unit id="1854993118946808150">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:55,57</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c562b9f9ce8bd9a18001ba5ba8f3545748089514" datatype="html">
         <source>
             Password is required!
           </source>
-      </segment>
-    </unit>
-    <unit id="2624407564538901883">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:61</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bcd1e439caba9926b076fbcad03d4837a1674a8c" datatype="html">
         <source>Verify Password</source>
         <target>vérifier le mot de passe</target>
-      </segment>
-    </unit>
-    <unit id="2564664384236756990">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:66,68</note>
-      </notes>
-      <segment>
-        <source>
-            Password must match!
-          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3bc24a3fbe456746530df41a51215ec6e81c15c" datatype="html">
+        <source>Password must match!</source>
         <target>Le mot de passe doit correspondre !</target>
-      </segment>
-    </unit>
-    <unit id="2028495304834716313">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:72</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7996757c79a1c08f21ec4be3208d6e7a8684ba4d" datatype="html">
         <source>Remember me!</source>
         <target>Souviens-toi de moi !</target>
-      </segment>
-    </unit>
-    <unit id="4414374839112968876">
-      <notes>
-        <note category="location">app/dialogs/login-form/login-form.component.html:78,80</note>
-      </notes>
-      <segment>
-        <source>
-        It looks like you&apos;re new here so we brought up registration form instead for you!
-      </source>
-      <target>On dirait que vous êtes nouveau ici, nous avons donc créé le formulaire d'inscription à votre place !</target>
-      </segment>
-    </unit>
-    <unit id="4352526755847379280">
-      <notes>
-        <note category="location">app/components/footer/footer.component.html:37</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5b4cd0272163bc86ab653f5d4ea93f8145b9a5c" datatype="html">
+        <source>It looks like you're new here so we brought up registration form instead for you!</source>
+        <target>On dirait que vous êtes nouveau ici, nous avons donc créé le formulaire d'inscription à votre place !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
         <source>Source Code</source>
         <target>Code source</target>
-      </segment>
-    </unit>
-    <unit id="8768506950499277937">
-      <notes>
-        <note category="location">app/components/footer/footer.component.html:40</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc82fa89983785cb60daa0a7516c611fc02b5cd1" datatype="html">
         <source>Copyright</source>
         <target>Droits d'auteur</target>
-      </segment>
-    </unit>
-    <unit id="5558148313235533564">
-      <notes>
-        <note category="location">app/pages/home/home.component.html:25</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1bd566f1e843040be061facc31fee721112397ab" datatype="html">
         <source>We love free and open-source software!</source>
-      </segment>
-    </unit>
-    <unit id="7769279246545383677">
-      <notes>
-        <note category="location">app/pages/home/home.component.html:26,29</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/home/home.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b833c823f920b72bf3f5a2a19bdf1fa18451b042" datatype="html">
         <source>
       We want to make enterprise grade software development simpler to learn and utilize,
-      and to support sectors that aren&apos;t up-to-date or stuck by legacy proprietary abandonware.
+      and to support sectors that aren't up-to-date or stuck by legacy proprietary abandonware.
     </source>
-      </segment>
-    </unit>
-    <unit id="2171894153326157864">
-      <notes>
-        <note category="location">app/pages/about/about.component.html:30</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/home/home.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5499b81e5db6d551e39b1731b360d787148bfea2" datatype="html">
         <source>Introduction</source>
         <target>Introduction</target>
-      </segment>
-    </unit>
-    <unit id="7955281247214711376">
-      <notes>
-        <note category="location">app/pages/about/about.component.html:31,38</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f6857b9a4047b30cea39a36d80b820d30c83ff3" datatype="html">
         <source>
           Elypia CIC is a non-profit
-          <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a&gt;" dispEnd="&lt;/a&gt;">Community Interest Company</pc>
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Community Interest Company<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
           based in the United Kingdom that wants to bring more free and open-source software to
           different sectors. This is starting with software development, aimed at junior developers,
           and will hopefully move towards other areas outside of software that may aid educational institutions or
           less developed sectors attain alternatives over abandoned legacy applications.
         </source>
-      </segment>
-    </unit>
-    <unit id="7814069298939347422">
-      <notes>
-        <note category="location">app/pages/about/about.component.html:41</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a91783e9c0f790ed49edae730f9156070ed9dd5" datatype="html">
         <source>Legal</source>
         <target>Légal</target>
-      </segment>
-    </unit>
-    <unit id="7020349658687925330">
-      <notes>
-        <note category="location">app/pages/about/about.component.html:42,49</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d65fed31fff5b3d71eac59f09e9665e07ae18ed" datatype="html">
         <source>
           A Community Interest Company is a non-profit organization in the United Kingdom which
           has the structure of a limited company, but pledges to use its surplus for community benefit,
           as opposed to the benefit of its directors. As a CIC, Elypia has a responsibility to follow
           its Articles of Association and Community Interest Statement which can both be found on the
-          <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a&gt;" dispEnd="&lt;/a&gt;">Companies House</pc>
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Companies House<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
           website. All projects Elypia takes on will adhere to the objectives in the aforementioned documents.
         </source>
-      </segment>
-    </unit>
-    <unit id="333846312452076555">
-      <notes>
-        <note category="location">app/pages/about/about.component.html:52</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd8fea6883aa5d60999b1ab27276b128d51441fa" datatype="html">
         <source>Mission</source>
         <target>Mission</target>
-      </segment>
-    </unit>
-    <unit id="7359224189680464943">
-      <notes>
-        <note category="location">app/pages/about/about.component.html:53,61</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac7cf7d5673c5a91150df8c7a11952bd5baa5e4d" datatype="html">
         <source>
           Elypia wants to aid the future of software and technology by providing FOSS
           (free and open-source software) to the public free of charge. We want to see more libraries and frameworks that allow
@@ -295,209 +259,197 @@
           or derived from for small businesses without worrying about legacy applications that are no longer
           supported with no viable or affordable alternative.
         </source>
-      </segment>
-    </unit>
-    <unit id="8439955599488894226">
-      <notes>
-        <note category="location">app/pages/privacy/privacy.component.html:20</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/about/about.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
         <source>Privacy Policy</source>
-      </segment>
-    </unit>
-    <unit id="8883668681775036643">
-      <notes>
-        <note category="location">app/pages/privacy/privacy.component.html:21</note>
-        <note category="location">app/pages/eprivacy/eprivacy.component.html:21</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78e4cee5a05521ae7132aba1014ceffa97daaa42" datatype="html">
         <source>Last updated on 1st August 2019</source>
         <target>Dernière mise à jour le 1er août 2019</target>
-      </segment>
-    </unit>
-    <unit id="3390150543323007733">
-      <notes>
-        <note category="location">app/pages/privacy/privacy.component.html:22,25</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ddf43dd9f2d98f6b828e37c238e1b274717d721c" datatype="html">
         <source>
-    This privacy policy will try cover a broad range of Elypia&apos;s websites and services. It may be a good idea
-    to check if a particular service you&apos;re curious about has it&apos;s own policy on top of this general one.
+    This privacy policy will try cover a broad range of Elypia's websites and services. It may be a good idea
+    to check if a particular service you're curious about has it's own policy on top of this general one.
   </source>
-      </segment>
-    </unit>
-    <unit id="5587216025101261407">
-      <notes>
-        <note category="location">app/pages/privacy/privacy.component.html:26,30</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d01e0fca9dbcd10a99a65b57ed614f5fcb21a252" datatype="html">
         <source>
-    The Elypia website currently doesn&apos;t store any information on users, however the web server that
+    The Elypia website currently doesn't store any information on users, however the web server that
     is running the webpage you are viewing right now will have logged basic information about your connection such
     as IP address.
   </source>
-      </segment>
-    </unit>
-    <unit id="925097765995858526">
-      <notes>
-        <note category="location">app/pages/eprivacy/eprivacy.component.html:20</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78ab20361c236d2fa3bd642eb6cc1afe0ce9e759" datatype="html">
         <source>ePrivacy Directive</source>
-      </segment>
-    </unit>
-    <unit id="2234740756040952779">
-      <notes>
-        <note category="location">app/pages/eprivacy/eprivacy.component.html:22,26</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f31cf7be67e6a6f0b6888a6639887f921adcf65" datatype="html">
         <source>
     We try to minimize the use of cookies or local storage where possible without reducing
-    the functionality if the website or services. Due to this <pc id="0" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">we</pc> don&apos;t add any tracking
+    the functionality if the website or services. Due to this <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>we<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> don't add any tracking
     or analytics cookies so see what you do nor send that data to advertisers.
   </source>
-      </segment>
-    </unit>
-    <unit id="2696695702206930727">
-      <notes>
-        <note category="location">app/pages/eprivacy/eprivacy.component.html:27,30</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4864be04ce8ffd2354c4e624dca48051686aa02a" datatype="html">
         <source>
     We are embedding code from other websites so they may also add cookies while your browse this website,
     for example Discord or FontAwesome.
   </source>
-      </segment>
-    </unit>
-    <unit id="5813675142612780645">
-      <notes>
-        <note category="location">app/pages/eprivacy/eprivacy.component.html:31,34</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1dd2ae650db5084fd9b37e7d07e41800f3c8666f" datatype="html">
         <source>
     This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage)
-    that&apos;s in active use.
+    that's in active use.
   </source>
-      </segment>
-    </unit>
-    <unit id="7091571651222742304">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:20</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d2a7deb7096cada2c3177157652680fe7e6de0ed" datatype="html">
         <source>Projects</source>
-      </segment>
-    </unit>
-    <unit id="432830611096051697">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:25,29</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f3e68b4fb4b89d9d122b5108b3527b2dc76df1b" datatype="html">
         <source>
         Alexis is a free and open-source multi-purpose chatbot for Discord
         and provides various integrations and moderation features to help
         you have fun, and automate manage and moderation of your guild!
       </source>
-      </segment>
-    </unit>
-    <unit id="4161509291961455190">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:34,38</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="defcc86d2359224945158bac8a1351d33535408b" datatype="html">
         <source>
         Commandler is a generic command handling framework for Java that
         allows you to write your code once and integrate it anywhere
         or multiple places in a single application.
       </source>
-      </segment>
-    </unit>
-    <unit id="7905975320081534057">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:39,42</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ef84a4052a584037f69b3e467dd5dcc2647f3f5" datatype="html">
         <source>
         Commandler will handle all the work so it keeps implementing
         commands quick and simple while the bulk of the work is handled by the framework.
       </source>
-      </segment>
-    </unit>
-    <unit id="984256389927634082">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:47,51</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="404b62356e04bbb96b591075d377283a7f5fbf64" datatype="html">
         <source>
         Confiler is a small service which can be online or self-hosted,
-        it&apos;s a cloud configuration service which will allow
+        it's a cloud configuration service which will allow
         users to define entities to process or store configuration for them.
       </source>
-      </segment>
-    </unit>
-    <unit id="854901176962488091">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:52,56</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0513175d5ff5bd88d3786bbea0a4b205e605a62" datatype="html">
         <source>
         This is great for applications where you want to have a UI
         for users to tailor their experience without having to write your
         own web service dedicated to the generic job we all need.
       </source>
-      </segment>
-    </unit>
-    <unit id="7553351457679207875">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:61,64</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6eed15b54d7a53fb2c3ad50589957ccf008eb2c" datatype="html">
         <source>
         Elypiai is a small but useful library that provides wraps for
-        many APIs available online that don&apos;t already have official implementations.
+        many APIs available online that don't already have official implementations.
       </source>
-      </segment>
-    </unit>
-    <unit id="626381122117791964">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:65,68</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40dcaaedf0983f5b3e387b7190e008103bed786e" datatype="html">
         <source>
         All wraps have been abstracted as to make it more consistent between
-        web services you&apos;re implementing and maximize pooling resources.
+        web services you're implementing and maximize pooling resources.
       </source>
-      </segment>
-    </unit>
-    <unit id="7732637234197301786">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:73,76</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a8c3a58c4d6aefad0098d935bd9dbb0fdff57da" datatype="html">
         <source>
         The Elypia Emotes are a free and open-source set of cute
         red panda emoticons available under the Apache license.
       </source>
-      </segment>
-    </unit>
-    <unit id="728722169853993035">
-      <notes>
-        <note category="location">app/pages/projects/projects.component.html:77,80</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c4d7806a345c0ae37e59d698f4e46ab1fa19626" datatype="html">
         <source>
         You can download, modify, reference, or redistribute them
         as you see fit for any purpose, including commercial.
       </source>
-      </segment>
-    </unit>
-    <unit id="9155608366859514313">
-      <notes>
-        <note category="location">app/components/project/project.component.html:13</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/pages/projects/projects.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6834fa6b43d1ecbdf147c48dd9c4d72f1484571d" datatype="html">
         <source>Source</source>
-      </segment>
-    </unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/project/project.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+    </body>
   </file>
 </xliff>

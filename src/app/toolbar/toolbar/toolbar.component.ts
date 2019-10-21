@@ -38,6 +38,10 @@ export class ToolbarComponent implements OnInit {
   /** Child view of mobile toolbar to interact with it during resize. */
   @ViewChild(MobileToolbarMenuComponent, {static: false}) private readonly mobileToolbar: MobileToolbarMenuComponent;
 
+  public readonly Locales = [
+    'en-US', 'nl', 'fr'
+  ];
+
   /** If the mobile toolbar should be visible to the user. */
   public mobileMenuVisible: boolean;
 
