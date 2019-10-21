@@ -40,8 +40,8 @@
               "./node_modules/cookieconsent/build/cookieconsent.min.js"
             ],
             "es5BrowserSupport": true,
-              "i18nFormat": "xlf",
-              "i18nMissingTranslation": "ignore"
+            "i18nFormat": "xlf",
+            "i18nMissingTranslation": "ignore"
           },
           "configurations": {
             "production": {
