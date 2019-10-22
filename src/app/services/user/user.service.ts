@@ -22,7 +22,7 @@ import {Observable, of, throwError} from 'rxjs';
 import {environment} from '../../../environments/environment';
 import {User} from './user';
 import {catchError, map} from 'rxjs/operators';
-import LoginForm from '../../dialogs/login-form/login-form';
+import LoginForm from '../../toolbar/login-form/login-form';
 
 @Injectable({
   providedIn: 'root'

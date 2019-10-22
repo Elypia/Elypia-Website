@@ -20,7 +20,7 @@
   <mat-toolbar class="mat-elevation-z8">
     <div class="container toolbar-content">
       <a routerLink="/">
-        <img id="toolbar-logo" src="/assets/elypia_white_by_sevdev.png" alt="Elypia Text Logo">
+        <img id="toolbar-logo" src="/assets/elypia_text_by_sevdev.svg" alt="Elypia Text Logo">
       </a>
       <div>
         <div class="large-only">
@@ -52,6 +52,9 @@
           </ng-container>
         </div>
         <button mat-button class="small-only" (click)="onMobileMenuToggle()">Menu</button>
+        <button mat-icon-button (click)="openLocaleDialog()">
+          <mat-icon fontSet="fas" fontIcon="fa-language"></mat-icon>
+        </button>
         <button mat-icon-button [matMenuTriggerFor]="appMenu">
           <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
         </button>

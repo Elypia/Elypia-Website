@@ -1,0 +1,24 @@
+#locale-title {
+  text-align: center;
+  margin-bottom: .5em;
+}
+
+.locale {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  user-select: none;
+}
+
+.locale-button {
+  margin: .25em 1em;
+}
+
+.locale-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locale-badge {
+  display: inline;
+}

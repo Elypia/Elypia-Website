@@ -8,6 +8,7 @@
   "license": "GNU AGPLv3",
   "author": "seth@elypia.org (Syed Seth)",
   "homepage": "https://elypia.org/",
+  "private": true,
   "config": {
     "locales": "en-US fr nl"
   },
@@ -25,7 +26,6 @@
     "xi18n": "ng xi18n --i18n-locale en-US --output-path ./locale/ --out-file messages.en-US.xlf",
     "check": "npm run-script lint && npm run-script test && npm run-script e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^8.2.11",
     "@angular/cdk": "^8.2.3",

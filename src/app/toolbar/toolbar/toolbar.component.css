@@ -70,6 +70,10 @@ app-mobile-toolbar-menu:not(.mobile-menu-toggled) {
   display: none;
 }
 
+.locale-badge {
+  height: 1em;
+}
+
 @media (min-width: 720px) {
 
   .large-only {

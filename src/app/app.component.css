@@ -37,7 +37,7 @@
     z-index: -1;
     width: 100%;
     height: 80%;
-    background-image: url("/assets/elypia_watermark.png");
+    background-image: url("/assets/elypia_watermark.svg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;

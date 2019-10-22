@@ -18,12 +18,13 @@
 
 import {Component, HostListener, Input, OnInit, ViewChild} from '@angular/core';
 import {ThemeService} from '../../services/theme/theme.service';
-import {LoginFormComponent} from '../../dialogs/login-form/login-form.component';
+import {LoginFormComponent} from '../login-form/login-form.component';
 import {MatDialog} from '@angular/material';
 import {MobileToolbarMenuComponent} from '../mobile-toolbar-menu/mobile-toolbar-menu.component';
 import {NavigationStart, Router, RouterEvent} from '@angular/router';
 import {NGXLogger} from 'ngx-logger';
 import {MenuNode} from '../toolbar';
+import {LocaleSelectionComponent} from '../locale-selection/locale-selection.component';
 
 @Component({
   selector: 'app-toolbar',
@@ -37,10 +38,6 @@ export class ToolbarComponent implements OnInit {
 
   /** Child view of mobile toolbar to interact with it during resize. */
   @ViewChild(MobileToolbarMenuComponent, {static: false}) private readonly mobileToolbar: MobileToolbarMenuComponent;
-
-  public readonly Locales = [
-    'en-US', 'nl', 'fr'
-  ];
 
   /** If the mobile toolbar should be visible to the user. */
   public mobileMenuVisible: boolean;
@@ -71,8 +68,14 @@ export class ToolbarComponent implements OnInit {
     });
   }
 
-  public openDialog(): void {
+  public openLoginDialog(): void {
     this.dialog.open(LoginFormComponent);
+  }
+
+  public openLocaleDialog(): void {
+    this.dialog.open(LocaleSelectionComponent, {
+      width: '360px'
+    });
   }
 
   /**

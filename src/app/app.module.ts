@@ -35,7 +35,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {ArticlePageComponent} from './article/article-page/article-page.component';
-import {LoginFormComponent} from './dialogs/login-form/login-form.component';
+import {LoginFormComponent} from './toolbar/login-form/login-form.component';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {AboutComponent} from './pages/about/about.component';
 import {OverlayContainer} from '@angular/cdk/overlay';
@@ -58,6 +58,7 @@ import {ProjectComponent} from './components/project/project.component';
 import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ArticleModule} from './article/article.module';
+import {MatMenuModule} from '@angular/material/menu';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -111,7 +112,6 @@ const markdownOptions: MarkdownModuleConfig = {
     AppComponent,
     FooterComponent,
     HomeComponent,
-    LoginFormComponent,
     AboutComponent,
     SocialComponent,
     PrivacyComponent,
@@ -157,7 +157,8 @@ const markdownOptions: MarkdownModuleConfig = {
     MatListModule,
     MatButtonToggleModule,
     FormsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [
