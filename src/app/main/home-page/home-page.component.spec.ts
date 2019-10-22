@@ -18,21 +18,29 @@
 
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {ProjectsComponent} from './projects.component';
-import {ProjectComponent} from '../../components/project/project.component';
+import {HomePageComponent} from './home-page.component';
+import {ElyLoadableModule} from '@elypia/ng-elypian';
+import {RouterTestingModule} from '@angular/router/testing';
+import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
+import {HttpClientModule} from '@angular/common/http';
+import {ArticleModule} from '../../article/article.module';
 import {MatCardModule} from '@angular/material/card';
 
-describe('ProjectsComponent', () => {
-  let component: ProjectsComponent;
-  let fixture: ComponentFixture<ProjectsComponent>;
+describe('HomeComponent', () => {
+  let component: HomePageComponent;
+  let fixture: ComponentFixture<HomePageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        ProjectsComponent,
-        ProjectComponent
+        HomePageComponent
       ],
       imports: [
+        MarkdownModule.forRoot({markedOptions: {provide: MarkedOptions}}),
+        HttpClientModule,
+        RouterTestingModule,
+        ArticleModule,
+        ElyLoadableModule,
         MatCardModule
       ]
     })
@@ -40,7 +48,7 @@ describe('ProjectsComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProjectsComponent);
+    fixture = TestBed.createComponent(HomePageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

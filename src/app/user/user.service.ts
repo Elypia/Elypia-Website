@@ -19,10 +19,10 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpErrorResponse, HttpParams} from '@angular/common/http';
 import {Observable, of, throwError} from 'rxjs';
-import {environment} from '../../../environments/environment';
+import {environment} from '../../environments/environment';
 import {User} from './user';
 import {catchError, map} from 'rxjs/operators';
-import LoginForm from '../../toolbar/login-form/login-form';
+import LoginForm from '../toolbar/login-form/login-form';
 
 @Injectable({
   providedIn: 'root'

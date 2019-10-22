@@ -18,16 +18,20 @@
 
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {AboutComponent} from './about.component';
+import {ProjectsPageComponent} from './projects-page.component';
+import {ProjectComponent} from '../project/project.component';
 import {MatCardModule} from '@angular/material/card';
 
-describe('AboutComponent', () => {
-  let component: AboutComponent;
-  let fixture: ComponentFixture<AboutComponent>;
+describe('ProjectsComponent', () => {
+  let component: ProjectsPageComponent;
+  let fixture: ComponentFixture<ProjectsPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AboutComponent ],
+      declarations: [
+        ProjectsPageComponent,
+        ProjectComponent
+      ],
       imports: [
         MatCardModule
       ]
@@ -36,7 +40,7 @@ describe('AboutComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AboutComponent);
+    fixture = TestBed.createComponent(ProjectsPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

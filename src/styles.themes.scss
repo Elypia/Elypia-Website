@@ -18,9 +18,9 @@
 
 @import '~@angular/material/theming';
 @import "app/article/article/article.component.theme";
-@import "app/components/footer/footer.component.theme";
-@import "app/toolbar/toolbar/toolbar.component.theme";
+@import "app/main/footer/footer.component.theme";
 @import "app/donate/fund-method/fund-method.component.theme";
+@import "app/toolbar/toolbar/toolbar.component.theme";
 
 @include mat-core();
 
@@ -33,9 +33,8 @@ $dark-theme: mat-dark-theme($dark-primary, $dark-accent);
   @include angular-material-theme($dark-theme);
   @include app-article-theme($dark-theme);
   @include app-footer-theme($dark-theme);
-  @include app-toolbar-theme($dark-theme);
-
   @include app-fund-method-theme($dark-theme);
+  @include app-toolbar-theme($dark-theme);
 }
 
 /** Light Theme */
@@ -47,7 +46,6 @@ $light-theme: mat-light-theme($light-primary, $light-accent);
   @include angular-material-theme($light-theme);
   @include app-article-theme($light-theme);
   @include app-footer-theme($light-theme);
-  @include app-toolbar-theme($light-theme);
-
   @include app-fund-method-theme($light-theme);
+  @include app-toolbar-theme($light-theme);
 }

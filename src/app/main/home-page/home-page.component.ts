@@ -17,17 +17,32 @@
  */
 
 import {Component, OnInit} from '@angular/core';
+import {ArticleService} from '../../article/article.service';
+import {Article} from '../../article/article';
+import {LoadState} from '@elypia/ng-elypian';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  selector: 'app-home',
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.css']
 })
-export class AboutComponent implements OnInit {
+export class HomePageComponent implements OnInit {
 
-  constructor() { }
+  public articles: Article[];
+  public state: LoadState;
 
-  ngOnInit() {
+  constructor(
+    private articleService: ArticleService
+  ) {
+    this.state = LoadState.NotLoaded;
   }
 
+  ngOnInit() {
+    this.state = LoadState.Loading;
+
+    this.articleService.getRecent().subscribe((articles) => {
+      this.articles = articles;
+      this.state = LoadState.Loaded;
+    }, () => this.state = LoadState.Failed);
+  }
 }

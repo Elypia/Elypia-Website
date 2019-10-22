@@ -52,6 +52,10 @@ img {
   margin: 0 .25em;
 }
 
+.toolbar-button {
+  margin: 0 .25em;
+}
+
 .tree-sub-menu-icon {
   display: inline-block;
   margin-left: .5em;

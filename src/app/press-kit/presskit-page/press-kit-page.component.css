@@ -1,8 +1,0 @@
-#press-kit-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#press-kit-content mat-card {
-  margin: 1em;
-}

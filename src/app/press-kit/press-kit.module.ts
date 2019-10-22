@@ -19,11 +19,13 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
-import {PressKitPageComponent} from './presskit-page/press-kit-page.component';
+import {PressKitPageComponent} from './press-kit-page/press-kit-page.component';
+import {CompanyColorComponent} from './company-color/company-color.component';
 
 @NgModule({
   declarations: [
-    PressKitPageComponent
+    PressKitPageComponent,
+    CompanyColorComponent
   ],
   imports: [
     CommonModule,

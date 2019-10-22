@@ -18,7 +18,7 @@
 
 import {Component, Input, OnInit} from '@angular/core';
 import {FormControl, FormGroupDirective, NgForm} from '@angular/forms';
-import {UserService} from '../../services/user/user.service';
+import {UserService} from '../../user/user.service';
 import {LoadState} from '@elypia/ng-elypian';
 import {ActivatedRoute} from '@angular/router';
 import {ErrorStateMatcher} from '@angular/material/core';

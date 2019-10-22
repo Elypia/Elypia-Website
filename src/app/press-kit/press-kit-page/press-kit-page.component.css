@@ -1,0 +1,25 @@
+#press-kit-content mat-card {
+  margin: 1em;
+}
+
+#press-kit-colors app-company-color {
+  display: block;
+  margin: .5em;
+}
+
+@media (min-width: 720px) {
+  #press-kit-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #press-kit-colors {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #press-kit-colors app-company-color {
+    width: 128px;
+    flex-grow: 1;
+  }
+}

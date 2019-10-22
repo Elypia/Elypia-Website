@@ -16,16 +16,32 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, OnInit} from '@angular/core';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-@Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
-})
-export class ProjectsComponent implements OnInit {
+import {EprivacyPageComponent} from './eprivacy-page.component';
+import {MatTableModule} from '@angular/material';
 
-  ngOnInit() {
+describe('EprivacyComponent', () => {
+  let component: EprivacyPageComponent;
+  let fixture: ComponentFixture<EprivacyPageComponent>;
 
-  }
-}
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ EprivacyPageComponent ],
+      imports: [
+        MatTableModule
+      ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(EprivacyPageComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

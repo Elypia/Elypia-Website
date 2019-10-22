@@ -17,7 +17,7 @@
  */
 
 import {Component, HostListener, Input, OnInit, ViewChild} from '@angular/core';
-import {ThemeService} from '../../services/theme/theme.service';
+import {ThemeService} from '../../theme.service';
 import {LoginFormComponent} from '../login-form/login-form.component';
 import {MatDialog} from '@angular/material';
 import {MobileToolbarMenuComponent} from '../mobile-toolbar-menu/mobile-toolbar-menu.component';

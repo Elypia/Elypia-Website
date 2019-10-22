@@ -16,17 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-h1 {
-  margin-bottom: .25em;
-}
+import {Component, OnInit} from '@angular/core';
 
-app-project {
-  margin: 1em;
-}
+@Component({
+  selector: 'app-projects',
+  templateUrl: './projects-page.component.html',
+  styleUrls: ['./projects-page.component.css']
+})
+export class ProjectsPageComponent implements OnInit {
 
-@media (min-width: 720px) {
-  #projects-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  ngOnInit() {
+
   }
 }

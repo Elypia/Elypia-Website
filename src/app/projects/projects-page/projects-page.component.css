@@ -16,18 +16,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, OnInit} from '@angular/core';
+h1 {
+  margin-bottom: .25em;
+}
 
-@Component({
-  selector: 'app-privacy',
-  templateUrl: './privacy.component.html',
-  styleUrls: ['./privacy.component.css']
-})
-export class PrivacyComponent implements OnInit {
+app-project {
+  margin: .5em;
+  display: block;
+}
 
-  constructor() { }
-
-  ngOnInit() {
+@media (min-width: 720px) {
+  #projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
-
 }

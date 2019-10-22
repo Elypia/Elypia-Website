@@ -18,37 +18,21 @@
 
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {HomeComponent} from './home.component';
-import {ElyLoadableModule} from '@elypia/ng-elypian';
-import {RouterTestingModule} from '@angular/router/testing';
-import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
-import {HttpClientModule} from '@angular/common/http';
-import {ArticleModule} from '../../article/article.module';
-import {MatCardModule} from '@angular/material/card';
+import {PrivacyPageComponent} from './privacy-page.component';
 
-describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+describe('PrivacyComponent', () => {
+  let component: PrivacyPageComponent;
+  let fixture: ComponentFixture<PrivacyPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [
-        HomeComponent
-      ],
-      imports: [
-        MarkdownModule.forRoot({markedOptions: {provide: MarkedOptions}}),
-        HttpClientModule,
-        RouterTestingModule,
-        ArticleModule,
-        ElyLoadableModule,
-        MatCardModule
-      ]
+      declarations: [ PrivacyPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HomeComponent);
+    fixture = TestBed.createComponent(PrivacyPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

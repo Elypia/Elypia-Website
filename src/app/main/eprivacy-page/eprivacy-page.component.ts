@@ -65,8 +65,8 @@ const PRIVACY_DATA: EprivacyEntry[] = [
 
 @Component({
   selector: 'app-eprivacy',
-  templateUrl: './eprivacy.component.html',
-  styleUrls: ['./eprivacy.component.css'],
+  templateUrl: './eprivacy-page.component.html',
+  styleUrls: ['./eprivacy-page.component.css'],
   animations: [
     trigger('detailExpand', [
       state('collapsed', style({height: '0px', minHeight: '0'})),
@@ -75,7 +75,7 @@ const PRIVACY_DATA: EprivacyEntry[] = [
     ]),
   ]
 })
-export class EprivacyComponent {
+export class EprivacyPageComponent {
 
   columns: string[] = ['type', 'name', 'domain', 'expires', 'description'];
   data = PRIVACY_DATA;

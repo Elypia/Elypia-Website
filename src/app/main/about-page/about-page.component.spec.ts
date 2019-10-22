@@ -1,4 +1,4 @@
-/*!
+/*
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,13 +16,32 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import '~@angular/material/theming';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-@mixin app-footer-theme($theme) {
+import {AboutPageComponent} from './about-page.component';
+import {MatCardModule} from '@angular/material/card';
 
-  $foreground: map-get($theme, foreground);
+describe('AboutComponent', () => {
+  let component: AboutPageComponent;
+  let fixture: ComponentFixture<AboutPageComponent>;
 
-  a {
-    color: mat-color($foreground, text);
-  }
-}
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ AboutPageComponent ],
+      imports: [
+        MatCardModule
+      ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AboutPageComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
