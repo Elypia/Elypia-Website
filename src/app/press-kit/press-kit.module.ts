@@ -16,50 +16,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-footer {
-  padding: 1em;
-}
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {MatCardModule} from '@angular/material/card';
+import {PressKitPageComponent} from './presskit-page/press-kit-page.component';
 
-#footer-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-
-#footer-one {
-  display: flex;
-  align-items: center;
-  margin-bottom: .5em;
-}
-
-address {
-  margin-left: 1em;
-}
-
-img {
-  max-height: 64px;
-}
-
-#address-info {
-  margin-left: 1em;
-}
-
-#meta {
-  padding-top: .5em;
-  text-align: center;
-}
-
-.pad-right {
-  padding-right: .25em;
-}
-
-#copyright {
-  margin-top: .5em;
-}
-
-@media (min-width: 720px) {
-  #footer-top {
-    flex-direction: row;
-  }
-}
+@NgModule({
+  declarations: [
+    PressKitPageComponent
+  ],
+  imports: [
+    CommonModule,
+    MatCardModule
+  ],
+  exports: [
+    PressKitPageComponent
+  ],
+})
+export class PressKitModule { }

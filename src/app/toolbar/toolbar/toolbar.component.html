@@ -20,14 +20,13 @@
   <mat-toolbar class="mat-elevation-z8">
     <div class="container toolbar-content">
       <a routerLink="/">
-        <img id="toolbar-logo" src="/assets/elypia_text_by_sevdev.svg" alt="Elypia Text Logo">
+        <img id="toolbar-logo" src="/assets/branding/elypia_text_by_sevdev.svg" i18n-alt alt="Elypia Text Logo">
       </a>
       <div>
         <div class="large-only">
           <ng-container *ngFor="let node of MenuTree">
             <ng-container *ngIf="node.href else treeSubMenu">
-              <button *ngIf="node.href.startsWith('/') else externalurl"
-                      mat-button
+              <button *ngIf="!node.href.startsWith('http') else externalurl" mat-button
                       class="desktop-button" [ngClass]="{'selected': node.href === currentPage}"
                       [routerLink]="node.href">
                 {{node.name}}
@@ -46,7 +45,9 @@
                 </span>
               </button>
               <mat-menu #childMenu="matMenu">
-                <button *ngFor="let child of node.children" mat-menu-item>{{child.name}}</button>
+                <button *ngFor="let child of node.children" mat-menu-item [routerLink]="child.href">
+                  {{child.name}}
+                </button>
               </mat-menu>
             </ng-template>
           </ng-container>
@@ -72,7 +73,7 @@
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">
     <mat-icon fontSet="fas" fontIcon="fa-fill-drip"></mat-icon>
-    <span>Themes</span>
+    <span i18n>Themes</span>
   </button>
 </mat-menu>
 

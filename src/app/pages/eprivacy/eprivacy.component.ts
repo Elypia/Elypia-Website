@@ -60,13 +60,6 @@ const PRIVACY_DATA: EprivacyEntry[] = [
     domain: '.elypia.org',
     expires: 365,
     description: 'Stores if the cookie consent popup has appeared.'
-  },
-  {
-    type: 'cookie',
-    name: '__cfduid, _ga, _gid, locale',
-    domain: '.discordapp.com *',
-    expires: 365,
-    description: 'Get information from CloudFlare and Discord respectively.'
   }
 ];
 

@@ -40,7 +40,7 @@ export class AppComponent implements OnInit, OnDestroy {
     {
       name: 'Support',
       children: [
-        { name: 'Presskit', href: '/support/presskit' },
+        { name: 'Press Kit', href: '/support/press-kit' },
         { name: 'Privacy Policy', href: '/support/privacy' },
         { name: 'ePrivacy Policy', href: '/support/eprivacy' }
       ]

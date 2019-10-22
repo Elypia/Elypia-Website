@@ -9,8 +9,8 @@
   user-select: none;
 }
 
-.locale-button {
-  margin: .25em 1em;
+.locale-button, .locale-link {
+  margin: .25em .5em;
 }
 
 .locale-link {

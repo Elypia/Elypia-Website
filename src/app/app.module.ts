@@ -59,6 +59,8 @@ import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ArticleModule} from './article/article.module';
 import {MatMenuModule} from '@angular/material/menu';
+import {PressKitPageComponent} from './press-kit/presskit-page/press-kit-page.component';
+import {PressKitModule} from './press-kit/press-kit.module';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -66,6 +68,7 @@ const appRoutes: Routes = [
   { path: 'login-form', component: LoginFormComponent },
 
   /** Works without API, may lose some features. */
+  { path: 'support/press-kit', component: PressKitPageComponent },
   { path: 'support/privacy', component: PrivacyComponent },
   { path: 'support/eprivacy', component: EprivacyComponent },
   { path: 'about', component: AboutComponent },
@@ -130,6 +133,7 @@ const markdownOptions: MarkdownModuleConfig = {
     ArticleModule,
     CarouselModule,
     DonateModule,
+    PressKitModule,
     ToolbarModule,
 
     // Modules from Angular Elypian

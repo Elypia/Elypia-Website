@@ -28,6 +28,10 @@
   z-index: 1;
 }
 
+app-footer {
+  z-index: 1;
+}
+
 @media (min-width: 1600px) {
   #content:after {
     content: '';
