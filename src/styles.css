@@ -27,7 +27,7 @@ ul, li, p, a {
 
 /**
   Make the scrollbar always visible to prevent page jumping
-  between big and small pages.
+  between big and small main.
  */
 html {
   overflow-y: scroll;
@@ -44,7 +44,7 @@ html, body {
   margin: 0 auto;
 }
 
-/** Use our own styling for all links on the pages. */
+/** Use our own styling for all links on the main. */
 a {
   text-decoration: none;
 }

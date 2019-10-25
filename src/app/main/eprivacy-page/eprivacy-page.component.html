@@ -1,0 +1,59 @@
+<!--
+  ~ Elypia Website - The company website for Elypia.
+  ~ Copyright (C) 2019-2019  Elypia CIC
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<div class="container">
+  <h1 i18n="@@eprivacy-title">ePrivacy Directive</h1>
+  <h2 i18n="@@eprivacy-date">Last updated on 1st August 2019</h2>
+  <p i18n="@@eprivacy-body-1">
+    We try to minimize the use of cookies or local storage where possible without reducing
+    the functionality if the website or services. Due to this <strong>we</strong> don't add any tracking
+    or analytics cookies so see what you do nor send that data to advertisers.
+  </p>
+  <p i18n="@@eprivacy-body-2">
+    We are embedding code from other websites so they may also add cookies while your browse this website,
+    for example Discord or FontAwesome.
+  </p>
+  <p i18n="@@eprivacy-body-3">
+    This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage)
+    that's in active use.
+  </p>
+  <table mat-table multiTemplateDataRows [dataSource]="data" class="mat-elevation-z8">
+    <ng-container matColumnDef="type">
+      <th mat-header-cell *matHeaderCellDef>Type</th>
+      <td mat-cell *matCellDef="let element">{{element.type}}</td>
+    </ng-container>
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>Name</th>
+      <td mat-cell *matCellDef="let element">{{element.name}}</td>
+    </ng-container>
+    <ng-container matColumnDef="domain">
+      <th mat-header-cell *matHeaderCellDef>Domain (* Third-Party)</th>
+      <td mat-cell *matCellDef="let element">{{element.domain}}</td>
+    </ng-container>
+    <ng-container matColumnDef="expires">
+      <th mat-header-cell *matHeaderCellDef>Expires (Days)</th>
+      <td mat-cell *matCellDef="let element">{{element.expires}}</td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef>Description</th>
+      <td mat-cell *matCellDef="let element" class="description">{{element.description}}</td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="columns"></tr>
+    <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+  </table>
+</div>

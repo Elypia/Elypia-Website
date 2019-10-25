@@ -52,6 +52,11 @@ img {
   margin: 0 .25em;
 }
 
+.toolbar-button {
+  margin: 0 .25em;
+  font-size: 18px;
+}
+
 .tree-sub-menu-icon {
   display: inline-block;
   margin-left: .5em;
@@ -68,6 +73,10 @@ img {
 
 app-mobile-toolbar-menu:not(.mobile-menu-toggled) {
   display: none;
+}
+
+.locale-badge {
+  height: 1em;
 }
 
 @media (min-width: 720px) {

@@ -20,8 +20,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {FooterComponent} from './components/footer/footer.component';
-import {HomeComponent} from './pages/home/home.component';
+import {FooterComponent} from './main/footer/footer.component';
+import {HomePageComponent} from './main/home-page/home-page.component';
 import {RouterModule, Routes} from '@angular/router';
 import {MarkdownModule, MarkdownModuleConfig, MarkedOptions} from 'ngx-markdown';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -35,42 +35,46 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {ArticlePageComponent} from './article/article-page/article-page.component';
-import {LoginFormComponent} from './dialogs/login-form/login-form.component';
+import {LoginFormComponent} from './toolbar/login-form/login-form.component';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
-import {AboutComponent} from './pages/about/about.component';
+import {AboutPageComponent} from './main/about-page/about-page.component';
 import {OverlayContainer} from '@angular/cdk/overlay';
-import {SocialComponent} from './components/social/social.component';
-import {DonateComponent} from './donate/donate/donate.component';
+import {SocialComponent} from './main/social/social.component';
+import {DonatePageComponent} from './donate/donate-page/donate-page.component';
 import {MatCardModule, MatDialogModule, MatTableModule, MatTabsModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
 import {LoggerConfig, LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
-import {PrivacyComponent} from './pages/privacy/privacy.component';
-import {EprivacyComponent} from './pages/eprivacy/eprivacy.component';
-import {ProjectsComponent} from './pages/projects/projects.component';
+import {PrivacyPageComponent} from './main/privacy-page/privacy-page.component';
+import {EprivacyPageComponent} from './main/eprivacy-page/eprivacy-page.component';
+import {ProjectsPageComponent} from './projects/projects-page/projects-page.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {ToolbarModule} from './toolbar/toolbar.module';
 import {FormsModule} from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
-import {ProjectComponent} from './components/project/project.component';
 import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ArticleModule} from './article/article.module';
+import {MatMenuModule} from '@angular/material/menu';
+import {PressKitPageComponent} from './press-kit/press-kit-page/press-kit-page.component';
+import {PressKitModule} from './press-kit/press-kit.module';
+import {ProjectsModule} from './projects/projects.module';
 
 const appRoutes: Routes = [
   /** Useless without API */
-  { path: 'article-page/:id', component: ArticlePageComponent },
+  { path: 'article/:id', component: ArticlePageComponent },
   { path: 'login-form', component: LoginFormComponent },
 
   /** Works without API, may lose some features. */
-  { path: 'support/privacy', component: PrivacyComponent },
-  { path: 'support/eprivacy', component: EprivacyComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'donate', component: DonateComponent },
-  { path: '', component: HomeComponent },
+  { path: 'support/press-kit', component: PressKitPageComponent },
+  { path: 'support/privacy', component: PrivacyPageComponent },
+  { path: 'support/eprivacy', component: EprivacyPageComponent },
+  { path: 'about', component: AboutPageComponent },
+  { path: 'projects', component: ProjectsPageComponent },
+  { path: 'donate', component: DonatePageComponent },
+  { path: '', component: HomePageComponent },
 
   /** Redirect instead of 404 */
   { path: '**', redirectTo: '' },
@@ -110,14 +114,11 @@ const markdownOptions: MarkdownModuleConfig = {
   declarations: [
     AppComponent,
     FooterComponent,
-    HomeComponent,
-    LoginFormComponent,
-    AboutComponent,
+    HomePageComponent,
+    AboutPageComponent,
     SocialComponent,
-    PrivacyComponent,
-    EprivacyComponent,
-    ProjectsComponent,
-    ProjectComponent
+    PrivacyPageComponent,
+    EprivacyPageComponent
   ],
   imports: [
     // Configured
@@ -130,6 +131,8 @@ const markdownOptions: MarkdownModuleConfig = {
     ArticleModule,
     CarouselModule,
     DonateModule,
+    PressKitModule,
+    ProjectsModule,
     ToolbarModule,
 
     // Modules from Angular Elypian
@@ -157,7 +160,8 @@ const markdownOptions: MarkdownModuleConfig = {
     MatListModule,
     MatButtonToggleModule,
     FormsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [

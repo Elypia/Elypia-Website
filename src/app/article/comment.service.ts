@@ -19,7 +19,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpParams} from '@angular/common/http';
 import {Observable} from 'rxjs';
-import {Slice} from '../classes/spring/slice';
+import {Slice} from '../main/slice';
 import {environment} from '../../environments/environment';
 import {ArticleComment} from './article';
 

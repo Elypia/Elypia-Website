@@ -17,7 +17,7 @@
  */
 
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {Theme, ThemeService} from './services/theme/theme.service';
+import {Theme, ThemeService} from './theme.service';
 import {NGXLogger} from 'ngx-logger';
 import {NgcCookieConsentService} from 'ngx-cookieconsent';
 import {MenuNode} from './toolbar/toolbar';
@@ -40,7 +40,7 @@ export class AppComponent implements OnInit, OnDestroy {
     {
       name: 'Support',
       children: [
-        { name: 'Presskit', href: '/support/presskit' },
+        { name: 'Press Kit', href: '/support/press-kit' },
         { name: 'Privacy Policy', href: '/support/privacy' },
         { name: 'ePrivacy Policy', href: '/support/eprivacy' }
       ]
@@ -57,7 +57,7 @@ export class AppComponent implements OnInit, OnDestroy {
       'commands or check something on your browser, chances are they\'re trying to access ' +
       'sensitive information which could compromise your account or data. ' +
       'Only continue if you know what you\'re doing; if you do know what you\'re doing ' +
-      'feel free to contribute to our projects at <https://gitlab.com/Elypia>!');
+      'feel free to contribute to our projects-page at <https://gitlab.com/Elypia>!');
   }
 
   ngOnInit(): void {

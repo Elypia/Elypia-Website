@@ -68,12 +68,6 @@
                 }
               ]
             },
-            "fr": {
-              "baseHref": "/fr/",
-              "outputPath": "dist/fr/",
-              "i18nFile": "src/locale/messages.fr.xlf",
-              "i18nLocale": "fr"
-            },
             "nl": {
               "baseHref": "/nl/",
               "outputPath": "dist/nl/",
@@ -90,9 +84,6 @@
           "configurations": {
             "production": {
               "browserTarget": "elypia-website:build:production"
-            },
-            "fr": {
-              "browserTarget": "elypia-website:build:fr"
             },
             "nl": {
               "browserTarget": "elypia-website:build:nl"
