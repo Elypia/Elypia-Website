@@ -17,8 +17,8 @@ While not legal advice, you can find a [TL;DR][agpl-tldr] that sums up what
 you're allowed and not allowed to do along with any requirements if you want to 
 use or derive work from this source code!  
 
-**All non-code files including bitmaps, vectors, and animated images such as gifs,
-videos, models, and audio are not under the aforementioned license; all rights
+**All non-code files including videos, models, audio, bitmaps, vectors, and 
+animations such as gifs, are not under the aforementioned license; all rights
 are reserved by Elypia CIC.** 
 
 [discord]: https://discord.gg/hprGMaM "Discord Invite"

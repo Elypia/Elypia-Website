@@ -19,7 +19,7 @@
 <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
   <mat-tree-node *matTreeNodeDef="let node;" [ngClass]="{'selected': node.href === currentPage}">
     <div class="container fill">
-      <ng-container *ngIf="node.href.startsWith('/') else externalurl">
+      <ng-container *ngIf="!node.href.startsWith('http') else externalurl">
         <button mat-button [routerLink]="node.href" class="fill" (click)="reset()">
           {{node.name}}
         </button>

@@ -20,14 +20,14 @@
   <mat-toolbar class="mat-elevation-z8">
     <div class="container toolbar-content">
       <a routerLink="/">
-        <img id="toolbar-logo" src="/assets/elypia_white_by_sevdev.png" alt="Elypia Text Logo">
+        <img id="toolbar-logo" src="/assets/branding/elypia_text.svg"
+             i18n-alt="@@homepage-text-logo-alt" alt="Elypia Text Logo">
       </a>
       <div>
         <div class="large-only">
           <ng-container *ngFor="let node of MenuTree">
             <ng-container *ngIf="node.href else treeSubMenu">
-              <button *ngIf="node.href.startsWith('/') else externalurl"
-                      mat-button
+              <button *ngIf="!node.href.startsWith('http') else externalurl" mat-button
                       class="desktop-button" [ngClass]="{'selected': node.href === currentPage}"
                       [routerLink]="node.href">
                 {{node.name}}
@@ -46,13 +46,18 @@
                 </span>
               </button>
               <mat-menu #childMenu="matMenu">
-                <button *ngFor="let child of node.children" mat-menu-item>{{child.name}}</button>
+                <button *ngFor="let child of node.children" mat-menu-item [routerLink]="child.href">
+                  {{child.name}}
+                </button>
               </mat-menu>
             </ng-template>
           </ng-container>
         </div>
         <button mat-button class="small-only" (click)="onMobileMenuToggle()">Menu</button>
-        <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <button mat-icon-button class="toolbar-button" (click)="openLocaleDialog()">
+          <mat-icon fontSet="fas" fontIcon="fa-language"></mat-icon>
+        </button>
+        <button mat-icon-button class="toolbar-button" [matMenuTriggerFor]="appMenu">
           <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
         </button>
       </div>
@@ -69,7 +74,7 @@
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">
     <mat-icon fontSet="fas" fontIcon="fa-fill-drip"></mat-icon>
-    <span>Themes</span>
+    <span i18n="@@navbar-themes">Themes</span>
   </button>
 </mat-menu>
 
