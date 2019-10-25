@@ -19,7 +19,7 @@
     "start:nl": "npm run-script start -- --configuration=nl",
     "build": "ng build --prod --i18nLocale en-US --baseHref /en-US/ --outputPath dist/en-US/",
     "build:loop": "for lang in ${npm_package_config_locales}; do LANG=${lang} && npm run-script build:i18n; done",
-    "build:i18n": "npm run-script build -- --i18nFormat xlf --i18nFile src/locale/messages.${LANG}.xlf --i18nLocale ${LANG} --baseHref /${LANG}/ --outputPath dist/${LANG}/",
+    "build:i18n": "ng build --prod --i18nFormat xlf --i18nFile src/locale/messages.${LANG}.xlf --i18nLocale ${LANG} --baseHref /${LANG}/ --outputPath dist/${LANG}/",
     "test": "ng test --no-progress --browsers=ChromiumHeadlessNoSandbox",
     "lint": "ng lint",
     "e2e": "ng e2e",
