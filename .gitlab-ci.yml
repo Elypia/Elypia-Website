@@ -80,7 +80,7 @@ build-website:
   stage: build-website
   script:
     - npm run-script build
-    - npm run-script build:loop
+    - npm run-script build:i18n
 
 # Build the Dockerfile, the image is only used when by deploy-docker if deploying.
 build-docker:
