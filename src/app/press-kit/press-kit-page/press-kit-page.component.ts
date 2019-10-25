@@ -10,6 +10,6 @@ export class PressKitPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
 }

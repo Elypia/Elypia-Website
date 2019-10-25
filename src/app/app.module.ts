@@ -40,7 +40,7 @@ import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestam
 import {AboutPageComponent} from './main/about-page/about-page.component';
 import {OverlayContainer} from '@angular/cdk/overlay';
 import {SocialComponent} from './main/social/social.component';
-import {DonateComponent} from './donate/donate/donate.component';
+import {DonatePageComponent} from './donate/donate-page/donate-page.component';
 import {MatCardModule, MatDialogModule, MatTableModule, MatTabsModule} from '@angular/material';
 import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
 import {LoggerConfig, LoggerModule} from 'ngx-logger';
@@ -64,16 +64,16 @@ import {ProjectsModule} from './projects/projects.module';
 
 const appRoutes: Routes = [
   /** Useless without API */
-  { path: 'article-page/:id', component: ArticlePageComponent },
+  { path: 'article/:id', component: ArticlePageComponent },
   { path: 'login-form', component: LoginFormComponent },
 
   /** Works without API, may lose some features. */
   { path: 'support/press-kit', component: PressKitPageComponent },
-  { path: 'support/privacy-page', component: PrivacyPageComponent },
-  { path: 'support/eprivacy-page', component: EprivacyPageComponent },
-  { path: 'about-page', component: AboutPageComponent },
+  { path: 'support/privacy', component: PrivacyPageComponent },
+  { path: 'support/eprivacy', component: EprivacyPageComponent },
+  { path: 'about', component: AboutPageComponent },
   { path: 'projects', component: ProjectsPageComponent },
-  { path: 'donate', component: DonateComponent },
+  { path: 'donate', component: DonatePageComponent },
   { path: '', component: HomePageComponent },
 
   /** Redirect instead of 404 */

@@ -16,27 +16,14 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {MatCardModule} from '@angular/material/card';
-import {PressKitPageComponent} from './press-kit-page/press-kit-page.component';
-import {CompanyColorComponent} from './company-color/company-color.component';
-import {LogoDownloadComponent} from './logo-download/logo-download.component';
-import {MatButtonModule} from '@angular/material/button';
+import {Component} from '@angular/core';
 
-@NgModule({
-  declarations: [
-    PressKitPageComponent,
-    CompanyColorComponent,
-    LogoDownloadComponent
-  ],
-  imports: [
-    CommonModule,
-    MatCardModule,
-    MatButtonModule
-  ],
-  exports: [
-    PressKitPageComponent
-  ],
+@Component({
+  selector: 'app-donate',
+  templateUrl: './donate-page.component.html',
+  styleUrls: ['./donate-page.component.css']
 })
-export class PressKitModule { }
+export class DonatePageComponent {
+
+  constructor() { }
+}

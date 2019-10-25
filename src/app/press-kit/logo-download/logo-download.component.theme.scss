@@ -1,4 +1,4 @@
-/*
+/*!
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,27 +16,17 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {MatCardModule} from '@angular/material/card';
-import {PressKitPageComponent} from './press-kit-page/press-kit-page.component';
-import {CompanyColorComponent} from './company-color/company-color.component';
-import {LogoDownloadComponent} from './logo-download/logo-download.component';
-import {MatButtonModule} from '@angular/material/button';
+@import '../../../../node_modules/@angular/material/theming';
 
-@NgModule({
-  declarations: [
-    PressKitPageComponent,
-    CompanyColorComponent,
-    LogoDownloadComponent
-  ],
-  imports: [
-    CommonModule,
-    MatCardModule,
-    MatButtonModule
-  ],
-  exports: [
-    PressKitPageComponent
-  ],
-})
-export class PressKitModule { }
+@mixin app-logo-download-theme($theme) {
+
+  $background: map-get($theme, background);
+
+  div.logo-download {
+    background-color: mat-color($background, card);
+  }
+
+  div.logo-download div.logo-meta {
+    background-color: mat-color($background, app-bar);
+  }
+}

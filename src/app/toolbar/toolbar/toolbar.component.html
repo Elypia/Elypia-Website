@@ -20,7 +20,8 @@
   <mat-toolbar class="mat-elevation-z8">
     <div class="container toolbar-content">
       <a routerLink="/">
-        <img id="toolbar-logo" src="/assets/branding/elypia_text_by_sevdev.svg" i18n-alt alt="Elypia Text Logo">
+        <img id="toolbar-logo" src="/assets/branding/elypia_text.svg"
+             i18n-alt="@@homepage-text-logo-alt" alt="Elypia Text Logo">
       </a>
       <div>
         <div class="large-only">
@@ -73,7 +74,7 @@
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">
     <mat-icon fontSet="fas" fontIcon="fa-fill-drip"></mat-icon>
-    <span i18n>Themes</span>
+    <span i18n="@@navbar-themes">Themes</span>
   </button>
 </mat-menu>
 

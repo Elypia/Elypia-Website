@@ -16,14 +16,22 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component} from '@angular/core';
+/**
+ * File types that can be used add branding.
+ *
+ * @author seth@elypia.org (Syed Shah)
+ */
+export enum ImageFileType {
 
-@Component({
-  selector: 'app-donate',
-  templateUrl: './donate.component.html',
-  styleUrls: ['./donate.component.css']
-})
-export class DonateComponent {
+  /** https://tools.ietf.org/html/rfc2083 */
+  PNG = '.png',
 
-  constructor() { }
+  /** https://tools.ietf.org/html/rfc7996 */
+  SVG = '.svg'
+}
+
+export interface PressKitImage {
+
+  imageUrl: string;
+  imageFormat: ImageFileType;
 }

@@ -3,14 +3,25 @@
   margin-bottom: .5em;
 }
 
+#locale-contribute {
+  font-size: .5em;
+  margin-left: .5em;
+}
+
 .locale {
   display: grid;
   grid-template-columns: 50% 50%;
+  align-items: center;
+  text-align: center;
   user-select: none;
 }
 
-.locale-button, .locale-link {
+.locale-option, .locale-link {
   margin: .25em .5em;
+}
+
+.disabled {
+  opacity: .5;
 }
 
 .locale-link {

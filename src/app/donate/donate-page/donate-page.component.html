@@ -17,36 +17,39 @@
   -->
 
 <div class="container">
-  <h1 i18n>Support Elypia</h1>
+  <h1 i18n="@@support-heading">Support Elypia</h1>
   <div id="donate-methods">
     <app-fund-method url="https://stripe.com/"
-                     i18n-name name="Debit/Credit Card (Stripe)"
-                     i18n-description description="Donate directly on the site with your debit or credit card.
-                                                   All donations using this method are processed by Stripe;
-                                                   we won't process or store your information.">
+                     i18n-name="@@support-card-name" name="Debit/Credit Card (Stripe)"
+                     i18n-description="@@support-card-description"
+                     description="Donate directly on the site with your debit or credit card.
+                                  All donations using this method are processed by Stripe;
+                                  we won't process or store your information.">
       <i class="fas fa-credit-card fa-4x"></i>
     </app-fund-method>
     <app-fund-method url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DBXVG4F28J4FW&source=url"
-                     i18n-name name="PayPal"
-                     i18n-description description="If you have a PayPal account you can donate using the attached
+                     i18n-name="@@donate-paypal-name" name="PayPal"
+                     i18n-description="@@donate-paypal-description"
+                     description="If you have a PayPal account you can donate using the attached
                                   credit/debit card, bank account, or PayPal balance.">
       <i class="fab fa-paypal fa-4x"></i>
     </app-fund-method>
     <app-fund-method url="https://www.redbubble.com/people/Elypia/"
-                     i18n-name name="Redbubble"
-                     i18n-description description="You can support us by purchasing our branded merchandise.">
+                     i18n-name="@@donate-redbubble-name" name="Redbubble"
+                     i18n-description="@@donate-redbubble-description"
+                     description="You can support us by purchasing our branded merchandise.">
       <i class="fas fa-tshirt fa-4x"></i>
     </app-fund-method>
   </div>
   <mat-divider></mat-divider>
   <mat-card>
-    <h2 i18n>Elypia is a Community Interest Company</h2>
-    <p i18n>
+    <h2 i18n="@@donate-elypia-is-cic">Elypia is a Community Interest Company</h2>
+    <p i18n="@@donate-elypia-is-cic-body-1">
       While we try to be sustainable through subscriptions and services, it's favorable to receive
       donations to keep everything as free as possible. As a non-profit, funding is what allows us to
       continue to develop free and open-source software and push to provide free or affordable services.
     </p>
-    <p i18n>
+    <p i18n="@@elypia-is-cic-body-2">
       As a Community Interest Company we will also be able to generate income
       through selling subscriptions and services or by providing hosted solutions
       for our open-source projects.
@@ -55,8 +58,8 @@
     </p>
   </mat-card>
   <mat-card>
-    <h2 i18n>Where do donations go?</h2>
-    <p i18n>
+    <h2 i18n="@@donate-where-do-they-go">Where do donations go?</h2>
+    <p i18n="@@donate-where-do-they-go-body">
       At present most costs are for technical infrastructure or legal obligations to keep
       Elypia CIC and it's websites and services up. This includes domains, hosting,
       content delivery, travel or paperwork, and any annual fees or requirements in order

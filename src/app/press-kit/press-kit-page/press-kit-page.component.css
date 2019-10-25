@@ -1,10 +1,32 @@
-#press-kit-content mat-card {
-  margin: 1em;
+#press-kit-guidelines ul li {
+  margin-left: .5em;
 }
 
-#press-kit-colors app-company-color {
+#press-kit-content mat-card, app-logo-download {
+  margin-bottom: 1em;
+}
+
+#press-kit-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#press-kit-text-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+app-logo-download {
+  width: 256px;
+  flex-grow: 1;
+  margin: .5em .25em;
+}
+
+#press-kit-colors-list app-company-color {
   display: block;
-  margin: .5em;
+  margin: 1em .5em;
 }
 
 @media (min-width: 720px) {
@@ -13,13 +35,22 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  #press-kit-colors {
+  #press-kit-content mat-card:not(:nth-child(1)) {
+    margin-left: .5em;
+  }
+
+  #press-kit-colors-list {
     display: flex;
     flex-direction: row;
   }
 
-  #press-kit-colors app-company-color {
+  #press-kit-colors-list app-company-color {
     width: 128px;
     flex-grow: 1;
+    transition: margin-top .3s ease-in-out;
+  }
+
+  #press-kit-colors-list app-company-color:hover {
+    margin-top: .75em;
   }
 }

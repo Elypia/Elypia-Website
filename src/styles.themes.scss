@@ -20,6 +20,7 @@
 @import "app/article/article/article.component.theme";
 @import "app/main/footer/footer.component.theme";
 @import "app/donate/fund-method/fund-method.component.theme";
+@import "app/press-kit/logo-download/logo-download.component.theme";
 @import "app/toolbar/toolbar/toolbar.component.theme";
 
 @include mat-core();
@@ -34,6 +35,7 @@ $dark-theme: mat-dark-theme($dark-primary, $dark-accent);
   @include app-article-theme($dark-theme);
   @include app-footer-theme($dark-theme);
   @include app-fund-method-theme($dark-theme);
+  @include app-logo-download-theme($dark-theme);
   @include app-toolbar-theme($dark-theme);
 }
 
@@ -47,5 +49,6 @@ $light-theme: mat-light-theme($light-primary, $light-accent);
   @include app-article-theme($light-theme);
   @include app-footer-theme($light-theme);
   @include app-fund-method-theme($light-theme);
+  @include app-logo-download-theme($light-theme);
   @include app-toolbar-theme($light-theme);
 }

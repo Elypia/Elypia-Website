@@ -1,6 +1,7 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {LocaleSelectionComponent} from './locale-selection.component';
+import {RouterTestingModule} from '@angular/router/testing';
 
 describe('LocaleSelectionComponent', () => {
   let component: LocaleSelectionComponent;
@@ -8,7 +9,10 @@ describe('LocaleSelectionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LocaleSelectionComponent ]
+      declarations: [ LocaleSelectionComponent ],
+      imports: [
+        RouterTestingModule
+      ]
     })
     .compileComponents();
   }));

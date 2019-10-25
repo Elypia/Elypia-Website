@@ -34,15 +34,15 @@ export class AppComponent implements OnInit, OnDestroy {
    * if on mobile, otherwise is read to create lots of buttons for desktop devices.
    */
   public readonly MenuTree: MenuNode[] = [
-    { name: 'About', href: '/about-page' },
-    { name: 'Projects', href: '/projects-page' },
+    { name: 'About', href: '/about' },
+    { name: 'Projects', href: '/projects' },
     { name: 'Donate', href: '/donate' },
     {
       name: 'Support',
       children: [
         { name: 'Press Kit', href: '/support/press-kit' },
-        { name: 'Privacy Policy', href: '/support/privacy-page' },
-        { name: 'ePrivacy Policy', href: '/support/eprivacy-page' }
+        { name: 'Privacy Policy', href: '/support/privacy' },
+        { name: 'ePrivacy Policy', href: '/support/eprivacy' }
       ]
     }
   ];
@@ -52,7 +52,7 @@ export class AppComponent implements OnInit, OnDestroy {
     private ngxLogger: NGXLogger,
     public themeService: ThemeService
   ) {
-    console.log('%cHold on!', 'company-color: red; font-size: 64px;');
+    console.log('%cHold on!', 'color: red; font-size: 64px;');
     console.log('If someone\'s told you to open this panel or console to perform ' +
       'commands or check something on your browser, chances are they\'re trying to access ' +
       'sensitive information which could compromise your account or data. ' +
