@@ -19,7 +19,7 @@
 /**
  * File types that can be used add branding.
  *
- * @author seth@elypia.org (Syed Shah)
+ * @author seth@elypia.org (Seth Falco)
  */
 export enum ImageFileType {
 

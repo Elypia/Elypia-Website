@@ -42,7 +42,6 @@ import {OverlayContainer} from '@angular/cdk/overlay';
 import {SocialComponent} from './main/social/social.component';
 import {DonatePageComponent} from './donate/donate-page/donate-page.component';
 import {MatCardModule, MatDialogModule, MatTableModule, MatTabsModule} from '@angular/material';
-import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
 import {LoggerConfig, LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
 import {PrivacyPageComponent} from './main/privacy-page/privacy-page.component';
@@ -84,23 +83,6 @@ const loggerConfig: LoggerConfig = {
   level: environment.loggingLevel
 };
 
-const cookieConfig: NgcCookieConsentConfig = {
-  cookie: {
-    domain: environment.domain,
-    secure: environment.https
-  },
-  palette: {
-    popup: {
-      background: '#000'
-    },
-    button: {
-      background: '#f1d600'
-    }
-  },
-  theme: 'edgeless',
-  type: 'info'
-};
-
 const markdownOptions: MarkdownModuleConfig = {
   markedOptions: {
     provide: MarkedOptions,
@@ -125,7 +107,6 @@ const markdownOptions: MarkdownModuleConfig = {
     RouterModule.forRoot(appRoutes),
     LoggerModule.forRoot(loggerConfig),
     MarkdownModule.forRoot(markdownOptions),
-    NgcCookieConsentModule.forRoot(cookieConfig),
 
     // Modules Defined in this Application
     ArticleModule,
