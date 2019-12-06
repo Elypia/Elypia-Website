@@ -25,7 +25,6 @@ import {FooterComponent} from './main/footer/footer.component';
 import {MatCardModule, MatDialogModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
 import {SocialComponent} from './main/social/social.component';
 import {LoggerTestingModule} from 'ngx-logger/testing';
-import {NgcCookieConsentConfig, NgcCookieConsentService, WindowService} from 'ngx-cookieconsent';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {ArticleModule} from './article/article.module';
 import {CarouselModule} from './carousel/carousel.module';
@@ -60,11 +59,7 @@ describe('AppComponent', () => {
         MatToolbarModule,
         MatDialogModule
       ],
-      providers: [
-        NgcCookieConsentService,
-        WindowService,
-        NgcCookieConsentConfig
-      ]
+      providers: []
     }).compileComponents();
   }));
 

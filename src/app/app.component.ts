@@ -19,7 +19,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Theme, ThemeService} from './theme.service';
 import {NGXLogger} from 'ngx-logger';
-import {NgcCookieConsentService} from 'ngx-cookieconsent';
 import {MenuNode} from './toolbar/toolbar';
 
 @Component({
@@ -48,7 +47,6 @@ export class AppComponent implements OnInit, OnDestroy {
   ];
 
   constructor(
-    private concentService: NgcCookieConsentService,
     private ngxLogger: NGXLogger,
     public themeService: ThemeService
   ) {

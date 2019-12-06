@@ -53,13 +53,6 @@ const PRIVACY_DATA: EprivacyEntry[] = [
                  '(eg; you completed a challenge), this allows CloudFlare to recognise this and refrain ' +
                  'from challenging you again. It has no relation to anything in our sites nor does ' +
                  'it store any personal information.'
-  },
-  {
-    type: 'cookie',
-    name: 'cookieconsent_status',
-    domain: '.elypia.org',
-    expires: 365,
-    description: 'Stores if the cookie consent popup has appeared.'
   }
 ];
 
