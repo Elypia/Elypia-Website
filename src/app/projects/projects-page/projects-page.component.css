@@ -21,13 +21,17 @@ h1 {
 }
 
 app-project {
-  margin: .5em;
+  margin: .5em 0;
   display: block;
+}
+
+a + a {
+  margin-left: .5em;
 }
 
 @media (min-width: 720px) {
   #projects-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

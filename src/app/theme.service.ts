@@ -17,40 +17,84 @@
  */
 
 import {Injectable} from '@angular/core';
+import {OverlayContainer} from '@angular/cdk/overlay';
+import {NGXLogger} from 'ngx-logger';
 
+/**
+ * Stores static metadata on each available theme.
+ *
+ * @author seth@elypia.org (Seth Falco)
+ */
 export interface Theme {
   name: string;
   class: string;
   color: string;
 }
 
+/**
+ * Service to manage the selected theme and set or get
+ * the current theme for users.
+ *
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Injectable({
   providedIn: 'root'
 })
 export class ThemeService {
 
-  static readonly DarkTheme: Theme = {
+  /** Dark theme, uses primarily dark colors. */
+  public static readonly DarkTheme: Theme = {
     name: 'Dark',
     class: 'elypia-dark-theme',
-    color: '#303030'
+    color: '#2C2C2C'
   };
 
-  static readonly LightTheme: Theme = {
+  /** Light theme, uses primarly light colors. */
+  public static readonly LightTheme: Theme = {
     name: 'Light',
     class: 'elypia-light-theme',
-    color: '#FAFAFA'
+    color: '#17679A'
   };
 
-  static readonly All: Theme[] = [
+  /** An array of all themes available. */
+  public readonly All: Theme[] = [
     ThemeService.DarkTheme,
     ThemeService.LightTheme
   ];
 
-  /** Defaults to Dark Theme */
+  /** The currenly selected theme, defaults to {@link DarkTheme}. */
   selectedTheme: Theme = ThemeService.DarkTheme;
 
-  get All(): Theme[] {
-    return ThemeService.All;
+  /**
+   * @param overlayContainer The overlay container, used
+   * to specify the current theme for overlay components.
+   * @param logger Logger used to log runtime information.
+   */
+  constructor(
+    private overlayContainer: OverlayContainer,
+    private logger: NGXLogger
+  ) {
+
+  }
+
+  /**
+   * Read the localstorage to set the theme to whatever the user
+   * previously configured.
+   */
+  public loadTheme() {
+    const storedThemeClass: string = localStorage.getItem('theme');
+
+    if (!storedThemeClass)
+      return;
+
+    this.logger.debug('Current theme is set to:', storedThemeClass);
+
+    const theme: Theme[] = this.All.filter((t) => t.class === storedThemeClass);
+
+    if (theme.length === 1)
+      this.setTheme(theme[0]);
+    else if (theme.length > 1)
+      this.logger.warn('Multiple themes matched the class stored class name.');
   }
 
   /**
@@ -60,7 +104,22 @@ export class ThemeService {
    * @param theme The new theme the user wants to have.
    */
   public changeTheme(theme: Theme): void {
-    this.selectedTheme = theme;
     localStorage.setItem('theme', theme.class);
+    this.setTheme(theme);
+  }
+
+  /**
+   * Set the selected theme to the specified theme.
+   *
+   * @param theme The new theme to set the website to.
+   */
+  public setTheme(theme: Theme): void {
+    const classes: DOMTokenList = this.overlayContainer.getContainerElement().classList;
+
+    if (this.selectedTheme)
+      classes.remove(this.selectedTheme.class);
+
+    this.selectedTheme = theme;
+    classes.add(theme.class);
   }
 }

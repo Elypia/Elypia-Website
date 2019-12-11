@@ -16,14 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#toolbar {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+#toolbar-wrapper {
+  margin-bottom: 80px;
 }
 
-mat-toolbar {
-  height: 80px;
+div#toolbar {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
 
   user-select: none;
   -moz-user-select: none;
@@ -31,7 +32,11 @@ mat-toolbar {
   -webkit-user-select: none;
 }
 
-.toolbar-content {
+mat-toolbar {
+  height: 4em;
+}
+
+.container {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -40,7 +45,7 @@ mat-toolbar {
 
 img {
   display: block;
-  height: 64px;
+  height: 3em;
   margin: auto 0;
 }
 
@@ -52,9 +57,9 @@ img {
   margin: 0 .25em;
 }
 
-.toolbar-button {
+.icon-button {
   margin: 0 .25em;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .tree-sub-menu-icon {
@@ -80,7 +85,6 @@ app-mobile-toolbar-menu:not(.mobile-menu-toggled) {
 }
 
 @media (min-width: 720px) {
-
   .large-only {
     display: inline-block;
   }

@@ -21,7 +21,7 @@
 app-logo-download {
   width: 256px;
   flex-grow: 1;
-  margin: .5em .25em;
+  margin: .5em 0;
 }
 
 #press-kit-colors-list app-company-color {
@@ -29,13 +29,22 @@ app-logo-download {
   margin: 1em .5em;
 }
 
+#download-everything {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#download-everything h3 {
+  margin: 1em 0 .5em 0;
+}
+
 @media (min-width: 720px) {
   #press-kit-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
   }
 
-  #press-kit-content mat-card:not(:nth-child(1)) {
+  app-logo-download + app-logo-download {
     margin-left: .5em;
   }
 

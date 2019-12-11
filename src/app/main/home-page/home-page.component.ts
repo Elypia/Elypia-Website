@@ -20,6 +20,8 @@ import {Component, OnInit} from '@angular/core';
 import {ArticleService} from '../../article/article.service';
 import {Article} from '../../article/article';
 import {LoadState} from '@elypia/ng-elypian';
+import {Title} from '@angular/platform-browser';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -32,8 +34,10 @@ export class HomePageComponent implements OnInit {
   public state: LoadState;
 
   constructor(
+    private titleService: Title,
     private articleService: ArticleService
   ) {
+    this.titleService.setTitle(environment.titlePrefix);
     this.state = LoadState.NotLoaded;
   }
 

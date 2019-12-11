@@ -20,9 +20,9 @@
 
 @mixin app-fund-method-theme($theme) {
 
-  $accent: map-get($theme, accent);
+  $primary: map-get($theme, primary);
 
   mat-card.fund-method:hover {
-    background-color: mat-color($accent, text);
+    background-color: mat-color($primary, lighter);
   }
 }

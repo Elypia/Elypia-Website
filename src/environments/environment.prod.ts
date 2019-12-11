@@ -27,5 +27,8 @@ export const environment = {
   loggingLevel: NgxLoggerLevel.WARN,
 
   /** The endpoint that the API exists. */
-  baseUrl: 'https://api.elypia.org/'
+  baseUrl: 'https://api.elypia.org/',
+
+  /** The prefix of the title to on the current page. */
+  titlePrefix: 'Elypia'
 };

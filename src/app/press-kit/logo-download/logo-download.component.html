@@ -1,9 +1,10 @@
 <div class="logo-download">
-  <img src="{{imageUrl}}" alt="{{imageAlt}}"/>
+  <img src="{{imageUrlPrefix}}.svg" alt="{{imageAlt}}"/>
   <div class="logo-meta">
     <h3>{{imageDescription}}</h3>
     <div class="logo-downloads">
-      <ng-content select="mat-button"></ng-content>
+      <a mat-button href="{{imageUrlPrefix}}.svg">.svg</a>
+      <a mat-button href="{{imageUrlPrefix}}.png">.png</a>
     </div>
   </div>
 </div>

@@ -10,6 +10,6 @@
     </div>
   </div>
   <div class="project-buttons">
-    <a mat-button [href]="source" target="_blank" i18n="@@project-source-code">Source</a>
+    <ng-content select="[mat-button]"></ng-content>
   </div>
 </mat-card>

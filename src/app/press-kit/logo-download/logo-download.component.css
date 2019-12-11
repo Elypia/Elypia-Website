@@ -4,6 +4,13 @@
   align-items: center;
   border-radius: .25em;
   padding: 1rem .5rem 0 .5rem;
+
+  /* Create checkered background. */
+  background-image: linear-gradient(to right, #C0C0C080, #C0C0C080),
+                    linear-gradient(to right, #2C2C2C 50%, #404040 50%),
+                    linear-gradient(to bottom, #2C2C2C 50%, #404040 50%);
+  background-blend-mode: normal, difference, normal;
+  background-size: 2em 2em;
 }
 
 img {

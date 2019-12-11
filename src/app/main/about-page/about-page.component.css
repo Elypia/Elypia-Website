@@ -43,7 +43,7 @@
   width: 100%;
 }
 
-mat-card:not(:first-child) {
+mat-card + mat-card {
   margin-top: 1em;
 }
 

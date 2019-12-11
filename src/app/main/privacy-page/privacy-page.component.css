@@ -16,3 +16,12 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+table {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.description {
+  width: 50%;
+  padding: 1em 0;
+}

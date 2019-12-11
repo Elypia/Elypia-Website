@@ -20,13 +20,16 @@
 
 @mixin app-logo-download-theme($theme) {
 
+  $primary: map-get($theme, primary);
+  $text: map-get($theme, text);
   $background: map-get($theme, background);
 
   div.logo-download {
     background-color: mat-color($background, card);
   }
 
-  div.logo-download div.logo-meta {
-    background-color: mat-color($background, app-bar);
+  .logo-meta {
+    color: white;
+    background-color: mat-color($primary);
   }
 }

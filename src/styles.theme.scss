@@ -18,37 +18,37 @@
 
 @import '~@angular/material/theming';
 @import "app/article/article/article.component.theme";
-@import "app/main/footer/footer.component.theme";
+@import "app/footer/footer/footer.component.theme";
 @import "app/donate/fund-method/fund-method.component.theme";
 @import "app/press-kit/logo-download/logo-download.component.theme";
+@import "app/footer/social/social.component.theme";
 @import "app/toolbar/toolbar/toolbar.component.theme";
 
 @include mat-core();
 
-/** Dark Theme */
-$dark-primary: mat-palette($mat-blue, 600, 200, 800);
-$dark-accent: mat-palette($mat-blue-gray);
-$dark-theme: mat-dark-theme($dark-primary, $dark-accent);
-
-.elypia-dark-theme {
-  @include angular-material-theme($dark-theme);
-  @include app-article-theme($dark-theme);
-  @include app-footer-theme($dark-theme);
-  @include app-fund-method-theme($dark-theme);
-  @include app-logo-download-theme($dark-theme);
-  @include app-toolbar-theme($dark-theme);
+/** Mixin to add all *.component.theme.css themes. */
+@mixin elypia-website-theme($theme) {
+  @include angular-material-theme($theme);
+  @include app-article-theme($theme);
+  @include app-footer-theme($theme);
+  @include app-fund-method-theme($theme);
+  @include app-logo-download-theme($theme);
+  @include app-social-theme($theme);
+  @include app-toolbar-theme($theme);
 }
 
+/** Dark Theme */
+$dark-primary: mat-palette($mat-grey, 900, 700, 900);
+$dark-accent: mat-palette($mat-grey, 100, 50, 200);
+$dark-theme: mat-dark-theme($dark-primary, $dark-accent);
+
+@include elypia-website-theme($dark-theme);
+
 /** Light Theme */
-$light-primary: mat-palette($mat-blue, 600, 200, 800);
-$light-accent: mat-palette($mat-light-blue);
+$light-primary: mat-palette($mat-blue, 700, 600, 800);
+$light-accent: mat-palette($mat-blue, 700, 600, 800);
 $light-theme: mat-light-theme($light-primary, $light-accent);
 
 .elypia-light-theme {
-  @include angular-material-theme($light-theme);
-  @include app-article-theme($light-theme);
-  @include app-footer-theme($light-theme);
-  @include app-fund-method-theme($light-theme);
-  @include app-logo-download-theme($light-theme);
-  @include app-toolbar-theme($light-theme);
+  @include elypia-website-theme($light-theme);
 }

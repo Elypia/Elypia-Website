@@ -11,7 +11,7 @@ export class LogoDownloadComponent implements OnInit {
   @Input() imageDescription: string;
 
   /** The logo to display. */
-  @Input() imageUrl: string;
+  @Input() imageUrlPrefix: string;
 
   @Input() imageAlt: string;
 

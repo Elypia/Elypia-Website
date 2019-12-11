@@ -16,19 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#donate-methods {
+mat-divider {
   margin: 1em 0;
 }
 
-app-fund-method {
-   margin: 0 .5em;
-}
-
-mat-divider {
-  margin: 1em 0 2em 0;
-}
-
-mat-card {
+mat-card + mat-card, app-fund-method + app-fund-method {
   margin-top: 1em;
 }
 
@@ -48,13 +40,12 @@ p {
 
 @media (min-width: 1024px) {
   #donate-methods {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
   }
 
-  app-fund-method {
-    width: 48%;
-    margin-bottom: 2em;
+  app-fund-method:nth-child(2n) {
+    margin-left: 1em;
   }
 }

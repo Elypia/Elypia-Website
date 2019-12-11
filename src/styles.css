@@ -33,12 +33,15 @@ html {
   overflow-y: scroll;
 }
 
-/** Use full view height and width to anchor the footer to the bottom. */
+/** Use full view height and width to help anchor footer to the bottom. */
 html, body {
-  min-height: 100vh;
+  height: 100%;
 }
 
-/** Max-width and center content, useful to be consistent with window space utilized. */
+/**
+ * Max-width and center content, useful to be consistent with window space utilized.
+ * We used 1265px since 1280px (smallest reasonable resolution) - 15px (scrollbar).
+ */
 .container {
   max-width: 1265px;
   margin: 0 auto;
