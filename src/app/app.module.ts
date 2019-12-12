@@ -49,7 +49,6 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {ToolbarModule} from './toolbar/toolbar.module';
 import {FormsModule} from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
-import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ArticleModule} from './article/article.module';
 import {MatMenuModule} from '@angular/material/menu';
@@ -103,7 +102,6 @@ const markdownOptions: MarkdownModuleConfig = {
 
     // Modules Defined in this Application
     ArticleModule,
-    CarouselModule,
     DonateModule,
     FooterModule,
     PressKitModule,

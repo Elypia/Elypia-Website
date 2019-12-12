@@ -8,7 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class LogoDownloadComponent implements OnInit {
 
   /** The simple name of this image. */
-  @Input() imageDescription: string;
+  @Input() brandingName: string;
 
   /** The logo to display. */
   @Input() imageUrlPrefix: string;

@@ -25,7 +25,6 @@ import {MatCardModule, MatDialogModule, MatIconModule, MatMenuModule, MatTableMo
 import {LoggerTestingModule} from 'ngx-logger/testing';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {ArticleModule} from './article/article.module';
-import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ToolbarModule} from './toolbar/toolbar.module';
 import {FooterModule} from './footer/footer.module';
@@ -41,7 +40,6 @@ describe('AppComponent', () => {
         RouterTestingModule,
         LoggerTestingModule,
         ArticleModule,
-        CarouselModule,
         DonateModule,
         FooterModule,
         ToolbarModule,

@@ -16,16 +16,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#about-title {
-  margin-bottom: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#about-title-logo {
-  height: 64px;
-  margin-right: 1em;
+h1 {
+  text-align: center;
+  margin-bottom: .5em;
 }
 
 #about-info {
@@ -56,9 +49,8 @@ mat-card h2 {
 }
 
 @media (min-width: 720px) {
-
-  #about-title {
-    justify-content: left;
+  h1 {
+    text-align: left;
   }
 
   #about-info {

@@ -1,51 +1,62 @@
-#press-kit-guidelines ul li {
-  margin-left: .5em;
+#press-kit-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -.5em -.5em .5em -.5em;
+}
+#press-kit-content mat-card {
+  width: 256px;
+  flex-grow: 1;
+  margin: .5em;
 }
 
-#press-kit-content mat-card, app-logo-download {
-  margin-bottom: 1em;
-}
-
-#press-kit-logos {
+#press-kit-logos, #press-kit-text-logos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: -.5em;
 }
 
 #press-kit-text-logos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: 1em -.5em;
 }
 
 app-logo-download {
-  width: 256px;
+  width: 380px;
   flex-grow: 1;
-  margin: .5em 0;
+  margin: .5em;
+}
+
+#press-kit-colors-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -.5em;
 }
 
 #press-kit-colors-list app-company-color {
-  display: block;
-  margin: 1em .5em;
+  width: 128px;
+  flex-grow: 1;
+  margin: .5em;
 }
 
 #download-everything {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
 }
 
 #download-everything h3 {
-  margin: 1em 0 .5em 0;
+  margin-top: 1em;
+}
+
+mat-card h3, #download-everything h3 {
+  margin-bottom: .25em;
 }
 
 @media (min-width: 720px) {
   #press-kit-content {
     display: flex;
-  }
-
-  app-logo-download + app-logo-download {
-    margin-left: .5em;
   }
 
   #press-kit-colors-list {
@@ -57,9 +68,5 @@ app-logo-download {
     width: 128px;
     flex-grow: 1;
     transition: margin-top .3s ease-in-out;
-  }
-
-  #press-kit-colors-list app-company-color:hover {
-    margin-top: .75em;
   }
 }

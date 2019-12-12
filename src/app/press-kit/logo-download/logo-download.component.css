@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   border-radius: .25em;
-  padding: 1rem .5rem 0 .5rem;
 
   /* Create checkered background. */
   background-image: linear-gradient(to right, #C0C0C080, #C0C0C080),
@@ -14,6 +13,7 @@
 }
 
 img {
+  margin: .5em;
   width: 75%;
   height: 256px;
 }
@@ -24,21 +24,19 @@ img {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1em;
-  padding: .5rem;
   border-radius: 0 0 .25em .25em;
 }
 
-.logo-downloads button {
-  margin: .5em .25em 0 .25em;
+h3, .logo-downloads {
+  margin: .25em 1em;
+}
+
+a + a {
+  margin-left: .5em;
 }
 
 @media (min-width: 420px) {
   .logo-meta {
     flex-direction: row;
-  }
-
-  .logo-downloads button {
-    margin-top: 0;
   }
 }

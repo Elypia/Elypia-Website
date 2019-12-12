@@ -18,25 +18,29 @@
 
 mat-card {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding: .5em 1em;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 15%;
+  flex-shrink: 0;
 }
 
 .fund-details {
-  margin: 1em 0 0 0;
+  flex-grow: 1;
 }
 
-p {
-  margin-top: .5em;
+.fund-details h2 {
+  margin: .5em 0;
 }
 
 @media (min-width: 512px) {
   mat-card {
-    display: grid;
-    grid-template-columns: 15% 85%;
-    justify-content: space-between;
+    flex-direction: row;
     text-align: left;
   }
 
@@ -45,6 +49,10 @@ p {
   }
 
   .fund-details {
-    margin: 0 0 0 1em;
+    margin-left: 1em;
+  }
+
+  .fund-details h2 {
+    margin: 0;
   }
 }
