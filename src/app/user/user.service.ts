@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -24,6 +25,9 @@ import {User} from './user';
 import {catchError, map} from 'rxjs/operators';
 import LoginForm from '../toolbar/login-form/login-form';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Injectable({
   providedIn: 'root'
 })

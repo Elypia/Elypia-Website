@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -19,6 +20,24 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
+export class PwnedPassword {
+
+  hash: string;
+  occurences: number;
+
+  constructor(req: string, pwned: string) {
+    const split: string[] = pwned.split(':');
+    this.hash = req + split[0];
+    this.occurences = Number(split[1]);
+  }
+}
+
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Injectable({
   providedIn: 'root'
 })

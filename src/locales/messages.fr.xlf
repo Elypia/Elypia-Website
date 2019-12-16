@@ -2,23 +2,15 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="fr">
     <body>
-      <trans-unit id="support-heading" datatype="html">
-        <source>Support Elypia</source>
-        <target>Soutenir Elypia</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="donate-elypia-is-cic" datatype="html">
-        <source>Elypia is a Community Interest Company</source>
+      <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
+        <source>Elypia is a Non-Profit CIC</source>
         <target>Elypia est une société d'intérêt communautaire</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="donate-where-do-they-go" datatype="html">
+      <trans-unit id="faa2e36d8a02346d34d5960e4b104ace3c98c127" datatype="html">
         <source>Where do donations go?</source>
         <target>Où vont les dons ?</target>
         <context-group purpose="location">
@@ -26,7 +18,7 @@
           <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="login-email" datatype="html">
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
         <source>Email</source>
         <target>Email</target>
         <context-group purpose="location">
@@ -34,7 +26,7 @@
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="login-password" datatype="html">
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
         <source>Password</source>
         <target>Mot de passe</target>
         <context-group purpose="location">
@@ -42,7 +34,7 @@
           <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="password-length-error" datatype="html">
+      <trans-unit id="032fff8849ccc29d1ab02ac37420606a976cdd24" datatype="html">
         <source>Password must be between 8 and 72 characters!</source>
         <target>Le mot de passe doit avoir entre 8 et 72 caractères !</target>
         <context-group purpose="location">
@@ -50,7 +42,7 @@
           <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="register-verify-password" datatype="html">
+      <trans-unit id="bcd1e439caba9926b076fbcad03d4837a1674a8c" datatype="html">
         <source>Verify Password</source>
         <target>vérifier le mot de passe</target>
         <context-group purpose="location">
@@ -58,7 +50,7 @@
           <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="register-passwords-dont-match" datatype="html">
+      <trans-unit id="c3bc24a3fbe456746530df41a51215ec6e81c15c" datatype="html">
         <source>Password must match!</source>
         <target>Le mot de passe doit correspondre !</target>
         <context-group purpose="location">
@@ -66,7 +58,7 @@
           <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="login-remember-me" datatype="html">
+      <trans-unit id="7996757c79a1c08f21ec4be3208d6e7a8684ba4d" datatype="html">
         <source>Remember me!</source>
         <target>Souviens-toi de moi !</target>
         <context-group purpose="location">
@@ -74,7 +66,7 @@
           <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="login-email-not-exist" datatype="html">
+      <trans-unit id="d5b4cd0272163bc86ab653f5d4ea93f8145b9a5c" datatype="html">
         <source>It looks like you're new here so we brought up registration form instead for you!</source>
         <target>On dirait que vous êtes nouveau ici, nous avons donc créé le formulaire d'inscription à votre place !</target>
         <context-group purpose="location">
@@ -82,7 +74,7 @@
           <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="source-code" datatype="html">
+      <trans-unit id="3e5f6dace58c71c03d9050ba9cfba47f96c16369" datatype="html">
         <source>Source Code</source>
         <target>Code source</target>
         <context-group purpose="location">
@@ -90,7 +82,7 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="footer-copyright" datatype="html">
+      <trans-unit id="cc82fa89983785cb60daa0a7516c611fc02b5cd1" datatype="html">
         <source>Copyright</source>
         <target>Droits d'auteur</target>
         <context-group purpose="location">
@@ -98,7 +90,7 @@
           <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="about-intro" datatype="html">
+      <trans-unit id="5499b81e5db6d551e39b1731b360d787148bfea2" datatype="html">
         <source>Introduction</source>
         <target>Introduction</target>
         <context-group purpose="location">
@@ -106,7 +98,7 @@
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="about-legal" datatype="html">
+      <trans-unit id="9a91783e9c0f790ed49edae730f9156070ed9dd5" datatype="html">
         <source>Legal</source>
         <target>Légal</target>
         <context-group purpose="location">
@@ -114,7 +106,7 @@
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="about-mission" datatype="html">
+      <trans-unit id="fd8fea6883aa5d60999b1ab27276b128d51441fa" datatype="html">
         <source>Mission</source>
         <target>Mission</target>
         <context-group purpose="location">

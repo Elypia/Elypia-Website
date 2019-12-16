@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -21,6 +22,9 @@ import {ThemeService} from './theme.service';
 import {NGXLogger} from 'ngx-logger';
 import {MenuNode} from './toolbar/toolbar';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

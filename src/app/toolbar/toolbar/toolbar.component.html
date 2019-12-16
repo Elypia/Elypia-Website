@@ -22,7 +22,7 @@
       <div class="container">
         <a routerLink="/" class="hover-excluded">
           <img id="toolbar-logo" src="/assets/branding/elypia_text.svg"
-               i18n-alt="@@homepage-text-logo-alt" alt="Elypia Text Logo">
+               i18n-alt alt="Elypia Text Logo">
         </a>
         <div>
           <div class="large-only">
@@ -73,11 +73,10 @@
   </div>
 </div>
 
-
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">
     <mat-icon fontSet="fas" fontIcon="fa-fill-drip"></mat-icon>
-    <span i18n="@@navbar-themes">Themes</span>
+    <span i18n>Themes</span>
   </button>
 </mat-menu>
 

@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -90,6 +91,9 @@ const markdownOptions: MarkdownModuleConfig = {
   }
 };
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @NgModule({
   declarations: [
     AppComponent,

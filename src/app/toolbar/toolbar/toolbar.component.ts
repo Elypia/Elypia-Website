@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -26,6 +27,9 @@ import {NGXLogger} from 'ngx-logger';
 import {MenuNode} from '../toolbar';
 import {LocaleSelectionComponent} from '../locale-selection/locale-selection.component';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',

@@ -67,7 +67,7 @@
             "nl": {
               "baseHref": "/nl/",
               "outputPath": "dist/nl/",
-              "i18nFile": "src/locale/messages.nl.xlf",
+              "i18nFile": "src/locales/messages.nl.xlf",
               "i18nLocale": "nl"
             }
           }
