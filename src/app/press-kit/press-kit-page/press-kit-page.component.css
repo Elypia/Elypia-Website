@@ -52,7 +52,7 @@ app-brand-card {
 }
 
 #download-everything h3 {
-  margin-top: 1em;
+  margin: 1em 0 .5em 0;
 }
 
 mat-card h2, #download-everything h2 {

@@ -55,10 +55,10 @@
             </ng-container>
           </div>
           <button mat-button class="small-only" (click)="onMobileMenuToggle()">Menu</button>
-          <button mat-icon-button class="icon-button" (click)="openLocaleDialog()">
+          <button mat-icon-button class="icon-button" aria-label="Select Language" (click)="openLocaleDialog()">
             <mat-icon fontSet="fas" fontIcon="fa-language"></mat-icon>
           </button>
-          <button mat-icon-button class="icon-button" [matMenuTriggerFor]="appMenu">
+          <button mat-icon-button class="icon-button" aria-label="Other Menus" [matMenuTriggerFor]="appMenu">
             <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
           </button>
         </div>
