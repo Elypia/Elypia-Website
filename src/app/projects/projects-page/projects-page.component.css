@@ -29,7 +29,7 @@ app-project {
   margin: .5em;
 }
 
-/** Margin between the buttons to external pages. */
+/* Margin between the buttons to external pages. */
 a + a {
   margin-left: .5em;
 }

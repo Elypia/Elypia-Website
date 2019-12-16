@@ -35,7 +35,7 @@ mat-card {
   align-items: center;
   width: 15%;
 
-  /** Use the defined width, even if the icon takes less space. */
+  /* Use the defined width, even if the icon takes less space. */
   flex-shrink: 0;
 }
 

@@ -26,7 +26,7 @@
 
 @include mat-core();
 
-/** Mixin to add all *.component.theme.css themes. */
+/* Mixin to add all *.component.theme.css themes. */
 @mixin elypia-website-theme($theme) {
   @include angular-material-theme($theme);
   @include app-article-theme($theme);
@@ -37,14 +37,14 @@
   @include app-toolbar-theme($theme);
 }
 
-/** Dark Theme */
+/* Dark Theme */
 $dark-primary: mat-palette($mat-grey, 900, 700, 900);
 $dark-accent: mat-palette($mat-grey, 100, 50, 200);
 $dark-theme: mat-dark-theme($dark-primary, $dark-accent);
 
 @include elypia-website-theme($dark-theme);
 
-/** Light Theme */
+/* Light Theme */
 $light-primary: mat-palette($mat-blue, 700, 600, 800);
 $light-accent: mat-palette($mat-blue, 700, 600, 800);
 $light-theme: mat-light-theme($light-primary, $light-accent);

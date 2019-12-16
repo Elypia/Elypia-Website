@@ -48,10 +48,9 @@ p {
 
 .funding-icon {
   font-size: 4em;
-}
 
-.clipboard {
-  margin-left: .5em;
+  /* Setting height to 1em will make it the "4em" which font-size was just set to be. */
+  height: 1em;
 }
 
 @media (min-width: 512px) {

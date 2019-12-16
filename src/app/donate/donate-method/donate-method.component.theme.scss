@@ -22,7 +22,7 @@
 
   $primary: map-get($theme, primary);
 
-  mat-card.donate-method:hover, mat-card.donate-method:focus     {
+  mat-card.donate-method:hover, a:focus mat-card.donate-method {
     background-color: mat-color($primary, lighter);
   }
 }
