@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/** Reset */
+/* Reset */
 html, body, div, header, footer,
 h1, h2, h3, h4, h5, h6,
 ul, li, p, a {
@@ -25,7 +25,7 @@ ul, li, p, a {
   font-family: Roboto, sans-serif;
 }
 
-/**
+/*
   Make the scrollbar always visible to prevent page jumping
   between big and small main.
  */
@@ -33,30 +33,47 @@ html {
   overflow-y: scroll;
 }
 
-/** Use full view height and width to anchor the footer to the bottom. */
+/* Use full view height and width to help anchor footer to the bottom. */
 html, body {
-  min-height: 100vh;
+  height: 100%;
 }
 
-/** Max-width and center content, useful to be consistent with window space utilized. */
+/*
+ * Max-width and center content, useful to be consistent with window space utilized.
+ * We used 1265px since 1280px (smallest reasonable resolution) - 15px (scrollbar).
+ */
 .container {
   max-width: 1265px;
   margin: 0 auto;
 }
 
-/** Use our own styling for all links on the main. */
-a {
+/* We only want text decoration styles for links in the main content. */
+.non-content a {
   text-decoration: none;
 }
 
-/** Split an element up with all elements spread out. */
+/*
+ * Reduce opacity to all elements with the `hover` class unless either:
+ * 1) Not currently the hovered element.
+ * 2) Not the currently focused element.
+ *
+ * Reduce opacity to all anchored links unless either:
+ * 1) Got the mat-button directive.
+ * 2) Has the hover-excluded class.
+ * 3) Not currently the hovered element.
+ * 4) Not the currently focused element.
+ */
+.hover:not(:hover):not(:focus), a:not([mat-button]):not(.hover-excluded):not(:hover):not(:focus) {
+  opacity: .8;
+}
+
+/* Split an element up with all elements spread out. */
 .split {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
 
-/** Anything hoverable that's not hovered should be dimmed. */
-.hover:not(:hover) {
-  opacity: 0.8;
+.click-to-select {
+  user-select: all;
 }

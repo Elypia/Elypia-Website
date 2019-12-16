@@ -1,0 +1,67 @@
+/*
+ * Elypia Website - The company website for Elypia.
+ * Copyright (C) 2019-2019  Elypia CIC
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+a {
+  text-decoration: none;
+}
+
+mat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+
+  /* Use the defined width, even if the icon takes less space. */
+  flex-shrink: 0;
+}
+
+.donate-method-info {
+  flex-grow: 1;
+}
+
+.donate-method-info h2 {
+  margin: .5em 0;
+}
+
+@media (min-width: 512px) {
+  mat-card {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .icon-wrapper {
+    text-align: center;
+  }
+
+  .donate-method-info {
+    margin-left: 1em;
+  }
+
+  .donate-method-info h2 {
+    margin: 0;
+  }
+}

@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -17,6 +18,8 @@
  */
 
 import {Component} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-donate',
@@ -25,5 +28,7 @@ import {Component} from '@angular/core';
 })
 export class DonatePageComponent {
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(environment.titlePrefix + ' | Donate');
+  }
 }

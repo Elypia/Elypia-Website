@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,18 +17,65 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
+import {animate, state, style, transition, trigger} from '@angular/animations';
+import {environment} from '../../../environments/environment';
+import {Title} from '@angular/platform-browser';
+
+export interface EprivacyEntry {
+
+  /** What type of data this is, eg cookie, or local storage. */
+  type: string;
+
+  /** The name of this data. */
+  name: string;
+
+  /** The domain this data is for. */
+  domain?: string;
+
+  /** The number of days that this data is alive for. */
+  expires?: number;
+
+  /** An explanation on why this exists. */
+  description: string;
+}
+
+const PRIVACY_DATA: EprivacyEntry[] = [
+  {
+    type: 'cookie',
+    name: '__cfduid',
+    domain: '.elypia.org',
+    expires: 365,
+    description: 'Provided by CloudFlare in order to identify clients, for example, if you\'re ' +
+      'at McDonalds where there could be infected machines, but your machine is trusted ' +
+      '(eg; you completed a challenge), this allows CloudFlare to recognise this and refrain ' +
+      'from challenging you again. It has no relation to anything in our sites nor does ' +
+      'it store any personal information.'
+  },
+  {
+    type: 'localstorage',
+    name: 'theme',
+    description: 'Stores the selected theme so it can persist between page visits.'
+  }
+];
 
 @Component({
   selector: 'app-privacy',
   templateUrl: './privacy-page.component.html',
-  styleUrls: ['./privacy-page.component.css']
+  styleUrls: ['./privacy-page.component.css'],
+  animations: [
+    trigger('detailExpand', [
+      state('collapsed', style({height: '0px', minHeight: '0'})),
+      state('expanded', style({height: '*'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+    ]),
+  ]
 })
-export class PrivacyPageComponent implements OnInit {
+export class PrivacyPageComponent {
+  columns: string[] = ['type', 'name', 'domain', 'expires', 'description'];
+  data = PRIVACY_DATA;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(environment.titlePrefix + ' | Privacy');
   }
-
 }

@@ -1,0 +1,46 @@
+.branding-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .25em;
+
+  /* Create checkered background. */
+  background-image: linear-gradient(to right, #C0C0C080, #C0C0C080),
+                    linear-gradient(to right, #2C2C2C 50%, #404040 50%),
+                    linear-gradient(to bottom, #2C2C2C 50%, #404040 50%);
+  background-blend-mode: normal, difference, normal;
+  background-size: 2em 2em;
+}
+
+img {
+  margin: .5em;
+  width: 75%;
+  height: 256px;
+}
+
+.logo-meta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 .25em .25em;
+}
+
+h3, .logo-download-buttons {
+  margin: .25em 1em;
+}
+
+.logo-download-buttons a .fa-download {
+  margin-right: .5em;
+}
+
+a + a {
+  margin-left: .5em;
+}
+
+@media (min-width: 450px) {
+  .logo-meta {
+    flex-direction: row;
+  }
+}

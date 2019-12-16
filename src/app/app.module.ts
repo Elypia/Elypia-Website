@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -20,7 +21,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {FooterComponent} from './main/footer/footer.component';
 import {HomePageComponent} from './main/home-page/home-page.component';
 import {RouterModule, Routes} from '@angular/router';
 import {MarkdownModule, MarkdownModuleConfig, MarkedOptions} from 'ngx-markdown';
@@ -38,14 +38,14 @@ import {ArticlePageComponent} from './article/article-page/article-page.componen
 import {LoginFormComponent} from './toolbar/login-form/login-form.component';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {AboutPageComponent} from './main/about-page/about-page.component';
-import {OverlayContainer} from '@angular/cdk/overlay';
-import {SocialComponent} from './main/social/social.component';
 import {DonatePageComponent} from './donate/donate-page/donate-page.component';
-import {MatCardModule, MatDialogModule, MatTableModule, MatTabsModule} from '@angular/material';
+import {MatCardModule} from '@angular/material/card';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatTableModule} from '@angular/material/table';
+import {MatTabsModule} from '@angular/material/tabs';
 import {LoggerConfig, LoggerModule} from 'ngx-logger';
 import {environment} from '../environments/environment';
 import {PrivacyPageComponent} from './main/privacy-page/privacy-page.component';
-import {EprivacyPageComponent} from './main/eprivacy-page/eprivacy-page.component';
 import {ProjectsPageComponent} from './projects/projects-page/projects-page.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
@@ -53,13 +53,13 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {ToolbarModule} from './toolbar/toolbar.module';
 import {FormsModule} from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
-import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ArticleModule} from './article/article.module';
 import {MatMenuModule} from '@angular/material/menu';
 import {PressKitPageComponent} from './press-kit/press-kit-page/press-kit-page.component';
 import {PressKitModule} from './press-kit/press-kit.module';
 import {ProjectsModule} from './projects/projects.module';
+import {FooterModule} from './footer/footer.module';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -69,7 +69,6 @@ const appRoutes: Routes = [
   /** Works without API, may lose some features. */
   { path: 'support/press-kit', component: PressKitPageComponent },
   { path: 'support/privacy', component: PrivacyPageComponent },
-  { path: 'support/eprivacy', component: EprivacyPageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'projects', component: ProjectsPageComponent },
   { path: 'donate', component: DonatePageComponent },
@@ -92,15 +91,15 @@ const markdownOptions: MarkdownModuleConfig = {
   }
 };
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
     HomePageComponent,
     AboutPageComponent,
-    SocialComponent,
-    PrivacyPageComponent,
-    EprivacyPageComponent
+    PrivacyPageComponent
   ],
   imports: [
     // Configured
@@ -110,8 +109,8 @@ const markdownOptions: MarkdownModuleConfig = {
 
     // Modules Defined in this Application
     ArticleModule,
-    CarouselModule,
     DonateModule,
+    FooterModule,
     PressKitModule,
     ProjectsModule,
     ToolbarModule,
@@ -151,7 +150,4 @@ const markdownOptions: MarkdownModuleConfig = {
 })
 export class AppModule {
 
-  constructor(overlayContainer: OverlayContainer) {
-    overlayContainer.getContainerElement().classList.add('elypia-light-theme');
-  }
 }

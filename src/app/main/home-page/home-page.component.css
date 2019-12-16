@@ -16,36 +16,23 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#home-mission {
-  margin-bottom: 1em;
-}
-
 #home-mission-title {
   display: flex;
   align-items: center;
+}
+
+#home-mission-logo {
+  height: 4em;
+  margin-right: 1em;
 }
 
 #home-mission-statement {
   margin: 1em 0;
 }
 
-#home-mission-logo {
-  height: 64px;
-  margin: 0 1em 0 0;
-}
-
-/** Give all articles except the first one margin top/bottom. */
-.article:not(:first-child) {
-  margin: 1em 0;
-}
-
 @media (min-width: 720px) {
   #home {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #home-mission {
-    margin: 0 1em 1em 0;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

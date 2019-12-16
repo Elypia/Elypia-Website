@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -19,6 +20,8 @@
 /**
  * Used to define navigation menu elements for mobile
  * and desktop devices.
+ *
+ * @author seth@elypia.org (Seth Falco)
  */
 export interface MenuNode {
 

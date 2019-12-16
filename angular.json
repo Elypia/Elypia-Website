@@ -31,9 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css",
-              "src/styles.themes.scss"
+              "src/styles.theme.scss"
             ],
             "scripts": [],
             "es5BrowserSupport": true,
@@ -68,7 +67,7 @@
             "nl": {
               "baseHref": "/nl/",
               "outputPath": "dist/nl/",
-              "i18nFile": "src/locale/messages.nl.xlf",
+              "i18nFile": "src/locales/messages.nl.xlf",
               "i18nLocale": "nl"
             }
           }
@@ -114,9 +113,8 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css",
-              "src/styles.themes.scss"
+              "src/styles.theme.scss"
             ],
             "scripts": []
           }

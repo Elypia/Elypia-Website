@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -22,6 +23,8 @@ import {ActivatedRoute} from '@angular/router';
 import {Article, ArticleComment} from '../article';
 import {CommentService} from '../comment.service';
 import {LoadState} from '@elypia/ng-elypian';
+import {Title} from '@angular/platform-browser';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-article-page',
@@ -36,10 +39,13 @@ export class ArticlePageComponent implements OnInit {
   public comments: ArticleComment[];
 
   constructor(
+    private titleService: Title,
     private route: ActivatedRoute,
     private articleService: ArticleService,
     private commentService: CommentService
-  ) {}
+  ) {
+    this.titleService.setTitle(environment.titlePrefix + ' | Article');
+  }
 
   ngOnInit() {
     this.route.paramMap.subscribe((paramMap) => {

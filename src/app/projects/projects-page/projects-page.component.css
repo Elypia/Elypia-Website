@@ -16,18 +16,20 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-h1 {
-  margin-bottom: .25em;
+#projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -.5em;
 }
 
 app-project {
+  width: 420px;
+  flex-grow: 1;
   margin: .5em;
-  display: block;
 }
 
-@media (min-width: 720px) {
-  #projects-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+/* Margin between the buttons to external pages. */
+a + a {
+  margin-left: .5em;
 }

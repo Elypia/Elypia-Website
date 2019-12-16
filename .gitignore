@@ -52,3 +52,4 @@ Thumbs.db
 *.pem
 *.key
 .idea/
+.scannerwork/

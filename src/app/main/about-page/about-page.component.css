@@ -16,18 +16,6 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#about-title {
-  margin-bottom: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#about-title-logo {
-  height: 64px;
-  margin-right: 1em;
-}
-
 #about-info {
   display: flex;
   flex-direction: column;
@@ -43,7 +31,7 @@
   width: 100%;
 }
 
-mat-card:not(:first-child) {
+mat-card + mat-card {
   margin-top: 1em;
 }
 
@@ -56,11 +44,6 @@ mat-card h2 {
 }
 
 @media (min-width: 720px) {
-
-  #about-title {
-    justify-content: left;
-  }
-
   #about-info {
     flex-direction: row-reverse;
     align-items: start;
