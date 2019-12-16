@@ -20,13 +20,9 @@
 
 @mixin app-toolbar-theme($theme) {
 
-  $accent: map-get($theme, accent);
-
-  .current-theme {
-    color: mat-color($accent, text);
-  }
+  $primary: map-get($theme, primary);
 
   .selected {
-    background-color: mat-color($accent, text);
+    background-color: mat-color($primary, lighter);
   }
 }

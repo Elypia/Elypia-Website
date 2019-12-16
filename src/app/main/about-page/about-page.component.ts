@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -17,6 +18,8 @@
  */
 
 import {Component, OnInit} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-about',
@@ -25,7 +28,9 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AboutPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(environment.titlePrefix + ' | About');
+  }
 
   ngOnInit() {
   }

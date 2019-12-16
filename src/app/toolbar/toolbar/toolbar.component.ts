@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -19,13 +20,16 @@
 import {Component, HostListener, Input, OnInit, ViewChild} from '@angular/core';
 import {ThemeService} from '../../theme.service';
 import {LoginFormComponent} from '../login-form/login-form.component';
-import {MatDialog} from '@angular/material';
+import {MatDialog} from '@angular/material/dialog';
 import {MobileToolbarMenuComponent} from '../mobile-toolbar-menu/mobile-toolbar-menu.component';
 import {NavigationStart, Router, RouterEvent} from '@angular/router';
 import {NGXLogger} from 'ngx-logger';
 import {MenuNode} from '../toolbar';
 import {LocaleSelectionComponent} from '../locale-selection/locale-selection.component';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',

@@ -1,8 +1,8 @@
-<div class="company-color"
+<div class="company-color mat-elevation-z8"
      [style.background-color]="backgroundColorRgb"
      [style.color]="colorRgb"
      [style.border-color]="colorRgb">
   <h3>{{colorName}}</h3>
-  <h4>BG: {{backgroundColorRgb}}</h4>
-  <h4>FG: {{colorRgb}}</h4>
+  <h4><ng-container i18n="Background color from Elypia color palette.">BG: </ng-container>{{backgroundColorRgb}}</h4>
+  <h4><ng-container i18n="Foreground color from Elypia color palette.">FG: </ng-container>{{colorRgb}}</h4>
 </div>

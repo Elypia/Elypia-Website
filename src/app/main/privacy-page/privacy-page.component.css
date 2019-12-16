@@ -16,3 +16,25 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+table {
+  width: 100%;
+  margin-top: 1em;
+}
+
+mat-card + mat-card {
+  margin-top: 1em;
+}
+
+p {
+  margin-top: .5em;
+}
+
+.description {
+  width: 50%;
+  padding: 1em 0;
+}
+
+caption {
+  margin-top: 1em;
+  caption-side: bottom;
+}

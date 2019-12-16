@@ -1,0 +1,54 @@
+/*!
+ * Elypia Website - The company website for Elypia.
+ * Copyright (C) 2019-2019  Elypia CIC
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+@import '~@angular/material/theming';
+@import "app/article/article/article.component.theme";
+@import "app/footer/footer/footer.component.theme";
+@import "app/donate/donate-method/donate-method.component.theme";
+@import "app/press-kit/brand-card/brand-card.component.theme";
+@import "app/footer/social/social.component.theme";
+@import "app/toolbar/toolbar/toolbar.component.theme";
+
+@include mat-core();
+
+/* Mixin to add all *.component.theme.css themes. */
+@mixin elypia-website-theme($theme) {
+  @include angular-material-theme($theme);
+  @include app-article-theme($theme);
+  @include app-footer-theme($theme);
+  @include app-donate-method-theme($theme);
+  @include app-brand-card-theme($theme);
+  @include app-social-theme($theme);
+  @include app-toolbar-theme($theme);
+}
+
+/* Dark Theme */
+$dark-primary: mat-palette($mat-grey, 900, 700, 900);
+$dark-accent: mat-palette($mat-grey, 100, 50, 200);
+$dark-theme: mat-dark-theme($dark-primary, $dark-accent);
+
+@include elypia-website-theme($dark-theme);
+
+/* Light Theme */
+$light-primary: mat-palette($mat-blue, 700, 600, 800);
+$light-accent: mat-palette($mat-blue, 700, 600, 800);
+$light-theme: mat-light-theme($light-primary, $light-accent);
+
+.elypia-light-theme {
+  @include elypia-website-theme($light-theme);
+}

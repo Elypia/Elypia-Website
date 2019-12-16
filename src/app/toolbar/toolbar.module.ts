@@ -18,6 +18,9 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatTooltipModule} from '@angular/material/tooltip';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @NgModule({
   declarations: [
     ToolbarComponent,

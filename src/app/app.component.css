@@ -17,13 +17,13 @@
  */
 
 #elypia-app {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 #content {
-  margin: 2em 1em 1em 1em;
+  margin: 1em;
   flex-grow: 1;
   z-index: 1;
 }

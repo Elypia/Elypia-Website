@@ -1,7 +1,8 @@
 mat-card {
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .project-title {
@@ -33,7 +34,7 @@ h3 {
 @media (min-width: 512px) {
   mat-card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
     align-items: center;
   }

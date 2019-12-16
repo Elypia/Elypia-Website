@@ -16,20 +16,26 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#donate-methods {
-  margin: 1em 0;
+#donate-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -.5em;
 }
 
-app-fund-method {
-   margin: 0 .5em;
+#donate-info mat-card, app-donate-method {
+  width: 512px;
+  flex-grow: 1;
+  margin: .5em;
+}
+
+#donate-methods {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -.5em;
 }
 
 mat-divider {
-  margin: 1em 0 2em 0;
-}
-
-mat-card {
-  margin-top: 1em;
+  margin: 1em 0;
 }
 
 h2 {
@@ -40,21 +46,15 @@ p {
   margin-top: .5em;
 }
 
-@media (min-width: 720px) {
-  h2 {
-    text-align: left;
-  }
+.funding-icon {
+  font-size: 4em;
+
+  /* Setting height to 1em will make it the "4em" which font-size was just set to be. */
+  height: 1em;
 }
 
-@media (min-width: 1024px) {
-  #donate-methods {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  app-fund-method {
-    width: 48%;
-    margin-bottom: 2em;
+@media (min-width: 512px) {
+  h2 {
+    text-align: left;
   }
 }

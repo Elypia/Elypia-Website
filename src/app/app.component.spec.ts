@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -21,31 +22,32 @@ import {AppComponent} from './app.component';
 import {CommonModule} from '@angular/common';
 import {RouterTestingModule} from '@angular/router/testing';
 import {MatButtonModule} from '@angular/material/button';
-import {FooterComponent} from './main/footer/footer.component';
-import {MatCardModule, MatDialogModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from '@angular/material';
-import {SocialComponent} from './main/social/social.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatTableModule} from '@angular/material/table';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 import {LoggerTestingModule} from 'ngx-logger/testing';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {ArticleModule} from './article/article.module';
-import {CarouselModule} from './carousel/carousel.module';
 import {DonateModule} from './donate/donate.module';
 import {ToolbarModule} from './toolbar/toolbar.module';
+import {FooterModule} from './footer/footer.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent,
-        FooterComponent,
-        SocialComponent
+        AppComponent
       ],
       imports: [
         CommonModule,
         RouterTestingModule,
         LoggerTestingModule,
         ArticleModule,
-        CarouselModule,
         DonateModule,
+        FooterModule,
         ToolbarModule,
         ElyLoadableModule,
         ElyTimestampModule,

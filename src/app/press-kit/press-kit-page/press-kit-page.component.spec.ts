@@ -4,7 +4,7 @@ import {PressKitPageComponent} from './press-kit-page.component';
 import {CommonModule} from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
-import {LogoDownloadComponent} from '../logo-download/logo-download.component';
+import {BrandCardComponent} from '../brand-card/brand-card.component';
 import {CompanyColorComponent} from '../company-color/company-color.component';
 
 describe('PressKitPageComponent', () => {
@@ -15,7 +15,7 @@ describe('PressKitPageComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         PressKitPageComponent,
-        LogoDownloadComponent,
+        BrandCardComponent,
         CompanyColorComponent
       ],
       imports: [

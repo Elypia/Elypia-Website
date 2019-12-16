@@ -1,9 +1,9 @@
 <h2 id="locale-title">
-  <span i18n="@@language-selection">Language Selection</span>
-  <sup id="locale-contribute" i18n-matTooltip="@@language-contribute"
+  <span i18n>Language Selection</span>
+  <sup id="locale-contribute" i18n-matTooltip
        matTooltip="You don't need to know how to code to contribute and support Elypia; come translate on Weblate!"
        matTooltipPosition="above">
-    <i class="hover fas fa-info-circle"></i>
+    <span class="hover fas fa-info-circle"></span>
   </sup>
 </h2>
 <div *ngFor="let locale of Locales" class="locale">
@@ -15,11 +15,11 @@
   <ng-template #disabledLocale>
     <span class="locale-option disabled">{{locale.displayName}}</span>
   </ng-template>
-  <a mat-button class="locale-link"
-     href="https://i18n.elypia.org/engage/elypia-website/{{locale.codeUnderscore()}}/?utm_source=widget"
-     [hreflang]="locale.code" target="_blank">
+  <a mat-button class="locale-link hover-excluded"
+     href="https://i18n.elypia.org/engage/elypia-website/{{locale.codeUnderscore()}}/"
+     [hreflang]="locale.code" target="_blank" rel="noopener">
     <img class="locale-badge"
          src="https://i18n.elypia.org/widgets/elypia-website/{{locale.codeUnderscore()}}/elypia-website/svg-badge.svg"
-         alt="Contribute to translations on Weblate"/>
+         i18n-alt alt="Contribute to translations on Weblate"/>
   </a>
 </div>

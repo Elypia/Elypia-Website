@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,17 +17,20 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, OnDestroy, OnInit} from '@angular/core';
-import {Theme, ThemeService} from './theme.service';
+import {Component, OnInit} from '@angular/core';
+import {ThemeService} from './theme.service';
 import {NGXLogger} from 'ngx-logger';
 import {MenuNode} from './toolbar/toolbar';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit, OnDestroy {
+export class AppComponent implements OnInit {
 
   /**
    * This defined the menu structure, it's passed to the {@link NestedTreeControl}
@@ -40,14 +44,13 @@ export class AppComponent implements OnInit, OnDestroy {
       name: 'Support',
       children: [
         { name: 'Press Kit', href: '/support/press-kit' },
-        { name: 'Privacy Policy', href: '/support/privacy' },
-        { name: 'ePrivacy Policy', href: '/support/eprivacy' }
+        { name: 'Privacy Policy', href: '/support/privacy' }
       ]
     }
   ];
 
   constructor(
-    private ngxLogger: NGXLogger,
+    private logger: NGXLogger,
     public themeService: ThemeService
   ) {
     console.log('%cHold on!', 'color: red; font-size: 64px;');
@@ -59,22 +62,6 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    const storedThemeClass: string = localStorage.getItem('theme');
-
-    if (!storedThemeClass)
-      return;
-
-    this.ngxLogger.debug('Current theme is set to:', storedThemeClass);
-
-    const theme: Theme[] = ThemeService.All.filter((t) => t.class === storedThemeClass);
-
-    if (theme.length === 1)
-      this.themeService.selectedTheme = theme[0];
-    else if (theme.length > 1)
-      this.ngxLogger.warn('Multiple theme matched the class stored class name.');
-  }
-
-  ngOnDestroy() {
-
+    this.themeService.loadTheme();
   }
 }

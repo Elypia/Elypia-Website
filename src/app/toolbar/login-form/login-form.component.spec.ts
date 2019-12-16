@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -26,7 +27,7 @@ import {ElyEqualsModule, ElyStatefulButtonModule} from '@elypia/ng-elypian';
 import {RouterTestingModule} from '@angular/router/testing';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatTabsModule} from '@angular/material';
+import {MatTabsModule} from '@angular/material/tabs';
 
 describe('LoginFormComponent', () => {
   let component: LoginFormComponent;

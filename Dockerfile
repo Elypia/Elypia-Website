@@ -1,9 +1,9 @@
 # Smallest appropriate image.
-FROM nginx:1.17.4-alpine
+FROM nginx:1.17.6-alpine
 
 LABEL maintainer="seth@elypia.org"
 
-# Copy over the website over, it's just a single directory.
+# Copy over the website(s) over, it's just a single directory.
 COPY ./dist/ /usr/share/nginx/html/
 
 # Copy NGINX configuration.

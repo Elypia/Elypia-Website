@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-press-kit-page',
@@ -7,7 +9,9 @@ import {Component, OnInit} from '@angular/core';
 })
 export class PressKitPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(environment.titlePrefix + ' | Press Kit');
+  }
 
   ngOnInit() {
 

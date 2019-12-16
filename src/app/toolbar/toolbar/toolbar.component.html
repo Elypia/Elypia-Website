@@ -16,65 +16,67 @@
   ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
-<div id="toolbar">
-  <mat-toolbar class="mat-elevation-z8">
-    <div class="container toolbar-content">
-      <a routerLink="/">
-        <img id="toolbar-logo" src="/assets/branding/elypia_text.svg"
-             i18n-alt="@@homepage-text-logo-alt" alt="Elypia Text Logo">
-      </a>
-      <div>
-        <div class="large-only">
-          <ng-container *ngFor="let node of MenuTree">
-            <ng-container *ngIf="node.href else treeSubMenu">
-              <button *ngIf="!node.href.startsWith('http') else externalurl" mat-button
-                      class="desktop-button" [ngClass]="{'selected': node.href === currentPage}"
-                      [routerLink]="node.href">
-                {{node.name}}
-              </button>
-              <ng-template #externalurl>
-                <a mat-button class="desktop-button" [href]="node.href" target="_blank">
+<div id="toolbar-wrapper">
+  <div id="toolbar">
+    <mat-toolbar class="mat-elevation-z8" color="primary">
+      <div class="container">
+        <a routerLink="/" class="hover-excluded">
+          <img id="toolbar-logo" src="/assets/branding/elypia_text.svg"
+               i18n-alt alt="Elypia Text Logo">
+        </a>
+        <div>
+          <div class="large-only">
+            <ng-container *ngFor="let node of MenuTree">
+              <ng-container *ngIf="node.href else treeSubMenu">
+                <button *ngIf="!node.href.startsWith('http') else externalurl" mat-button
+                        class="desktop-button" [ngClass]="{'selected': node.href === currentPage}"
+                        [routerLink]="node.href">
                   {{node.name}}
-                </a>
+                </button>
+                <ng-template #externalurl>
+                  <a mat-button class="desktop-button" [href]="node.href" target="_blank" rel="noopener">
+                    {{node.name}}
+                  </a>
+                </ng-template>
+              </ng-container>
+              <ng-template #treeSubMenu>
+                <button mat-button class="desktop-button" [matMenuTriggerFor]="childMenu" #childMenuTrigger="matMenuTrigger">
+                  {{node.name}}
+                  <span class="tree-sub-menu-icon" [ngClass]="{'child-menu-open': childMenuTrigger.menuOpen}">
+                  <span class="fad fa-chevron-down"></span>
+                </span>
+                </button>
+                <mat-menu #childMenu="matMenu">
+                  <button *ngFor="let child of node.children" mat-menu-item [routerLink]="child.href">
+                    {{child.name}}
+                  </button>
+                </mat-menu>
               </ng-template>
             </ng-container>
-            <ng-template #treeSubMenu>
-              <button mat-button [matMenuTriggerFor]="childMenu" #childMenuTrigger="matMenuTrigger">
-                <span>{{node.name}}</span>
-                <span class="tree-sub-menu-icon" [ngClass]="{'child-menu-open': childMenuTrigger.menuOpen}">
-                  <i class="fad fa-chevron-down"></i>
-                </span>
-              </button>
-              <mat-menu #childMenu="matMenu">
-                <button *ngFor="let child of node.children" mat-menu-item [routerLink]="child.href">
-                  {{child.name}}
-                </button>
-              </mat-menu>
-            </ng-template>
-          </ng-container>
+          </div>
+          <button mat-button class="small-only" (click)="onMobileMenuToggle()">Menu</button>
+          <button mat-icon-button class="icon-button" (click)="openLocaleDialog()">
+            <mat-icon fontSet="fas" fontIcon="fa-language"></mat-icon>
+          </button>
+          <button mat-icon-button class="icon-button" [matMenuTriggerFor]="appMenu">
+            <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
+          </button>
         </div>
-        <button mat-button class="small-only" (click)="onMobileMenuToggle()">Menu</button>
-        <button mat-icon-button class="toolbar-button" (click)="openLocaleDialog()">
-          <mat-icon fontSet="fas" fontIcon="fa-language"></mat-icon>
-        </button>
-        <button mat-icon-button class="toolbar-button" [matMenuTriggerFor]="appMenu">
-          <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
-        </button>
       </div>
-    </div>
-  </mat-toolbar>
-  <app-mobile-toolbar-menu class="small-only"
-                           [ngClass]="{'mobile-menu-toggled': mobileMenuVisible}"
-                           [MenuTree]="MenuTree"
-                           [currentPage]="currentPage"
-                           (click)="onMobileMenuToggle()">
-  </app-mobile-toolbar-menu>
+    </mat-toolbar>
+    <app-mobile-toolbar-menu class="small-only"
+                             [ngClass]="{'mobile-menu-toggled': mobileMenuVisible}"
+                             [MenuTree]="MenuTree"
+                             [currentPage]="currentPage"
+                             (click)="onMobileMenuToggle()">
+    </app-mobile-toolbar-menu>
+  </div>
 </div>
 
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">
     <mat-icon fontSet="fas" fontIcon="fa-fill-drip"></mat-icon>
-    <span i18n="@@navbar-themes">Themes</span>
+    <span i18n>Themes</span>
   </button>
 </mat-menu>
 

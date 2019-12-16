@@ -17,15 +17,86 @@
   -->
 
 <div class="container">
-  <h1 i18n="@@privacy-policy-heading">Privacy Policy</h1>
-  <h2 i18n="@@privacy-policy-date">Last updated on 1st August 2019</h2>
-  <p i18n="@@privacy-policy-1">
-    This privacy policy will try cover a broad range of Elypia's websites and services. It may be a good idea
-    to check if a particular service you're curious about has it's own policy on top of this general one.
-  </p>
-  <p i18n="@@privacy-policy-2">
-    The Elypia website currently doesn't store any information on users, however the web server that
-    is running the webpage you are viewing right now will have logged basic information about your connection such
-    as IP address.
-  </p>
+  <mat-card>
+    <h2 i18n>Privacy Policy</h2>
+    <h3 i18n>Last updated on 12th December 2019</h3>
+    <p i18n>
+      This privacy policy only refers to what is running on Elypia's servers regardless of what
+      website or service you're using. If you're connected to a third-party host;
+      you should read the respective privacy policy for your host.
+    </p>
+    <p i18n>
+      None of our websites or services store personal information on users, and our web servers is configured with the
+      <a href="https://docs.nginx.com/nginx/admin-guide/monitoring/logging/#access_log" target="_blank" rel="noopener">access log</a>
+      disabled so we do not see information regarding your request such as
+      <a href="https://developer.mozilla.org/en-US/docs/Glossary/IP_Address" target="_blank" rel="noopener">IP</a> or
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent" target="_blank" rel="noopener"
+         i18n-title title="Documentation on User-Agent via MDN Web Docs (Mozilla)">
+        user-agent</a>.
+    </p>
+    <p i18n>
+      We're using <a href="https://www.cloudflare.com/" target="_blank" rel="noopener">CloudFlare</a> as a
+      Content Delivery Network (CDN) which collects and allows us to view aggregate data on
+      traffic such as total requests, number of unique visitors, and which countries are predominantly accessing our services.
+    </p>
+    <p i18n>
+      If there are any concerns or questions regarding our privacy policy, or if you have a request, please
+      send an email to <a href="mailto:dpo@elypia.org" rel="nofollow">dpo@elypia.org</a> where the elected
+      <a href="https://edps.europa.eu/node/3099#data_protection_officer" target="_blank" rel="noopener"
+         i18n-title title="Definition and Requirements for Data Protection Officer">
+        Data Protection Officer (DPO)
+      </a>
+      will be able to support you.
+    </p>
+  </mat-card>
+  <mat-card>
+    <h2 i18n>ePrivacy Directive</h2>
+    <p i18n>
+      The ePrivacy directive, also known as the EU Cookie Law, is what covers the
+      use of cookies (or other client-side storage mediums) and consent. We minimize the use of
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"
+         i18n-title title="Documentation on Cookies via MDN Web Docs (Mozilla)">
+        cookies
+      </a> and
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage" target="_blank" rel="noopener"
+         i18n-title title="Documentation on (Local/Session) Storage via MDN Web Docs (Mozilla)">
+        storage
+      </a> without reducing functionality on the websites or services.
+      We do not, and <em>most likely</em> never will, use or add analytic cookies, or trackers,
+      however we do store some data for technical or client-side configuration purposes.
+    </p>
+    <p i18n>
+      Where third-party scripts is embedded from other websites, third-party cookies may also be added.
+    </p>
+    <table mat-table multiTemplateDataRows [dataSource]="data" class="mat-elevation-z8">
+      <caption>
+        <p i18n>
+          This is a manually defined list of cookies or storage data that
+          may be set while using our website or services.
+        </p>
+      </caption>
+      <ng-container matColumnDef="type">
+        <th mat-header-cell scope="col" *matHeaderCellDef>Type</th>
+        <td mat-cell *matCellDef="let element">{{element.type}}</td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell scope="col" *matHeaderCellDef>Name</th>
+        <td mat-cell *matCellDef="let element">{{element.name}}</td>
+      </ng-container>
+      <ng-container matColumnDef="domain">
+        <th mat-header-cell scope="col" *matHeaderCellDef>Domain (* Third-Party)</th>
+        <td mat-cell *matCellDef="let element">{{element.domain}}</td>
+      </ng-container>
+      <ng-container matColumnDef="expires">
+        <th mat-header-cell scope="col" *matHeaderCellDef>Expires (Days)</th>
+        <td mat-cell *matCellDef="let element">{{element.expires}}</td>
+      </ng-container>
+      <ng-container matColumnDef="description">
+        <th mat-header-cell scope="col" *matHeaderCellDef>Description</th>
+        <td mat-cell *matCellDef="let element" class="description">{{element.description}}</td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="columns"></tr>
+      <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+    </table>
+  </mat-card>
 </div>

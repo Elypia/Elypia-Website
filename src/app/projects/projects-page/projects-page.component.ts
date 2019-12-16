@@ -1,4 +1,5 @@
-/*
+/**
+ * @license
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,16 +17,18 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
+import {Title} from '@angular/platform-browser';
+import {environment} from '../../../environments/environment';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects-page.component.html',
   styleUrls: ['./projects-page.component.css']
 })
-export class ProjectsPageComponent implements OnInit {
+export class ProjectsPageComponent {
 
-  ngOnInit() {
-
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(environment.titlePrefix + ' | Projects');
   }
 }
