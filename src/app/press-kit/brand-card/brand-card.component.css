@@ -1,4 +1,4 @@
-.logo-download {
+.branding-panel {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,15 +27,19 @@ img {
   border-radius: 0 0 .25em .25em;
 }
 
-h3, .logo-downloads {
+h3, .logo-download-buttons {
   margin: .25em 1em;
+}
+
+.logo-download-buttons a .fa-download {
+  margin-right: .5em;
 }
 
 a + a {
   margin-left: .5em;
 }
 
-@media (min-width: 420px) {
+@media (min-width: 450px) {
   .logo-meta {
     flex-direction: row;
   }

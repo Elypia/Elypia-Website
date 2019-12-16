@@ -21,14 +21,14 @@ import {CommonModule} from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import {PressKitPageComponent} from './press-kit-page/press-kit-page.component';
 import {CompanyColorComponent} from './company-color/company-color.component';
-import {LogoDownloadComponent} from './logo-download/logo-download.component';
+import {BrandCardComponent} from './brand-card/brand-card.component';
 import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     PressKitPageComponent,
     CompanyColorComponent,
-    LogoDownloadComponent
+    BrandCardComponent
   ],
   imports: [
     CommonModule,

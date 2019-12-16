@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FooterComponent} from './footer/footer.component';
 import {SocialComponent} from './social/social.component';
-import {MatTooltipModule} from '@angular/material';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [

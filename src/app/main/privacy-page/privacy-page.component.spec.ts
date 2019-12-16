@@ -19,6 +19,8 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {PrivacyPageComponent} from './privacy-page.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatTableModule} from '@angular/material/table';
 
 describe('PrivacyComponent', () => {
   let component: PrivacyPageComponent;
@@ -26,7 +28,13 @@ describe('PrivacyComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PrivacyPageComponent ]
+      declarations: [
+        PrivacyPageComponent
+      ],
+      imports: [
+        MatCardModule,
+        MatTableModule
+      ]
     })
     .compileComponents();
   }));

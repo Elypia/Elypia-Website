@@ -16,14 +16,20 @@
   ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   -->
 
-<a [href]="url" target="_blank">
-  <mat-card class="fund-method">
-    <div class="icon">
-      <ng-content></ng-content>
+<ng-container *ngIf="url else donateMethodTemplate">
+  <a [href]="url" target="_blank" rel="noopener" class="hover-excluded">
+    <ng-container [ngTemplateOutlet]="donateMethodTemplate"></ng-container>
+  </a>
+</ng-container>
+
+<ng-template #donateMethodTemplate>
+  <mat-card class="donate-method">
+    <div class="icon-wrapper">
+      <ng-content select="mat-icon"></ng-content>
     </div>
-    <div class="fund-details">
+    <div class="donate-method-info">
       <h2>{{name}}</h2>
-      <p>{{description}}</p>
+      <ng-content select=".description"></ng-content>
     </div>
   </mat-card>
-</a>
+</ng-template>

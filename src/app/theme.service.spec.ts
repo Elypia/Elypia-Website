@@ -19,9 +19,14 @@
 import {TestBed} from '@angular/core/testing';
 
 import {ThemeService} from './theme.service';
+import {LoggerTestingModule} from 'ngx-logger/testing';
 
 describe('ThemeService', () => {
-  beforeEach(() => TestBed.configureTestingModule({}));
+  beforeEach(() => TestBed.configureTestingModule({
+    imports: [
+      LoggerTestingModule
+    ]
+  }));
 
   it('should be created', () => {
     const service: ThemeService = TestBed.get(ThemeService);

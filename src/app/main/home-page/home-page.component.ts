@@ -44,9 +44,9 @@ export class HomePageComponent implements OnInit {
   ngOnInit() {
     this.state = LoadState.Loading;
 
-    this.articleService.getRecent().subscribe((articles) => {
-      this.articles = articles;
-      this.state = LoadState.Loaded;
-    }, () => this.state = LoadState.Failed);
+    // this.articleService.getRecent().subscribe((articles) => {
+    //   this.articles = articles;
+    //   this.state = LoadState.Loaded;
+    // }, () => this.state = LoadState.Failed);
   }
 }

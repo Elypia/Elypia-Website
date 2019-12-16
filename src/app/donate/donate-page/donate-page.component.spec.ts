@@ -19,8 +19,9 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {DonatePageComponent} from './donate-page.component';
-import {FundMethodComponent} from '../fund-method/fund-method.component';
-import {MatCardModule} from '@angular/material';
+import {DonateMethodComponent} from '../donate-method/donate-method.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
 import {CommonModule} from '@angular/common';
 import {MatDividerModule} from '@angular/material/divider';
 
@@ -32,12 +33,13 @@ describe('DonateComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         DonatePageComponent,
-        FundMethodComponent
+        DonateMethodComponent
       ],
       imports: [
         CommonModule,
         MatCardModule,
-        MatDividerModule
+        MatDividerModule,
+        MatIconModule
       ]
     })
     .compileComponents();

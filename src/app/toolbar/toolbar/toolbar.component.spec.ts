@@ -20,7 +20,11 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {ToolbarComponent} from './toolbar.component';
 import {RouterTestingModule} from '@angular/router/testing';
-import {MatButtonModule, MatDialogModule, MatIconModule, MatMenuModule, MatToolbarModule} from '@angular/material';
+import {MatButtonModule} from '@angular/material/button';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatIconModule} from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatToolbarModule} from '@angular/material/toolbar';
 import {CommonModule} from '@angular/common';
 import {MatTreeModule} from '@angular/material/tree';
 import {RouterModule} from '@angular/router';

@@ -16,8 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-h1 {
-  margin-bottom: .5em;
+#donate-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -.5em;
+}
+
+#donate-info mat-card, app-donate-method {
+  width: 512px;
+  flex-grow: 1;
+  margin: .5em;
 }
 
 #donate-methods {
@@ -26,18 +34,8 @@ h1 {
   margin: -.5em;
 }
 
-app-fund-method {
-  width: 512px;
-  flex-grow: 1;
-  margin: .5em;
-}
-
 mat-divider {
   margin: 1em 0;
-}
-
-mat-card + mat-card {
-  margin-top: 1em;
 }
 
 h2 {
@@ -48,7 +46,15 @@ p {
   margin-top: .5em;
 }
 
-@media (min-width: 720px) {
+.funding-icon {
+  font-size: 4em;
+}
+
+.clipboard {
+  margin-left: .5em;
+}
+
+@media (min-width: 512px) {
   h2 {
     text-align: left;
   }

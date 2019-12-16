@@ -41,11 +41,6 @@ export interface EprivacyEntry {
 
 const PRIVACY_DATA: EprivacyEntry[] = [
   {
-    type: 'localstorage',
-    name: 'theme',
-    description: 'Stores the selected theme so it can persist between page visits.'
-  },
-  {
     type: 'cookie',
     name: '__cfduid',
     domain: '.elypia.org',
@@ -55,6 +50,11 @@ const PRIVACY_DATA: EprivacyEntry[] = [
       '(eg; you completed a challenge), this allows CloudFlare to recognise this and refrain ' +
       'from challenging you again. It has no relation to anything in our sites nor does ' +
       'it store any personal information.'
+  },
+  {
+    type: 'localstorage',
+    name: 'theme',
+    description: 'Stores the selected theme so it can persist between page visits.'
   }
 ];
 

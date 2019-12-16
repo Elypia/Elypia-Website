@@ -1,4 +1,4 @@
-/*!
+/*
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,13 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import '../../../../node_modules/@angular/material/theming';
+import {Component, Input} from '@angular/core';
 
-@mixin app-fund-method-theme($theme) {
+@Component({
+  selector: 'app-donate-method',
+  templateUrl: './donate-method.component.html',
+  styleUrls: ['./donate-method.component.css']
+})
+export class DonateMethodComponent {
 
-  $primary: map-get($theme, primary);
-
-  mat-card.fund-method:hover {
-    background-color: mat-color($primary, lighter);
-  }
+  @Input() url: string;
+  @Input() name: string;
 }

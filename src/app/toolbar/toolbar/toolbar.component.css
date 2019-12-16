@@ -18,6 +18,11 @@
 
 #toolbar-wrapper {
   margin-bottom: 80px;
+
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 div#toolbar {
@@ -25,11 +30,6 @@ div#toolbar {
   z-index: 2;
   top: 0;
   width: 100%;
-
-  user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
 }
 
 mat-toolbar {

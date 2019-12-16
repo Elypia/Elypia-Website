@@ -274,7 +274,7 @@
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="eprivacy-body-3" datatype="html">
+      <trans-unit id="eprivacy-table-description" datatype="html">
         <source>This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage) that's in active use.</source>
         <target>Dit is een handmatige lijst die alle (of in elk geval de meeste) cookies (of lokale opslag en sessie opslag) opslaat die actief worden gebruikt.</target>
         <context-group purpose="location">

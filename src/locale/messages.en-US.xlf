@@ -2,109 +2,174 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="support-heading" datatype="html">
-        <source>Support Elypia</source>
+      <trans-unit id="donate-elypia-is-cic" datatype="html">
+        <source>Elypia is a Non-Profit CIC</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="support-card-name" datatype="html">
-        <source>Debit/Credit Card (Stripe)</source>
+      <trans-unit id="donate-elypia-is-cic-body-1" datatype="html">
+        <source>
+        While we try to be sustainable through subscriptions and services, it&apos;s favorable to receive
+        donations to keep everything as free as possible. As a non-profit, funding is what allows us to
+        continue to develop free and open-source software and push to provide free or affordable services.
+      </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="support-card-description" datatype="html">
-        <source>Donate directly on the site with your debit or credit card.
-                                  All donations using this method are processed by Stripe;
-                                  we won&apos;t process or store your information.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="donate-paypal-name" datatype="html">
-        <source>PayPal</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="donate-paypal-description" datatype="html">
-        <source>If you have a PayPal account you can donate using the attached
-                                  credit/debit card, bank account, or PayPal balance.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="donate-redbubble-name" datatype="html">
-        <source>Redbubble</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="donate-redbubble-description" datatype="html">
-        <source>You can support us by purchasing our branded merchandise.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="donate-elypia-is-cic" datatype="html">
-        <source>Elypia is a Community Interest Company</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="donate-elypia-is-cic-body-1" datatype="html">
-        <source>
-      While we try to be sustainable through subscriptions and services, it&apos;s favorable to receive
-      donations to keep everything as free as possible. As a non-profit, funding is what allows us to
-      continue to develop free and open-source software and push to provide free or affordable services.
-    </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">47</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="elypia-is-cic-body-2" datatype="html">
         <source>
-      As a Community Interest Company we will also be able to generate income
-      through selling subscriptions and services or by providing hosted solutions
-      for our open-source projects.
-      Donations will not be the only form of income for Elypia but strongly encouraged
-      and appreciated.
-    </source>
+        As a Community Interest Company we will also be able to generate income
+        through selling subscriptions and services or by providing hosted solutions
+        for our open-source projects.
+        Donations will not be the only form of income for Elypia but strongly encouraged
+        and appreciated.
+      </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="donate-where-do-they-go" datatype="html">
         <source>Where do donations go?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="donate-where-do-they-go-body" datatype="html">
         <source>
-      At present most costs are for technical infrastructure or legal obligations to keep
-      Elypia CIC and it&apos;s websites and services up. This includes domains, hosting,
-      content delivery, travel or paperwork, and any annual fees or requirements in order
-      to fulfill company wide obligations under legal justification.
-      Some projects may incur costs if new assets or branding is desired for them.
-      We are hopeful that in the future Elypia will be able to provide salaries
-      to those contributing and managing Elypia&apos;s projects.
-    </source>
+        At present most costs are for technical infrastructure or legal obligations to keep
+        Elypia CIC and it&apos;s websites and services up. This includes domains, hosting,
+        content delivery, travel or paperwork, and any annual fees or requirements in order
+        to fulfill company wide obligations under legal justification.
+        Some projects may incur costs if new assets or branding is desired for them.
+        We are hopeful that in the future Elypia will be able to provide salaries
+        to those contributing and managing Elypia&apos;s projects.
+      </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="support-bank-description" datatype="html">
+        <source>
+          Donate by transfering money or setting up a standing order
+          directly to our company bank account.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bank-account-name" datatype="html">
+        <source>Account Name: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bank-account-number" datatype="html">
+        <source>Account Number: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bank-sort-code" datatype="html">
+        <source>Sort Code: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="support-bank-name" datatype="html">
+        <source>Bank (UK/GBP Only)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="support-card-description" datatype="html">
+        <source>
+        Donate directly on the site with your debit or credit card.
+        All donations using this method are processed by Stripe;
+        we won&apos;t process or store your information.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="support-card-name" datatype="html">
+        <source>Card (Stripe)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="donate-paypal-description" datatype="html">
+        <source>
+        If you have a PayPal account you can donate using the attached
+        credit/debit card, bank account, or PayPal balance.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="donate-paypal-name" datatype="html">
+        <source>PayPal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="donate-redbubble-description" datatype="html">
+        <source>
+        You can support us by purchasing our branded merchandise.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="donate-redbubble-name" datatype="html">
+        <source>Redbubble</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="registered-address-disclaimer" datatype="html">
+        <source>This is the registered office and correspondence address for Elypia, not base of work or residence.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="source-code" datatype="html">
+        <source>Source Code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer-source-code-title" datatype="html">
+        <source>Contribute to this sites Source Code on GitLab</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer-copyright" datatype="html">
+        <source>Copyright</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="press-kit-heading" datatype="html">
@@ -116,8 +181,7 @@
       </trans-unit>
       <trans-unit id="press-kit-about" datatype="html">
         <source>
-        This press kit is dedicated to users or publishers that may want to
-        publish anything that references Elypia and wants to use it&apos;s branding.
+        This is for users or publishers that may want to reference Elypia and use it&apos;s branding.
         This page covers some assets that can be used, and any guidelines to using them.
       </source>
         <context-group purpose="location">
@@ -129,16 +193,16 @@
         <source>Guidelines</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="press-kit-changing-hue-permitted" datatype="html">
         <source>
-          It&apos;s best to keep the logo as true as possible, but you may alter the hue/saturation.
+          Keeping the logo as-is is preferred, but you may alter the hue.
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="press-kit-no-other-modifications" datatype="html">
@@ -147,132 +211,93 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="press-kit-no-endorsements" datatype="html">
         <source>
-          Don&apos;t use Elypia&apos;s branding where it suggests Elypia endorses your content.
+          Don&apos;t use the Elypia branding where it may suggest we endorse your content.
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="branding-elypia-logo" datatype="html">
         <source>Elypia Logo by Nikky</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="elypia-logo-description" datatype="html">
-        <source>Elypia Logo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="branding-elypia-logo-no-fill" datatype="html">
         <source>Elypia Logo without Fill by Nikky</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="elypia-badge-description" datatype="html">
-        <source>Elypia Badge</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="branding-elypia-logo-icon" datatype="html">
         <source>Elypia Icon by Nikky</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="elypia-icon-description" datatype="html">
-        <source>Elypia Icon</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="branding-elypia-logo-text" datatype="html">
         <source>Elypia Logo with our Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">42</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="elypia-logo-text-description" datatype="html">
-        <source>Elypia Logo w/Name</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">43</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="branding-elypia-text" datatype="html">
         <source>Elypia Text</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="press-kit-color-palette" datatype="html">
         <source>Elypia Color Palette</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="color-palette-blue" datatype="html">
         <source>Blue</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="color-palette-white" datatype="html">
         <source>White</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="color-palette-dark" datatype="html">
         <source>Dark</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="color-palette-darker" datatype="html">
         <source>Darker</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="color-palette-darkest" datatype="html">
         <source>Darkest</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="projects-title" datatype="html">
-        <source>Projects</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-alexis-body" datatype="html">
@@ -283,21 +308,47 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="project-source-code" datatype="html">
+        <source>Source</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="project-weblate" datatype="html">
+        <source>Weblate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-alexis-description" datatype="html">
         <source>Discord Chatbot</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-alexis-alt" datatype="html">
         <source>Avatar for Alexis on Discord</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-commandler-body-1" datatype="html">
@@ -308,7 +359,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-commandler-body-2" datatype="html">
@@ -318,7 +369,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-commandler-description" datatype="html">
@@ -343,7 +394,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-confiler-body-2" datatype="html">
@@ -354,7 +405,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-confiler-description" datatype="html">
@@ -378,7 +429,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-elypiai-body-2" datatype="html">
@@ -388,21 +439,21 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-elypiai-description" datatype="html">
         <source>API Wrapper</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-elypiai-alt" datatype="html">
         <source>Elypiai Logo</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-emotes-body-1" datatype="html">
@@ -412,7 +463,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="project-emotes-body-2" datatype="html">
@@ -422,35 +473,28 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0874581c70a8254794a1919919a79931008af5de" datatype="html">
         <source>Elypia Emotes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f623106dad17ce6d7914e21ab0057c40de997c6b" datatype="html">
         <source>Red Panda Emoticons</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d539f9ee1d93d3253b1513af80a757b6a454970" datatype="html">
         <source>pandaAww Red Panda Emote</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">79</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="project-source-code" datatype="html">
-        <source>Source</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/project/project.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="login-email" datatype="html">
@@ -571,35 +615,14 @@
         <source>Elypia Text Logo</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="navbar-themes" datatype="html">
         <source>Themes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
-          <context context-type="linenumber">77</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="registered-address-disclaimer" datatype="html">
-        <source>This is the registered office and correspondence address for Elypia, not base of work or residence.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/main/footer/footer.component.html</context>
-          <context context-type="linenumber">29</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="source-code" datatype="html">
-        <source>Source Code</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/main/footer/footer.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="footer-copyright" datatype="html">
-        <source>Copyright</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/main/footer/footer.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="mission-statement" datatype="html">
@@ -623,13 +646,15 @@
         <source>Introduction</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="about-intro-body" datatype="html">
         <source>
           Elypia CIC is a non-profit
-          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Community Interest Company<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+            Community Interest Company
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
           based in the United Kingdom that wants to bring more free and open-source software to
           different sectors. This is starting with software development, aimed at junior developers,
           and will hopefully move towards other areas outside of software that may aid educational institutions or
@@ -637,7 +662,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="about-legal" datatype="html">
@@ -653,7 +678,9 @@
           has the structure of a limited company, but pledges to use its surplus for community benefit,
           as opposed to the benefit of its directors. As a CIC, Elypia has a responsibility to follow
           its Articles of Association and Community Interest Statement which can both be found on the
-          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Companies House<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+            Companies House
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
           website. All projects Elypia takes on will adhere to the objectives in the aforementioned documents.
         </source>
         <context-group purpose="location">
@@ -665,7 +692,7 @@
         <source>Mission</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="about-mission-body" datatype="html">
@@ -680,87 +707,143 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="privacy-policy-heading" datatype="html">
         <source>Privacy Policy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="privacy-policy-date" datatype="html">
-        <source>Last updated on 1st August 2019</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="privacy-policy-1" datatype="html">
-        <source>
-    This privacy policy will try cover a broad range of Elypia&apos;s websites and services. It may be a good idea
-    to check if a particular service you&apos;re curious about has it&apos;s own policy on top of this general one.
-  </source>
+      <trans-unit id="privacy-policy-date" datatype="html">
+        <source>Last updated on 12th December 2019</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="privacy-policy-2" datatype="html">
+      <trans-unit id="privacy-policy-1" datatype="html">
         <source>
-    The Elypia website currently doesn&apos;t store any information on users, however the web server that
-    is running the webpage you are viewing right now will have logged basic information about your connection such
-    as IP address.
-  </source>
+      This privacy policy only refers to what is running on Elypia&apos;s servers regardless of what
+      website or service you&apos;re using. If you&apos;re connected to a third-party host;
+      you should read the respective privacy policy for your host.
+    </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-policy-2" datatype="html">
+        <source>
+      None of our websites or services store personal information on users, and our web servers is configured with the
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>access log<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+      disabled so we do not see information regarding your request such as
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>IP<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> or
+      <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        user-agent<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-policy-user-agent-docs" datatype="html">
+        <source>Documentation on User-Agent via MDN Web Docs (Mozilla)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-policy-3" datatype="html">
+        <source>
+      We&apos;re using <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>CloudFlare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> as a
+      Content Delivery Network (CDN) which collects and allows us to view aggregate data on
+      traffic such as total requests, number of unique visitors, and which countries are predominantly accessing our services.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-policy-4" datatype="html">
+        <source>
+      If there are any concerns or questions regarding our privacy policy, or if you have a request, please
+      send an email to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>dpo@elypia.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> where the elected
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        Data Protection Officer (DPO)
+      <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+      will be able to support you.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-policy-dpo" datatype="html">
+        <source>Definition and Requirements for Data Protection Officer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eprivacy-title" datatype="html">
         <source>ePrivacy Directive</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/main/eprivacy-page/eprivacy-page.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="eprivacy-date" datatype="html">
-        <source>Last updated on 1st August 2019</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/main/eprivacy-page/eprivacy-page.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eprivacy-body-1" datatype="html">
         <source>
-    We try to minimize the use of cookies or local storage where possible without reducing
-    the functionality if the website or services. Due to this <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>we<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> don&apos;t add any tracking
-    or analytics cookies so see what you do nor send that data to advertisers.
-  </source>
+      The ePrivacy directive, also known as the EU Cookie Law, is what covers the
+      use of cookies (or other client-side storage mediums) and consent. We minimize the use of
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        cookies
+      <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        storage
+      <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> without reducing functionality on the websites or services.
+      We do not, and <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>most likely<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> never will, use or add analytic cookies, or trackers,
+      however we do store some data for technical or client-side configuration purposes.
+    </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/main/eprivacy-page/eprivacy-page.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-policy-cookies" datatype="html">
+        <source>Documentation on Cookies via MDN Web Docs (Mozilla)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="privacy-policy-storage" datatype="html">
+        <source>Documentation on (Local/Session) Storage via MDN Web Docs (Mozilla)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eprivacy-body-2" datatype="html">
         <source>
-    We are embedding code from other websites so they may also add cookies while your browse this website,
-    for example Discord or FontAwesome.
-  </source>
+      Where third-party scripts is embedded from other websites, third-party cookies may also be added.
+    </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/main/eprivacy-page/eprivacy-page.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="eprivacy-body-3" datatype="html">
+      <trans-unit id="eprivacy-table-description" datatype="html">
         <source>
-    This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage)
-    that&apos;s in active use.
-  </source>
+          This is a manually defined list of cookies or storage data that
+          may be set while using our website or services.
+        </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/main/eprivacy-page/eprivacy-page.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
     </body>

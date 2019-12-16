@@ -1,4 +1,4 @@
-/*!
+/*
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,20 +16,52 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-@import '../../../../node_modules/@angular/material/theming';
+a {
+  text-decoration: none;
+}
 
-@mixin app-logo-download-theme($theme) {
+mat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+}
 
-  $primary: map-get($theme, primary);
-  $text: map-get($theme, text);
-  $background: map-get($theme, background);
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
 
-  div.logo-download {
-    background-color: mat-color($background, card);
+  /** Use the defined width, even if the icon takes less space. */
+  flex-shrink: 0;
+}
+
+.donate-method-info {
+  flex-grow: 1;
+}
+
+.donate-method-info h2 {
+  margin: .5em 0;
+}
+
+@media (min-width: 512px) {
+  mat-card {
+    flex-direction: row;
+    text-align: left;
   }
 
-  .logo-meta {
-    color: white;
-    background-color: mat-color($primary);
+  .icon-wrapper {
+    text-align: center;
+  }
+
+  .donate-method-info {
+    margin-left: 1em;
+  }
+
+  .donate-method-info h2 {
+    margin: 0;
   }
 }

@@ -2,21 +2,23 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
-import {FundMethodComponent} from './fund-method/fund-method.component';
+import {DonateMethodComponent} from './donate-method/donate-method.component';
 import {DonatePageComponent} from './donate-page/donate-page.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
-    FundMethodComponent,
+    DonateMethodComponent,
     DonatePageComponent
   ],
   imports: [
     CommonModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    MatIconModule
   ],
   exports: [
-    FundMethodComponent,
+    DonateMethodComponent,
     DonatePageComponent
   ],
 })

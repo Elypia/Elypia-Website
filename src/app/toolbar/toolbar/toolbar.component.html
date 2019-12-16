@@ -20,7 +20,7 @@
   <div id="toolbar">
     <mat-toolbar class="mat-elevation-z8" color="primary">
       <div class="container">
-        <a routerLink="/">
+        <a routerLink="/" class="hover-excluded">
           <img id="toolbar-logo" src="/assets/branding/elypia_text.svg"
                i18n-alt="@@homepage-text-logo-alt" alt="Elypia Text Logo">
         </a>
@@ -34,7 +34,7 @@
                   {{node.name}}
                 </button>
                 <ng-template #externalurl>
-                  <a mat-button class="desktop-button" [href]="node.href" target="_blank">
+                  <a mat-button class="desktop-button" [href]="node.href" target="_blank" rel="noopener">
                     {{node.name}}
                   </a>
                 </ng-template>

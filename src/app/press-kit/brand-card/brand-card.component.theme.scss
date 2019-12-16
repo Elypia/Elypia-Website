@@ -1,4 +1,4 @@
-/*
+/*!
  * Elypia Website - The company website for Elypia.
  * Copyright (C) 2019-2019  Elypia CIC
  *
@@ -16,43 +16,20 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-mat-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  box-sizing: border-box;
-}
+@import '../../../../node_modules/@angular/material/theming';
 
-.icon {
-  width: 15%;
-  flex-shrink: 0;
-}
+@mixin app-brand-card-theme($theme) {
 
-.fund-details {
-  flex-grow: 1;
-}
+  $primary: map-get($theme, primary);
+  $text: map-get($theme, text);
+  $background: map-get($theme, background);
 
-.fund-details h2 {
-  margin: .5em 0;
-}
-
-@media (min-width: 512px) {
-  mat-card {
-    flex-direction: row;
-    text-align: left;
+  div.branding-panel {
+    background-color: mat-color($background, card);
   }
 
-  .icon {
-    text-align: center;
-  }
-
-  .fund-details {
-    margin-left: 1em;
-  }
-
-  .fund-details h2 {
-    margin: 0;
+  .logo-meta {
+    color: white;
+    background-color: mat-color($primary);
   }
 }

@@ -18,29 +18,31 @@
 
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {FundMethodComponent} from './fund-method.component';
-import {MatCardModule} from '@angular/material';
+import {DonateMethodComponent} from './donate-method.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
 import {CommonModule} from '@angular/common';
 import {MatDividerModule} from '@angular/material/divider';
 
 describe('FundMethodComponent', () => {
-  let component: FundMethodComponent;
-  let fixture: ComponentFixture<FundMethodComponent>;
+  let component: DonateMethodComponent;
+  let fixture: ComponentFixture<DonateMethodComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FundMethodComponent ],
+      declarations: [ DonateMethodComponent ],
       imports: [
         CommonModule,
         MatCardModule,
-        MatDividerModule
+        MatDividerModule,
+        MatIconModule
       ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FundMethodComponent);
+    fixture = TestBed.createComponent(DonateMethodComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

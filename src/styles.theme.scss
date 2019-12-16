@@ -19,8 +19,8 @@
 @import '~@angular/material/theming';
 @import "app/article/article/article.component.theme";
 @import "app/footer/footer/footer.component.theme";
-@import "app/donate/fund-method/fund-method.component.theme";
-@import "app/press-kit/logo-download/logo-download.component.theme";
+@import "app/donate/donate-method/donate-method.component.theme";
+@import "app/press-kit/brand-card/brand-card.component.theme";
 @import "app/footer/social/social.component.theme";
 @import "app/toolbar/toolbar/toolbar.component.theme";
 
@@ -31,8 +31,8 @@
   @include angular-material-theme($theme);
   @include app-article-theme($theme);
   @include app-footer-theme($theme);
-  @include app-fund-method-theme($theme);
-  @include app-logo-download-theme($theme);
+  @include app-donate-method-theme($theme);
+  @include app-brand-card-theme($theme);
   @include app-social-theme($theme);
   @include app-toolbar-theme($theme);
 }

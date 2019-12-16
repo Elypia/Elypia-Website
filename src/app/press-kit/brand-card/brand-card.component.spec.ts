@@ -1,20 +1,20 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {LogoDownloadComponent} from './logo-download.component';
+import {BrandCardComponent} from './brand-card.component';
 
 describe('LogoDownloadComponent', () => {
-  let component: LogoDownloadComponent;
-  let fixture: ComponentFixture<LogoDownloadComponent>;
+  let component: BrandCardComponent;
+  let fixture: ComponentFixture<BrandCardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LogoDownloadComponent ]
+      declarations: [ BrandCardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LogoDownloadComponent);
+    fixture = TestBed.createComponent(BrandCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

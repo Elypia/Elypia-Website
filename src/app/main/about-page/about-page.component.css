@@ -16,11 +16,6 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-h1 {
-  text-align: center;
-  margin-bottom: .5em;
-}
-
 #about-info {
   display: flex;
   flex-direction: column;
@@ -49,10 +44,6 @@ mat-card h2 {
 }
 
 @media (min-width: 720px) {
-  h1 {
-    text-align: left;
-  }
-
   #about-info {
     flex-direction: row-reverse;
     align-items: start;

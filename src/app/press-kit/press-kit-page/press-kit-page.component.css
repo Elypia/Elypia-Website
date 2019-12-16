@@ -3,10 +3,15 @@
   flex-wrap: wrap;
   margin: -.5em -.5em .5em -.5em;
 }
+
 #press-kit-content mat-card {
   width: 256px;
   flex-grow: 1;
   margin: .5em;
+}
+
+#press-kit-content ul {
+  margin-left: 1em;
 }
 
 #press-kit-logos, #press-kit-text-logos {
@@ -17,10 +22,10 @@
 }
 
 #press-kit-text-logos {
-  margin: 1em -.5em;
+  margin: .5em -.5em;
 }
 
-app-logo-download {
+app-brand-card {
   width: 380px;
   flex-grow: 1;
   margin: .5em;
@@ -50,8 +55,12 @@ app-logo-download {
   margin-top: 1em;
 }
 
-mat-card h3, #download-everything h3 {
+mat-card h2, #download-everything h2 {
   margin-bottom: .25em;
+}
+
+#all-download-button-icon {
+  margin-right: .5em;
 }
 
 @media (min-width: 720px) {

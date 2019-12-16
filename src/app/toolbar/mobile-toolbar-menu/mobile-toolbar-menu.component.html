@@ -26,8 +26,7 @@
       </ng-container>
       <!-- If the link takes the user to an external location, use href instead of routerLink. -->
       <ng-template #externalurl>
-        <a mat-button [href]="node.href" target="_blank"
-           class="fill" (click)="reset()">
+        <a mat-button [href]="node.href" target="_blank" rel="noopener" class="fill">
           {{node.name}}</a>
       </ng-template>
     </div>
@@ -39,7 +38,7 @@
           <span class="fill split">
             <span>{{node.name}}</span>
               <span class="menu-toggle" [ngClass]="{'menu-expanded': treeControl.isExpanded(node)}">
-                <i class="fad fa-chevron-down"></i>
+                <span class="fad fa-chevron-down"></span>
               </span>
           </span>
         </button>
