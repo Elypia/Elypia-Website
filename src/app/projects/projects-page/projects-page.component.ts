@@ -18,7 +18,7 @@
  */
 
 import {Component} from '@angular/core';
-import {Title} from '@angular/platform-browser';
+import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 import {environment} from '../../../environments/environment';
 
 @Component({
@@ -28,7 +28,15 @@ import {environment} from '../../../environments/environment';
 })
 export class ProjectsPageComponent {
 
-  constructor(private titleService: Title) {
-    this.titleService.setTitle(environment.titlePrefix + ' | Projects');
+  /** Description for search engines to display to users about this page. */
+  private static readonly Description: MetaDefinition = {
+    name: 'description',
+    content: 'Discover the projects developed and maintained by Elypia and it\'s community ' +
+             'and where contributions can be made, even if you don\' know how to code.'
+  };
+
+  constructor(private titleService: Title, private meta: Meta) {
+    titleService.setTitle(environment.titlePrefix + ' | Projects');
+    meta.updateTag(ProjectsPageComponent.Description);
   }
 }

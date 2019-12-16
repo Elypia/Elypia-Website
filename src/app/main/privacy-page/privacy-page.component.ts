@@ -20,8 +20,11 @@
 import {Component} from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 import {environment} from '../../../environments/environment';
-import {Title} from '@angular/platform-browser';
+import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 export interface EprivacyEntry {
 
   /** What type of data this is, eg cookie, or local storage. */
@@ -40,25 +43,9 @@ export interface EprivacyEntry {
   description: string;
 }
 
-const PRIVACY_DATA: EprivacyEntry[] = [
-  {
-    type: 'cookie',
-    name: '__cfduid',
-    domain: '.elypia.org',
-    expires: 365,
-    description: 'Provided by CloudFlare in order to identify clients, for example, if you\'re ' +
-      'at McDonalds where there could be infected machines, but your machine is trusted ' +
-      '(eg; you completed a challenge), this allows CloudFlare to recognise this and refrain ' +
-      'from challenging you again. It has no relation to anything in our sites nor does ' +
-      'it store any personal information.'
-  },
-  {
-    type: 'localstorage',
-    name: 'theme',
-    description: 'Stores the selected theme so it can persist between page visits.'
-  }
-];
-
+/**
+ * @author seth@elypia.org (Seth Falco)
+ */
 @Component({
   selector: 'app-privacy',
   templateUrl: './privacy-page.component.html',
@@ -72,10 +59,36 @@ const PRIVACY_DATA: EprivacyEntry[] = [
   ]
 })
 export class PrivacyPageComponent {
-  columns: string[] = ['type', 'name', 'domain', 'expires', 'description'];
-  data = PRIVACY_DATA;
 
-  constructor(private titleService: Title) {
-    this.titleService.setTitle(environment.titlePrefix + ' | Privacy');
+  /** Description for search engines to display to users about this page. */
+  private static readonly Description: MetaDefinition = {
+    name: 'description',
+    content: 'The privacy policy is for you to know what information we collect and why, ' +
+             'and also what how we use cookies and what types of cookies we use.'
+  };
+
+  public readonly columns: string[] = ['type', 'name', 'domain', 'expires', 'description'];
+  public readonly Data: EprivacyEntry[] = [
+    {
+      type: 'cookie',
+      name: '__cfduid',
+      domain: '.elypia.org',
+      expires: 365,
+      description: 'Provided by CloudFlare in order to identify clients, for example, if you\'re ' +
+        'at McDonalds where there could be infected machines, but your machine is trusted ' +
+        '(eg; you completed a challenge), this allows CloudFlare to recognise this and refrain ' +
+        'from challenging you again. It has no relation to anything in our sites nor does ' +
+        'it store any personal information.'
+    },
+    {
+      type: 'localstorage',
+      name: 'theme',
+      description: 'Stores the selected theme so it can persist between page visits.'
+    }
+  ];
+
+  constructor(private titleService: Title, private meta: Meta) {
+    titleService.setTitle(environment.titlePrefix + ' | Privacy');
+    meta.updateTag(PrivacyPageComponent.Description);
   }
 }
