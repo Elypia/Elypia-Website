@@ -28,7 +28,8 @@
               "src/mstile-150x150.png",
               "src/safari-pinned-tab.svg",
               "src/manifest.webmanifest",
-              "src/assets"
+              "src/assets",
+              "src/robots.txt"
             ],
             "styles": [
               "src/styles.css",
@@ -110,7 +111,8 @@
               "src/mstile-150x150.png",
               "src/safari-pinned-tab.svg",
               "src/manifest.webmanifest",
-              "src/assets"
+              "src/assets",
+              "src/robots.txt"
             ],
             "styles": [
               "src/styles.css",

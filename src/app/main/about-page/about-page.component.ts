@@ -17,8 +17,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, OnInit} from '@angular/core';
-import {Title} from '@angular/platform-browser';
+import {Component} from '@angular/core';
+import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 import {environment} from '../../../environments/environment';
 
 @Component({
@@ -26,13 +26,16 @@ import {environment} from '../../../environments/environment';
   templateUrl: './about-page.component.html',
   styleUrls: ['./about-page.component.css']
 })
-export class AboutPageComponent implements OnInit {
+export class AboutPageComponent {
 
-  constructor(private titleService: Title) {
-    this.titleService.setTitle(environment.titlePrefix + ' | About');
+  /** Description for search engines to display to users about this page. */
+  private static readonly Description: MetaDefinition = {
+    name: 'description',
+    content: 'Everything you\'d want to know about Elypia the community interest company.'
+  };
+
+  constructor(private titleService: Title, private meta: Meta) {
+    titleService.setTitle(environment.titlePrefix + ' | About');
+    meta.updateTag(AboutPageComponent.Description);
   }
-
-  ngOnInit() {
-  }
-
 }

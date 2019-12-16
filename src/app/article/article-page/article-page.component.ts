@@ -44,7 +44,7 @@ export class ArticlePageComponent implements OnInit {
     private articleService: ArticleService,
     private commentService: CommentService
   ) {
-    this.titleService.setTitle(environment.titlePrefix + ' | Article');
+    titleService.setTitle(environment.titlePrefix + ' | Article');
   }
 
   ngOnInit() {

@@ -43,7 +43,7 @@ spec:
             periodSeconds: 15
             failureThreshold: 3
             httpGet:
-              path: /index.html
+              path: /en-US/index.html
               port: 80
           livenessProbe:
             initialDelaySeconds: 30
@@ -51,7 +51,7 @@ spec:
             periodSeconds: 15
             failureThreshold: 3
             httpGet:
-              path: /index.html
+              path: /en-US/index.html
               port: 80
           resources:
             requests:

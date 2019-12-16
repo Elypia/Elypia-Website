@@ -38,7 +38,7 @@ export class HomePageComponent implements OnInit {
     private titleService: Title,
     private articleService: ArticleService
   ) {
-    this.titleService.setTitle(environment.titlePrefix);
+    titleService.setTitle(environment.titlePrefix);
     this.state = LoadState.NotLoaded;
   }
 

@@ -18,7 +18,7 @@
  */
 
 import {Component} from '@angular/core';
-import {Title} from '@angular/platform-browser';
+import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 import {environment} from '../../../environments/environment';
 
 @Component({
@@ -28,7 +28,15 @@ import {environment} from '../../../environments/environment';
 })
 export class DonatePageComponent {
 
-  constructor(private titleService: Title) {
-    this.titleService.setTitle(environment.titlePrefix + ' | Donate');
+  /** Description for search engines to display to users about this page. */
+  private static readonly Description: MetaDefinition = {
+    name: 'description',
+    content: 'Support Elypia by using any of the methods to donate which include bank transfer, ' +
+             'card, PayPal, or buying merchandise on Redbubble.'
+  };
+
+  constructor(private titleService: Title, private meta: Meta) {
+    titleService.setTitle(environment.titlePrefix + ' | Donate');
+    meta.updateTag(DonatePageComponent.Description);
   }
 }
