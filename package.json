@@ -24,16 +24,17 @@
     "xi18n": "ng xi18n --i18n-locale en-US --output-path ./locales/ --out-file messages.en-US.xlf",
     "check": "npm run-script lint && npm run-script test && npm run-script e2e",
     "docker:test": "docker build -t elypia-website-dev:latest . && docker run -p 8081:80 elypia-website-dev:latest",
-    "nginx": "npm run-script build:all && npm run-script docker:test"
+    "nginx": "npm run-script build:all && npm run-script docker:test",
+    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
   },
   "dependencies": {
     "@angular/animations": "^9.0.0-rc.6",
-    "@angular/cdk": "^8.2.3",
+    "@angular/cdk": "^9.0.0-rc.5",
     "@angular/common": "^9.0.0-rc.6",
     "@angular/compiler": "^9.0.0-rc.6",
     "@angular/core": "^9.0.0-rc.6",
     "@angular/forms": "^9.0.0-rc.6",
-    "@angular/material": "^8.2.3",
+    "@angular/material": "^9.0.0-rc.5",
     "@angular/platform-browser": "^9.0.0-rc.6",
     "@angular/platform-browser-dynamic": "^9.0.0-rc.6",
     "@angular/router": "^9.0.0-rc.6",
@@ -47,7 +48,6 @@
     "@fortawesome/pro-solid-svg-icons": "^5.10.2",
     "@types/sha1": "^1.1.2",
     "core-js": "^2.6.11",
-    "hammerjs": "^2.0.8",
     "ngx-logger": "^4.0.8",
     "ngx-markdown": "^8.2.1",
     "rxjs": "^6.5.3",
@@ -71,7 +71,7 @@
     "karma-coverage-istanbul-reporter": "^2.1.1",
     "karma-jasmine": "^2.0.1",
     "protractor": "~5.4.0",
-    "puppeteer": "^1.20.0",
+    "puppeteer": "^2.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.6.4"
