@@ -64,12 +64,6 @@
                   "maximumError": "5mb"
                 }
               ]
-            },
-            "nl": {
-              "baseHref": "/nl/",
-              "outputPath": "dist/nl/",
-              "i18nFile": "src/locales/messages.nl.xlf",
-              "i18nLocale": "nl"
             }
           }
         },
@@ -81,9 +75,6 @@
           "configurations": {
             "production": {
               "browserTarget": "elypia-website:build:production"
-            },
-            "nl": {
-              "browserTarget": "elypia-website:build:nl"
             }
           }
         },
