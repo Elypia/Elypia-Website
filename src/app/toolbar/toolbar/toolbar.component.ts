@@ -41,7 +41,7 @@ export class ToolbarComponent implements OnInit {
   @Input() public readonly MenuTree: MenuNode[];
 
   /** Child view of mobile toolbar to interact with it during resize. */
-  @ViewChild(MobileToolbarMenuComponent, {static: false}) private readonly mobileToolbar: MobileToolbarMenuComponent;
+  @ViewChild(MobileToolbarMenuComponent) private readonly mobileToolbar: MobileToolbarMenuComponent;
 
   /** If the mobile toolbar should be visible to the user. */
   public mobileMenuVisible: boolean;
