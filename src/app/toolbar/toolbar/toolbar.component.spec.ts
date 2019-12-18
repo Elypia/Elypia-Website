@@ -32,6 +32,7 @@ import {RouterModule} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {MobileToolbarMenuComponent} from '../mobile-toolbar-menu/mobile-toolbar-menu.component';
 import {LoggerTestingModule} from 'ngx-logger/testing';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('ToolbarComponent', () => {
   let component: ToolbarComponent;
@@ -54,7 +55,8 @@ describe('ToolbarComponent', () => {
         MatButtonModule,
         MatMenuModule,
         MatIconModule,
-        MatToolbarModule
+        MatToolbarModule,
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

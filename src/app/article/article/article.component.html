@@ -21,7 +21,7 @@
     <mat-panel-title>
       <span>{{article.title}}</span>
       <ely-timestamp [date]="article.createdDate" [updateDate]="article.modifiedDate">
-        <mat-icon fontSet="fas" fontIcon="fa-calendar-edit"></mat-icon>
+        <fa-icon [icon]="['fas', 'calendar-edit']"></fa-icon>
       </ely-timestamp>
     </mat-panel-title>
   </mat-expansion-panel-header>

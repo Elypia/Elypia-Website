@@ -21,6 +21,7 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {FooterComponent} from './footer.component';
 import {SocialComponent} from '../social/social.component';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('FooterComponent', () => {
   let component: FooterComponent;
@@ -31,6 +32,9 @@ describe('FooterComponent', () => {
       declarations: [
         FooterComponent,
         SocialComponent
+      ],
+      imports: [
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();
