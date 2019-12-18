@@ -27,7 +27,6 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatTableModule} from '@angular/material/table';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
 import {LoggerTestingModule} from 'ngx-logger/testing';
 import {ElyEqualsModule, ElyLoadableModule, ElyStatefulButtonModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {ArticleModule} from './article/article.module';
@@ -55,7 +54,6 @@ describe('AppComponent', () => {
         ElyStatefulButtonModule,
         MatButtonModule,
         MatCardModule,
-        MatIconModule,
         MatMenuModule,
         MatTableModule,
         MatToolbarModule,

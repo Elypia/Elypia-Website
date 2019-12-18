@@ -5,8 +5,8 @@ import {ArticlePageComponent} from './article-page/article-page.component';
 import {CommentComponent} from './comment/comment.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {ElyLoadableModule, ElyTimestampModule} from '@elypia/ng-elypian';
-import {MatIconModule} from '@angular/material/icon';
 import {MarkdownModule} from 'ngx-markdown';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,9 +18,9 @@ import {MarkdownModule} from 'ngx-markdown';
     CommonModule,
     MatExpansionModule,
     ElyTimestampModule,
-    MatIconModule,
     MarkdownModule,
-    ElyLoadableModule
+    ElyLoadableModule,
+    FontAwesomeModule
   ],
   exports: [
     ArticleComponent,

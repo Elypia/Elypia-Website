@@ -4,7 +4,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {DonateMethodComponent} from './donate-method/donate-method.component';
 import {DonatePageComponent} from './donate-page/donate-page.component';
-import {MatIconModule} from '@angular/material/icon';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import {MatIconModule} from '@angular/material/icon';
     CommonModule,
     MatCardModule,
     MatDividerModule,
-    MatIconModule
+    FontAwesomeModule
   ],
   exports: [
     DonateMethodComponent,

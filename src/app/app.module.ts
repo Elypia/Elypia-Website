@@ -28,7 +28,6 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRippleModule} from '@angular/material/core';
-import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSelectModule} from '@angular/material/select';
@@ -60,6 +59,24 @@ import {PressKitPageComponent} from './press-kit/press-kit-page/press-kit-page.c
 import {PressKitModule} from './press-kit/press-kit.module';
 import {ProjectsModule} from './projects/projects.module';
 import {FooterModule} from './footer/footer.module';
+import {FaIconLibrary, FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {faDiscord} from '@fortawesome/free-brands-svg-icons/faDiscord';
+import {faTwitter} from '@fortawesome/free-brands-svg-icons/faTwitter';
+import {faRedditAlien} from '@fortawesome/free-brands-svg-icons';
+import {faTwitch} from '@fortawesome/free-brands-svg-icons/faTwitch';
+import {faGitlab} from '@fortawesome/free-brands-svg-icons/faGitlab';
+import {faChevronDown} from '@fortawesome/pro-duotone-svg-icons/faChevronDown';
+import {faLanguage} from '@fortawesome/pro-solid-svg-icons/faLanguage';
+import {faEllipsisV} from '@fortawesome/pro-solid-svg-icons/faEllipsisV';
+import {faFillDrip} from '@fortawesome/pro-solid-svg-icons/faFillDrip';
+import {faCircle} from '@fortawesome/pro-duotone-svg-icons/faCircle';
+import {faInfoCircle} from '@fortawesome/pro-solid-svg-icons/faInfoCircle';
+import {faCopyright} from '@fortawesome/pro-regular-svg-icons/faCopyright';
+import {faUniversity} from '@fortawesome/pro-solid-svg-icons/faUniversity';
+import {faCreditCard} from '@fortawesome/pro-solid-svg-icons/faCreditCard';
+import {faPaypal} from '@fortawesome/free-brands-svg-icons/faPaypal';
+import {faTshirt} from '@fortawesome/pro-solid-svg-icons/faTshirt';
+import {faDownload} from '@fortawesome/pro-solid-svg-icons/faDownload';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -121,9 +138,7 @@ const markdownOptions: MarkdownModuleConfig = {
     ElyEqualsModule,
     ElyStatefulButtonModule,
 
-    BrowserModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
+    // Material Angular
     MatTooltipModule,
     MatProgressSpinnerModule,
     MatSelectModule,
@@ -131,7 +146,6 @@ const markdownOptions: MarkdownModuleConfig = {
     MatCheckboxModule,
     MatSlideToggleModule,
     MatRippleModule,
-    MatIconModule,
     MatCardModule,
     MatTableModule,
     MatDialogModule,
@@ -139,9 +153,17 @@ const markdownOptions: MarkdownModuleConfig = {
     MatExpansionModule,
     MatListModule,
     MatButtonToggleModule,
-    FormsModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+
+    // FontAwesome
+    FontAwesomeModule,
+
+    // Angular Modules
+    BrowserModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [
@@ -150,4 +172,36 @@ const markdownOptions: MarkdownModuleConfig = {
 })
 export class AppModule {
 
+  constructor(private library: FaIconLibrary) {
+    library.addIcons(
+      // Toolbar
+      faChevronDown,
+      faLanguage,
+      faEllipsisV,
+      faFillDrip,
+      faCircle,
+
+      // Social
+      faDiscord,
+      faTwitter,
+      faRedditAlien,
+      faTwitch,
+      faGitlab,
+
+      // Donate
+      faUniversity,
+      faCreditCard,
+      faPaypal,
+      faTshirt,
+
+      // Press Kit
+      faDownload,
+
+      // Footer
+      faCopyright,
+
+      // Misc
+      faInfoCircle
+    );
+  }
 }

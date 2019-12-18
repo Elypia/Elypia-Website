@@ -24,6 +24,7 @@ import {PressKitPageComponent} from './press-kit-page/press-kit-page.component';
 import {CompanyColorComponent} from './company-color/company-color.component';
 import {BrandCardComponent} from './brand-card/brand-card.component';
 import {MatButtonModule} from '@angular/material/button';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {MatButtonModule} from '@angular/material/button';
   imports: [
     CommonModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    FontAwesomeModule
   ],
   exports: [
     PressKitPageComponent

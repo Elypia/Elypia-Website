@@ -27,7 +27,7 @@
       </address>
       <span i18n-matTooltip matTooltip="This is the registered office and correspondence address for Elypia, not base of work or residence."
             matTooltipPosition="right">
-        <span id="address-info" class="hover fas fa-info-circle"></span>
+        <fa-icon id="address-info" class="hover" [icon]="['fas', 'info-circle']"></fa-icon>
       </span>
     </div>
     <app-social id="footer-two"></app-social>
@@ -35,10 +35,10 @@
   <div id="meta">
     <a href="https://gitlab.com/Elypia/elypia-website" target="_blank" rel="noopener"
        i18n-title title="Contribute to this sites Source Code on GitLab">
-      <span class="fab fa-gitlab pad-right"></span> <span i18n>Source&nbsp;Code</span>
+      <fa-icon [icon]="['fab', 'gitlab']" class="pad-right"></fa-icon> <span i18n>Source Code</span>
     </a>
     <p id="copyright">
-      <span class="pad-right" i18n>Copyright</span> <span class="far fa-copyright"></span> 2019-2019
+      <span class="pad-right" i18n>Copyright</span> <fa-icon [icon]="['far', 'copyright']"></fa-icon> 2019-2019
       <a href="https://beta.companieshouse.gov.uk/company/12203025" target="_blank" rel="noopener">
         Elypia&nbsp;CIC
       </a>

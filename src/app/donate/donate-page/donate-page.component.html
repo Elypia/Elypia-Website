@@ -65,7 +65,7 @@
           <strong id="bank-sort-code" class="click-to-select">23-14-70</strong>
         </p>
       </div>
-      <mat-icon class="funding-icon" fontSet="fas" fontIcon="fa-university"></mat-icon>
+      <fa-icon class="funding-icon" [icon]="['fas', 'university']"></fa-icon>
     </app-donate-method>
     <app-donate-method url="https://stripe.com/" i18n-name name="Card (Stripe)">
       <p class="description" i18n>
@@ -73,7 +73,7 @@
         All donations using this method are processed by Stripe;
         we won't process or store your information.
       </p>
-      <mat-icon class="funding-icon" fontSet="fas" fontIcon="fa-credit-card"></mat-icon>
+      <fa-icon class="funding-icon" [icon]="['fas', 'credit-card']"></fa-icon>
     </app-donate-method>
     <app-donate-method url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DBXVG4F28J4FW&source=url"
                        i18n-name name="PayPal">
@@ -81,14 +81,14 @@
         If you have a PayPal account you can donate using the attached
         credit/debit card, bank account, or PayPal balance.
       </p>
-      <mat-icon class="funding-icon" fontSet="fab" fontIcon="fa-paypal"></mat-icon>
+      <fa-icon class="funding-icon" [icon]="['fab', 'paypal']"></fa-icon>
     </app-donate-method>
     <app-donate-method url="https://www.redbubble.com/people/Elypia/"
                        i18n-name name="Redbubble">
       <p class="description" i18n>
         You can support us by purchasing our branded merchandise.
       </p>
-      <mat-icon class="funding-icon" fontSet="fas" fontIcon="fa-tshirt"></mat-icon>
+      <fa-icon class="funding-icon" [icon]="['fas', 'tshirt']"></fa-icon>
     </app-donate-method>
   </div>
 </div>

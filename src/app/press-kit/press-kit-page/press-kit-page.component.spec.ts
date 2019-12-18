@@ -6,6 +6,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {BrandCardComponent} from '../brand-card/brand-card.component';
 import {CompanyColorComponent} from '../company-color/company-color.component';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('PressKitPageComponent', () => {
   let component: PressKitPageComponent;
@@ -21,7 +22,8 @@ describe('PressKitPageComponent', () => {
       imports: [
         CommonModule,
         MatCardModule,
-        MatButtonModule
+        MatButtonModule,
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

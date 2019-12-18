@@ -43,7 +43,7 @@
                 <button mat-button class="desktop-button" [matMenuTriggerFor]="childMenu" #childMenuTrigger="matMenuTrigger">
                   {{node.name}}
                   <span class="tree-sub-menu-icon" [ngClass]="{'child-menu-open': childMenuTrigger.menuOpen}">
-                  <span class="fad fa-chevron-down"></span>
+                  <fa-icon [icon]="['fad', 'chevron-down']"></fa-icon>
                 </span>
                 </button>
                 <mat-menu #childMenu="matMenu">
@@ -56,10 +56,10 @@
           </div>
           <button mat-button class="small-only" (click)="onMobileMenuToggle()">Menu</button>
           <button mat-icon-button class="icon-button" aria-label="Select Language" (click)="openLocaleDialog()">
-            <mat-icon fontSet="fas" fontIcon="fa-language"></mat-icon>
+            <fa-icon [icon]="['fas', 'language']"></fa-icon>
           </button>
           <button mat-icon-button class="icon-button" aria-label="Other Menus" [matMenuTriggerFor]="appMenu">
-            <mat-icon fontSet="fas" fontIcon="fa-ellipsis-v"></mat-icon>
+            <fa-icon [icon]="['fas', 'ellipsis-v']"></fa-icon>
           </button>
         </div>
       </div>
@@ -75,7 +75,7 @@
 
 <mat-menu #appMenu="matMenu">
   <button mat-menu-item [matMenuTriggerFor]="themeMenu">
-    <mat-icon fontSet="fas" fontIcon="fa-fill-drip"></mat-icon>
+    <fa-icon class="margin-right" [icon]="['fas', 'fill-drip']"></fa-icon>
     <span i18n>Themes</span>
   </button>
 </mat-menu>
@@ -85,7 +85,7 @@
           *ngFor="let theme of themeService.All"
           (click)="themeService.changeTheme(theme)"
           [ngClass]="{'current-theme': themeService.selectedTheme === theme}">
-    <mat-icon fontSet="fad" fontIcon="fa-circle" [style.color]="theme.color"></mat-icon>
+    <fa-icon class="margin-right" [icon]="['fad', 'circle']" [style.color]="theme.color"></fa-icon>
     <span>{{theme.name}}</span>
   </button>
 </mat-menu>

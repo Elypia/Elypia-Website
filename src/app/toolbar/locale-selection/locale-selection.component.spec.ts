@@ -2,6 +2,7 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {LocaleSelectionComponent} from './locale-selection.component';
 import {RouterTestingModule} from '@angular/router/testing';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('LocaleSelectionComponent', () => {
   let component: LocaleSelectionComponent;
@@ -11,7 +12,8 @@ describe('LocaleSelectionComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ LocaleSelectionComponent ],
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

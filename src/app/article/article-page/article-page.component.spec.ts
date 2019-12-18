@@ -23,11 +23,11 @@ import {ElyLoadableModule, ElyTimestampModule} from '@elypia/ng-elypian';
 import {ArticleComponent} from '../article/article.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {CommentComponent} from '../comment/comment.component';
-import {MatIconModule} from '@angular/material/icon';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('ArticlePageComponent', () => {
   let component: ArticlePageComponent;
@@ -48,7 +48,7 @@ describe('ArticlePageComponent', () => {
         MatExpansionModule,
         ElyLoadableModule,
         ElyTimestampModule,
-        MatIconModule
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

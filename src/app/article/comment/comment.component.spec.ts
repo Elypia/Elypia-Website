@@ -23,8 +23,8 @@ import {CommentComponent} from './comment.component';
 import {CommonModule} from '@angular/common';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {ElyLoadableModule, ElyTimestampModule} from '@elypia/ng-elypian';
-import {MatIconModule} from '@angular/material/icon';
 import {MarkdownModule} from 'ngx-markdown';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('CommentComponent', () => {
   let component: CommentComponent;
@@ -39,9 +39,9 @@ describe('CommentComponent', () => {
         CommonModule,
         MatExpansionModule,
         ElyTimestampModule,
-        MatIconModule,
         MarkdownModule,
-        ElyLoadableModule
+        ElyLoadableModule,
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();
