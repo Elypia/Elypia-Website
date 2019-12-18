@@ -22,11 +22,11 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 import {ArticleComponent} from './article.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {ElyTimestampModule} from '@elypia/ng-elypian';
-import {MatIconModule} from '@angular/material/icon';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('ArticleComponent', () => {
   let component: ArticleComponent;
@@ -42,7 +42,7 @@ describe('ArticleComponent', () => {
         RouterTestingModule,
         ElyTimestampModule,
         MatExpansionModule,
-        MatIconModule,
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

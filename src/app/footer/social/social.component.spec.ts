@@ -20,6 +20,7 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {SocialComponent} from './social.component';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('SocialComponent', () => {
   let component: SocialComponent;
@@ -27,7 +28,12 @@ describe('SocialComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SocialComponent ]
+      declarations: [
+        SocialComponent
+      ],
+      imports: [
+        FontAwesomeTestingModule
+      ]
     })
     .compileComponents();
   }));

@@ -28,6 +28,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {FormsModule} from '@angular/forms';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('MobileToolbarMenuComponent', () => {
   let component: MobileToolbarMenuComponent;
@@ -44,7 +45,8 @@ describe('MobileToolbarMenuComponent', () => {
         MatMenuModule,
         MatIconModule,
         FormsModule,
-        MatToolbarModule
+        MatToolbarModule,
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

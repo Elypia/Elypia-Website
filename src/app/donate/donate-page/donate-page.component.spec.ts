@@ -22,11 +22,11 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 import {DonatePageComponent} from './donate-page.component';
 import {DonateMethodComponent} from '../donate-method/donate-method.component';
 import {MatCardModule} from '@angular/material/card';
-import {MatIconModule} from '@angular/material/icon';
 import {CommonModule} from '@angular/common';
 import {MatDividerModule} from '@angular/material/divider';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
-describe('DonateComponent', () => {
+describe('DonatePageComponent', () => {
   let component: DonatePageComponent;
   let fixture: ComponentFixture<DonatePageComponent>;
 
@@ -40,7 +40,7 @@ describe('DonateComponent', () => {
         CommonModule,
         MatCardModule,
         MatDividerModule,
-        MatIconModule
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

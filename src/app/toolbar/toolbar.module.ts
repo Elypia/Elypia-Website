@@ -17,6 +17,7 @@ import {ElyEqualsModule, ElyStatefulButtonModule} from '@elypia/ng-elypian';
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 /**
  * @author seth@elypia.org (Seth Falco)
@@ -43,7 +44,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatInputModule,
     MatCheckboxModule,
     ElyStatefulButtonModule,
-    MatTooltipModule
+    MatTooltipModule,
+    FontAwesomeModule
   ],
   exports: [
     ToolbarComponent,

@@ -1,14 +1,20 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {BrandCardComponent} from './brand-card.component';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
-describe('LogoDownloadComponent', () => {
+describe('BrandCardComponent', () => {
   let component: BrandCardComponent;
   let fixture: ComponentFixture<BrandCardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BrandCardComponent ]
+      declarations: [
+        BrandCardComponent
+      ],
+      imports: [
+        FontAwesomeTestingModule
+      ]
     })
     .compileComponents();
   }));

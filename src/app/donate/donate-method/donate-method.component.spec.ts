@@ -21,11 +21,11 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {DonateMethodComponent} from './donate-method.component';
 import {MatCardModule} from '@angular/material/card';
-import {MatIconModule} from '@angular/material/icon';
 import {CommonModule} from '@angular/common';
 import {MatDividerModule} from '@angular/material/divider';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
-describe('FundMethodComponent', () => {
+describe('DonateMethodComponent', () => {
   let component: DonateMethodComponent;
   let fixture: ComponentFixture<DonateMethodComponent>;
 
@@ -36,7 +36,7 @@ describe('FundMethodComponent', () => {
         CommonModule,
         MatCardModule,
         MatDividerModule,
-        MatIconModule
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

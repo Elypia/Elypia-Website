@@ -84,6 +84,10 @@ app-mobile-toolbar-menu:not(.mobile-menu-toggled) {
   height: 1em;
 }
 
+.margin-right {
+  margin-right: 1em;
+}
+
 @media (min-width: 720px) {
   .large-only {
     display: inline-block;
