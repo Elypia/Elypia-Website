@@ -4,7 +4,7 @@ FROM nginx:1.17.6-alpine
 LABEL maintainer="seth@elypia.org"
 
 # Copy over the website(s) over, it's just a single directory.
-COPY ./dist/ /usr/share/nginx/html/
+COPY ./dist/elypia-website/ /usr/share/nginx/html/
 
 # Copy NGINX configuration.
 COPY ./nginx.conf /etc/nginx/nginx.conf

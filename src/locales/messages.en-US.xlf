@@ -151,8 +151,8 @@
           <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3e5f6dace58c71c03d9050ba9cfba47f96c16369" datatype="html">
-        <source>Source Code</source>
+      <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
+        <source>Source Code</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
           <context context-type="linenumber">38</context>
@@ -333,9 +333,9 @@
           <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="20e7b5902da83b111b582615d91179d60f406116" datatype="html">
+      <trans-unit id="599c31627b5a8acd4b0d63f9d1284ed7620dd014" datatype="html">
         <source>
-      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Download Press Kit
+      <x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
@@ -705,9 +705,9 @@
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="a4e3b1d0446ba8a2df7c3c4e80583507ae5bfced" datatype="html">
+      <trans-unit id="6dbe2d7e4868adc55251fca25442592490275172" datatype="html">
         <source>
-          Elypia CIC is a non-profit
+          Elypia CIC is a non-profit
           <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
             Community Interest Company
           <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>

@@ -2,6 +2,7 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
+  "schematics": {},
   "projects": {
     "elypia-website": {
       "root": "",
@@ -9,6 +10,13 @@
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr": "src/locales/messages.fr.xlf",
+          "nl": "src/locales/messages.nl.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -38,7 +46,7 @@
             ],
             "scripts": [],
             "es5BrowserSupport": true,
-            "i18nMissingTranslation": "ignore"
+            "i18nMissingTranslation": "warning"
           },
           "configurations": {
             "production": {
@@ -159,5 +167,8 @@
       }
     }
   },
-  "defaultProject": "elypia-website"
+  "defaultProject": "elypia-website",
+  "cli": {
+    "analytics": "172ac750-037c-4be4-9eec-dfe1d9319c60"
+  }
 }
