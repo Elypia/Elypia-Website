@@ -19,7 +19,6 @@
 
 import {Component, OnInit} from '@angular/core';
 import {ThemeService} from './theme.service';
-import {NGXLogger} from 'ngx-logger';
 import {MenuNode} from './toolbar/toolbar';
 
 /**
@@ -50,7 +49,6 @@ export class AppComponent implements OnInit {
   ];
 
   constructor(
-    private logger: NGXLogger,
     public themeService: ThemeService
   ) {
     console.log('%cHold on!', 'color: red; font-size: 64px;');

@@ -17,10 +17,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import {Component, OnInit} from '@angular/core';
-import {ArticleService} from '../../article/article.service';
-import {Article} from '../../article/article';
-import {LoadState} from '@elypia/ng-elypian';
+import {Component} from '@angular/core';
 import {Title} from '@angular/platform-browser';
 import {environment} from '../../../environments/environment';
 
@@ -29,25 +26,9 @@ import {environment} from '../../../environments/environment';
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.css']
 })
-export class HomePageComponent implements OnInit {
+export class HomePageComponent {
 
-  public articles: Article[];
-  public state: LoadState;
-
-  constructor(
-    private titleService: Title,
-    private articleService: ArticleService
-  ) {
+  constructor(private titleService: Title) {
     titleService.setTitle(environment.titlePrefix);
-    this.state = LoadState.NotLoaded;
-  }
-
-  ngOnInit() {
-    this.state = LoadState.Loading;
-
-    // this.articleService.getRecent().subscribe((articles) => {
-    //   this.articles = articles;
-    //   this.state = LoadState.Loaded;
-    // }, () => this.state = LoadState.Failed);
   }
 }

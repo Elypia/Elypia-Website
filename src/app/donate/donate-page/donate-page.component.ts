@@ -20,6 +20,8 @@
 import {Component} from '@angular/core';
 import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 import {environment} from '../../../environments/environment';
+import {MatSnackBar} from '@angular/material/snack-bar';
+import {CopiedClipboardComponent} from '../../snackbar-components/copied-clipboard/copied-clipboard.component';
 
 @Component({
   selector: 'app-donate',
@@ -35,8 +37,15 @@ export class DonatePageComponent {
              'card, PayPal, or buying merchandise on Redbubble.'
   };
 
-  constructor(private titleService: Title, private meta: Meta) {
+  constructor(private titleService: Title, private meta: Meta, private matSnackBar: MatSnackBar) {
     titleService.setTitle(environment.titlePrefix + ' | Donate');
     meta.updateTag(DonatePageComponent.Description);
+  }
+
+  public displayMessage() {
+    this.matSnackBar.openFromComponent(CopiedClipboardComponent, {
+      duration: 2000,
+      politeness: 'polite'
+    });
   }
 }

@@ -77,6 +77,8 @@ import {faCreditCard} from '@fortawesome/pro-solid-svg-icons/faCreditCard';
 import {faPaypal} from '@fortawesome/free-brands-svg-icons/faPaypal';
 import {faTshirt} from '@fortawesome/pro-solid-svg-icons/faTshirt';
 import {faDownload} from '@fortawesome/pro-solid-svg-icons/faDownload';
+import {faPaste} from '@fortawesome/pro-duotone-svg-icons/faPaste';
+import {CopiedClipboardComponent} from './snackbar-components/copied-clipboard/copied-clipboard.component';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -116,7 +118,8 @@ const markdownOptions: MarkdownModuleConfig = {
     AppComponent,
     HomePageComponent,
     AboutPageComponent,
-    PrivacyPageComponent
+    PrivacyPageComponent,
+    CopiedClipboardComponent
   ],
   imports: [
     // Configured
@@ -193,6 +196,7 @@ export class AppModule {
       faCreditCard,
       faPaypal,
       faTshirt,
+      faPaste,
 
       // Press Kit
       faDownload,
