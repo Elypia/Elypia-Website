@@ -69,21 +69,21 @@
         <source>Account Name: </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c60cf19eb3d49a7f0e045881ebd9733f74b6dad8" datatype="html">
         <source>Account Number: </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8fbb4b710b04174effd1bb999565583d64ddf8e4" datatype="html">
         <source>Sort Code: </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d85ad59682b27633be6ded5942692b892fe7467a" datatype="html">
@@ -101,14 +101,14 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4eb36eee0c420c1f329eedecd87f2770d41df484" datatype="html">
         <source>Card (Stripe)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">70</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a15ed1dd7a4d96a707c1d7cdb0c760bcb20e1ee8" datatype="html">
@@ -118,14 +118,14 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">99</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
         <source>PayPal</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0a53c6d53b13f2df560312133d3ff2009cf6c60" datatype="html">
@@ -134,14 +134,14 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">107</context>
         </context-group>
       </trans-unit>
       <trans-unit id="396b64d7eb70deee0075f9256bb991890051feb5" datatype="html">
         <source>Redbubble</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98d33199f9bbf639ba8c43f881d73c763e5e4f7b" datatype="html">
@@ -151,8 +151,8 @@
           <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3e5f6dace58c71c03d9050ba9cfba47f96c16369" datatype="html">
-        <source>Source Code</source>
+      <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
+        <source>Source Code</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
           <context context-type="linenumber">38</context>
@@ -333,9 +333,9 @@
           <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="20e7b5902da83b111b582615d91179d60f406116" datatype="html">
+      <trans-unit id="599c31627b5a8acd4b0d63f9d1284ed7620dd014" datatype="html">
         <source>
-      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>Download Press Kit
+      <x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
@@ -705,9 +705,9 @@
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="a4e3b1d0446ba8a2df7c3c4e80583507ae5bfced" datatype="html">
+      <trans-unit id="6dbe2d7e4868adc55251fca25442592490275172" datatype="html">
         <source>
-          Elypia CIC is a non-profit
+          Elypia CIC is a non-profit
           <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
             Community Interest Company
           <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>

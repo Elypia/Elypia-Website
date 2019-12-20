@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="nl">
     <body>
       <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
@@ -344,14 +344,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/project/project.component.html</context>
           <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1422bbaa6bc29532c521bdec4a2d3309dd978c03" datatype="html">
-        <source>Last updated on 1st August 2019</source>
-        <target>Laatst bijgewerkt op 1 augustus 2019</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
-          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98d33199f9bbf639ba8c43f881d73c763e5e4f7b" datatype="html">

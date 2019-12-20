@@ -5,6 +5,9 @@ import {MatDividerModule} from '@angular/material/divider';
 import {DonateMethodComponent} from './donate-method/donate-method.component';
 import {DonatePageComponent} from './donate-page/donate-page.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {ClipboardModule} from '@angular/cdk/clipboard';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     CommonModule,
     MatCardModule,
     MatDividerModule,
-    FontAwesomeModule
+    ClipboardModule,
+    FontAwesomeModule,
+    MatTooltipModule,
+    MatSnackBarModule
   ],
   exports: [
     DonateMethodComponent,

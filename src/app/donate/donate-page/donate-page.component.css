@@ -50,6 +50,18 @@ p {
   font-size: 4em;
 }
 
+.click-to-copy {
+  cursor: pointer;
+}
+
+#bank-details {
+  margin-top: .5em;
+}
+
+#bank-details p {
+  margin-top: 0;
+}
+
 @media (min-width: 512px) {
   h2 {
     text-align: left;

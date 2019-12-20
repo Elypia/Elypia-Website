@@ -30,7 +30,7 @@ describe('HaveibeenpwnedService', () => {
   }));
 
   it('should be created', () => {
-    const service: HaveibeenpwnedService = TestBed.get(HaveibeenpwnedService);
+    const service: HaveibeenpwnedService = TestBed.inject(HaveibeenpwnedService);
     expect(service).toBeTruthy();
   });
 });

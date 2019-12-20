@@ -54,16 +54,35 @@
           Donate by transfering money or setting up a standing order
           directly to our company bank account.
         </p>
-        <p>
-          <span i18n>Account Name: </span>
-          <strong id="bank-account-name" class="click-to-select">Elypia CIC</strong>
-          <br>
-          <span i18n>Account Number: </span>
-          <strong id="bank-account-number" class="click-to-select">83689947</strong>
-          <br>
-          <span i18n>Sort Code: </span>
-          <strong id="bank-sort-code" class="click-to-select">23-14-70</strong>
-        </p>
+        <div id="bank-details">
+          <p>
+            <span i18n>Account Name: </span>
+            <strong id="bank-account-name" class="click-to-copy"
+                    cdkCopyToClipboard="Elypia CIC" (cdkCopyToClipboardCopied)="displayMessage()"
+                    matTooltip="Copy Account Name" matTooltipPosition="right">
+              Elypia CIC
+              <fa-icon [icon]="['fad', 'paste']"></fa-icon>
+            </strong>
+          </p>
+          <p>
+            <span i18n>Account Number: </span>
+            <strong id="bank-account-number" class="click-to-copy"
+                    cdkCopyToClipboard="83689947" (cdkCopyToClipboardCopied)="displayMessage()"
+                    matTooltip="Copy Account Number" matTooltipPosition="right" >
+              83689947
+              <fa-icon [icon]="['fad', 'paste']"></fa-icon>
+            </strong>
+          </p>
+          <p>
+            <span i18n>Sort Code: </span>
+            <strong id="bank-sort-code" class="click-to-copy"
+                    cdkCopyToClipboard="231470" (cdkCopyToClipboardCopied)="displayMessage()"
+                    matTooltip="Copy Sort Code" matTooltipPosition="right">
+              23-14-70
+              <fa-icon [icon]="['fad', 'paste']"></fa-icon>
+            </strong>
+          </p>
+        </div>
       </div>
       <fa-icon class="funding-icon" [icon]="['fas', 'university']"></fa-icon>
     </app-donate-method>
