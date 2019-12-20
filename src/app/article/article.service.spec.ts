@@ -30,7 +30,7 @@ describe('ArticleService', () => {
   }));
 
   it('should be created', () => {
-    const service: ArticleService = TestBed.get(ArticleService);
+    const service: ArticleService = TestBed.inject(ArticleService);
     expect(service).toBeTruthy();
   });
 });

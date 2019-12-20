@@ -2,6 +2,7 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
+  "schematics": {},
   "projects": {
     "elypia-website": {
       "root": "",
@@ -9,10 +10,18 @@
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr": "src/locales/messages.fr.xlf",
+          "nl": "src/locales/messages.nl.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/elypia-website",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -37,7 +46,6 @@
             ],
             "scripts": [],
             "es5BrowserSupport": true,
-            "i18nFormat": "xlf",
             "i18nMissingTranslation": "ignore"
           },
           "configurations": {
@@ -62,14 +70,12 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
-            },
-            "nl": {
-              "baseHref": "/nl/",
-              "outputPath": "dist/nl/",
-              "i18nFile": "src/locales/messages.nl.xlf",
-              "i18nLocale": "nl"
             }
           }
         },
@@ -81,9 +87,6 @@
           "configurations": {
             "production": {
               "browserTarget": "elypia-website:build:production"
-            },
-            "nl": {
-              "browserTarget": "elypia-website:build:nl"
             }
           }
         },
@@ -164,5 +167,8 @@
       }
     }
   },
-  "defaultProject": "elypia-website"
+  "defaultProject": "elypia-website",
+  "cli": {
+    "analytics": "172ac750-037c-4be4-9eec-dfe1d9319c60"
+  }
 }

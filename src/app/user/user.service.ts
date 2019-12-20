@@ -25,9 +25,6 @@ import {User} from './user';
 import {catchError, map} from 'rxjs/operators';
 import LoginForm from '../toolbar/login-form/login-form';
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 @Injectable({
   providedIn: 'root'
 })

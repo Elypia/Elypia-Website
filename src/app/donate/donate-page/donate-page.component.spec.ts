@@ -25,6 +25,7 @@ import {MatCardModule} from '@angular/material/card';
 import {CommonModule} from '@angular/common';
 import {MatDividerModule} from '@angular/material/divider';
 import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 describe('DonatePageComponent', () => {
   let component: DonatePageComponent;
@@ -40,7 +41,8 @@ describe('DonatePageComponent', () => {
         CommonModule,
         MatCardModule,
         MatDividerModule,
-        FontAwesomeTestingModule
+        FontAwesomeTestingModule,
+        MatSnackBarModule
       ]
     })
     .compileComponents();

@@ -58,6 +58,11 @@ img {
   margin-top: .5em;
 }
 
+small {
+  display: block;
+  font-size: 1em;
+}
+
 @media (min-width: 720px) {
   #footer-top {
     flex-direction: row;

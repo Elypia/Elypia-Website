@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="en-simple">
+    <body>
+      <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
+        <source>Elypia is a Non-Profit CIC</source>
+        <target>Elypia is a Non-Profit CIC</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7ca4488779e42bfeefe827d4f4706f4f9136b87" datatype="html">
+        <source>
+        While we try to be sustainable through subscriptions and services, it&apos;s favorable to receive
+        donations to keep everything as free as possible. As a non-profit, funding is what allows us to
+        continue to develop free and open-source software and push to provide free or affordable services.
+      </source>
+      <target>We try to keep Elypia running by using the money we get from repeating payments or
+      services we might provide for users. It's still helpful to get donations so we can keep prices
+      low or free if we can.
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e7b17d13f3fa32af1778e07c3546a5206171878" datatype="html">
+        <source>
+      Where third-party scripts is embedded from other websites, third-party cookies may also be added.
+    </source>
+    <target>Where there is content from other websites, they can set cookies too.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a2bafcf30ea99a7d80e095152eeb3a8f8204663" datatype="html">
+        <source>
+          This is a manually defined list of cookies or storage data that
+          may be set while using our website or services.
+        </source>
+        <target>A typed up list of cookies or storage data this website sets on your browser.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="583a4094fd518339567a2c0f876a1868a008e985" datatype="html">
+        <source>BG: </source>
+        <target>BG: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Background color from Elypia color palette.</note>
+      </trans-unit>
+      <trans-unit id="716d3d46a6222779e682155138f9a866643386b2" datatype="html">
+        <source>FG: </source>
+        <target>FG: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Foreground color from Elypia color palette.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

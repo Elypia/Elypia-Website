@@ -3,8 +3,6 @@ import {Router} from '@angular/router';
 
 /**
  * Described a locale that the website can be displayed.
- *
- * @author seth@elypia.org (Seth Falco)
  */
 class Locale {
 

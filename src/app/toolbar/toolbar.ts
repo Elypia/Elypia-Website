@@ -20,8 +20,6 @@
 /**
  * Used to define navigation menu elements for mobile
  * and desktop devices.
- *
- * @author seth@elypia.org (Seth Falco)
  */
 export interface MenuNode {
 

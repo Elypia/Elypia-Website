@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="fr">
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="fr" >
     <body>
       <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
         <source>Elypia is a Non-Profit CIC</source>

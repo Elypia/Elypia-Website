@@ -19,12 +19,8 @@
 
 import {Component, OnInit} from '@angular/core';
 import {ThemeService} from './theme.service';
-import {NGXLogger} from 'ngx-logger';
 import {MenuNode} from './toolbar/toolbar';
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -50,7 +46,6 @@ export class AppComponent implements OnInit {
   ];
 
   constructor(
-    private logger: NGXLogger,
     public themeService: ThemeService
   ) {
     console.log('%cHold on!', 'color: red; font-size: 64px;');

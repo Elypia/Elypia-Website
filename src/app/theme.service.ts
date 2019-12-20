@@ -23,8 +23,6 @@ import {NGXLogger} from 'ngx-logger';
 
 /**
  * Stores static metadata on each available theme.
- *
- * @author seth@elypia.org (Seth Falco)
  */
 export interface Theme {
   name: string;
@@ -35,8 +33,6 @@ export interface Theme {
 /**
  * Service to manage the selected theme and set or get
  * the current theme for users.
- *
- * @author seth@elypia.org (Seth Falco)
  */
 @Injectable({
   providedIn: 'root'
