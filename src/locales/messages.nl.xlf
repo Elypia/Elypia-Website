@@ -346,14 +346,6 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1422bbaa6bc29532c521bdec4a2d3309dd978c03" datatype="html">
-        <source>Last updated on 1st August 2019</source>
-        <target>Laatst bijgewerkt op 1 augustus 2019</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="98d33199f9bbf639ba8c43f881d73c763e5e4f7b" datatype="html">
         <source>This is the registered office and correspondence address for Elypia, not base of work or residence.</source>
         <target>Dit is de maatschappelijke zetel en het correspondentieadres voor Elypia, geen werkbasis of woonplaats.</target>

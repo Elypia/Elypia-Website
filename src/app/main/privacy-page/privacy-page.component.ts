@@ -22,9 +22,6 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
 import {environment} from '../../../environments/environment';
 import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 export interface EprivacyEntry {
 
   /** What type of data this is, eg cookie, or local storage. */
@@ -43,9 +40,6 @@ export interface EprivacyEntry {
   description: string;
 }
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 @Component({
   selector: 'app-privacy',
   templateUrl: './privacy-page.component.html',

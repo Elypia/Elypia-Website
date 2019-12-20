@@ -46,7 +46,7 @@
             ],
             "scripts": [],
             "es5BrowserSupport": true,
-            "i18nMissingTranslation": "warning"
+            "i18nMissingTranslation": "ignore"
           },
           "configurations": {
             "production": {

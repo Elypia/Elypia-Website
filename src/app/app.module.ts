@@ -110,9 +110,6 @@ const markdownOptions: MarkdownModuleConfig = {
   }
 };
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 @NgModule({
   declarations: [
     AppComponent,

@@ -45,7 +45,8 @@ export class DonatePageComponent {
   public displayMessage() {
     this.matSnackBar.openFromComponent(CopiedClipboardComponent, {
       duration: 2000,
-      politeness: 'polite'
+      politeness: 'polite',
+      horizontalPosition: 'right'
     });
   }
 }

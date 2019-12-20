@@ -20,9 +20,6 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 export class PwnedPassword {
 
   hash: string;
@@ -35,9 +32,6 @@ export class PwnedPassword {
   }
 }
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 @Injectable({
   providedIn: 'root'
 })

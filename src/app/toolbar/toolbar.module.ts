@@ -19,9 +19,6 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
-/**
- * @author seth@elypia.org (Seth Falco)
- */
 @NgModule({
   declarations: [
     ToolbarComponent,

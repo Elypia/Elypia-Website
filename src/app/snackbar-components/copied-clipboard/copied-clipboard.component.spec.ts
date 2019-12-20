@@ -1,6 +1,7 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {CopiedClipboardComponent} from './copied-clipboard.component';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('CopiedClipboardComponent', () => {
   let component: CopiedClipboardComponent;
@@ -8,7 +9,10 @@ describe('CopiedClipboardComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CopiedClipboardComponent ]
+      declarations: [ CopiedClipboardComponent ],
+      imports: [
+        FontAwesomeTestingModule
+      ]
     })
     .compileComponents();
   }));
