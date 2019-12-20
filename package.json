@@ -18,8 +18,8 @@
     "e2e": "ng e2e",
     "xi18n": "ng xi18n --format=xlf --output-path ./locales/ --out-file messages.en-US.xlf",
     "check": "npm run-script lint && npm run-script test && npm run-script e2e",
-    "docker:test": "docker build -t elypia-website-dev:latest . && docker run -p 8081:80 elypia-website-dev:latest",
-    "nginx": "npm run-script build && npm run-script docker:test",
+    "docker:dev": "npm run-script build && docker build -t elypia-website-dev:latest .",
+    "nginx:dev": "npm run-script docker:dev && docker run -p 8081:80 elypia-website-dev:latest",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
   },
   "dependencies": {
