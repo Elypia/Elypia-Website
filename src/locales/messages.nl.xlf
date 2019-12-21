@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="nl">
     <body>
       <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
@@ -132,7 +132,7 @@
       </trans-unit>
       <trans-unit id="d5b4cd0272163bc86ab653f5d4ea93f8145b9a5c" datatype="html">
         <source>It looks like you're new here so we brought up registration form instead for you!</source>
-        <target>Het lijkt erop dat je hier nieuw bent, dus in plaats daarvan hebben we het registratieformulier voor je geopend!</target>
+        <target>Het lijkt erop dat je hier nieuw bent, dus hebben we in plaats daarvan het registratieformulier voor je geopend!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/dialogs/login-form/login-form.component.html</context>
           <context context-type="linenumber">78</context>
@@ -211,8 +211,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="942ed2dfc8ee50abe0b6cd6913af529b0d9dec16" datatype="html">
-        <source>Elypia wants to aid the future of software and technology by providing FOSS (free and open-source software) to the public free of charge. We want to see more libraries and frameworks that allow junior developers to create enterprise grade applications for small-scale purposes, ready to take that knowledge with them to support other projects and businesses. We also want to help create modern, secure, and reliable software, that can be referenced or derived from for small businesses without worrying about legacy applications that are no longer supported with no viable or affordable alternative.</source>
-        <target>Elypia wil de toekomst van software en technologie helpen door FOSS (free and open-source software) aan het publiek aan te bieden. We willen meer bibliotheken en frameworks zien waarmee junior-ontwikkelaars enterprise-grade applicaties kunnen maken voor kleinschalige doeleinden, klaar om die kennis mee te nemen om andere projecten en bedrijven te ondersteunen. We willen ook helpen bij het creëren van moderne, veilige en betrouwbare software, waarnaar kan worden verwezen of afgeleid voor kleine bedrijven zonder ons zorgen te maken over legacy-applicaties die niet langer worden ondersteund zonder een haalbaar of betaalbaar alternatief.</target>
+        <source>Elypia wants to aid the future of software and technology by providing FOSS (free and open-source software) to the public. We want to see more libraries and frameworks that allow junior developers to create enterprise grade applications for small-scale purposes, ready to take that knowledge with them to support other projects and businesses. We also want to help create modern, secure, and reliable software, that can be referenced or derived for small businesses without worrying about legacy applications that are no longer supported with no viable or affordable alternative.</source>
+        <target>Elypia wil de toekomst van software en technologie helpen door FOSS (gratis en open-source software) aan het publiek aan te bieden. We willen meer bibliotheken en frameworks zien waarmee junior-ontwikkelaars enterprise-grade applicaties kunnen maken voor kleinschalige doeleinden, klaar om die kennis mee te nemen om andere projecten en bedrijven te ondersteunen. We willen ook helpen bij het creëren van moderne, veilige en betrouwbare software, waarnaar kan worden verwezen of afgeleid voor kleine bedrijven zonder ons zorgen te maken over legacy-applicaties die niet langer worden ondersteund zonder een haalbaar of betaalbaar alternatief.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">53</context>
@@ -235,8 +235,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="f6edaf4643fb2d767fd0646636d6f277227be021" datatype="html">
-        <source>The Elypia website currently doesn't store any information on users, however the web server that is running the webpage you are viewing right now will have logged basic information about your connection such as IP address.</source>
-        <target>De Elypia website slaat momenteel geen informatie over gebruikers op, maar de webserver die de webpagina uitvoert die u nu bekijkt, heeft basisinformatie over uw verbinding vastgelegd, zoals het IP-adres.</target>
+        <source>None of our websites or services store personal information on users, and our web servers is configured with the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>access log<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> disabled so we do not see information regarding your request such as <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>IP<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> or <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/> user-agent<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
+        <target>Geen van onze websites of services slaan persoonlijke informatie op van gebruikers en onze webservers zijn geconfigureerd met de <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>toegangslogboek<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> uitgeschakeld, dus we zien geen informatie over uw verzoek zoals <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>IP<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> of <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/> user-agent<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/privacy/privacy.component.html</context>
           <context context-type="linenumber">26</context>
@@ -244,23 +244,23 @@
       </trans-unit>
       <trans-unit id="78ab20361c236d2fa3bd642eb6cc1afe0ce9e759" datatype="html">
         <source>ePrivacy Directive</source>
-        <target>e-privacyrichtlijn</target>
+        <target>E-privacyrichtlijn</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3e7b17d13f3fa32af1778e07c3546a5206171878" datatype="html">
-        <source>We are embedding code from other websites so they may also add cookies while your browse this website, for example Discord or FontAwesome.</source>
-        <target>We voegen code van andere websites in, ze kunnen ook cookies toevoegen terwijl u deze website bezoekt, bijvoorbeeld Discord of FontAwesome.</target>
+        <source>Where third-party scripts is embedded from other websites, third-party cookies may also be added.</source>
+        <target>Waar scripts van derden zijn ingesloten van andere websites, kunnen ook cookies van derden worden toegevoegd.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5a2bafcf30ea99a7d80e095152eeb3a8f8204663" datatype="html">
-        <source>This is a manual list that notes down all (or at least most) cookies (or localstorage and session storage) that's in active use.</source>
-        <target>Dit is een handmatige lijst die alle (of in elk geval de meeste) cookies (of lokale opslag en sessie opslag) opslaat die actief worden gebruikt.</target>
+        <source>This is a manually defined list of cookies or storage data that may be set while using our website or services.</source>
+        <target>Dit is een handmatig gedefinieerde lijst met cookies of opslaggegevens die kunnen worden ingesteld tijdens het gebruik van onze website of services.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/eprivacy/eprivacy.component.html</context>
           <context context-type="linenumber">31</context>
@@ -484,7 +484,7 @@
       </trans-unit>
       <trans-unit id="7c606c35acfee5d5f96dc214cab8e0a5f37ca890" datatype="html">
         <source>Darker</source>
-        <target>donkerder</target>
+        <target>Donkerder</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">55</context>
@@ -531,8 +531,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="bc0135e02c154f58b98df20dc1348e006e3027be" datatype="html">
-        <source>Elypia Logo w/Name</source>
-        <target>Elypia-logo met naam</target>
+        <source>Elypia Logo with our Name</source>
+        <target>Elypia-logo met onze Naam</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">40</context>
@@ -543,8 +543,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="2797b3afbb63cd70e7c5db230d7c77ca28deb128" datatype="html">
-        <source>Elypia Logo with without fill or shapes by Nikky</source>
-        <target>Elypia-pictogram zonder vulling of vormen door Nikky</target>
+        <source>Elypia Icon by Nikky</source>
+        <target>Elypia-pictogram door Nikky</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">34</context>
@@ -599,8 +599,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="bfa2da53bb0176d74907768b7ce5502e5f432f88" datatype="html">
-        <source>This press kit is dedicated to users or publishers that may want to publish anything that references Elypia and wants to use it's branding. This page covers some assets that can be used, and any guildlines to using them.</source>
-        <target>Deze press kit is bedoeld voor gebruikers of uitgevers die alles willen publiceren dat verwijst naar Elypia en het merk wil gebruiken. Deze pagina behandelt enkele assets die kunnen worden gebruikt en eventuele richtlijnen om ze te gebruiken.</target>
+        <source>This is for users or publishers that may want to reference Elypia and use it's branding. This page covers some assets that can be used, and any guidelines to using them.</source>
+        <target>Dit is voor gebruikers of uitgevers die mogelijk naar Elypia willen verwijzen en de merknaam willen gebruiken. Deze pagina behandelt enkele middelen die kunnen worden gebruikt en eventuele richtlijnen voor het gebruik ervan.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">5</context>
@@ -655,11 +655,269 @@
         </context-group>
       </trans-unit>
       <trans-unit id="4eb36eee0c420c1f329eedecd87f2770d41df484" datatype="html">
-        <source>Debit/Credit Card (Stripe)</source>
-        <target>Bankkaart/Kredietkaart (Stripe)</target>
+        <source>Card (Stripe)</source>
+        <target>Bankkaart (Stripe)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="716d3d46a6222779e682155138f9a866643386b2" datatype="html">
+        <source>FG:</source>
+        <target>FG:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Foreground color from Elypia color palette.</note>
+      </trans-unit>
+      <trans-unit id="583a4094fd518339567a2c0f876a1868a008e985" datatype="html">
+        <source>BG:</source>
+        <target>BG:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Background color from Elypia color palette.</note>
+      </trans-unit>
+      <trans-unit id="5b0c85cc0e98f1b83a5207b60555c81934345996" datatype="html">
+        <source>Documentation on (Local/Session) Storage via MDN Web Docs (Mozilla)</source>
+        <target>Documentatie over (lokale / sessie) opslag via MDN Web Docs (Mozilla)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ca4b21373007e824df525ab9cbe21c018572843" datatype="html">
+        <source>Documentation on Cookies via MDN Web Docs (Mozilla)</source>
+        <target>Documentatie over cookies via MDN Web Docs (Mozilla)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46e6ca116c06c11cbbc7da96fc2cac6da985ff62" datatype="html">
+        <source>The ePrivacy directive, also known as the EU Cookie Law, is what covers the use of cookies (or other client-side storage mediums) and consent. We minimize the use of <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> cookies <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> storage <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> without reducing functionality on the websites or services. We do not, and <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>most likely<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> never will, use or add analytic cookies, or trackers, however we do store some data for technical or client-side configuration purposes. </source>
+        <target>De ePrivacy-richtlijn, ook wel de EU-cookiewet genoemd, is het onderwerp van het gebruik van cookies (openbare archieven of andere opslagmedia op de client) en toestemming. We minimaliseren het gebruik van <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> cookies <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> en <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> opslag <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> zonder de functionaliteit op de websites of services te verminderen. Wij zullen niet, en <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>hoogstwaarschijnlijk<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> nooit analytische cookies of trackers gebruiken of toevoegen, maar we slaan sommige gegevens wel op voor technische of client-side configuratiedoeleinden. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0b35ba3224ef995996fd36a4ab03c44be79d64d" datatype="html">
+        <source>Definition and Requirements for Data Protection Officer</source>
+        <target>Definitie en Vereisten voor de Functionaris voor Gegevensbescherming</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="87cdd698d53e79bfefe97e2607d9a00aa59c0ca1" datatype="html">
+        <source>If there are any concerns or questions regarding our privacy policy, or if you have a request, please send an email to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>dpo@elypia.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> where the elected <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> Data Protection Officer (DPO) <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> will be able to support you. </source>
+        <target>Als u zich zorgen maakt of vragen heeft over ons privacybeleid, of als u een verzoek hebt, stuur dan een e-mail naar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>dpo@elypia.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>waar de gekozen <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> Data Protection Officer (DPO) <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> u kan ondersteunen. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db57e4e0d030ab5ce723bee08f400bc6b9bd6bf5" datatype="html">
+        <source>We're using <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>CloudFlare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> as a Content Delivery Network (CDN) which collects and allows us to view aggregate data on traffic such as total requests, number of unique visitors, and which countries are predominantly accessing our services. </source>
+        <target>We gebruiken <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>CloudFlare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> als een Content Delivery Network (CDN) waarmee we verzamelde gegevens over het verkeer verzamelen, zoals het totale aantal aanvragen, het aantal unieke bezoekers, en welke landen voornamelijk toegang hebben tot onze services. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d961e1f3ed6b3f9dd6c5968552eadc750735b12" datatype="html">
+        <source>Documentation on User-Agent via MDN Web Docs (Mozilla)</source>
+        <target>Documentatie over User-Agent via MDN Web Docs (Mozilla)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1422bbaa6bc29532c521bdec4a2d3309dd978c03" datatype="html">
+        <source>Last updated on 12th December 2019</source>
+        <target>Laatst bijgewerkt op 12 december 2019</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d0c0255d90186de88c0a6e77b0fbca8a31174b5" datatype="html">
+        <source>Elypia CIC on Public Record at Companies House</source>
+        <target>Elypia CIC op Openbaar Register in Companies House</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70b89f55170a7a596275b49c4ca52ec2ec3a7c9b" datatype="html">
+        <source>Wikipedia article for Community Interest Company</source>
+        <target>Wikipedia-artikel voor Community Interest Company</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6dbe2d7e4868adc55251fca25442592490275172" datatype="html">
+        <source>Elypia CIC is a non-profit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> Community Interest Company <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> based in the United Kingdom that wants to bring more free and open-source software to different sectors. This is starting with software development, aimed at junior developers, and will hopefully move towards other areas outside of software that may aid educational institutions or less developed sectors attain alternatives over abandoned legacy applications. </source>
+        <target>Elypia CIC is zzn non-profit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> Community Interest Company <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> gevestigd in het Verenigd Koninkrijk dat meer gratis en open-source software naar verschillende sectoren wil brengen. Dit begint met software-ontwikkeling, gericht op junior-ontwikkelaars, en hopelijk zal dit zich verplaatsen naar andere gebieden buiten software die onderwijsinstellingen of minder ontwikkelde sectoren kunnen helpen alternatieven te bereiken ten opzichte van verlaten legacy-applicaties. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="890a87543cce9330edc40891f6e68dfb500995c7" datatype="html">
+        <source>Anime girl styled drawing of Elypia-chan by Vukory</source>
+        <target>Anime girl stijl tekening van Elypia-chan door Vukory</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="986824516a1a8cb4151c1959910a25d75dad50dc" datatype="html">
+        <source>Contribute to translations on Weblate</source>
+        <target>Draag bij aan vertalingen op Weblate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="909971e3c3bbec75f12e98a2e663274687547f63" datatype="html">
+        <source>Weblate</source>
+        <target>Weblate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="599c31627b5a8acd4b0d63f9d1284ed7620dd014" datatype="html">
+        <source><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit </source>
+        <target><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Press Kit Downloaden </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e11b1522c1aa749441e882efc0d5f6b5bc0e880d" datatype="html">
+        <source>Want to download everything?</source>
+        <target>Wil je alles downloaden?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bfd2aee4175e367129e7497713c2b5824b722a7e" datatype="html">
+        <source>Elypia Logo w/Text</source>
+        <target>Elypia-logo met tekst</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9549b29b8c3e30523c81b57bb1919e21656c88d" datatype="html">
+        <source>Elypia Icon</source>
+        <target>Elypia-pictogram</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d32feaeffd77c36b768827b38eab5e4d9101b7c5" datatype="html">
+        <source>Elypia Badge</source>
+        <target>Elypia-badge</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ada1858c9ce113261202d110484643d58ea8d81" datatype="html">
+        <source>Elypia Logo</source>
+        <target>Elypia-logo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e646036efe65c8fd750583c8b1c64c44a7ceffff" datatype="html">
+        <source>Don't use the Elypia branding where it may suggest we endorse your content.</source>
+        <target>Gebruik de Elypia-branding niet op een manier die suggereert dat Elypia uw inhoud steunt.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8746a063d10f3b94ef2abb9f7e9389f46c105df" datatype="html">
+        <source>Other than as explicitly stated, don't modify or reconfigure the Elypia logo.</source>
+        <target>Tenzij nadrukkelijk vermeld staat, wijzig of herconfigureer het Elypia-logo niet.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b2b2da474421bd0a87719658f2ef9c2c3ebf8e87" datatype="html">
+        <source>Keeping the logo as-is is preferred, but you may alter the hue.</source>
+        <target>Het is het beste om het logo te houden zoals het is, maar u kunt de tint of verzadiging wijzigen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f49550e63d0eadbe181621c819181fc517f371b" datatype="html">
+        <source>Contribute to this sites Source Code on GitLab</source>
+        <target>Draag bij aan GitLab</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
+        <source>Source Code</source>
+        <target>Broncode</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d85ad59682b27633be6ded5942692b892fe7467a" datatype="html">
+        <source>Bank (UK/GBP Only)</source>
+        <target>Bank (Alleen UK/GBP)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fbb4b710b04174effd1bb999565583d64ddf8e4" datatype="html">
+        <source>Sort Code:</source>
+        <target>Sorteercode:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c60cf19eb3d49a7f0e045881ebd9733f74b6dad8" datatype="html">
+        <source>Account Number:</source>
+        <target>Rekeningnummer:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7ec3699e8d381ae4371066b98b36e22a2478ce9" datatype="html">
+        <source>Account Name:</source>
+        <target>Accountnaam:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b56d5a5b4954332e22e3693c13eafb66c7b4fa36" datatype="html">
+        <source>Donate by transfering money or setting up a standing order directly to our company bank account.</source>
+        <target>Doneer door geld over te maken of door een doorlopende opdracht direct op onze bedrijfsbankrekening te zetten.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
     </body>
