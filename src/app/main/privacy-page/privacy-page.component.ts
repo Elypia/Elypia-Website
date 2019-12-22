@@ -18,23 +18,36 @@
  */
 
 import {Component} from '@angular/core';
-import {animate, state, style, transition, trigger} from '@angular/animations';
 import {environment} from '../../../environments/environment';
 import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 
-export interface EprivacyEntry {
+export enum StorageType {
+  Local = 'localstorage',
+  Session = 'sessionstorage'
+}
 
-  /** What type of data this is, eg cookie, or local storage. */
-  type: string;
+export interface CookieTableEntry {
 
   /** The name of this data. */
   name: string;
 
   /** The domain this data is for. */
-  domain?: string;
+  domain: string;
 
   /** The number of days that this data is alive for. */
-  expires?: number;
+  expires: number;
+
+  /** An explanation on why this exists. */
+  description: string;
+}
+
+export interface StorageTableEntry {
+
+  /** The name of this data. */
+  name: string;
+
+  /** The type of storage data this represents. */
+  type: StorageType;
 
   /** An explanation on why this exists. */
   description: string;
@@ -43,14 +56,7 @@ export interface EprivacyEntry {
 @Component({
   selector: 'app-privacy',
   templateUrl: './privacy-page.component.html',
-  styleUrls: ['./privacy-page.component.css'],
-  animations: [
-    trigger('detailExpand', [
-      state('collapsed', style({height: '0px', minHeight: '0'})),
-      state('expanded', style({height: '*'})),
-      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
-    ]),
-  ]
+  styleUrls: ['./privacy-page.component.css']
 })
 export class PrivacyPageComponent {
 
@@ -61,22 +67,25 @@ export class PrivacyPageComponent {
              'and also what how we use cookies and what types of cookies we use.'
   };
 
-  public readonly columns: string[] = ['type', 'name', 'domain', 'expires', 'description'];
-  public readonly Data: EprivacyEntry[] = [
+  public readonly cookieColumns: string[] = ['name', 'domain', 'expires', 'description'];
+  public readonly storageColumns: string[] = ['name', 'type', 'description'];
+  public readonly CookieData: CookieTableEntry[] = [
     {
-      type: 'cookie',
       name: '__cfduid',
       domain: '.elypia.org',
       expires: 365,
-      description: 'Provided by CloudFlare in order to identify clients, for example, if you\'re ' +
+      description:
+        'Provided by CloudFlare in order to identify clients, for example, if you\'re ' +
         'at McDonalds where there could be infected machines, but your machine is trusted ' +
         '(eg; you completed a challenge), this allows CloudFlare to recognise this and refrain ' +
         'from challenging you again. It has no relation to anything in our sites nor does ' +
         'it store any personal information.'
-    },
+    }
+  ];
+  public readonly StorageData: StorageTableEntry[] = [
     {
-      type: 'localstorage',
       name: 'theme',
+      type: StorageType.Local,
       description: 'Stores the selected theme so it can persist between page visits.'
     }
   ];
