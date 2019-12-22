@@ -22,7 +22,7 @@
       <div class="fields">
         <mat-form-field>
           <mat-label i18n>Email</mat-label>
-          <input matInput required email
+          <input matInput required email aria-label="Email" i18n-aria-label
                  [(ngModel)]="email" #emailModel="ngModel"
                  (blur)="checkEmailExists()"
                  name="email" type="email" placeholder="panda@elypia.org"
@@ -44,7 +44,7 @@
       <div ngModelGroup="pmg" #pmg="ngModelGroup" [elyEquals]="['password', 'verifyPassword']">
         <mat-form-field>
           <mat-label i18n>Password</mat-label>
-          <input matNativeControl required minlength="8" maxlength="72"
+          <input matNativeControl required minlength="8" maxlength="72" aria-label="Password" i18n-aria-label
                  [(ngModel)]="password" #pm="ngModel"
                  name="password" type="password" placeholder="anything but 'password'"
                  tabindex="2"/>
@@ -62,6 +62,7 @@
         <mat-form-field *ngIf="formType === LoginFormType.REGISTER">
           <mat-label i18n>Verify Password</mat-label>
           <input matNativeControl [(ngModel)]="verifyPassword"
+                 aria-label="Verify Password" i18n-aria-label
                  [errorStateMatcher]="matcher"
                  name="verifyPassword" type="password" placeholder="<-"
                  tabindex="4"/>
