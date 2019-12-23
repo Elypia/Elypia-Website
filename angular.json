@@ -13,7 +13,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "en-simple": "src/locales/messages.en-Simple.xlf",
+          "en-Simple": "src/locales/messages.en-Simple.xlf",
           "fr": "src/locales/messages.fr.xlf",
           "nl": "src/locales/messages.nl.xlf"
         }
