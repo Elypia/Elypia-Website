@@ -38,7 +38,7 @@ class Locale {
 export class LocaleSelectionComponent implements OnInit {
 
   public readonly Locales: Locale[] = [
-    new Locale('en-simple', 'English (Simple)'),
+    new Locale('en-Simple', 'English (Simple)'),
     new Locale('en-US'    , 'English (US)'),
     new Locale('fr'       , 'Français'),
     new Locale('nl'       , 'Nederlands')
