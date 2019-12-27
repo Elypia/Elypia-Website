@@ -167,18 +167,15 @@
       </trans-unit>
       <trans-unit id="14dd90d51c67e6935128bce4b11139d0461a69ac" datatype="html">
         <source>Press Kit</source>
-        <target/>
+        <target>Novinarski Kit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bfa2da53bb0176d74907768b7ce5502e5f432f88" datatype="html">
-        <source>
-        This is for users or publishers that may want to reference Elypia and use it's branding.
-        This page covers some assets that can be used, and any guidelines to using them.
-      </source>
-        <target/>
+        <source>This is for users or publishers that may want to reference Elypia and use it's branding. This page covers some assets that can be used, and any guidelines to using them.</source>
+        <target>Ovo je za korisnike ili izdavače koji budu željeli referencirati Elypiu i koristiti njen brend. Ova stranica pokriva neka sredstva koja se mogu koristiti i sve smjernice za njihovo korištenje.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">5</context>
@@ -186,7 +183,7 @@
       </trans-unit>
       <trans-unit id="1f86e01b6434153e65151d92721bba90520d89f9" datatype="html">
         <source>Guidelines</source>
-        <target/>
+        <target>Smjernice</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">11</context>
@@ -194,7 +191,7 @@
       </trans-unit>
       <trans-unit id="b2b2da474421bd0a87719658f2ef9c2c3ebf8e87" datatype="html">
         <source>Keeping the logo as-is is preferred, but you may alter the hue.</source>
-        <target/>
+        <target>Poželjno je ne mijenjati logotip, ali možete promijeniti nijansu.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">13</context>
@@ -210,7 +207,7 @@
       </trans-unit>
       <trans-unit id="e646036efe65c8fd750583c8b1c64c44a7ceffff" datatype="html">
         <source>Don't use the Elypia branding where it may suggest we endorse your content.</source>
-        <target/>
+        <target>Nemojte koristiti brend Elypie tamo gdje može sugerirati da podržavamo vaš sadržaj.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">15</context>
@@ -218,7 +215,7 @@
       </trans-unit>
       <trans-unit id="774f25dfbea8c011048dcedb2edb2319784c7eef" datatype="html">
         <source>Elypia Logo by Nikky</source>
-        <target/>
+        <target>Elypia Logo koji je pravio Nikky</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">21</context>
@@ -226,7 +223,7 @@
       </trans-unit>
       <trans-unit id="3ada1858c9ce113261202d110484643d58ea8d81" datatype="html">
         <source>Elypia Logo</source>
-        <target/>
+        <target>Elypia Logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">22</context>
@@ -234,7 +231,7 @@
       </trans-unit>
       <trans-unit id="4d324c5c37ab5b7632bc29b3309678b436944647" datatype="html">
         <source>Elypia Logo without Fill by Nikky</source>
-        <target/>
+        <target>Elypia Logo bez popunjavanja koje je radio Nikky</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">25</context>
@@ -242,7 +239,7 @@
       </trans-unit>
       <trans-unit id="d32feaeffd77c36b768827b38eab5e4d9101b7c5" datatype="html">
         <source>Elypia Badge</source>
-        <target/>
+        <target>Značka Elypia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">26</context>
@@ -250,7 +247,7 @@
       </trans-unit>
       <trans-unit id="2797b3afbb63cd70e7c5db230d7c77ca28deb128" datatype="html">
         <source>Elypia Icon by Nikky</source>
-        <target/>
+        <target>Ikona Elypie koju je pravio Nikky</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">29</context>
@@ -258,7 +255,7 @@
       </trans-unit>
       <trans-unit id="d9549b29b8c3e30523c81b57bb1919e21656c88d" datatype="html">
         <source>Elypia Icon</source>
-        <target/>
+        <target>Ikona Elipie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">30</context>
@@ -266,7 +263,7 @@
       </trans-unit>
       <trans-unit id="bc0135e02c154f58b98df20dc1348e006e3027be" datatype="html">
         <source>Elypia Logo with our Name</source>
-        <target/>
+        <target>Elypijin logo sa našim imenom</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">35</context>
@@ -274,7 +271,7 @@
       </trans-unit>
       <trans-unit id="bfd2aee4175e367129e7497713c2b5824b722a7e" datatype="html">
         <source>Elypia Logo w/Text</source>
-        <target/>
+        <target>Elypia Logo sa tekstom</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">36</context>
@@ -282,7 +279,7 @@
       </trans-unit>
       <trans-unit id="bed12632058f5b965544cae66344f5142a314ab0" datatype="html">
         <source>Elypia Text</source>
-        <target/>
+        <target>Elypia Tekst</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">39</context>
@@ -294,7 +291,7 @@
       </trans-unit>
       <trans-unit id="7c1fdf33a27a2ce7f5fb5393d585bf8f53170b8b" datatype="html">
         <source>Elypia Color Palette</source>
-        <target/>
+        <target>Paleta boja Elypie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">44</context>
@@ -302,7 +299,7 @@
       </trans-unit>
       <trans-unit id="7f12fce1bf3707dc7e7a7ccafef738fabbc11c47" datatype="html">
         <source>Blue</source>
-        <target/>
+        <target>Plava</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">47</context>
@@ -310,7 +307,7 @@
       </trans-unit>
       <trans-unit id="f61371ef20c6f460c4ec7552cf021823e4919d82" datatype="html">
         <source>White</source>
-        <target/>
+        <target>Bijela</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">49</context>
@@ -318,7 +315,7 @@
       </trans-unit>
       <trans-unit id="adb4562d2dbd3584370e44496969d58c511ecb63" datatype="html">
         <source>Dark</source>
-        <target/>
+        <target>Tamna</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">51</context>
@@ -326,7 +323,7 @@
       </trans-unit>
       <trans-unit id="7c606c35acfee5d5f96dc214cab8e0a5f37ca890" datatype="html">
         <source>Darker</source>
-        <target/>
+        <target>Tamnija</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">53</context>
@@ -334,7 +331,7 @@
       </trans-unit>
       <trans-unit id="aebf7fdda6d9b5ca1fb79dd3282aa1fab066a55b" datatype="html">
         <source>Darkest</source>
-        <target/>
+        <target>Najtamnija</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">55</context>
@@ -342,17 +339,15 @@
       </trans-unit>
       <trans-unit id="e11b1522c1aa749441e882efc0d5f6b5bc0e880d" datatype="html">
         <source>Want to download everything?</source>
-        <target/>
+        <target>Želite preuzeti sve?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="599c31627b5a8acd4b0d63f9d1284ed7620dd014" datatype="html">
-        <source>
-      <x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit
-    </source>
-        <target/>
+        <source><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit </source>
+        <target><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Preuzmite Novinarski Kit </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">60</context>
