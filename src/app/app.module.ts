@@ -79,6 +79,7 @@ import {faTshirt} from '@fortawesome/pro-solid-svg-icons/faTshirt';
 import {faDownload} from '@fortawesome/pro-solid-svg-icons/faDownload';
 import {faPaste} from '@fortawesome/pro-duotone-svg-icons/faPaste';
 import {CopiedClipboardComponent} from './snackbar-components/copied-clipboard/copied-clipboard.component';
+import {faMastodon} from '@fortawesome/free-brands-svg-icons/faMastodon';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -182,11 +183,12 @@ export class AppModule {
       faCircle,
 
       // Social
-      faDiscord,
+      faMastodon,
+      faGitlab,
       faTwitter,
       faRedditAlien,
       faTwitch,
-      faGitlab,
+      faDiscord,
 
       // Donate
       faUniversity,
