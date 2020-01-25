@@ -1,4 +1,4 @@
-# Elypia Website [![discord-members]][discord] [![i18n-badge]][i18n] [![gitlab-build]][gitlab] [![gitlab-coverage]][gitlab] [![donate-shield]][elypia-donate]
+# Elypia Website [![matrix-members]][matrix] [![discord-members]][discord] [![i18n-badge]][i18n] [![gitlab-build]][gitlab] [![gitlab-coverage]][gitlab] [![donate-shield]][elypia-donate]
 ## About
 This is the frontend for the Elypia website.
 
@@ -21,6 +21,7 @@ use or derive work from this source code!
 animations such as gifs, are not under the aforementioned license; all rights
 are reserved by Elypia CIC.** 
 
+[matrix]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
 [discord]: https://discordapp.com/invite/hprGMaM "Discord Invite"
 [i18n]: https://i18n.elypia.org/engage/elypia-website/?utm "Weblate Translations"
 [gitlab]: https://gitlab.com/Elypia/elypia-website/commits/master "Repository on GitLab"
@@ -31,6 +32,7 @@ are reserved by Elypia CIC.**
 [GNU Affero General Public License]: https://www.gnu.org/licenses/agpl-3.0.en.html "AGPL"
 [TL;DR]: https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0) "TLDR of AGPL"
 
+[matrix-members]: https://img.shields.io/matrix/elypia-general:matrix.org?logo=matrix "Matrix Shield"
 [discord-members]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
 [i18n-badge]: https://i18n.elypia.org/widgets/elypia-website/-/svg-badge.svg "Weblate Translation Badge"
 [gitlab-build]: https://gitlab.com/Elypia/elypia-website/badges/master/pipeline.svg "GitLab Build Shield"
