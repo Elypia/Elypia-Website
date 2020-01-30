@@ -1,7 +1,7 @@
 /**
  * @license
  * Elypia Website - The company website for Elypia.
- * Copyright (C) 2019-2019  Elypia CIC
+ * Copyright (C) 2019-2020  Elypia CIC
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
@@ -62,7 +62,7 @@ import {FooterModule} from './footer/footer.module';
 import {FaIconLibrary, FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {faDiscord} from '@fortawesome/free-brands-svg-icons/faDiscord';
 import {faTwitter} from '@fortawesome/free-brands-svg-icons/faTwitter';
-import {faRedditAlien} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin, faRedditAlien} from '@fortawesome/free-brands-svg-icons';
 import {faTwitch} from '@fortawesome/free-brands-svg-icons/faTwitch';
 import {faGitlab} from '@fortawesome/free-brands-svg-icons/faGitlab';
 import {faChevronDown} from '@fortawesome/pro-duotone-svg-icons/faChevronDown';
@@ -183,6 +183,7 @@ export class AppModule {
       faCircle,
 
       // Social
+      faLinkedin,
       faMastodon,
       faGitlab,
       faTwitter,

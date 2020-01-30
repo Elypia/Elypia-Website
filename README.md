@@ -6,20 +6,22 @@ This is the frontend for the Elypia website.
 * [Elypia API] *
 * [NodeJS 10.16.3]
 * [Angular 8+]
-> \* The frontend should still render well without an available backend in order to make
-> development easier, and to give a consistent look and feel where it may be down.
-> It's still recommended to set up the backend and run it in your 
-> development environment when convenient to do so.
+> \* The frontend should still render well without an available
+> backend in order to make development easier, and to give a
+> consistent look and feel where it may be down. It's still
+> recommended to set up the backend and run it in your development
+> environment when convenient to do so.
 
 ## Open-Source
-This project is open-source under the [GNU Affero General Public License]!  
-While not legal advice, you can find a [TL;DR] that sums up what
-you're allowed and not allowed to do along with any requirements if you want to 
-use or derive work from this source code!  
+This project is open-source under the
+[GNU Affero General Public License]!  
+While not legal advice, you can find a [TL;DR] that sums up what you're
+allowed and not allowed to do along with any requirements if you want
+to use or derive work from this source code!  
 
-**All non-code files including videos, models, audio, bitmaps, vectors, and 
-animations such as gifs, are not under the aforementioned license; all rights
-are reserved by Elypia CIC.** 
+**All non-code files including videos, models, audio, bitmaps, vectors,
+and animations such as gifs, are not under the aforementioned license;
+all rights are reserved by Elypia CIC.** 
 
 [matrix]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
 [discord]: https://discordapp.com/invite/hprGMaM "Discord Invite"
