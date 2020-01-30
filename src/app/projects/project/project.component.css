@@ -22,7 +22,8 @@ h3 {
 }
 
 .project-info-image {
-  height: 128px;
+  min-height: 128px;
+  min-width: 128px;
   margin-bottom: .5em;
 }
 
