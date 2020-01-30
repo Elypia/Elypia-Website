@@ -4,33 +4,23 @@
     <body>
       <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
         <source>Elypia is a Non-Profit CIC</source>
-        <target></target>
+        <target>Elypia je neprofitna kompanija</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b7ca4488779e42bfeefe827d4f4706f4f9136b87" datatype="html">
-        <source>
-        While we try to be sustainable through subscriptions and services, it's favorable to receive
-        donations to keep everything as free as possible. As a non-profit, funding is what allows us to
-        continue to develop free and open-source software and push to provide free or affordable services.
-      </source>
-        <target></target>
+        <source>While we try to be sustainable through subscriptions and services, it's favorable to receive donations to keep everything as free as possible. As a non-profit, funding is what allows us to continue to develop free and open-source software and push to provide free or affordable services.</source>
+        <target>Iako pokušavamo biti održivi putem pretplata i usluga, pogodnije je primati donacije kako bi mogli nudite sve usluge i servise besplatno. Kao neprofitna organizacija, financiranje je ono što nam omogućava da nastavimo razvijati besplatni open-source softver i omugćava pružanje dostupnih usluga.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="36b945004457fa674ef4598444390392dfcac265" datatype="html">
-        <source>
-        As a Community Interest Company we will also be able to generate income
-        through selling subscriptions and services or by providing hosted solutions
-        for our open-source projects.
-        Donations will not be the only form of income for Elypia but strongly encouraged
-        and appreciated.
-      </source>
-        <target></target>
+        <source>As a Community Interest Company we will also be able to generate income through selling subscriptions and services or by providing hosted solutions for our open-source projects. Donations will not be the only form of income for Elypia but strongly encouraged and appreciated.</source>
+        <target>Kao CIC (Community Interest Company) bit ćemo u stanju da ostvarimo prihod kroz prodaju pretplata i usluga ili pružanjem riješenja za hosting za naše open-source projekte. Donacije neće biti jedini oblik prihoda za Elypiu, ali sui itekako dobro došle.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">28</context>
@@ -38,23 +28,15 @@
       </trans-unit>
       <trans-unit id="faa2e36d8a02346d34d5960e4b104ace3c98c127" datatype="html">
         <source>Where do donations go?</source>
-        <target></target>
+        <target>Gdje idu donacije?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e5b3e1e3ece55c1a2b7590e0ec9939c9f1f95b58" datatype="html">
-        <source>
-        At present most costs are for technical infrastructure or legal obligations to keep
-        Elypia CIC and it's websites and services up. This includes domains, hosting,
-        content delivery, travel or paperwork, and any annual fees or requirements in order
-        to fulfill company wide obligations under legal justification.
-        Some projects may incur costs if new assets or branding is desired for them.
-        We are hopeful that in the future Elypia will be able to provide salaries
-        to those contributing and managing Elypia's projects.
-      </source>
-        <target></target>
+        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and it's websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
+        <target>Trenutno većina troškova obuhvata tehničku infrastrukturu ili pravne obaveze radi održavanja Elypia CIC-a, njenih web stranica i usluga. To uključuje domene, hosting, dostavu sadržaja, putovanja ili papirologiju, i sve godišnje naknade ili potrebe kako bi se ispunile dužnosti kompanije prema pravnim obavezama. Neki projekti mogu stvoriti dodatne troškove ako se a njih požele nova sredstva ili brendiranje. Nadamo se da će Elypia u budućnosti moći osigurati plate onima koji doprinose i upravljaju projektima Elypije.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">38</context>
@@ -65,23 +47,23 @@
           Donate by transfering money or setting up a standing order
           directly to our company bank account.
         </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f7ec3699e8d381ae4371066b98b36e22a2478ce9" datatype="html">
-        <source>Account Name: </source>
-        <target></target>
+        <source>Account Name:</source>
+        <target>Naziv računa:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c60cf19eb3d49a7f0e045881ebd9733f74b6dad8" datatype="html">
-        <source>Account Number: </source>
-        <target></target>
+        <source>Account Number:</source>
+        <target>Broj računa:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">68</context>
@@ -89,7 +71,7 @@
       </trans-unit>
       <trans-unit id="8fbb4b710b04174effd1bb999565583d64ddf8e4" datatype="html">
         <source>Sort Code: </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">77</context>
@@ -97,19 +79,15 @@
       </trans-unit>
       <trans-unit id="d85ad59682b27633be6ded5942692b892fe7467a" datatype="html">
         <source>Bank (UK/GBP Only)</source>
-        <target></target>
+        <target>Banka (samo UK/GBP)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8184c05d8fd8d596166564a65b926f266a071533" datatype="html">
-        <source>
-        Donate directly on the site with your debit or credit card.
-        All donations using this method are processed by Stripe;
-        we won't process or store your information.
-      </source>
-        <target></target>
+        <source>Donate directly on the site with your debit or credit card. All donations using this method are processed by Stripe; we won't process or store your information.</source>
+        <target>Donirajte direktno na stranici sa svojom debitnom ili kreditnom karticom. Sve donacije ovom metodom obrađuje Stripe; Mi ne koristimo niti pohranjujemo vaše podatke.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">90</context>
@@ -117,18 +95,15 @@
       </trans-unit>
       <trans-unit id="4eb36eee0c420c1f329eedecd87f2770d41df484" datatype="html">
         <source>Card (Stripe)</source>
-        <target></target>
+        <target>Kartica (Stripe)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a15ed1dd7a4d96a707c1d7cdb0c760bcb20e1ee8" datatype="html">
-        <source>
-        If you have a PayPal account you can donate using the attached
-        credit/debit card, bank account, or PayPal balance.
-      </source>
-        <target></target>
+        <source>If you have a PayPal account you can donate using the attached credit/debit card, bank account, or PayPal balance.</source>
+        <target>Ako imate PayPal račun, možete donirati pomoću spojene kreditne/debitne kartice, bankovnog računa ili PayPal stanja.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">99</context>
@@ -136,17 +111,15 @@
       </trans-unit>
       <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
         <source>PayPal</source>
-        <target></target>
+        <target>PayPal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0a53c6d53b13f2df560312133d3ff2009cf6c60" datatype="html">
-        <source>
-        You can support us by purchasing our branded merchandise.
-      </source>
-        <target></target>
+        <source>You can support us by purchasing our branded merchandise.</source>
+        <target>Možete nas podržati kupovinom naše brendirane robe.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">107</context>
@@ -154,7 +127,7 @@
       </trans-unit>
       <trans-unit id="396b64d7eb70deee0075f9256bb991890051feb5" datatype="html">
         <source>Redbubble</source>
-        <target></target>
+        <target>Redbubble</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">106</context>
@@ -162,7 +135,7 @@
       </trans-unit>
       <trans-unit id="98d33199f9bbf639ba8c43f881d73c763e5e4f7b" datatype="html">
         <source>This is the registered office and correspondence address for Elypia, not base of work or residence.</source>
-        <target></target>
+        <target>Ovo je registrirani ured i adresa za korespodenciju Elypie, a ne sjedište posla ili prebivališta.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
           <context context-type="linenumber">28</context>
@@ -170,7 +143,7 @@
       </trans-unit>
       <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
         <source>Source Code</source>
-        <target></target>
+        <target>Izvorni kod</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
           <context context-type="linenumber">38</context>
@@ -178,7 +151,7 @@
       </trans-unit>
       <trans-unit id="0f49550e63d0eadbe181621c819181fc517f371b" datatype="html">
         <source>Contribute to this sites Source Code on GitLab</source>
-        <target></target>
+        <target>Doprinesite izvornom kodu ove stranice na GitLab-u</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
           <context context-type="linenumber">37</context>
@@ -186,7 +159,7 @@
       </trans-unit>
       <trans-unit id="cc82fa89983785cb60daa0a7516c611fc02b5cd1" datatype="html">
         <source>Copyright</source>
-        <target></target>
+        <target>Autorska prava</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
           <context context-type="linenumber">41</context>
@@ -194,18 +167,15 @@
       </trans-unit>
       <trans-unit id="14dd90d51c67e6935128bce4b11139d0461a69ac" datatype="html">
         <source>Press Kit</source>
-        <target></target>
+        <target>Novinarski Kit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bfa2da53bb0176d74907768b7ce5502e5f432f88" datatype="html">
-        <source>
-        This is for users or publishers that may want to reference Elypia and use it's branding.
-        This page covers some assets that can be used, and any guidelines to using them.
-      </source>
-        <target></target>
+        <source>This is for users or publishers that may want to reference Elypia and use it's branding. This page covers some assets that can be used, and any guidelines to using them.</source>
+        <target>Ovo je za korisnike ili izdavače koji budu željeli referencirati Elypiu i koristiti njen brend. Ova stranica pokriva neka sredstva koja se mogu koristiti i sve smjernice za njihovo korištenje.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">5</context>
@@ -213,7 +183,7 @@
       </trans-unit>
       <trans-unit id="1f86e01b6434153e65151d92721bba90520d89f9" datatype="html">
         <source>Guidelines</source>
-        <target></target>
+        <target>Smjernice</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">11</context>
@@ -221,7 +191,7 @@
       </trans-unit>
       <trans-unit id="b2b2da474421bd0a87719658f2ef9c2c3ebf8e87" datatype="html">
         <source>Keeping the logo as-is is preferred, but you may alter the hue.</source>
-        <target></target>
+        <target>Poželjno je ne mijenjati logotip, ali možete promijeniti nijansu.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">13</context>
@@ -229,7 +199,7 @@
       </trans-unit>
       <trans-unit id="a8746a063d10f3b94ef2abb9f7e9389f46c105df" datatype="html">
         <source>Other than as explicitly stated, don't modify or reconfigure the Elypia logo.</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">14</context>
@@ -237,7 +207,7 @@
       </trans-unit>
       <trans-unit id="e646036efe65c8fd750583c8b1c64c44a7ceffff" datatype="html">
         <source>Don't use the Elypia branding where it may suggest we endorse your content.</source>
-        <target></target>
+        <target>Nemojte koristiti brend Elypie tamo gdje može sugerirati da podržavamo vaš sadržaj.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">15</context>
@@ -245,7 +215,7 @@
       </trans-unit>
       <trans-unit id="774f25dfbea8c011048dcedb2edb2319784c7eef" datatype="html">
         <source>Elypia Logo by Nikky</source>
-        <target></target>
+        <target>Elypia Logo koji je pravio Nikky</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">21</context>
@@ -253,7 +223,7 @@
       </trans-unit>
       <trans-unit id="3ada1858c9ce113261202d110484643d58ea8d81" datatype="html">
         <source>Elypia Logo</source>
-        <target></target>
+        <target>Elypia Logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">22</context>
@@ -261,7 +231,7 @@
       </trans-unit>
       <trans-unit id="4d324c5c37ab5b7632bc29b3309678b436944647" datatype="html">
         <source>Elypia Logo without Fill by Nikky</source>
-        <target></target>
+        <target>Elypia Logo bez popunjavanja koje je radio Nikky</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">25</context>
@@ -269,7 +239,7 @@
       </trans-unit>
       <trans-unit id="d32feaeffd77c36b768827b38eab5e4d9101b7c5" datatype="html">
         <source>Elypia Badge</source>
-        <target></target>
+        <target>Značka Elypia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">26</context>
@@ -277,7 +247,7 @@
       </trans-unit>
       <trans-unit id="2797b3afbb63cd70e7c5db230d7c77ca28deb128" datatype="html">
         <source>Elypia Icon by Nikky</source>
-        <target></target>
+        <target>Ikona Elypie koju je pravio Nikky</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">29</context>
@@ -285,7 +255,7 @@
       </trans-unit>
       <trans-unit id="d9549b29b8c3e30523c81b57bb1919e21656c88d" datatype="html">
         <source>Elypia Icon</source>
-        <target></target>
+        <target>Ikona Elipie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">30</context>
@@ -293,7 +263,7 @@
       </trans-unit>
       <trans-unit id="bc0135e02c154f58b98df20dc1348e006e3027be" datatype="html">
         <source>Elypia Logo with our Name</source>
-        <target></target>
+        <target>Elypijin logo sa našim imenom</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">35</context>
@@ -301,7 +271,7 @@
       </trans-unit>
       <trans-unit id="bfd2aee4175e367129e7497713c2b5824b722a7e" datatype="html">
         <source>Elypia Logo w/Text</source>
-        <target></target>
+        <target>Elypia Logo sa tekstom</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">36</context>
@@ -309,7 +279,7 @@
       </trans-unit>
       <trans-unit id="bed12632058f5b965544cae66344f5142a314ab0" datatype="html">
         <source>Elypia Text</source>
-        <target></target>
+        <target>Elypia Tekst</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">39</context>
@@ -321,7 +291,7 @@
       </trans-unit>
       <trans-unit id="7c1fdf33a27a2ce7f5fb5393d585bf8f53170b8b" datatype="html">
         <source>Elypia Color Palette</source>
-        <target></target>
+        <target>Paleta boja Elypie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">44</context>
@@ -329,7 +299,7 @@
       </trans-unit>
       <trans-unit id="7f12fce1bf3707dc7e7a7ccafef738fabbc11c47" datatype="html">
         <source>Blue</source>
-        <target></target>
+        <target>Plava</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">47</context>
@@ -337,7 +307,7 @@
       </trans-unit>
       <trans-unit id="f61371ef20c6f460c4ec7552cf021823e4919d82" datatype="html">
         <source>White</source>
-        <target></target>
+        <target>Bijela</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">49</context>
@@ -345,7 +315,7 @@
       </trans-unit>
       <trans-unit id="adb4562d2dbd3584370e44496969d58c511ecb63" datatype="html">
         <source>Dark</source>
-        <target></target>
+        <target>Tamna</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">51</context>
@@ -353,7 +323,7 @@
       </trans-unit>
       <trans-unit id="7c606c35acfee5d5f96dc214cab8e0a5f37ca890" datatype="html">
         <source>Darker</source>
-        <target></target>
+        <target>Tamnija</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">53</context>
@@ -361,7 +331,7 @@
       </trans-unit>
       <trans-unit id="aebf7fdda6d9b5ca1fb79dd3282aa1fab066a55b" datatype="html">
         <source>Darkest</source>
-        <target></target>
+        <target>Najtamnija</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">55</context>
@@ -369,17 +339,15 @@
       </trans-unit>
       <trans-unit id="e11b1522c1aa749441e882efc0d5f6b5bc0e880d" datatype="html">
         <source>Want to download everything?</source>
-        <target></target>
+        <target>Želite preuzeti sve?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="599c31627b5a8acd4b0d63f9d1284ed7620dd014" datatype="html">
-        <source>
-      <x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit
-    </source>
-        <target></target>
+        <source><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit </source>
+        <target><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Preuzmite Novinarski Kit </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">60</context>
@@ -391,7 +359,7 @@
         and provides various integrations and moderation features to help
         you have fun, and automate manage and moderation of your guild!
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">25</context>
@@ -399,7 +367,7 @@
       </trans-unit>
       <trans-unit id="6834fa6b43d1ecbdf147c48dd9c4d72f1484571d" datatype="html">
         <source>Source</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">30</context>
@@ -419,7 +387,7 @@
       </trans-unit>
       <trans-unit id="909971e3c3bbec75f12e98a2e663274687547f63" datatype="html">
         <source>Weblate</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">31</context>
@@ -427,7 +395,7 @@
       </trans-unit>
       <trans-unit id="84d63aab12a02b4d7b395828846508b49e4f2569" datatype="html">
         <source>Discord Chatbot</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">22</context>
@@ -435,7 +403,7 @@
       </trans-unit>
       <trans-unit id="c8b15a23e1d22a147ab36c1d1ae0601cbf3cf0a6" datatype="html">
         <source>Avatar for Alexis on Discord</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">24</context>
@@ -447,7 +415,7 @@
         allows you to write your code once and integrate it anywhere
         or multiple places in a single application.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">37</context>
@@ -458,7 +426,7 @@
         Commandler will handle all the work so it keeps implementing
         commands quick and simple while the bulk of the work is handled by the framework.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">42</context>
@@ -466,7 +434,7 @@
       </trans-unit>
       <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
         <source>Command Handler</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">34</context>
@@ -474,7 +442,7 @@
       </trans-unit>
       <trans-unit id="b1b0c9855156f7c533efb6bc470eb369ff0d84a2" datatype="html">
         <source>Commandler logo</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">36</context>
@@ -486,7 +454,7 @@
         it's a cloud configuration service which will allow
         users to define entities to process or store configuration for them.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">52</context>
@@ -498,7 +466,7 @@
         for users to tailor their experience without having to write your
         own web service dedicated to the generic job we all need.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">57</context>
@@ -506,7 +474,7 @@
       </trans-unit>
       <trans-unit id="2954d13e8dd3306cae3a3747af4fda3973b43d2f" datatype="html">
         <source>Configuration Filer</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">49</context>
@@ -514,7 +482,7 @@
       </trans-unit>
       <trans-unit id="a0fedea74d0565748115f5eb20aed411a5bc47b5" datatype="html">
         <source>Confiler Logo</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">51</context>
@@ -525,7 +493,7 @@
         Elypiai is a small but useful library that provides wraps for
         many APIs available online that don't already have official implementations.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">67</context>
@@ -536,7 +504,7 @@
         All wraps have been abstracted as to make it more consistent between
         web services you're implementing and maximize pooling resources.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">71</context>
@@ -544,7 +512,7 @@
       </trans-unit>
       <trans-unit id="60bee567fcaf95c9967748b5df9e945a9bbc1388" datatype="html">
         <source>API Wrapper</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">64</context>
@@ -552,7 +520,7 @@
       </trans-unit>
       <trans-unit id="133b4d82d0661fe1a70f81b1e2b3c9744ed1b87d" datatype="html">
         <source>Elypiai Logo</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">66</context>
@@ -563,7 +531,7 @@
         The Elypia Emotes are a free and open-source set of cute
         red panda emoticons available under the Apache license.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">79</context>
@@ -574,7 +542,7 @@
         You can download, modify, reference, or redistribute them
         as you see fit for any purpose, including commercial.
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">83</context>
@@ -582,7 +550,7 @@
       </trans-unit>
       <trans-unit id="0874581c70a8254794a1919919a79931008af5de" datatype="html">
         <source>Elypia Emotes</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">77</context>
@@ -590,7 +558,7 @@
       </trans-unit>
       <trans-unit id="f623106dad17ce6d7914e21ab0057c40de997c6b" datatype="html">
         <source>Red Panda Emoticons</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">77</context>
@@ -598,7 +566,7 @@
       </trans-unit>
       <trans-unit id="9d539f9ee1d93d3253b1513af80a757b6a454970" datatype="html">
         <source>pandaAww Red Panda Emote</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">78</context>
@@ -606,7 +574,7 @@
       </trans-unit>
       <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
         <source>Email</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">24</context>
@@ -616,7 +584,7 @@
         <source>
             You'll be asked to verify it post-registration!
           </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">30</context>
@@ -626,7 +594,7 @@
         <source>
               Please enter a valid email address!
             </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">34</context>
@@ -636,7 +604,7 @@
         <source>
               Email is required!
             </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">37</context>
@@ -644,7 +612,7 @@
       </trans-unit>
       <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
         <source>Password</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">46</context>
@@ -654,7 +622,7 @@
         <source>
             Considered using a password manager?
           </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">51</context>
@@ -664,7 +632,7 @@
         <source>
             Password must be between 8 and 72 characters!
           </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">54</context>
@@ -674,7 +642,7 @@
         <source>
             Password is required!
           </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">57</context>
@@ -682,7 +650,7 @@
       </trans-unit>
       <trans-unit id="bcd1e439caba9926b076fbcad03d4837a1674a8c" datatype="html">
         <source>Verify Password</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">63</context>
@@ -692,7 +660,7 @@
         <source>
             Password must match!
           </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">68</context>
@@ -700,7 +668,7 @@
       </trans-unit>
       <trans-unit id="7996757c79a1c08f21ec4be3208d6e7a8684ba4d" datatype="html">
         <source>Remember me!</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">74</context>
@@ -710,7 +678,7 @@
         <source>
         It looks like you're new here so we brought up registration form instead for you!
       </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
           <context context-type="linenumber">80</context>
@@ -718,7 +686,7 @@
       </trans-unit>
       <trans-unit id="c5de8389663b0695a4faadeb75a465fbc9226c24" datatype="html">
         <source>Language Selection</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
           <context context-type="linenumber">2</context>
@@ -726,7 +694,7 @@
       </trans-unit>
       <trans-unit id="d11dbabad41c17e8a730550caceb0f3e0deb9666" datatype="html">
         <source>You don't need to know how to code to contribute and support Elypia; come translate on Weblate!</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
           <context context-type="linenumber">4</context>
@@ -734,7 +702,7 @@
       </trans-unit>
       <trans-unit id="986824516a1a8cb4151c1959910a25d75dad50dc" datatype="html">
         <source>Contribute to translations on Weblate</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
           <context context-type="linenumber">23</context>
@@ -742,7 +710,7 @@
       </trans-unit>
       <trans-unit id="71dc0ad61c5c2a1a04d50af50ab8a713d61c8ac4" datatype="html">
         <source>Elypia Text Logo</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
           <context context-type="linenumber">25</context>
@@ -750,7 +718,7 @@
       </trans-unit>
       <trans-unit id="60c855c323706a04ccd2ff22d634bde9b6233bbf" datatype="html">
         <source>Themes</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
           <context context-type="linenumber">79</context>
@@ -758,7 +726,7 @@
       </trans-unit>
       <trans-unit id="1bd566f1e843040be061facc31fee721112397ab" datatype="html">
         <source>We love free and open-source software!</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/home-page/home-page.component.html</context>
           <context context-type="linenumber">25</context>
@@ -769,7 +737,7 @@
       We want to make enterprise grade software development simpler to learn and utilize,
       and to support sectors that aren't up-to-date or stuck by legacy proprietary abandonware.
     </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/home-page/home-page.component.html</context>
           <context context-type="linenumber">26</context>
@@ -777,7 +745,7 @@
       </trans-unit>
       <trans-unit id="890a87543cce9330edc40891f6e68dfb500995c7" datatype="html">
         <source>Anime girl styled drawing of Elypia-chan by Vukory</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">23</context>
@@ -785,7 +753,7 @@
       </trans-unit>
       <trans-unit id="5499b81e5db6d551e39b1731b360d787148bfea2" datatype="html">
         <source>Introduction</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">27</context>
@@ -802,7 +770,7 @@
           and will hopefully move towards other areas outside of software that may aid educational institutions or
           less developed sectors attain alternatives over abandoned legacy applications.
         </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">28</context>
@@ -810,7 +778,7 @@
       </trans-unit>
       <trans-unit id="70b89f55170a7a596275b49c4ca52ec2ec3a7c9b" datatype="html">
         <source>Wikipedia article for Community Interest Company</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">32</context>
@@ -818,7 +786,7 @@
       </trans-unit>
       <trans-unit id="9a91783e9c0f790ed49edae730f9156070ed9dd5" datatype="html">
         <source>Legal</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">42</context>
@@ -835,7 +803,7 @@
           <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
           website. All projects Elypia takes on will adhere to the objectives in the aforementioned documents.
         </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">43</context>
@@ -843,7 +811,7 @@
       </trans-unit>
       <trans-unit id="5d0c0255d90186de88c0a6e77b0fbca8a31174b5" datatype="html">
         <source>Elypia CIC on Public Record at Companies House</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">50</context>
@@ -851,7 +819,7 @@
       </trans-unit>
       <trans-unit id="fd8fea6883aa5d60999b1ab27276b128d51441fa" datatype="html">
         <source>Mission</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">57</context>
@@ -867,7 +835,7 @@
           or derived for small businesses without worrying about legacy applications that are no longer
           supported with no viable or affordable alternative.
         </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">58</context>
@@ -875,7 +843,7 @@
       </trans-unit>
       <trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
         <source>Privacy Policy</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">21</context>
@@ -883,7 +851,7 @@
       </trans-unit>
       <trans-unit id="1422bbaa6bc29532c521bdec4a2d3309dd978c03" datatype="html">
         <source>Last updated on 12th December 2019</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">22</context>
@@ -895,7 +863,7 @@
       website or service you're using. If you're connected to a third-party host;
       you should read the respective privacy policy for your host.
     </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">23</context>
@@ -910,7 +878,7 @@
       <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>
         user-agent<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
     </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">28</context>
@@ -918,7 +886,7 @@
       </trans-unit>
       <trans-unit id="1d961e1f3ed6b3f9dd6c5968552eadc750735b12" datatype="html">
         <source>Documentation on User-Agent via MDN Web Docs (Mozilla)</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">34</context>
@@ -930,7 +898,7 @@
       Content Delivery Network (CDN) which collects and allows us to view aggregate data on
       traffic such as total requests, number of unique visitors, and which countries are predominantly accessing our services.
     </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">37</context>
@@ -945,7 +913,7 @@
       <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
       will be able to support you.
     </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">42</context>
@@ -953,7 +921,7 @@
       </trans-unit>
       <trans-unit id="f0b35ba3224ef995996fd36a4ab03c44be79d64d" datatype="html">
         <source>Definition and Requirements for Data Protection Officer</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">46</context>
@@ -961,7 +929,7 @@
       </trans-unit>
       <trans-unit id="78ab20361c236d2fa3bd642eb6cc1afe0ce9e759" datatype="html">
         <source>ePrivacy Directive</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">53</context>
@@ -980,7 +948,7 @@
       We do not, and <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>most likely<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> never will, use or add analytic cookies, or trackers,
       however we do store some data for technical or client-side configuration purposes.
     </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">54</context>
@@ -988,7 +956,7 @@
       </trans-unit>
       <trans-unit id="9ca4b21373007e824df525ab9cbe21c018572843" datatype="html">
         <source>Documentation on Cookies via MDN Web Docs (Mozilla)</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">58</context>
@@ -996,7 +964,7 @@
       </trans-unit>
       <trans-unit id="5b0c85cc0e98f1b83a5207b60555c81934345996" datatype="html">
         <source>Documentation on (Local/Session) Storage via MDN Web Docs (Mozilla)</source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">62</context>
@@ -1006,7 +974,7 @@
         <source>
       Where third-party scripts is embedded from other websites, third-party cookies may also be added.
     </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">68</context>
@@ -1017,7 +985,7 @@
           This is a manually defined list of cookies or storage data that
           may be set while using our website or services.
         </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">73</context>
@@ -1025,7 +993,7 @@
       </trans-unit>
       <trans-unit id="583a4094fd518339567a2c0f876a1868a008e985" datatype="html">
         <source>BG: </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
           <context context-type="linenumber">6</context>
@@ -1034,7 +1002,7 @@
       </trans-unit>
       <trans-unit id="716d3d46a6222779e682155138f9a866643386b2" datatype="html">
         <source>FG: </source>
-        <target></target>
+        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
           <context context-type="linenumber">7</context>
