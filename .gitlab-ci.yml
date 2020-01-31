@@ -91,6 +91,8 @@ build-docker:
     - docker build -t ${IMAGE_NAME}:latest .
   cache:
     policy: pull
+    paths:
+      - dist/
 
 # Deploy our new Docker Image to Google Container Registry (Private)
 deploy-docker:
@@ -107,6 +109,8 @@ deploy-docker:
     - docker push ${IMAGE_NAME}:${CI_COMMIT_TAG}
   cache:
     policy: pull
+    paths:
+      - dist/
 
 # Apply the current Kubernetes Configuration
 deploy-k8s:
