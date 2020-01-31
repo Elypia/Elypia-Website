@@ -1,13 +1,12 @@
-image: node:10.16.3-alpine
+image: node:12.14.1-alpine3.11
 
 # Defining some variables rather than repeating them everywhere.
 variables:
   DOCKER_DRIVER: overlay2
   IMAGE_NAME: us.gcr.io/elypia/elypia-website
-  SERIALIZED_IMAGE: elypia-website.tar
 
 stages:
-  - prepare
+  - init
   - test
   - build-website
   - build-docker
@@ -20,11 +19,10 @@ cache:
   policy: pull-push
   paths:
     - dist/
-    - images/
     - node_modules/
 
-prepare-init:
-  stage: prepare
+init:
+  stage: init
   script:
     - npm install
     - npm rebuild node-sass
@@ -63,7 +61,7 @@ test-unit:
 # matches the name (tag) of the version being deployed.
 test-version:
   stage: test
-  image: alpine:3.10.1
+  image: alpine:3.11.3
   only:
     - tags
   script:
@@ -81,41 +79,41 @@ build-website:
   script:
     - npm run-script build
 
-# Build the Dockerfile, the image is only used when by deploy-docker if deploying.
+# Build the Dockerfile, we don't use the image, only verify if it builds without error.
 build-docker:
+  except:
+    - tags
   stage: build-docker
-  image: docker:19.03.1
+  image: docker:19.03.5
   services:
-    - docker:19.03.1-dind
+    - docker:19.03.5-dind
   script:
     - docker build -t ${IMAGE_NAME}:latest .
-    - mkdir -p images
-    - docker save ${IMAGE_NAME} > images/${SERIALIZED_IMAGE}
+  cache:
+    policy: pull
 
 # Deploy our new Docker Image to Google Container Registry (Private)
 deploy-docker:
   only:
     - tags
   stage: deploy-docker
-  image: docker:19.03.1
+  image: docker:19.03.5
   services:
-    - docker:19.03.1-dind
+    - docker:19.03.5-dind
   script:
-    - docker load -i images/${SERIALIZED_IMAGE}
+    - docker build -t ${IMAGE_NAME}:latest .
     - docker tag ${IMAGE_NAME}:latest ${IMAGE_NAME}:${CI_COMMIT_TAG}
     - cat ${GCP_SA_KEY} | docker login -u _json_key --password-stdin https://us.gcr.io
     - docker push ${IMAGE_NAME}:${CI_COMMIT_TAG}
   cache:
     policy: pull
-    paths:
-      - images/
 
 # Apply the current Kubernetes Configuration
 deploy-k8s:
   only:
     - tags
   stage: deploy-k8s
-  image: google/cloud-sdk:257.0.0
+  image: google/cloud-sdk:278.0.0
   script:
     - gcloud auth activate-service-account --key-file ${GCP_SA_KEY}
     - gcloud container clusters get-credentials ${K8S_CLUSTER} --zone ${GCP_ZONE} --project elypia
