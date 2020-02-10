@@ -4,7 +4,7 @@ This is the frontend for the Elypia website.
 
 # Requirements
 * [Elypia API] *
-* [NodeJS 12.14.1]
+* [NodeJS 12.15.0]
 * [Angular 9+]
 > \* The frontend should still render well without an available
 > backend in order to make development easier, and to give a
@@ -28,7 +28,7 @@ all rights are reserved by Elypia CIC.**
 [gitlab]: https://gitlab.com/Elypia/elypia-website/commits/master "Repository on GitLab"
 [elypia-donate]: https://elypia.org/donate "Donate to Elypia"
 [Elypia API]: https://gitlab.com/Elypia/elypia-api "Elypia API"
-[NodeJS 12.14.1]: https://nodejs.org/en/ "NodeJS"
+[NodeJS 12.15.0]: https://nodejs.org/en/ "NodeJS"
 [Angular 9+]: https://angular.io "Angular CLI"
 [Apache 2.0]: https://www.apache.org/licenses/LICENSE-2.0 "Apache 2.0 License"
 [TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "TL;DR of Apache 2.0"
