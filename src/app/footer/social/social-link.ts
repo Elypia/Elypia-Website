@@ -17,7 +17,16 @@
  */
 
 export interface SocialLink {
+
+  /** Where this social link goes. */
   link: string;
+
+  /** The name of the social link for screen readers. */
   label: string;
+
+  /** The FontAwesome icon used to represent tis social link. */
   icon: string;
+
+  /** Additional relation attributes to append to the social link. */
+  rel?: string[];
 }
