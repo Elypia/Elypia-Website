@@ -4,8 +4,8 @@ This is the frontend for the Elypia website.
 
 # Requirements
 * [Elypia API] *
-* [NodeJS 12.15.0]
 * [Angular 9+]
+* [NodeJS 12.15.0]
 > \* The frontend should still render well without an available
 > backend in order to make development easier, and to give a
 > consistent look and feel where it may be down. It's still
