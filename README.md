@@ -13,8 +13,7 @@ This is the frontend for the Elypia website.
 > environment when convenient to do so.
 
 ## Open-Source
-This project is open-source under the
-[GNU Affero General Public License]!  
+This project is open-source under the [Apache 2.0]!  
 While not legal advice, you can find a [TL;DR] that sums up what you're
 allowed and not allowed to do along with any requirements if you want
 to use or derive work from this source code!  
@@ -30,9 +29,9 @@ all rights are reserved by Elypia CIC.**
 [elypia-donate]: https://elypia.org/donate "Donate to Elypia"
 [Elypia API]: https://gitlab.com/Elypia/elypia-api "Elypia API"
 [NodeJS 12.14.1]: https://nodejs.org/en/ "NodeJS"
-[Angular 8+]: https://angular.io "Angular CLI"
-[GNU Affero General Public License]: https://www.gnu.org/licenses/agpl-3.0.en.html "AGPL"
-[TL;DR]: https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0) "TLDR of AGPL"
+[Angular 9+]: https://angular.io "Angular CLI"
+[Apache 2.0]: https://www.apache.org/licenses/LICENSE-2.0 "Apache 2.0 License"
+[TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "TL;DR of Apache 2.0"
 
 [matrix-members]: https://img.shields.io/matrix/elypia-general:matrix.org?logo=matrix "Matrix Shield"
 [discord-members]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
