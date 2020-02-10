@@ -18,6 +18,7 @@
  */
 
 import {Component} from '@angular/core';
+import {SocialLink} from './social-link';
 
 @Component({
   selector: 'app-social',
@@ -26,4 +27,16 @@ import {Component} from '@angular/core';
 })
 export class SocialComponent {
 
+  /**
+   * A list of all social links Elypia has.
+   */
+  socialLinks: SocialLink[] = [
+    {link: 'https://www.linkedin.com/company/elypia/', label: 'LinkedIn', icon: 'linkedin'},
+    {link: 'https://mastodon.social/@elypia', label: 'Mastodon', icon: 'mastodon'},
+    {link: 'https://twitter.com/Elypia', label: 'Twitter', icon: 'twitter'},
+    {link: 'https://discordapp.com/invite/hprGMaM', label: 'Discord', icon: 'discord'},
+    {link: 'https://reddit.com/r/elypia/', label: 'Reddit', icon: 'reddit-alien'},
+    {link: 'https://twitch.tv/elypiacic', label: 'Twitch', icon: 'twitch'},
+    {link: 'https://gitlab.com/Elypia', label: 'GitLab', icon: 'gitlab'},
+  ];
 }
