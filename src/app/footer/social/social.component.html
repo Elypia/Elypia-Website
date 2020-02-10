@@ -18,7 +18,7 @@
 
 <ul>
   <li *ngFor="let social of socialLinks">
-    <a [href]="social.link" target="_blank" aria-label="{{social.label}}" rel="me noopener">
+    <a [href]="social.link" target="_blank" aria-label="{{social.label}}" [rel]="setRelations(social.rel)">
       <fa-icon [icon]="['fab', social.icon]"></fa-icon>
     </a>
   </li>
