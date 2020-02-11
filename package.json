@@ -5,8 +5,8 @@
   "keywords": [
     "angular"
   ],
-  "license": "GNU AGPLv3",
-  "author": "seth@elypia.org (Seth Falco)",
+  "license": "Apache 2.0",
+  "author": "Elypia CIC",
   "homepage": "https://elypia.org/",
   "private": true,
   "scripts": {
