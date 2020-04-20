@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="b7ca4488779e42bfeefe827d4f4706f4f9136b87" datatype="html">
         <source>While we try to be sustainable through subscriptions and services, it's favorable to receive donations to keep everything as free as possible. As a non-profit, funding is what allows us to continue to develop free and open-source software and push to provide free or affordable services.</source>
-        <target>Même si nous essayons de couvrir nos frais grâce à des abonnements et à divers services, les dons sont pour nous importants pour que la majorité de ce que nous proposont reste gratuit. En tant qu'organisme à but non lucratif, le financement nous permet de continuer à développer des logiciels gratuits et open-source et de pousser à fournir des services gratuits ou abordables.</target>
+        <target>Même si nous essayons de couvrir nos frais grâce à des abonnements et à divers services, les dons sont pour nous importants pour que la majorité de ce que nous proposons reste gratuit. En tant qu'organisme à but non lucratif, le financement nous permet de continuer à développer des logiciels gratuits et open-source et de pousser à fournir des services gratuits ou abordables.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">23</context>
@@ -228,7 +228,7 @@
       </trans-unit>
       <trans-unit id="d7d8f7d56964d5f4b1733073af184e4fa55aa712" datatype="html">
         <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and its websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
-        <target state="translated">À l'heure actuelle, la plupart des coûts concernent l'infrastructure technique ou les obligations légales pour maintenir Elypia CIC et ses sites Web et services à jour. Cela comprend les domaines, l'hébergement, la livraison de contenu, les voyages ou les formalités administratives, ainsi que tous les frais ou exigences annuels afin de remplir les obligations de l'entreprise dans le cadre d'une justification légale. Certains projets peuvent entraîner des coûts si de nouveaux actifs ou une nouvelle image de marque sont nécessaires. Nous espérons qu'à l'avenir, Elypia sera en mesure de fournir des salaires à ceux qui contribuent et gèrent ses projets.</target>
+        <target state="translated">À l'heure actuelle, la plupart des coûts concernent l'infrastructure technique ou les obligations légales pour maintenir Elypia CIC et ses sites Web et services à jour. Cela comprend les domaines, l'hébergement, la livraison de biens, les voyages ou les formalités administratives, ainsi que tous les frais ou exigences annuels afin de remplir les obligations de l'entreprise dans le cadre d'une justification légale. Certains projets peuvent entraîner des coûts si de nouveaux actifs ou une nouvelle image de marque sont nécessaires. Nous espérons qu'à l'avenir, Elypia sera en mesure de fournir des salaires à ceux qui contribuent et gèrent ses projets.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">36</context>
@@ -272,6 +272,482 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d0c0255d90186de88c0a6e77b0fbca8a31174b5" datatype="html">
+        <source>Elypia CIC on Public Record at Companies House</source>
+        <target>La SIC Elypia est dans les archives publiques de Companies House</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="830979944e037e9a6232f1d13d4e11fb758a460e" datatype="html">
+        <source>A Community Interest Company is a non-profit organization in the United Kingdom which has the structure of a limited company, but pledges to use its surplus for community benefit, as opposed to the benefit of its directors. As a CIC, Elypia has a responsibility to follow its Articles of Association and Community Interest Statement which can both be found on the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> Companies House<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> website. All projects Elypia takes on will adhere to the objectives in the aforementioned documents. </source>
+        <target state="translated">Au Royaume-Uni, une Société d'Intérêt Communautaire est une organisation à but non lucratif qui a la structure d'une société anonyme, mais s'engage à utiliser ses excédents au profit de la communauté, et non pas au bénéfice de ses administrateurs. En tant que SIC, Elypia a la responsabilité de suivre ses statuts et sa déclaration d’intérêt communautaire qui se trouvent tous deux sur les &lt;x id = "START_LINK" ctype = "xa" equiv-text = "&amp; lt ; a &amp; gt ;" /&gt; le site web Companies House &lt;x id = "CLOSE_LINK" ctype = "xa" equiv-text = "&amp; lt ; / a &amp; gt ;" /&gt;. Tous les projets entrepris par Elypia respecteront les objectifs des documents susmentionnés.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70b89f55170a7a596275b49c4ca52ec2ec3a7c9b" datatype="html">
+        <source>Wikipedia article for Community Interest Company</source>
+        <target>Article Wikipédia à propos des Sociétés d'intérêt communautaire</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="890a87543cce9330edc40891f6e68dfb500995c7" datatype="html">
+        <source>Anime girl styled drawing of Elypia-chan by Vukory</source>
+        <target>Une représentation d'Elypia-chan dans le style d'une fille d'animé par Vukory</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1bd566f1e843040be061facc31fee721112397ab" datatype="html">
+        <source>We love free and open-source software!</source>
+        <target>Nous aimons les logiciels gratuits et open-source !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/home-page/home-page.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60c855c323706a04ccd2ff22d634bde9b6233bbf" datatype="html">
+        <source>Themes</source>
+        <target state="translated">Thèmes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71dc0ad61c5c2a1a04d50af50ab8a713d61c8ac4" datatype="html">
+        <source>Elypia Text Logo</source>
+        <target>Logo du texte d'Elypia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="986824516a1a8cb4151c1959910a25d75dad50dc" datatype="html">
+        <source>Contribute to translations on Weblate</source>
+        <target state="translated">Contribuer aux traductions sur Weblate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d11dbabad41c17e8a730550caceb0f3e0deb9666" datatype="html">
+        <source>You don't need to know how to code to contribute and support Elypia; come translate on Weblate!</source>
+        <target>Vous n'avez pas besoin de savoir comment coder pour contribuer et soutenir Elypia ; venez traduire sur Weblate !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c5de8389663b0695a4faadeb75a465fbc9226c24" datatype="html">
+        <source>Language Selection</source>
+        <target state="translated">Sélection de la langue</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c562b9f9ce8bd9a18001ba5ba8f3545748089514" datatype="html">
+        <source>Password is required!</source>
+        <target>Mot de passe requis !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84dafd890f7a415e69a7e8a11b8c397b1916b769" datatype="html">
+        <source>Considered using a password manager?</source>
+        <target>Avez-vous envisagé d'utiliser un gestionnaire de mots de passe ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="339e91ae7bdbea4e5271b735253fa4238181a4ac" datatype="html">
+        <source>Email is required!</source>
+        <target>Une adresse mail est requise !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2da217bb0248e900437a6a4224280d238de92f6c" datatype="html">
+        <source>Please enter a valid email address!</source>
+        <target>S'il vous plaît, mettez une adresse email valide !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e26b2d49f57be965a2b3b7995fa97d0ef4b9cb42" datatype="html">
+        <source>You'll be asked to verify it post-registration!</source>
+        <target>On vous demandera de le vérifier après l'enregistrement !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9d539f9ee1d93d3253b1513af80a757b6a454970" datatype="html">
+        <source>pandaAww Red Panda Emote</source>
+        <target>Emote de panda roux : le pandaAww</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f623106dad17ce6d7914e21ab0057c40de997c6b" datatype="html">
+        <source>Red Panda Emoticons</source>
+        <target>Les émoticônes de Panda roux</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0874581c70a8254794a1919919a79931008af5de" datatype="html">
+        <source>Elypia Emotes</source>
+        <target>Les emotes d'Elypia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c4d7806a345c0ae37e59d698f4e46ab1fa19626" datatype="html">
+        <source>You can download, modify, reference, or redistribute them as you see fit for any purpose, including commercial.</source>
+        <target state="translated">Vous pouvez les télécharger, les modifier, les référencer ou les redistribuer comme bon vous semble à n'importe quelle fin, y compris commerciale.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5a8c3a58c4d6aefad0098d935bd9dbb0fdff57da" datatype="html">
+        <source>The Elypia Emotes are a free and open-source set of cute red panda emoticons available under the Apache license.</source>
+        <target>Les emotes d'Elypia sont un ensemble gratuit et open-source d'émoticônes d'un panda rouge mignon disponibles sous la licence Apache.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="133b4d82d0661fe1a70f81b1e2b3c9744ed1b87d" datatype="html">
+        <source>Elypiai Logo</source>
+        <target>Le Logo d'Elypiai</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60bee567fcaf95c9967748b5df9e945a9bbc1388" datatype="html">
+        <source>API Wrapper</source>
+        <target>Wrapper d'API</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40dcaaedf0983f5b3e387b7190e008103bed786e" datatype="html">
+        <source>All wraps have been abstracted as to make it more consistent between web services you're implementing and maximize pooling resources.</source>
+        <target>Tous les wraps ont été résumés afin de rendre les échanges plus cohérent entre les services Web que vous implémentez et de maximiser les ressources de mise en commun.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6eed15b54d7a53fb2c3ad50589957ccf008eb2c" datatype="html">
+        <source>Elypiai is a small but useful library that provides wraps for many APIs available online that don't already have official implementations.</source>
+        <target state="translated">Elypiai est une bibliothèque petite mais utile qui fournit des wraps pour de nombreuses API disponibles en ligne qui n'ont pas encore d'implémentations officielles.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0fedea74d0565748115f5eb20aed411a5bc47b5" datatype="html">
+        <source>Confiler Logo</source>
+        <target>Logo de Confiler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2954d13e8dd3306cae3a3747af4fda3973b43d2f" datatype="html">
+        <source>Configuration Filer</source>
+        <target>Fichier de configurations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0513175d5ff5bd88d3786bbea0a4b205e605a62" datatype="html">
+        <source>This is great for applications where you want to have a UI for users to tailor their experience without having to write your own web service dedicated to the generic job we all need.</source>
+        <target>C'est idéal pour les applications où vous voulez avoir une interface utilisateur pour que les utilisateurs personnalisent leur expérience sans avoir à créer votre propre service Web dédié au travail générique dont nous avons tous besoin.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="404b62356e04bbb96b591075d377283a7f5fbf64" datatype="html">
+        <source>Confiler is a small service which can be online or self-hosted, it's a cloud configuration service which will allow users to define entities to process or store configuration for them.</source>
+        <target>Confiler est un petit service qui peut être en ligne ou auto-hébergé, c'est un service de configuration cloud qui permettra aux utilisateurs de définir des entités pour traiter ou stocker des configurations pour eux.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b1b0c9855156f7c533efb6bc470eb369ff0d84a2" datatype="html">
+        <source>Commandler logo</source>
+        <target>Logo de Commandler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
+        <source>Command Handler</source>
+        <target state="translated">Gestionnaire de commandes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ef84a4052a584037f69b3e467dd5dcc2647f3f5" datatype="html">
+        <source>Commandler will handle all the work so it keeps implementing commands quick and simple while the bulk of the work is handled by the framework.</source>
+        <target state="translated">Commandler gérera tout le travail pour qu'il continue à implémenter les commandes rapidement et simplement tandis que la majeure partie du travail est gérée par le framework.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="defcc86d2359224945158bac8a1351d33535408b" datatype="html">
+        <source>Commandler is a generic command handling framework for Java that allows you to write your code once and integrate it anywhere or multiple places in a single application.</source>
+        <target>Commandler est un framework générique de gestion des commandes pour Java qui vous permet d'écrire votre code une fois et de l'intégrer n'importe où ou à plusieurs endroits dans une seule application.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c8b15a23e1d22a147ab36c1d1ae0601cbf3cf0a6" datatype="html">
+        <source>Avatar for Alexis on Discord</source>
+        <target>Avatar de Alexis sur Discord</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84d63aab12a02b4d7b395828846508b49e4f2569" datatype="html">
+        <source>Discord Chatbot</source>
+        <target>Chatbot pour Discord</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="909971e3c3bbec75f12e98a2e663274687547f63" datatype="html">
+        <source>Weblate</source>
+        <target state="translated">Weblate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6834fa6b43d1ecbdf147c48dd9c4d72f1484571d" datatype="html">
+        <source>Source</source>
+        <target>Source</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f3e68b4fb4b89d9d122b5108b3527b2dc76df1b" datatype="html">
+        <source>Alexis is a free and open-source multi-purpose chatbot for Discord and provides various integrations and moderation features to help you have fun, and automate manage and moderation of your guild!</source>
+        <target>Alexis est un chatbot polyvalent gratuit et open-source pour Discord et fournit diverses intégrations et fonctionnalités de modération pour vous aider à vous amuser tout en automatisant la gestion et la modération de votre guilde !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="599c31627b5a8acd4b0d63f9d1284ed7620dd014" datatype="html">
+        <source><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Download Press Kit </source>
+        <target><x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/> Télécharger le dossier de presse </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e11b1522c1aa749441e882efc0d5f6b5bc0e880d" datatype="html">
+        <source>Want to download everything?</source>
+        <target>Voulez vous tout télécharger ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aebf7fdda6d9b5ca1fb79dd3282aa1fab066a55b" datatype="html">
+        <source>Darkest</source>
+        <target>Le plus sombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c606c35acfee5d5f96dc214cab8e0a5f37ca890" datatype="html">
+        <source>Darker</source>
+        <target>Plus sombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adb4562d2dbd3584370e44496969d58c511ecb63" datatype="html">
+        <source>Dark</source>
+        <target>Foncé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f61371ef20c6f460c4ec7552cf021823e4919d82" datatype="html">
+        <source>White</source>
+        <target>Blanc</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f12fce1bf3707dc7e7a7ccafef738fabbc11c47" datatype="html">
+        <source>Blue</source>
+        <target>Bleu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c1fdf33a27a2ce7f5fb5393d585bf8f53170b8b" datatype="html">
+        <source>Elypia Color Palette</source>
+        <target>La palette de couleurs d'Elypia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bfd2aee4175e367129e7497713c2b5824b722a7e" datatype="html">
+        <source>Elypia Logo w/Text</source>
+        <target>Le Logo d'Elypia avec texte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc0135e02c154f58b98df20dc1348e006e3027be" datatype="html">
+        <source>Elypia Logo with our Name</source>
+        <target>Le logo d'Elypia avec notre nom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9549b29b8c3e30523c81b57bb1919e21656c88d" datatype="html">
+        <source>Elypia Icon</source>
+        <target>L'icône d'Elypia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2797b3afbb63cd70e7c5db230d7c77ca28deb128" datatype="html">
+        <source>Elypia Icon by Nikky</source>
+        <target>L'icône d'Elypia par Nikky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d32feaeffd77c36b768827b38eab5e4d9101b7c5" datatype="html">
+        <source>Elypia Badge</source>
+        <target>Badge d'Elypia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d324c5c37ab5b7632bc29b3309678b436944647" datatype="html">
+        <source>Elypia Logo without Fill by Nikky</source>
+        <target>Le logo d'Elypia sans remplissage par Nikky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ada1858c9ce113261202d110484643d58ea8d81" datatype="html">
+        <source>Elypia Logo</source>
+        <target>Le logo d'Elypia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="774f25dfbea8c011048dcedb2edb2319784c7eef" datatype="html">
+        <source>Elypia Logo by Nikky</source>
+        <target>Le logo d'Elypia par Nikky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e646036efe65c8fd750583c8b1c64c44a7ceffff" datatype="html">
+        <source>Don't use the Elypia branding where it may suggest we endorse your content.</source>
+        <target>N'utilisez pas la marque Elypia lorsque cela peut suggérer que nous approuvons votre contenu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8746a063d10f3b94ef2abb9f7e9389f46c105df" datatype="html">
+        <source>Other than as explicitly stated, don't modify or reconfigure the Elypia logo.</source>
+        <target>Sauf indication contraire explicite, ne modifiez ni ne reconfigurez pas le logo d'Elypia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b2b2da474421bd0a87719658f2ef9c2c3ebf8e87" datatype="html">
+        <source>Keeping the logo as-is is preferred, but you may alter the hue.</source>
+        <target>Il est préférable de conserver le logo tel quel, mais vous pouvez modifier sa teinte.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f86e01b6434153e65151d92721bba90520d89f9" datatype="html">
+        <source>Guidelines</source>
+        <target>Directives</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c14ba8575360a7ef82e1234a7df31db479bd29a" datatype="html">
+        <source>Contribute to this site's Source Code on GitLab</source>
+        <target state="translated">Contribuer au code source de ce site sur GitLab</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
     </body>
