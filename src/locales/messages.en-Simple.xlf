@@ -905,6 +905,22 @@
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="c7a008837e00d4b383a578c2af9b1ee1b43694cd" datatype="html">
+        <source>This is for users or publishers that may want to reference Elypia and use its branding. This page covers some assets that can be used, and any guidelines to using them.</source>
+        <target>This is for people that want to refer to Elypia and it's branding. This page has the images one can use, and the rules to use them.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c14ba8575360a7ef82e1234a7df31db479bd29a" datatype="html">
+        <source>Contribute to this site's Source Code on GitLab</source>
+        <target>Help with the site on GitLab</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
