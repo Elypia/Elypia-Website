@@ -158,8 +158,8 @@
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0f49550e63d0eadbe181621c819181fc517f371b" datatype="html">
-        <source>Contribute to this sites Source Code on GitLab</source>
+      <trans-unit id="6c14ba8575360a7ef82e1234a7df31db479bd29a" datatype="html">
+        <source>Contribute to this site&apos;s Source Code on GitLab</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
           <context context-type="linenumber">35</context>
