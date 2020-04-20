@@ -11,15 +11,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="b7ca4488779e42bfeefe827d4f4706f4f9136b87" datatype="html">
-        <source>
-        While we try to be sustainable through subscriptions and services, it's favorable to receive
-        donations to keep everything as free as possible. As a non-profit, funding is what allows us to
-        continue to develop free and open-source software and push to provide free or affordable services.
-      </source>
-        <target>We try to keep Elypia running by using the money we get from repeating payments or
-      services we might provide for users. It's still helpful to get donations so we can keep prices
-      low or free if we can.
-      </target>
+        <source>While we try to be sustainable through subscriptions and services, it's favorable to receive donations to keep everything as free as possible. As a non-profit, funding is what allows us to continue to develop free and open-source software and push to provide free or affordable services.</source>
+        <target>We try to keep Elypia running by using the money we get from repeating payments or services we might provide for users. It's still helpful to get donations, so we can keep prices low or free if we can.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">23</context>
@@ -902,6 +895,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7d8f7d56964d5f4b1733073af184e4fa55aa712" datatype="html">
+        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and its websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
+        <target>Right now most costs are keep Elypia running, or things we need to do for legal reasons. This includes domains, hosting, content delivery, travel or forms, and anything we need to meet legal requirements. Some projects might have more costs if we need digital assets or branding like logos or art. We're hoping in future we can also pay salaries to people working in Elypia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
     </body>
