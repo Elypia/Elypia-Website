@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="fr" >
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="fr">
     <body>
       <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
         <source>Elypia is a Non-Profit CIC</source>
@@ -112,6 +112,110 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/pages/about/about.component.html</context>
           <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0a53c6d53b13f2df560312133d3ff2009cf6c60" datatype="html">
+        <source>You can support us by purchasing our branded merchandise.</source>
+        <target>Vous pouvez nous soutenir en achetant nos produits dérivés.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
+        <source>PayPal</source>
+        <target>PayPal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b56d5a5b4954332e22e3693c13eafb66c7b4fa36" datatype="html">
+        <source>Donate by transfering money or setting up a standing order directly to our company bank account.</source>
+        <target state="translated">Faites un don en transférant de l'argent ou en établissant un ordre permanent directement sur le compte bancaire de notre entreprise.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a15ed1dd7a4d96a707c1d7cdb0c760bcb20e1ee8" datatype="html">
+        <source>If you have a PayPal account you can donate using the attached credit/debit card, bank account, or PayPal balance.</source>
+        <target>Si vous avez un compte PayPal, vous pouvez faire un don en utilisant votre carte de crédit / débit, votre compte bancaire ou votre solde PayPal.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4eb36eee0c420c1f329eedecd87f2770d41df484" datatype="html">
+        <source>Card (Stripe)</source>
+        <target>Carte (Stripe)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8184c05d8fd8d596166564a65b926f266a071533" datatype="html">
+        <source>Donate directly on the site with your debit or credit card. All donations using this method are processed by Stripe; we won't process or store your information.</source>
+        <target>Faites un don directement sur le site avec votre carte de débit ou de crédit. Tous les dons utilisant cette méthode sont traités par Stripe ; nous ne traiterons ni ne conserverons vos informations.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d85ad59682b27633be6ded5942692b892fe7467a" datatype="html">
+        <source>Bank (UK/GBP Only)</source>
+        <target>Banque (Royaume-Uni / Livres Sterling uniquement)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fbb4b710b04174effd1bb999565583d64ddf8e4" datatype="html">
+        <source>Sort Code:</source>
+        <target>Code guichet :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c60cf19eb3d49a7f0e045881ebd9733f74b6dad8" datatype="html">
+        <source>Account Number:</source>
+        <target>Numéro de compte :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7ec3699e8d381ae4371066b98b36e22a2478ce9" datatype="html">
+        <source>Account Name:</source>
+        <target>Nom du compte :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5b3e1e3ece55c1a2b7590e0ec9939c9f1f95b58" datatype="html">
+        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and it's websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
+        <target>À l'heure actuelle, la plupart des coûts concernent l'infrastructure technique ou les obligations légales pour maintenir Elypia CIC et ses sites Web et services à jour. Cela comprend les domaines, l'hébergement, la livraison de contenu, les voyages ou les formalités administratives, ainsi que tous les frais ou exigences annuels afin de remplir les obligations de l'entreprise dans le cadre d'une justification légale. Certains projets peuvent entraîner des coûts si de nouveaux actifs ou une nouvelle image de marque sont nécessaires. Nous espérons qu'à l'avenir, Elypia sera en mesure de fournir des salaires à ceux qui contribuent et gèrent ses projets.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36b945004457fa674ef4598444390392dfcac265" datatype="html">
+        <source>As a Community Interest Company we will also be able to generate income through selling subscriptions and services or by providing hosted solutions for our open-source projects. Donations will not be the only form of income for Elypia but strongly encouraged and appreciated.</source>
+        <target>En tant que société d'intérêt communautaire, nous pourrons également générer des revenus en proposant des abonnements et des services ou en fournissant des solutions hébergées pour nos projets open source. Les dons ne seraient pas la seule forme de revenu pour Elypia mais fortement encouragés et appréciés.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7ca4488779e42bfeefe827d4f4706f4f9136b87" datatype="html">
+        <source>While we try to be sustainable through subscriptions and services, it's favorable to receive donations to keep everything as free as possible. As a non-profit, funding is what allows us to continue to develop free and open-source software and push to provide free or affordable services.</source>
+        <target>Même si nous essayons de couvrir nos frais grâce à des abonnements et à divers services, les dons sont pour nous importants pour que la majorité de ce que nous proposont reste gratuit. En tant qu'organisme à but non lucratif, le financement nous permet de continuer à développer des logiciels gratuits et open-source et de pousser à fournir des services gratuits ou abordables.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
     </body>
