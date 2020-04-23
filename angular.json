@@ -16,7 +16,8 @@
           "bs-Latn": "src/locales/messages.bs-Latn.xlf",
           "en-Simple": "src/locales/messages.en-Simple.xlf",
           "fr": "src/locales/messages.fr.xlf",
-          "nl": "src/locales/messages.nl.xlf"
+          "nl": "src/locales/messages.nl.xlf",
+          "pl": "src/locales/messages.pl.xlf"
         }
       },
       "architect": {

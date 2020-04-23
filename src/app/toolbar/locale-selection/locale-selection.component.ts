@@ -54,11 +54,12 @@ class Locale {
 export class LocaleSelectionComponent implements OnInit {
 
   public readonly Locales: Locale[] = [
-    new Locale('bs-Latn', 'Bosnian (Latin)'),
+    new Locale('bs-Latn', 'Bosanski (Latinski)'),
     new Locale('en-Simple', 'English (Simple)'),
     new Locale('en-US', 'English (US)'),
     new Locale('fr', 'Français'),
-    new Locale('nl', 'Nederlands')
+    new Locale('nl', 'Nederlands'),
+    new Locale('pl', 'Polski')
   ];
 
   constructor(
