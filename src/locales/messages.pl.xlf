@@ -188,7 +188,7 @@
       </trans-unit>
       <trans-unit id="b2b2da474421bd0a87719658f2ef9c2c3ebf8e87" datatype="html">
         <source>Keeping the logo as-is is preferred, but you may alter the hue.</source>
-        <target/>
+        <target>Preferowane jest zachowanie logo w stanie, w jakim się znajduje, ale możesz zmienić jego odcień.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">29</context>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="a8746a063d10f3b94ef2abb9f7e9389f46c105df" datatype="html">
         <source>Other than as explicitly stated, don't modify or reconfigure the Elypia logo.</source>
-        <target/>
+        <target>Nie modyfikuj ani nie konfiguruj loga Elypii inaczej, niż jest to określone.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">30</context>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="e646036efe65c8fd750583c8b1c64c44a7ceffff" datatype="html">
         <source>Don't use the Elypia branding where it may suggest we endorse your content.</source>
-        <target/>
+        <target>Nie używaj loga Elypii w miejscach, które wskazywałyby, że wspieramy twoje treści.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">31</context>
@@ -403,12 +403,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="defcc86d2359224945158bac8a1351d33535408b" datatype="html">
-        <source>
-        Commandler is a generic command handling framework for Java that
-        allows you to write your code once and integrate it anywhere
-        or multiple places in a single application.
-      </source>
-        <target/>
+        <source>Commandler is a generic command handling framework for Java that allows you to write your code once and integrate it anywhere or multiple places in a single application.</source>
+        <target state="translated">Commandler is frameworkiem do obsługi poleceń dla Javy, pozwala con na pisanie kodu tylko raz i integrowanie go dowolnym miejscu lub w kilku miejscach za pomocą jednej aplikacji.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">35</context>
@@ -424,7 +420,7 @@
       </trans-unit>
       <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
         <source>Command Handler</source>
-        <target/>
+        <target>Moduł obsługi poleceń</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">32</context>
@@ -432,31 +428,23 @@
       </trans-unit>
       <trans-unit id="b1b0c9855156f7c533efb6bc470eb369ff0d84a2" datatype="html">
         <source>Commandler logo</source>
-        <target/>
+        <target>Logo Commandlera</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="404b62356e04bbb96b591075d377283a7f5fbf64" datatype="html">
-        <source>
-        Confiler is a small service which can be online or self-hosted,
-        it's a cloud configuration service which will allow
-        users to define entities to process or store configuration for them.
-      </source>
-        <target/>
+        <source>Confiler is a small service which can be online or self-hosted, it's a cloud configuration service which will allow users to define entities to process or store configuration for them.</source>
+        <target>Confiler to niewielka usługa, która może być online lub hostowana samodzielnie, jest to usługa konfiguracji w chmurze, która pozwala użytkownikom definiować encje do przetwarzania lub przechowywania dla nich konfiguracji.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0513175d5ff5bd88d3786bbea0a4b205e605a62" datatype="html">
-        <source>
-        This is great for applications where you want to have a UI
-        for users to tailor their experience without having to write your
-        own web service dedicated to the generic job we all need.
-      </source>
-        <target/>
+        <source>This is great for applications where you want to have a UI for users to tailor their experience without having to write your own web service dedicated to the generic job we all need.</source>
+        <target>Jest to idealne rozwiązanie dla aplikacji, w których chcesz mieć interfejs użytkownika, aby ulepszyć ich doświadczenie bez potrzeby pisania swojego własnego serwisu dedykowanego do ogólnego zadania, którego wszyscy potrzebujemy.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">55</context>
@@ -464,7 +452,7 @@
       </trans-unit>
       <trans-unit id="2954d13e8dd3306cae3a3747af4fda3973b43d2f" datatype="html">
         <source>Configuration Filer</source>
-        <target/>
+        <target>Filtr konfiguracji</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">47</context>
@@ -472,29 +460,23 @@
       </trans-unit>
       <trans-unit id="a0fedea74d0565748115f5eb20aed411a5bc47b5" datatype="html">
         <source>Confiler Logo</source>
-        <target/>
+        <target>Logo Confilera</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c6eed15b54d7a53fb2c3ad50589957ccf008eb2c" datatype="html">
-        <source>
-        Elypiai is a small but useful library that provides wraps for
-        many APIs available online that don't already have official implementations.
-      </source>
-        <target/>
+        <source>Elypiai is a small but useful library that provides wraps for many APIs available online that don't already have official implementations.</source>
+        <target>Elypiai jest małą, ale użyteczną biblioteką, która zapewnia integrację z wieloma API dostępnymi online, które nie posiadają oficjalnych implementacji.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="40dcaaedf0983f5b3e387b7190e008103bed786e" datatype="html">
-        <source>
-        All wraps have been abstracted as to make it more consistent between
-        web services you're implementing and maximize pooling resources.
-      </source>
-        <target/>
+        <source>All wraps have been abstracted as to make it more consistent between web services you're implementing and maximize pooling resources.</source>
+        <target>Wszystkie funkcje opakowujące zostały uabstrakcyjnione, aby zapewnić większą spójność z serwisami między wdrażanymi usługami oraz zmaksymalizowanie puli zasobów.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">69</context>
@@ -502,7 +484,7 @@
       </trans-unit>
       <trans-unit id="60bee567fcaf95c9967748b5df9e945a9bbc1388" datatype="html">
         <source>API Wrapper</source>
-        <target/>
+        <target>Wrapper API</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">62</context>
@@ -510,7 +492,7 @@
       </trans-unit>
       <trans-unit id="133b4d82d0661fe1a70f81b1e2b3c9744ed1b87d" datatype="html">
         <source>Elypiai Logo</source>
-        <target/>
+        <target>Logo Elypiai</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">64</context>
@@ -1010,6 +992,14 @@
           <context context-type="linenumber">23</context>
         </context-group>
         <note priority="1" from="description">Foreground color from Elypia color palette.</note>
+      </trans-unit>
+      <trans-unit id="4b01e841470cdd8a83103f0113f5fd766794e558" datatype="html">
+        <source>Commandler makes implementing commands quick and simple without the boilerplate, while the bulk of the work is handled by the framework.</source>
+        <target>Commandler sprawia, że implementowanie poleceń jest szybkie i proste, gdyż większość pracy jest obsługiwana przez framework.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
