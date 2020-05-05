@@ -77,6 +77,7 @@ import {faDownload} from '@fortawesome/pro-solid-svg-icons/faDownload';
 import {faPaste} from '@fortawesome/pro-duotone-svg-icons/faPaste';
 import {CopiedClipboardComponent} from './snackbar-components/copied-clipboard/copied-clipboard.component';
 import {faMastodon} from '@fortawesome/free-brands-svg-icons/faMastodon';
+import {faGamepadAlt} from '@fortawesome/pro-solid-svg-icons/faGamepadAlt';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -192,6 +193,7 @@ export class AppModule {
       faUniversity,
       faCreditCard,
       faPaypal,
+      faGamepadAlt,
       faTshirt,
       faPaste,
 

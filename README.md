@@ -23,7 +23,7 @@ and animations such as gifs, are not under the aforementioned license;
 all rights are reserved by Elypia CIC.** 
 
 [matrix-community]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
-[discord-guild]: https://discordapp.com/invite/hprGMaM "Discord Invite"
+[discord-guild]: https://discord.com/invite/hprGMaM "Discord Invite"
 [i18n-badge]: https://i18n.elypia.org/engage/elypia-website/?utm "Weblate Translations"
 [gitlab]: https://gitlab.com/Elypia/elypia-website/commits/master "Repository on GitLab"
 [elypia-donate]: https://elypia.org/donate "Donate to Elypia"
@@ -34,7 +34,7 @@ all rights are reserved by Elypia CIC.**
 [TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "TL;DR of Apache 2.0"
 
 [Matrix]: https://img.shields.io/matrix/elypia-general:matrix.org?logo=matrix "Matrix Shield"
-[Discord]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
+[Discord]: https://discord.com/api/guilds/184657525990359041/widget.png "Discord Shield"
 [i18n]: https://i18n.elypia.org/widgets/elypia-website/-/svg-badge.svg "Weblate Translation Badge"
 [Build]: https://gitlab.com/Elypia/elypia-website/badges/master/pipeline.svg "GitLab Build Shield"
 [Coverage]: https://gitlab.com/Elypia/elypia-website/badges/master/coverage.svg "GitLab Coverage Shield"
