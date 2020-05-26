@@ -404,7 +404,7 @@
       </trans-unit>
       <trans-unit id="defcc86d2359224945158bac8a1351d33535408b" datatype="html">
         <source>Commandler is a generic command handling framework for Java that allows you to write your code once and integrate it anywhere or multiple places in a single application.</source>
-        <target state="translated">Commandler is frameworkiem do obsługi poleceń dla Javy, pozwala con na pisanie kodu tylko raz i integrowanie go dowolnym miejscu lub w kilku miejscach za pomocą jednej aplikacji.</target>
+        <target state="translated">Commandler jest frameworkiem do obsługi poleceń dla Javy, pozwala con na pisanie kodu tylko raz i integrowanie go dowolnym miejscu lub w kilku miejscach za pomocą jednej aplikacji.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">35</context>
@@ -910,6 +910,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9ee844dcd34fd750182c3c0b5ea733f2be61d30" datatype="html">
+        <source>Humble Bundle</source>
+        <target>Humble Bundle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36a03b173b6a862a4e333ae51ae5375d1a3488b7" datatype="html">
+        <source>If you use our link to Humble Bundle, we get a cut on purchases and you can even alter the sliders at checkout to decide how much Elypia gets!</source>
+        <target>Jeżeli użyjesz naszego odnośnika do Humble Bundle, dostaniemy prowizję z twojego zakupu, możesz nawet sam decydować jaka część powinna wpłynąć do Elypii!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
     </body>
