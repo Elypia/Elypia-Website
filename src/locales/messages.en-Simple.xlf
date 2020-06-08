@@ -219,7 +219,7 @@
       </trans-unit>
       <trans-unit id="b833c823f920b72bf3f5a2a19bdf1fa18451b042" datatype="html">
         <source>We want to make enterprise grade software development simpler to learn and utilize, and to support sectors that aren't up-to-date or stuck by legacy proprietary abandonware.</source>
-        <target>We want business level software to be easier make and use. We'll support sectors that aren't modern and stuck with closed source software.</target>
+        <target>We want business level software to be easier to make and use. We'll support sectors that aren't modern and stuck with closed source software.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/home-page/home-page.component.html</context>
           <context context-type="linenumber">26</context>
