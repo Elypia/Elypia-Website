@@ -752,7 +752,7 @@
       </trans-unit>
       <trans-unit id="716d3d46a6222779e682155138f9a866643386b2" datatype="html">
         <source>FG:</source>
-        <target>Premier plan:</target>
+        <target>Premier plan :</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
           <context context-type="linenumber">23</context>
@@ -761,7 +761,7 @@
       </trans-unit>
       <trans-unit id="583a4094fd518339567a2c0f876a1868a008e985" datatype="html">
         <source>BG:</source>
-        <target>Fond:</target>
+        <target>Fond :</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
           <context context-type="linenumber">22</context>
@@ -810,7 +810,7 @@
       </trans-unit>
       <trans-unit id="d75f3b3238c5c85f925dda873327bcb16795514c" datatype="html">
         <source>The ePrivacy directive, also known as the EU Cookie Law, is what covers the use of cookies (or other client-side storage mediums) and consent. We minimize the use of <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> cookies<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> storage<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> without reducing functionality on the websites or services. We do not, and <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>most likely<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> never will, use or add analytic cookies, or trackers, however we do store some data for technical or client-side configuration purposes. </source>
-        <target>La directive ePrivacy, également connue sous le nom de loi sur les cookies de l'UE, couvre l'utilisation des cookies (ou d'autres supports de stockage côté client) et le consentement. Nous minimisons l'utilisation de <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> cookies<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> et de <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> stockage <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> sans réduire les fonctionnalités des sites Web ou des services. Nous n'utilisons pas, et il y a de <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> fortes chances <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> que nous n'utiliserons ou ajouterons jamais de cookies analytiques ou trackers, cependant nous stockons certaines données à des fins de configuration technique ou côté client.</target>
+        <target>La directive ePrivacy, également connue sous le nom de loi sur les cookies de l'UE, couvre l'utilisation des cookies (ou d'autres supports de stockage côté client) et le consentement. Nous minimisons l'utilisation de <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> cookies<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> et de <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> stockage <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> sans réduire les fonctionnalités des sites Web ou des services. Nous n'utilisons pas, et il y a de <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/> fortes chances <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> que nous n'utiliserons ou ajouterons jamais de cookies analytiques ou trackers, cependant nous stockons certaines données à des fins de configuration technique ou côté client. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">51</context>
@@ -834,7 +834,7 @@
       </trans-unit>
       <trans-unit id="72c5be0eb262e5ebc365e9c0cbabbcd779146ade" datatype="html">
         <source>If there are any concerns or questions regarding our privacy policy, or if you have a request, please send an email to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>dpo@elypia.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> where the elected <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> Data Protection Officer (DPO)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> will be able to support you. </source>
-        <target>En cas de problème ou de question concernant notre politique de confidentialité, ou si vous avez une demande, veuillez envoyer un e-mail à <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>dpo@elypia.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> où le <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> Délégué à la protection des données (DPO) <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> élu sera en mesure de vous aider.</target>
+        <target>En cas de problème ou de question concernant notre politique de confidentialité, ou si vous avez une demande, veuillez envoyer un e-mail à <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>dpo@elypia.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> où le <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> Délégué à la protection des données (DPO) <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> élu sera en mesure de vous aider. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">40</context>
@@ -842,7 +842,7 @@
       </trans-unit>
       <trans-unit id="db57e4e0d030ab5ce723bee08f400bc6b9bd6bf5" datatype="html">
         <source>We're using <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>CloudFlare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> as a Content Delivery Network (CDN) which collects and allows us to view aggregate data on traffic such as total requests, number of unique visitors, and which countries are predominantly accessing our services. </source>
-        <target>Nous utilisons <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>CloudFlare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> en tant que Content Delivery Network (CDN) qui collecte et nous permet de visualiser des données agrégées sur le trafic telles que le nombre total de demandes, le nombre de visiteurs uniques et les pays qui accèdent principalement à nos services.</target>
+        <target>Nous utilisons <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>CloudFlare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> en tant que Content Delivery Network (CDN) qui collecte et nous permet de visualiser des données agrégées sur le trafic telles que le nombre total de demandes, le nombre de visiteurs uniques et les pays qui accèdent principalement à nos services. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">35</context>
@@ -858,7 +858,7 @@
       </trans-unit>
       <trans-unit id="792306841e29a0b1b0abed4b8948928b612d8948" datatype="html">
         <source>None of our websites or services store personal information on users, and our web servers are configured with the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>access log<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> disabled, so we do not see information regarding your request such as <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>IP<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> or <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/> user-agent<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </source>
-        <target>Aucun de nos sites Web ou services ne stocke d'informations personnelles sur les utilisateurs, et nos serveurs Web sont configurés avec le <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> journal d'accès <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> désactivé, donc nous ne pouvons pas avoir accès à des informations concernant vos demandes telles que <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> votre IP <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> ou <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/> l'agent utilisateur <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+        <target>Aucun de nos sites Web ou services ne stocke d'informations personnelles sur les utilisateurs, et nos serveurs Web sont configurés avec le <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> journal d'accès <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> désactivé, donc nous ne pouvons pas avoir accès à des informations concernant vos demandes telles que <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/> votre IP <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> ou <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/> l'agent utilisateur <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">26</context>
@@ -866,7 +866,7 @@
       </trans-unit>
       <trans-unit id="164604e24c00d9cdf2eadeb0dc6bd4ab266e74e5" datatype="html">
         <source>This privacy policy only refers to what is running on Elypia's servers regardless of what website or service you're using. If you're connected to a third-party host; you should read the respective privacy policy for your host.</source>
-        <target>Cette politique de confidentialité fait uniquement référence à ce qui est exécuté sur les serveurs d'Elypia, quel que soit le site Web ou le service que vous utilisez. Si vous êtes connecté à un hôte tiers; vous devez lire la politique de confidentialité respective de votre hôte.</target>
+        <target>Cette politique de confidentialité fait uniquement référence à ce qui est exécuté sur les serveurs d'Elypia, quel que soit le site Web ou le service que vous utilisez. Si vous êtes connecté à un hôte tiers ; vous devez lire la politique de confidentialité respective de votre hôte.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">21</context>
@@ -898,7 +898,7 @@
       </trans-unit>
       <trans-unit id="8c3f6c7fab89483702c4345aac49dbc9a681248a" datatype="html">
         <source>Elypia CIC is a non-profit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> Community Interest Company<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> based in the United Kingdom that wants to bring more free and open-source software to different sectors. This is starting with software development, aimed at junior developers, and will hopefully move towards other areas outside of software that may aid educational institutions or less developed sectors attain alternatives over abandoned legacy applications. </source>
-        <target>Elypia CIC est une <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> société d'intérêt communautaire <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> à but non lucratif basée au Royaume-Uni qui souhaite proposer davantage de logiciels gratuits et open source à différents secteurs. Cela commence par le développement de logiciels, destiné aux développeurs juniors, et nous espérons pouvoir évoluer vers d'autres domaines en dehors des logiciels qui peuvent aider les établissements d'enseignement ou les secteurs moins développés à trouver des alternatives aux applications devenues obselètes par manque de mises à jour.</target>
+        <target>Elypia CIC est une <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> société d'intérêt communautaire <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> à but non lucratif basée au Royaume-Uni qui souhaite proposer davantage de logiciels gratuits et open source à différents secteurs. Cela commence par le développement de logiciels, destiné aux développeurs juniors, et nous espérons pouvoir évoluer vers d'autres domaines en dehors des logiciels qui peuvent aider les établissements d'enseignement ou les secteurs moins développés à trouver des alternatives aux applications devenues obselètes par manque de mises à jour. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
           <context context-type="linenumber">26</context>
@@ -922,6 +922,30 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
           <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9ee844dcd34fd750182c3c0b5ea733f2be61d30" datatype="html">
+        <source>Humble Bundle</source>
+        <target>Humble Bundle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36a03b173b6a862a4e333ae51ae5375d1a3488b7" datatype="html">
+        <source>If you use our link to Humble Bundle, we get a cut on purchases and you can even alter the sliders at checkout to decide how much Elypia gets!</source>
+        <target>Si vous utilisez notre lien vers Humble Bundle, nous recevons une partie sur les achats et vous pouvez même modifier les curseurs à la caisse pour décider combien Elypia recevra !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b01e841470cdd8a83103f0113f5fd766794e558" datatype="html">
+        <source>Commandler makes implementing commands quick and simple without the boilerplate, while the bulk of the work is handled by the framework.</source>
+        <target>Commandler rend l'implémentation des commandes simple et rapide sans passe-partout, tandis que la majeure partie du travail est gérée par le framework.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
     </body>
