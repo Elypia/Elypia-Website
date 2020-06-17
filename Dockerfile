@@ -1,5 +1,5 @@
 # Smallest appropriate image.
-FROM nginx:1.17.6-alpine
+FROM nginx:1.19.0-alpine
 
 LABEL maintainer="seth@elypia.org"
 
