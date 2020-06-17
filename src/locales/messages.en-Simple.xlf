@@ -865,14 +865,6 @@
           <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e5b3e1e3ece55c1a2b7590e0ec9939c9f1f95b58" datatype="html">
-        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and it's websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
-        <target>Right now most costs are for keeping the website and services running or to meet legal requirements. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees to meet company wide obligations that we're legally required to do. Some projects can have costs like if we image or branding. We currently don't, but hoping to pay those contributing and managing Elypia's projects in future.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="faa2e36d8a02346d34d5960e4b104ace3c98c127" datatype="html">
         <source>Where do donations go?</source>
         <target>Where do donations go?</target>
@@ -899,7 +891,7 @@
       </trans-unit>
       <trans-unit id="d7d8f7d56964d5f4b1733073af184e4fa55aa712" datatype="html">
         <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and its websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
-        <target>Right now most costs are keep Elypia running, or things we need to do for legal reasons. This includes domains, hosting, content delivery, travel or forms, and anything we need to meet legal requirements. Some projects might have more costs if we need digital assets or branding like logos or art. We're hoping in future we can also pay salaries to people working in Elypia.</target>
+        <target>Right now most costs are to keep Elypia running, or things we need to do for legal reasons. This includes domains, hosting, content delivery, travel or forms, and anything we need to meet legal requirements. Some projects might have more costs if we need digital assets or branding like logos or art. We're hoping in future we can also pay salaries to people working in Elypia.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">36</context>

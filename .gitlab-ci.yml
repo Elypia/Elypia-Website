@@ -30,7 +30,7 @@ init:
 test-lint:
   stage: test
   script:
-    - npm run-script lint
+    - npm run lint
   cache:
     policy: pull
     paths:
@@ -40,7 +40,7 @@ test-unit:
   stage: test
   image: buildkite/puppeteer:v1.15.0
   script:
-    - npm run-script test
+    - npm run test
   cache:
     policy: pull
     paths:
@@ -51,7 +51,7 @@ test-unit:
   stage: test
   image: buildkite/puppeteer:v1.15.0
   script:
-    - npm run-script e2e
+    - npm run e2e
   cache:
     policy: pull
     paths:
@@ -77,7 +77,7 @@ test-version:
 build-website:
   stage: build-website
   script:
-    - npm run-script build
+    - npm run build
 
 # Build the Dockerfile, we don't use the image, only verify if it builds without error.
 build-docker:

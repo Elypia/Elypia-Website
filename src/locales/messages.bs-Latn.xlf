@@ -34,14 +34,6 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e5b3e1e3ece55c1a2b7590e0ec9939c9f1f95b58" datatype="html">
-        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and it's websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
-        <target>Trenutno većina troškova obuhvata tehničku infrastrukturu ili pravne obaveze radi održavanja Elypia CIC-a, njenih web stranica i usluga. To uključuje domene, hosting, dostavu sadržaja, putovanja ili papirologiju, i sve godišnje naknade ili potrebe kako bi se ispunile dužnosti kompanije prema pravnim obavezama. Neki projekti mogu stvoriti dodatne troškove ako se a njih požele nova sredstva ili brendiranje. Nadamo se da će Elypia u budućnosti moći osigurati plate onima koji doprinose i upravljaju projektima Elypije.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="f7ec3699e8d381ae4371066b98b36e22a2478ce9" datatype="html">
         <source>Account Name:</source>
         <target>Naziv računa:</target>

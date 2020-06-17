@@ -194,14 +194,6 @@
           <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e5b3e1e3ece55c1a2b7590e0ec9939c9f1f95b58" datatype="html">
-        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and it's websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
-        <target>À l'heure actuelle, la plupart des coûts concernent l'infrastructure technique ou les obligations légales pour maintenir Elypia CIC et ses sites Web et services à jour. Cela comprend les domaines, l'hébergement, la livraison de contenu, les voyages ou les formalités administratives, ainsi que tous les frais ou exigences annuels afin de remplir les obligations de l'entreprise dans le cadre d'une justification légale. Certains projets peuvent entraîner des coûts si de nouveaux actifs ou une nouvelle image de marque sont nécessaires. Nous espérons qu'à l'avenir, Elypia sera en mesure de fournir des salaires à ceux qui contribuent et gèrent ses projets.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="36b945004457fa674ef4598444390392dfcac265" datatype="html">
         <source>As a Community Interest Company we will also be able to generate income through selling subscriptions and services or by providing hosted solutions for our open-source projects. Donations will not be the only form of income for Elypia but strongly encouraged and appreciated.</source>
         <target>En tant que société d'intérêt communautaire, nous pourrons également générer des revenus en proposant des abonnements et des services ou en fournissant des solutions hébergées pour nos projets open source. Les dons ne seraient pas la seule forme de revenu pour Elypia mais fortement encouragés et appréciés.</target>

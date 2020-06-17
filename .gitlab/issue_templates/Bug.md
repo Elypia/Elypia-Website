@@ -1,7 +1,7 @@
 # Bug
 <!--
   A bug regarding this website, this can be visual or logical.
-  Please report any unexpected behaviour here, however remember
+  Please report any unexpected behavior here, however remember
   this is not a place to ask for help, it's to report bugs regarding
   this repository.
   
@@ -15,10 +15,6 @@
 -->
 
 ## Description
-<!-- 
-  Explain what this is about, try to use full sentences, and make your point clear.
--->
-None of the `mat-icon`s or `mat-icon-button`s are quite perfectly centered.
+<!-- Explain what this is about, try to use full sentences, and make your point clear. -->
 
 ## Motivation
-It's just an eyesore as it is now; no further justification should be required.

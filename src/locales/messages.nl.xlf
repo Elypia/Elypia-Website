@@ -34,14 +34,6 @@
           <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e5b3e1e3ece55c1a2b7590e0ec9939c9f1f95b58" datatype="html">
-        <source>At present most costs are for technical infrastructure or legal obligations to keep Elypia CIC and it's websites and services up. This includes domains, hosting, content delivery, travel or paperwork, and any annual fees or requirements in order to fulfill company wide obligations under legal justification. Some projects may incur costs if new assets or branding is desired for them. We are hopeful that in the future Elypia will be able to provide salaries to those contributing and managing Elypia's projects.</source>
-        <target>Op dit moment zijn de meeste kosten voor technische infrastructuur of wettelijke verplichtingen om Elypia CIC en zijn websites en services up-to-date te houden. Dit omvat domeinen, hosting, levering van inhoud, reizen of papierwerk, en eventuele jaarlijkse kosten of vereisten om te voldoen aan bedrijfsbrede verplichtingen op basis van wettelijke rechtvaardiging. Sommige projecten kunnen kosten met zich meebrengen als nieuwe assets of branding voor hen gewenst zijn. We hopen dat Elypia in de toekomst in staat zal zijn om salarissen te verstrekken aan degenen die bijdragen aan Elypia's projecten en deze beheren.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate/donate.component.html</context>
-          <context context-type="linenumber">58</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
         <source>Email</source>
         <target>E-mail</target>
