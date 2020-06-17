@@ -7,7 +7,7 @@ This is the frontend for the Elypia website.
 * [Angular 9+]
 * [NodeJS 12.15.0]
 > \* The frontend should still render well without an available
-> backend in order to make development easier, and to give a
+> backend to make development easier, and to give a
 > consistent look and feel where it may be down. It's still
 > recommended to set up the backend and run it in your development
 > environment when convenient to do so.
@@ -16,10 +16,10 @@ This is the frontend for the Elypia website.
 This project is open-source under the [Apache 2.0]!  
 While not legal advice, you can find a [TL;DR] that sums up what you're
 allowed and not allowed to do along with any requirements if you want
-to use or derive work from this source code!  
+to use or derive work from this source code.  
 
 **All non-code files including videos, models, audio, bitmaps, vectors,
-and animations such as gifs, are not under the aforementioned license;
+and animations such as GIFs, are not under the aforementioned license;
 all rights are reserved by Elypia CIC.** 
 
 [matrix-community]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
@@ -38,4 +38,4 @@ all rights are reserved by Elypia CIC.**
 [i18n]: https://i18n.elypia.org/widgets/elypia-website/-/svg-badge.svg "Weblate Translation Badge"
 [Build]: https://gitlab.com/Elypia/elypia-website/badges/master/pipeline.svg "GitLab Build Shield"
 [Coverage]: https://gitlab.com/Elypia/elypia-website/badges/master/coverage.svg "GitLab Coverage Shield"
-[Donate]: https://img.shields.io/badge/Elypia-Donate-blueviolet "Donate Shield"
+[Donate]: https://img.shields.io/badge/elypia-donate-blueviolet "Donate Shield"
