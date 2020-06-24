@@ -442,28 +442,12 @@
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
-        <source>Command Handler</source>
-        <target>Command Handler</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="c8b15a23e1d22a147ab36c1d1ae0601cbf3cf0a6" datatype="html">
         <source>Avatar for Alexis on Discord</source>
         <target>Avatar voor Alexis op Discord</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
           <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="84d63aab12a02b4d7b395828846508b49e4f2569" datatype="html">
-        <source>Discord Chatbot</source>
-        <target>Discord Chatbot</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aebf7fdda6d9b5ca1fb79dd3282aa1fab066a55b" datatype="html">

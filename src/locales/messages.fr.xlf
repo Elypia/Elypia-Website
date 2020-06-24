@@ -498,14 +498,6 @@
           <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
-        <source>Command Handler</source>
-        <target state="translated">Gestionnaire de commandes</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="0ef84a4052a584037f69b3e467dd5dcc2647f3f5" datatype="html">
         <source>Commandler will handle all the work so it keeps implementing commands quick and simple while the bulk of the work is handled by the framework.</source>
         <target state="translated">Commandler gérera tout le travail pour qu'il continue à implémenter les commandes rapidement et simplement tandis que la majeure partie du travail est gérée par le framework.</target>

@@ -15,6 +15,7 @@
  */
 
 import {Component, Input} from '@angular/core';
+import {GitLabProject} from '../gitlab.service';
 
 @Component({
   selector: 'app-project',
@@ -23,11 +24,7 @@ import {Component, Input} from '@angular/core';
 })
 export class ProjectComponent {
 
-  @Input() name: string;
-  @Input() briefDescription: string;
-  @Input() image: string;
-  @Input() imageAlt: string;
-  @Input() source: string;
+  @Input() project: GitLabProject;
 
   constructor() { }
 }

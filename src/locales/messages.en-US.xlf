@@ -177,28 +177,42 @@
         <source>This is the registered office and correspondence address for Elypia, not base of work or residence.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
         <source>Source Code</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6c14ba8575360a7ef82e1234a7df31db479bd29a" datatype="html">
-        <source>Contribute to this site&apos;s Source Code on GitLab</source>
+      <trans-unit id="3b4a8dc37d77316017b4f1dbd7d7f6f3f99b6d4d" datatype="html">
+        <source>Contribute to the site&apos;s Source Code on GitLab</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="037f8b3b3e81f493484aa8a79f2907772b2c6fd4" datatype="html">
+        <source>Open-Source Libraries</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76df1be6731bf45664d3b8089cb7af5d8ba901ef" datatype="html">
+        <source>View Licenses for All Open-Source Libraries We Use</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cc82fa89983785cb60daa0a7516c611fc02b5cd1" datatype="html">
         <source>Copyright</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="14dd90d51c67e6935128bce4b11139d0461a69ac" datatype="html">
@@ -371,201 +385,11 @@
           <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7f3e68b4fb4b89d9d122b5108b3527b2dc76df1b" datatype="html">
-        <source>
-        Alexis is a free and open-source multi-purpose chatbot for Discord
-        and provides various integrations and moderation features to help
-        you have fun, and automate manage and moderation of your guild!
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6834fa6b43d1ecbdf147c48dd9c4d72f1484571d" datatype="html">
         <source>Source</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">44</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">73</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">85</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="909971e3c3bbec75f12e98a2e663274687547f63" datatype="html">
-        <source>Weblate</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">29</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="84d63aab12a02b4d7b395828846508b49e4f2569" datatype="html">
-        <source>Discord Chatbot</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c8b15a23e1d22a147ab36c1d1ae0601cbf3cf0a6" datatype="html">
-        <source>Avatar for Alexis on Discord</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="defcc86d2359224945158bac8a1351d33535408b" datatype="html">
-        <source>
-        Commandler is a generic command handling framework for Java that
-        allows you to write your code once and integrate it anywhere
-        or multiple places in a single application.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4b01e841470cdd8a83103f0113f5fd766794e558" datatype="html">
-        <source>
-        Commandler makes implementing commands quick and simple without the boilerplate,
-        while the bulk of the work is handled by the framework.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
-        <source>Command Handler</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
+          <context context-type="sourcefile">app/projects/project/project.component.html</context>
           <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b1b0c9855156f7c533efb6bc470eb369ff0d84a2" datatype="html">
-        <source>Commandler logo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="404b62356e04bbb96b591075d377283a7f5fbf64" datatype="html">
-        <source>
-        Confiler is a small service which can be online or self-hosted,
-        it&apos;s a cloud configuration service which will allow
-        users to define entities to process or store configuration for them.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f0513175d5ff5bd88d3786bbea0a4b205e605a62" datatype="html">
-        <source>
-        This is great for applications where you want to have a UI
-        for users to tailor their experience without having to write your
-        own web service dedicated to the generic job we all need.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">55</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2954d13e8dd3306cae3a3747af4fda3973b43d2f" datatype="html">
-        <source>Configuration Filer</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">47</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a0fedea74d0565748115f5eb20aed411a5bc47b5" datatype="html">
-        <source>Confiler Logo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c6eed15b54d7a53fb2c3ad50589957ccf008eb2c" datatype="html">
-        <source>
-        Elypiai is a small but useful library that provides wraps for
-        many APIs available online that don&apos;t already have official implementations.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="40dcaaedf0983f5b3e387b7190e008103bed786e" datatype="html">
-        <source>
-        All wraps have been abstracted as to make it more consistent between
-        web services you&apos;re implementing and maximize pooling resources.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="60bee567fcaf95c9967748b5df9e945a9bbc1388" datatype="html">
-        <source>API Wrapper</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="133b4d82d0661fe1a70f81b1e2b3c9744ed1b87d" datatype="html">
-        <source>Elypiai Logo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">64</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5a8c3a58c4d6aefad0098d935bd9dbb0fdff57da" datatype="html">
-        <source>
-        The Elypia Emotes are a free and open-source set of cute
-        red panda emoticons available under the Apache license.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">77</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6c4d7806a345c0ae37e59d698f4e46ab1fa19626" datatype="html">
-        <source>
-        You can download, modify, reference, or redistribute them
-        as you see fit for any purpose, including commercial.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">81</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0874581c70a8254794a1919919a79931008af5de" datatype="html">
-        <source>Elypia Emotes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">75</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f623106dad17ce6d7914e21ab0057c40de997c6b" datatype="html">
-        <source>Red Panda Emoticons</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">75</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9d539f9ee1d93d3253b1513af80a757b6a454970" datatype="html">
-        <source>pandaAww Red Panda Emote</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
@@ -954,6 +778,24 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
           <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a183f4e1c55faaada746132a5f0e75e0fb79aa0a" datatype="html">
+        <source>Open-Source Licenses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/licenses-page/licenses-page.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5fa6cbf1e680cadca733a8d000b75e87388cae9d" datatype="html">
+        <source>
+      This probably doesn&apos;t come as a surprise, but we use lots of open-source libraries
+      in order to develop the website. You can view a raw version of the list by going
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/licenses-page/licenses-page.component.html</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="583a4094fd518339567a2c0f876a1868a008e985" datatype="html">

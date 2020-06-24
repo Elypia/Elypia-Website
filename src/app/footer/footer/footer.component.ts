@@ -15,6 +15,7 @@
  */
 
 import {Component, OnInit} from '@angular/core';
+import {CompanyAddress, CompanyService} from '../company.service';
 
 @Component({
   selector: 'app-footer',
@@ -23,9 +24,15 @@ import {Component, OnInit} from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  public address: CompanyAddress;
 
-  ngOnInit() {
+  constructor(private companyService: CompanyService) {
+
   }
 
+  public ngOnInit(): void {
+    this.companyService.getAddress().subscribe((address) => {
+      this.address = address;
+    });
+  }
 }

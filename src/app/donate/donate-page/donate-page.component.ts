@@ -18,7 +18,7 @@ import {Component} from '@angular/core';
 import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 import {environment} from '../../../environments/environment';
 import {MatSnackBar} from '@angular/material/snack-bar';
-import {CopiedClipboardComponent} from '../../snackbar-components/copied-clipboard/copied-clipboard.component';
+import {CopiedClipboardComponent} from '../../main/snackbar-components/copied-clipboard/copied-clipboard.component';
 
 @Component({
   selector: 'app-donate',

@@ -14,16 +14,17 @@
  * limitations under the License.
  */
 
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Meta, MetaDefinition, Title} from '@angular/platform-browser';
 import {environment} from '../../../environments/environment';
+import {GitLabProject, GitlabService} from '../gitlab.service';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects-page.component.html',
   styleUrls: ['./projects-page.component.css']
 })
-export class ProjectsPageComponent {
+export class ProjectsPageComponent implements OnInit {
 
   /** Description for search engines to display to users about this page. */
   private static readonly Description: MetaDefinition = {
@@ -32,8 +33,29 @@ export class ProjectsPageComponent {
              'and where contributions can be made, even if you don\' know how to code.'
   };
 
-  constructor(private titleService: Title, private meta: Meta) {
-    titleService.setTitle(environment.titlePrefix + ' | Projects');
+  /** A list of projects by ID that we're interesting in displaying. */
+  private static readonly ProjectIds: number[] = [
+    4821384, // Alexis
+    16105346, // ImageCaster
+    6095878, // Commandler
+    4821538, // Elypiai
+    18884886 // YAML4DeltaSpike
+  ];
+
+  public projects: GitLabProject[];
+
+  constructor(
+    private title: Title,
+    private meta: Meta,
+    private gitlabService: GitlabService
+  ) {
+    title.setTitle(environment.titlePrefix + ' | Projects');
     meta.updateTag(ProjectsPageComponent.Description);
+  }
+
+  ngOnInit(): void {
+    this.gitlabService.getProjects(ProjectsPageComponent.ProjectIds).subscribe((projects) => {
+      this.projects = projects;
+    });
   }
 }

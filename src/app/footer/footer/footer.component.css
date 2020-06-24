@@ -48,6 +48,10 @@ img {
   text-align: center;
 }
 
+#footer-links a {
+  padding: 0 .5em;
+}
+
 .pad-right {
   padding-right: .25em;
 }

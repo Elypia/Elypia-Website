@@ -410,14 +410,6 @@
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
-        <source>Command Handler</source>
-        <target>Moduł Obsługi Poleceń</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="b1b0c9855156f7c533efb6bc470eb369ff0d84a2" datatype="html">
         <source>Commandler logo</source>
         <target>Logo Commandlera</target>

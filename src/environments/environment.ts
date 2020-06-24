@@ -25,7 +25,7 @@ export const environment = {
   loggingLevel: NgxLoggerLevel.TRACE,
 
   /** The endpoint that the API exists. */
-  baseUrl: 'http://localhost:8081/api/',
+  backendEndpoint: 'http://localhost:8081/',
 
   /** The prefix of the title to on the current page. */
   titlePrefix: 'Devypia'

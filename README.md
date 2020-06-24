@@ -3,14 +3,9 @@
 This is the frontend for the Elypia website.
 
 # Requirements
-* [Elypia API] *
+* [Elypia API]
 * [Angular 9+]
 * [NodeJS 12.15.0]
-> \* The frontend should still render well without an available
-> backend to make development easier, and to give a
-> consistent look and feel where it may be down. It's still
-> recommended to set up the backend and run it in your development
-> environment when convenient to do so.
 
 ## Open-Source
 This project is open-source under the [Apache 2.0]!  
@@ -33,7 +28,7 @@ except as required to describe the origin of work.**
 [Apache 2.0]: https://www.apache.org/licenses/LICENSE-2.0 "Apache 2.0 License"
 [TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "TL;DR of Apache 2.0"
 
-[Matrix]: https://img.shields.io/matrix/elypia-general:matrix.org?logo=matrix "Matrix Shield"
+[Matrix]: https://img.shields.io/matrix/elypia:matrix.org?logo=matrix "Matrix Shield"
 [Discord]: https://discord.com/api/guilds/184657525990359041/widget.png "Discord Shield"
 [i18n]: https://i18n.elypia.org/widgets/elypia-website/-/svg-badge.svg "Weblate Translation Badge"
 [Build]: https://gitlab.com/Elypia/elypia-website/badges/master/pipeline.svg "GitLab Build Shield"

@@ -18,3 +18,5 @@
   Alternatively, you can put screenshots if where this may have been implemented elsewhere.
 -->
 ## Interface
+
+/label ~"New Feature" 

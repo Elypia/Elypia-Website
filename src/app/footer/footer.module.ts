@@ -20,6 +20,8 @@ import {FooterComponent} from './footer/footer.component';
 import {SocialComponent} from './social/social.component';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {RouterModule} from '@angular/router';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
   imports: [
     CommonModule,
     MatTooltipModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    RouterModule,
+    HttpClientModule
   ],
   exports: [
     FooterComponent,

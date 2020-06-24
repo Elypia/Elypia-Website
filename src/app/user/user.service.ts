@@ -37,7 +37,7 @@ export class UserService {
   public exists(email: string): Observable<boolean> {
     const params: HttpParams = new HttpParams().set('email', email);
 
-    return this.client.get<boolean>(environment.baseUrl + 'users/exists', {params})
+    return this.client.get<boolean>(environment.backendEndpoint + 'users/exists', {params})
       .pipe(
         map(() =>  true),
         catchError((err: HttpErrorResponse) => {
@@ -51,6 +51,6 @@ export class UserService {
   }
 
   public register(form: LoginForm): Observable<User> {
-    return this.client.post<User>(environment.baseUrl + 'users/register', form);
+    return this.client.post<User>(environment.backendEndpoint + 'users/register', form);
   }
 }

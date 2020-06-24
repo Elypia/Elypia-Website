@@ -14,15 +14,22 @@
  * limitations under the License.
  */
 
-import {TestBed} from '@angular/core/testing';
+import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {Observable} from 'rxjs';
 
-import {CompaniesHouseService} from './companies-house.service';
+@Injectable({
+  providedIn: 'root'
+})
+export class LicensesService {
 
-describe('CompaniesHouseService', () => {
-  beforeEach(() => TestBed.configureTestingModule({}));
+  private static readonly ThirdPartyLicensesPath: string = '/3rdpartylicenses.txt';
 
-  it('should be created', () => {
-    const service: CompaniesHouseService = TestBed.inject(CompaniesHouseService);
-    expect(service).toBeTruthy();
-  });
-});
+  constructor(private client: HttpClient) { }
+
+  public get3rdPartyLicensesRaw(): Observable<string> {
+    return this.client.get(LicensesService.ThirdPartyLicensesPath, {
+      responseType: 'text'
+    });
+  }
+}

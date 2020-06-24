@@ -14,18 +14,22 @@
   ~ limitations under the License.
   -->
 
-<mat-card>
+<mat-card *ngIf="project">
   <div class="project-title">
-    <h2>{{name}}</h2>
-    <h3>{{briefDescription}}</h3>
+    <h2>{{project.name}}</h2>
   </div>
   <div class="project-info">
-    <img class="project-info-image" [src]="image" [alt]="imageAlt" width="128" height="128"/>
+    <img class="project-info-image" [src]="project.avatarUrl" [alt]="project.name + ' Logo'" width="128" height="128"/>
     <div class="project-info-description">
-      <ng-content></ng-content>
+      {{project.description}}
     </div>
   </div>
   <div class="project-buttons">
-    <ng-content select="[mat-button]"></ng-content>
+    <a mat-button [href]="project.url + '/-/starrers'" target="_blank" rel="noopener">
+      <fa-icon [icon]="['fas', 'star']"></fa-icon> <span>{{project.stars}}</span>
+    </a>
+    <a mat-button [href]="project.url" target="_blank" rel="noopener">
+      <fa-icon [icon]="['fab', 'gitlab']"></fa-icon> <span i18n>Source</span>
+    </a>
   </div>
 </mat-card>

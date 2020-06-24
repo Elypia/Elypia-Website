@@ -75,9 +75,12 @@ import {faPaypal} from '@fortawesome/free-brands-svg-icons/faPaypal';
 import {faTshirt} from '@fortawesome/pro-solid-svg-icons/faTshirt';
 import {faDownload} from '@fortawesome/pro-solid-svg-icons/faDownload';
 import {faPaste} from '@fortawesome/pro-duotone-svg-icons/faPaste';
-import {CopiedClipboardComponent} from './snackbar-components/copied-clipboard/copied-clipboard.component';
+import {CopiedClipboardComponent} from './main/snackbar-components/copied-clipboard/copied-clipboard.component';
 import {faMastodon} from '@fortawesome/free-brands-svg-icons/faMastodon';
 import {faGamepadAlt} from '@fortawesome/pro-solid-svg-icons/faGamepadAlt';
+import {LicensesPageComponent} from './main/licenses-page/licenses-page.component';
+import {faBooks} from '@fortawesome/pro-solid-svg-icons/faBooks';
+import {faStar} from '@fortawesome/pro-solid-svg-icons/faStar';
 
 const appRoutes: Routes = [
   /** Useless without API */
@@ -87,6 +90,7 @@ const appRoutes: Routes = [
   /** Works without API, may lose some features. */
   { path: 'support/press-kit', component: PressKitPageComponent },
   { path: 'support/privacy', component: PrivacyPageComponent },
+  { path: 'licenses', component: LicensesPageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'projects', component: ProjectsPageComponent },
   { path: 'donate', component: DonatePageComponent },
@@ -115,7 +119,8 @@ const markdownOptions: MarkdownModuleConfig = {
     HomePageComponent,
     AboutPageComponent,
     PrivacyPageComponent,
-    CopiedClipboardComponent
+    CopiedClipboardComponent,
+    LicensesPageComponent
   ],
   imports: [
     // Configured
@@ -173,38 +178,29 @@ export class AppModule {
 
   constructor(private library: FaIconLibrary) {
     library.addIcons(
-      // Toolbar
+      faBooks,
       faChevronDown,
-      faLanguage,
+      faCircle,
+      faCopyright,
+      faCreditCard,
+      faDiscord,
+      faDownload,
       faEllipsisV,
       faFillDrip,
-      faCircle,
-
-      // Social
+      faGamepadAlt,
+      faGitlab,
+      faInfoCircle,
+      faLanguage,
       faLinkedin,
       faMastodon,
-      faGitlab,
-      faTwitter,
-      faRedditAlien,
-      faTwitch,
-      faDiscord,
-
-      // Donate
-      faUniversity,
-      faCreditCard,
-      faPaypal,
-      faGamepadAlt,
-      faTshirt,
       faPaste,
-
-      // Press Kit
-      faDownload,
-
-      // Footer
-      faCopyright,
-
-      // Misc
-      faInfoCircle
+      faPaypal,
+      faRedditAlien,
+      faStar,
+      faTshirt,
+      faTwitch,
+      faTwitter,
+      faUniversity
     );
   }
 }

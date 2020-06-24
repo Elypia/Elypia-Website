@@ -481,14 +481,6 @@
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7e1b85e2123931c367f5c59c10220968a61399a1" datatype="html">
-        <source>Command Handler</source>
-        <target>Command Handler</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/projects/projects-page/projects-page.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="0ef84a4052a584037f69b3e467dd5dcc2647f3f5" datatype="html">
         <source>Commandler will handle all the work so it keeps implementing commands quick and simple while the bulk of the work is handled by the framework.</source>
         <target>Commandler will handle the work so you can just implement the commands you want and leave most of the work to the framework.</target>

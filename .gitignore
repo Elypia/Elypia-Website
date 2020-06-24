@@ -45,9 +45,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
-##################
-# elypia-website #
-##################
+###########
+# Project #
+###########
 
 *.pem
 *.key

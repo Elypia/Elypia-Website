@@ -19,6 +19,7 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 import {ProjectsPageComponent} from './projects-page.component';
 import {ProjectComponent} from '../project/project.component';
 import {MatCardModule} from '@angular/material/card';
+import {HttpClientModule} from '@angular/common/http';
 
 describe('ProjectsComponent', () => {
   let component: ProjectsPageComponent;
@@ -31,7 +32,8 @@ describe('ProjectsComponent', () => {
         ProjectComponent
       ],
       imports: [
-        MatCardModule
+        MatCardModule,
+        HttpClientModule
       ]
     })
     .compileComponents();

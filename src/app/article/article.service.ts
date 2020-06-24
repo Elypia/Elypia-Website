@@ -29,10 +29,10 @@ export class ArticleService {
 
   public getSingle(id: number): Observable<Article> {
     const params: HttpParams = new HttpParams().set('id', id.toString());
-    return this.client.get<Article>(environment.baseUrl + 'articles/single', {params});
+    return this.client.get<Article>(environment.backendEndpoint + 'articles/single', {params});
   }
 
   public getRecent(): Observable<Article[]> {
-    return this.client.get<Article[]>(environment.baseUrl + 'articles/recent');
+    return this.client.get<Article[]>(environment.backendEndpoint + 'articles/recent');
   }
 }

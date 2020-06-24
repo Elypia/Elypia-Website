@@ -20,6 +20,7 @@ import {ProjectsPageComponent} from './projects-page/projects-page.component';
 import {ProjectComponent} from './project/project.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {MatButtonModule} from '@angular/material/button';
   imports: [
     CommonModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    FontAwesomeModule
   ],
   exports: [
     ProjectsPageComponent,

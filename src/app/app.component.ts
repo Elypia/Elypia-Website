@@ -15,7 +15,7 @@
  */
 
 import {Component, OnInit} from '@angular/core';
-import {ThemeService} from './theme.service';
+import {ThemeService} from './main/theme.service';
 import {MenuNode} from './toolbar/toolbar';
 
 @Component({
@@ -45,12 +45,11 @@ export class AppComponent implements OnInit {
   constructor(
     public themeService: ThemeService
   ) {
-    console.log('%cHold on!', 'color: red; font-size: 64px;');
+    console.log('%cHold up!', 'color: red; font-size: 64px;');
     console.log('If someone\'s told you to open this panel or console to perform ' +
-      'commands or check something on your browser, chances are they\'re trying to access ' +
-      'sensitive information which could compromise your account or data. ' +
-      'Only continue if you know what you\'re doing; if you do know what you\'re doing ' +
-      'feel free to contribute to our projects-page at <https://gitlab.com/Elypia>!');
+      'commands or check something in your browser, chances are they\'re trying to access ' +
+      'sensitive information which could compromise your account or personal data. ' +
+      'Only continue if you know what you\'re doing!');
   }
 
   ngOnInit(): void {

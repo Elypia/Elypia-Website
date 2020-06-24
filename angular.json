@@ -49,7 +49,8 @@
             ],
             "scripts": [],
             "es5BrowserSupport": true,
-            "i18nMissingTranslation": "ignore"
+            "i18nMissingTranslation": "ignore",
+            "extractLicenses": true
           },
           "configurations": {
             "production": {

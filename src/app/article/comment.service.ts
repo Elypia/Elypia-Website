@@ -33,6 +33,6 @@ export class CommentService {
       .set('articleId', articleId.toString())
       .set('page', page.toString());
 
-    return this.client.get<Slice<ArticleComment[]>>(environment.baseUrl + 'comments/paginate', {params});
+    return this.client.get<Slice<ArticleComment[]>>(environment.backendEndpoint + 'comments/paginate', {params});
   }
 }
