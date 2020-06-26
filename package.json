@@ -11,15 +11,15 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0 --port 4201",
+    "start": "ng serve --host 0.0.0.0",
     "build": "ng build --prod --localize",
     "test": "ng test --no-progress --browsers=ChromiumHeadlessNoSandbox",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "xi18n": "ng xi18n --format=xlf --output-path ./locales/ --out-file messages.en-US.xlf",
     "check": "npm run lint && npm run test && npm run e2e && npm run docker:dev",
-    "docker:dev": "npm run build && docker build -t elypia-website-dev:latest .",
-    "nginx:dev": "npm run docker:dev && docker run -p 8081:80 elypia-website-dev:latest",
+    "docker:dev": "npm run build && docker build -t elypia/elypia-website:dev .",
+    "nginx:dev": "npm run docker:dev && docker run -p 80:80 elypia/elypia-website:dev",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
   },
   "dependencies": {
