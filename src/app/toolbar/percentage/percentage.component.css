@@ -1,0 +1,9 @@
+.colored-percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em;
+  height: 1.5em;
+  width: 3em;
+  border-radius: .5em;
+}

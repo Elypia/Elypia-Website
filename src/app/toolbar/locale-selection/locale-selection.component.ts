@@ -16,11 +16,15 @@
 
 import {Component, Inject, LOCALE_ID, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
+import {LanguageStatistics, WeblateService} from '../weblate.service';
 
 /**
  * Described a locale that the website can be displayed.
  */
 class Locale {
+
+  /** The user friendly name. */
+  displayName: string;
 
   /**
    * The code for this locale, this could be either language,
@@ -28,12 +32,13 @@ class Locale {
    */
   code: string;
 
-  /** The user friendly name. */
-  displayName: string;
+  /** The language code is stored in Weblate. */
+  weblateCode: string;
 
-  constructor(code: string, displayName: string) {
-    this.code = code;
+  constructor(displayName: string, code: string, weblateCode: string = code) {
     this.displayName = displayName;
+    this.code = code;
+    this.weblateCode = weblateCode;
   }
 
   /**
@@ -54,21 +59,35 @@ class Locale {
 export class LocaleSelectionComponent implements OnInit {
 
   public readonly Locales: Locale[] = [
-    new Locale('bs-Latn', 'Bosanski (Latinski)'),
-    new Locale('en-Simple', 'English (Simple)'),
-    new Locale('en-US', 'English (US)'),
-    new Locale('fr', 'Français'),
-    new Locale('nl', 'Nederlands'),
-    new Locale('pl', 'Polski')
+    new Locale('Bosanski (Latinski)', 'bs-Latn', 'bs_Latn'),
+    new Locale('English (Simple)', 'en-Simple', 'en_Simple'),
+    new Locale('English (US)', 'en-US', 'en'),
+    new Locale('Français', 'fr'),
+    new Locale('Nederlands', 'nl'),
+    new Locale('Polski', 'pl')
   ];
+
+  /**
+   * The selected locale in he {@link LocaleSelectionComponent}.
+   * This is not the same as the {@link currentLocale}.
+   */
+  public selectedLocale: Locale;
+
+  /** All language statistics for the website on Weblate. */
+  public languageStatistics: LanguageStatistics[];
 
   constructor(
     @Inject(LOCALE_ID) public readonly currentLocale: string,
-    public readonly router: Router
-  ) { }
+    public readonly router: Router,
+    private readonly weblateService: WeblateService
+  ) {
+    this.selectedLocale = this.Locales.find((locale) => currentLocale === locale.code);
+  }
 
-  ngOnInit() {
-
+  public ngOnInit() {
+    this.weblateService.getProjectLanguageStatistics('elypia-website').subscribe((languageStatistics) => {
+      this.languageStatistics = languageStatistics;
+    });
   }
 
   /**
@@ -77,5 +96,11 @@ export class LocaleSelectionComponent implements OnInit {
    */
   public isCurrentLocale(locale: Locale): boolean {
     return this.currentLocale === locale.code;
+  }
+
+  public getPercentageTranslated(locale: Locale): number {
+    return this.languageStatistics.find((stats) =>
+      stats.languageCode === locale.weblateCode
+    ).translatedStringsPercentage;
   }
 }

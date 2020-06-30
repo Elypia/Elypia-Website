@@ -78,10 +78,6 @@ app-mobile-toolbar-menu:not(.mobile-menu-toggled) {
   display: none;
 }
 
-.locale-badge {
-  height: 1em;
-}
-
 .margin-right {
   margin-right: 1em;
 }

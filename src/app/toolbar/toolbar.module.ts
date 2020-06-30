@@ -34,13 +34,17 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {MatSelectModule} from '@angular/material/select';
+import {MatChipsModule} from '@angular/material/chips';
+import {PercentageComponent} from './percentage/percentage.component';
 
 @NgModule({
   declarations: [
     ToolbarComponent,
     MobileToolbarMenuComponent,
     LocaleSelectionComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    PercentageComponent
   ],
   imports: [
     CommonModule,
@@ -58,13 +62,15 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     MatCheckboxModule,
     ElyStatefulButtonModule,
     MatTooltipModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatSelectModule
   ],
   exports: [
     ToolbarComponent,
     MobileToolbarMenuComponent,
     LocaleSelectionComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    MatChipsModule
   ],
   entryComponents: [
     LocaleSelectionComponent,

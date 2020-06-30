@@ -14,28 +14,46 @@
   ~ limitations under the License.
   -->
 
-<h2 id="locale-title">
-  <span i18n>Language Selection</span>
-  <sup id="locale-contribute" i18n-matTooltip
+<header>
+  <h2 id="locale-title" i18n>
+    Language Selection
+  </h2>
+</header>
+<mat-form-field id="locale-selection">
+  <mat-label>Language</mat-label>
+  <mat-select
+    class="no-select"
+    [(value)]="selectedLocale"
+  >
+    <mat-option *ngFor="let locale of Locales" [value]="locale">
+      <div class="spread-apart">
+        <span>{{locale.displayName}}</span>
+        <app-percentage *ngIf="languageStatistics" [percentage]="getPercentageTranslated(locale)"></app-percentage>
+      </div>
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<div id="locale-buttons">
+  <a
+    mat-button
+    [disabled]="isCurrentLocale(selectedLocale)"
+    href="/{{selectedLocale.code}}{{router.url}}"
+    [hreflang]="selectedLocale.code"
+  >
+    Select
+  </a>
+  <a
+    mat-button class="locale-link"
+    href="https://i18n.elypia.org/engage/elypia-website/{{selectedLocale.codeUnderscore()}}/"
+    [hreflang]="selectedLocale.code"
+    target="_blank"
+    rel="noopener"
+  >
+    Weblate
+  </a>
+  <span id="locale-contribute" i18n-matTooltip
        matTooltip="You don't need to know how to code to contribute and support Elypia; come translate on Weblate!"
        matTooltipPosition="above">
     <fa-icon class="hover" [icon]="['fas', 'info-circle']"></fa-icon>
-  </sup>
-</h2>
-<div *ngFor="let locale of Locales" class="locale">
-  <ng-container *ngIf="!isCurrentLocale(locale) else disabledLocale">
-    <a mat-button class="locale-option" href="/{{locale.code}}{{router.url}}" [hreflang]="locale.code">
-      {{locale.displayName}}
-    </a>
-  </ng-container>
-  <ng-template #disabledLocale>
-    <span class="locale-option disabled">{{locale.displayName}}</span>
-  </ng-template>
-  <a mat-button class="locale-link hover-excluded"
-     href="https://i18n.elypia.org/engage/elypia-website/{{locale.codeUnderscore()}}/"
-     [hreflang]="locale.code" target="_blank" rel="noopener">
-    <img class="locale-badge" width="116" height="20"
-         src="https://i18n.elypia.org/widgets/elypia-website/{{locale.codeUnderscore()}}/svg-badge.svg"
-         i18n-alt alt="Contribute to translations on Weblate"/>
-  </a>
+  </span>
 </div>
