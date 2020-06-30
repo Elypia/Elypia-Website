@@ -26,16 +26,29 @@ export class PercentageComponent {
 
   constructor(private logger: NGXLogger) { }
 
+  /**
+   * @returns The RGBA string for the background-color of the percentage.
+   */
   public getRgba(): string {
     if (this.percentage === 100 && this.completeColor)
       return `rgba(${this.completeColor[0]}, ${this.completeColor[1]}, ${this.completeColor[2]}, ${this.completeColor[3]})`;
     else {
-      const r = this.minColor[0] - ((this.minColor[0] - this.maxColor[0]) * (this.percentage / 100));
-      const g = this.minColor[1] - ((this.minColor[1] - this.maxColor[1]) * (this.percentage / 100));
-      const b = this.minColor[2] - ((this.minColor[2] - this.maxColor[2]) * (this.percentage / 100));
-      const a = this.minColor[3] - ((this.minColor[3] - this.maxColor[3]) * (this.percentage / 100));
+      const r = this.calculateColor(this.minColor[0], this.maxColor[0], this.percentage);
+      const g = this.calculateColor(this.minColor[1], this.maxColor[1], this.percentage);
+      const b = this.calculateColor(this.minColor[2], this.maxColor[2], this.percentage);
+      const a = this.calculateColor(this.minColor[3], this.maxColor[3], this.percentage);
 
       return `rgba(${r}, ${g}, ${b}, ${a})`;
     }
+  }
+
+  /**
+   * @param minColor The value of the color at 0%.
+   * @param maxColor The value of the color at 100%/
+   * @param percentage The current percentage to calculate for.
+   * @returns A color between the min and max color relative to the percentage.
+   */
+  private calculateColor(minColor: number, maxColor: number, percentage: number): number {
+    return minColor - ((minColor - maxColor) * (percentage / 100));
   }
 }
