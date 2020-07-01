@@ -17,12 +17,12 @@
 import {TestBed} from '@angular/core/testing';
 
 import {ArticleService} from './article.service';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('ArticleService', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [
-      HttpClientModule
+      HttpClientTestingModule
     ]
   }));
 

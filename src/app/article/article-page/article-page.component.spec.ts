@@ -21,10 +21,10 @@ import {ArticleComponent} from '../article/article.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {CommentComponent} from '../comment/comment.component';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
-import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('ArticlePageComponent', () => {
   let component: ArticlePageComponent;
@@ -39,7 +39,7 @@ describe('ArticlePageComponent', () => {
       ],
       imports: [
         MarkdownModule.forRoot({markedOptions: {provide: MarkedOptions}}),
-        HttpClientModule,
+        HttpClientTestingModule,
         RouterTestingModule,
         CommonModule,
         MatExpansionModule,

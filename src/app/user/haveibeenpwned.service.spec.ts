@@ -17,12 +17,12 @@
 import {TestBed} from '@angular/core/testing';
 
 import {HaveibeenpwnedService} from './haveibeenpwned.service';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('HaveibeenpwnedService', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [
-      HttpClientModule
+      HttpClientTestingModule
     ]
   }));
 

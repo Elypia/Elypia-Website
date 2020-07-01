@@ -20,9 +20,9 @@ import {HomePageComponent} from './home-page.component';
 import {ElyLoadableModule} from '@elypia/ng-elypian';
 import {RouterTestingModule} from '@angular/router/testing';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
-import {HttpClientModule} from '@angular/common/http';
 import {ArticleModule} from '../../article/article.module';
 import {MatCardModule} from '@angular/material/card';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('HomeComponent', () => {
   let component: HomePageComponent;
@@ -35,7 +35,7 @@ describe('HomeComponent', () => {
       ],
       imports: [
         MarkdownModule.forRoot({markedOptions: {provide: MarkedOptions}}),
-        HttpClientModule,
+        HttpClientTestingModule,
         RouterTestingModule,
         ArticleModule,
         ElyLoadableModule,

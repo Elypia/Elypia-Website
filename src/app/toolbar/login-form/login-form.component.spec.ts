@@ -22,9 +22,9 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatInputModule} from '@angular/material/input';
 import {ElyEqualsModule, ElyStatefulButtonModule} from '@elypia/ng-elypian';
 import {RouterTestingModule} from '@angular/router/testing';
-import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('LoginFormComponent', () => {
   let component: LoginFormComponent;
@@ -35,7 +35,7 @@ describe('LoginFormComponent', () => {
       declarations: [ LoginFormComponent ],
       imports: [
         BrowserAnimationsModule,
-        HttpClientModule,
+        HttpClientTestingModule,
         RouterTestingModule,
         FormsModule,
         CommonModule,

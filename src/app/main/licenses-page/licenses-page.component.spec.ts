@@ -1,9 +1,9 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {LicensesPageComponent} from './licenses-page.component';
-import {HttpClientModule} from '@angular/common/http';
 import {LoggerTestingModule} from 'ngx-logger/testing';
 import {MatCardModule} from '@angular/material/card';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('LicensesPageComponent', () => {
   let component: LicensesPageComponent;
@@ -16,7 +16,7 @@ describe('LicensesPageComponent', () => {
       ],
       imports: [
         MatCardModule,
-        HttpClientModule,
+        HttpClientTestingModule,
         LoggerTestingModule
       ]
     })

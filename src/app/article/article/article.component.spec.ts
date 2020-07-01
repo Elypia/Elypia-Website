@@ -20,10 +20,10 @@ import {ArticleComponent} from './article.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {ElyTimestampModule} from '@elypia/ng-elypian';
 import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
-import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('ArticleComponent', () => {
   let component: ArticleComponent;
@@ -35,7 +35,7 @@ describe('ArticleComponent', () => {
       imports: [
         MarkdownModule.forRoot({markedOptions: {provide: MarkedOptions}}),
         CommonModule,
-        HttpClientModule,
+        HttpClientTestingModule,
         RouterTestingModule,
         ElyTimestampModule,
         MatExpansionModule,

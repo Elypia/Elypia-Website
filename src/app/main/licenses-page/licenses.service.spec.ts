@@ -1,12 +1,12 @@
 import {TestBed} from '@angular/core/testing';
 
 import {LicensesService} from './licenses.service';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('LicensesService', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [
-      HttpClientModule
+      HttpClientTestingModule
     ]
   }));
 
