@@ -48,7 +48,6 @@
               "src/styles.theme.scss"
             ],
             "scripts": [],
-            "es5BrowserSupport": true,
             "i18nMissingTranslation": "ignore",
             "extractLicenses": true
           },

@@ -71,10 +71,6 @@ import {PercentageComponent} from './percentage/percentage.component';
     LocaleSelectionComponent,
     LoginFormComponent,
     MatChipsModule
-  ],
-  entryComponents: [
-    LocaleSelectionComponent,
-    LoginFormComponent
   ]
 })
 export class ToolbarModule { }
