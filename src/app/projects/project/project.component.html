@@ -26,10 +26,10 @@
   </div>
   <div class="project-buttons">
     <a mat-button [href]="project.url + '/-/starrers'" target="_blank" rel="noopener">
-      <fa-icon [icon]="['fas', 'star']"></fa-icon> <span>{{project.stars}}</span>
+      <fa-icon [icon]="['fas', 'star']"></fa-icon> <span class="button-name">{{project.stars}}</span>
     </a>
     <a mat-button [href]="project.url" target="_blank" rel="noopener">
-      <fa-icon [icon]="['fab', 'gitlab']"></fa-icon> <span i18n>Source</span>
+      <fa-icon [icon]="['fab', 'gitlab']"></fa-icon> <span class="button-name" i18n>Source</span>
     </a>
   </div>
 </mat-card>

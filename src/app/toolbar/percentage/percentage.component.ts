@@ -16,10 +16,10 @@ export class PercentageComponent {
   @Input() public percentage: number;
 
   /** The color that the minimum (0) value should be displayed as. */
-  @Input() public minColor: number[] = [112, 48, 51, 1];
+  @Input() public minColor: number[] = [255, 0, 0, 1];
 
   /** The color that the maximum (100) value should be displayed as. */
-  @Input() public maxColor: number[] = [53, 107, 51, 1];
+  @Input() public maxColor: number[] = [100, 255, 100, 1];
 
   /** An optional override if a color off the scale should be used for 100%. */
   @Input() public completeColor: number[] = null;

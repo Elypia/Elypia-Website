@@ -13,11 +13,6 @@ export interface CompanyAddress {
   addressLine2: string;
   country: string;
   locality: string;
-  poBox: string;
-  region: string;
-  careOf: string;
-  etag: string;
-  premises: string;
   postalCode: string;
 }
 

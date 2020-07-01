@@ -1,12 +1,12 @@
 import {TestBed} from '@angular/core/testing';
 
 import {GitlabService} from './gitlab.service';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('GitlabService', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [
-      HttpClientModule
+      HttpClientTestingModule
     ]
   }));
 

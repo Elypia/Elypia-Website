@@ -18,8 +18,8 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {ProjectComponent} from './project.component';
 import {MatCardModule} from '@angular/material/card';
-import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {MatButtonModule} from '@angular/material/button';
+import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 
 describe('ProjectComponent', () => {
   let component: ProjectComponent;
@@ -31,7 +31,7 @@ describe('ProjectComponent', () => {
       imports: [
         MatCardModule,
         MatButtonModule,
-        FontAwesomeModule
+        FontAwesomeTestingModule
       ]
     })
     .compileComponents();

@@ -48,6 +48,10 @@ h3 {
   justify-content: flex-end;
 }
 
+.button-name {
+  margin-left: .5em;
+}
+
 @media (min-width: 512px) {
   mat-card {
     display: grid;

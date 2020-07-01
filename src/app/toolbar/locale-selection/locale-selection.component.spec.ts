@@ -20,6 +20,9 @@ import {LocaleSelectionComponent} from './locale-selection.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
 import {MatSelectModule} from '@angular/material/select';
+import {LoggerTestingModule} from 'ngx-logger/testing';
+import {HttpClientTestingModule} from '@angular/common/http/testing';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('LocaleSelectionComponent', () => {
   let component: LocaleSelectionComponent;
@@ -29,9 +32,12 @@ describe('LocaleSelectionComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ LocaleSelectionComponent ],
       imports: [
+        BrowserAnimationsModule,
         RouterTestingModule,
         FontAwesomeTestingModule,
-        MatSelectModule
+        MatSelectModule,
+        LoggerTestingModule,
+        HttpClientTestingModule
       ]
     })
     .compileComponents();

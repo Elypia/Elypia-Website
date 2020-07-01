@@ -504,8 +504,10 @@
           <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c5de8389663b0695a4faadeb75a465fbc9226c24" datatype="html">
-        <source>Language Selection</source>
+      <trans-unit id="da9f823f3cb5214dce447f76585cf91400a928d7" datatype="html">
+        <source>
+    Language Selection
+  </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
           <context context-type="linenumber">18</context>
@@ -515,14 +517,7 @@
         <source>You don&apos;t need to know how to code to contribute and support Elypia; come translate on Weblate!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="986824516a1a8cb4151c1959910a25d75dad50dc" datatype="html">
-        <source>Contribute to translations on Weblate</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="71dc0ad61c5c2a1a04d50af50ab8a713d61c8ac4" datatype="html">

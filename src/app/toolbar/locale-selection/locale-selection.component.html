@@ -28,7 +28,11 @@
     <mat-option *ngFor="let locale of Locales" [value]="locale">
       <div class="spread-apart">
         <span>{{locale.displayName}}</span>
-        <app-percentage *ngIf="languageStatistics" [percentage]="getPercentageTranslated(locale)"></app-percentage>
+        <app-percentage
+          *ngIf="languageStatistics"
+          [percentage]="getPercentageTranslated(locale)"
+        >
+        </app-percentage>
       </div>
     </mat-option>
   </mat-select>
