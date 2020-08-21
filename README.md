@@ -1,4 +1,9 @@
-# Elypia Website [![Matrix]][matrix-community] [![Discord]][discord-guild] [![i18n]][i18n-badge] [![Build]][gitlab] [![Coverage]][gitlab] [![Donate]][elypia-donate]
+<div align="center">
+
+# Elypia Website
+[![Matrix]][matrix-community] [![Discord]][discord-guild] [![i18n]][i18n-badge] [![Build]][gitlab] [![Coverage]][gitlab] [![Donate]][elypia-donate]
+</div>
+
 ## About
 This is the frontend for the Elypia website.
 
