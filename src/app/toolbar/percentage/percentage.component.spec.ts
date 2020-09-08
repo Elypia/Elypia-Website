@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import {PercentageComponent} from './percentage.component';
 import {LoggerTestingModule} from 'ngx-logger/testing';
@@ -7,7 +7,7 @@ describe('PercentageComponent', () => {
   let component: PercentageComponent;
   let fixture: ComponentFixture<PercentageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         PercentageComponent

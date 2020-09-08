@@ -98,22 +98,6 @@
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="a15ed1dd7a4d96a707c1d7cdb0c760bcb20e1ee8" datatype="html">
-        <source>If you have a PayPal account you can donate using the attached credit/debit card, bank account, or PayPal balance.</source>
-        <target>Jeżeli posiadasz konto PayPal, możesz wykonać donację, używając przypisanej karty, konta bankowego lub salda PayPal.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">97</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
-        <source>PayPal</source>
-        <target>PayPal</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">96</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="f0a53c6d53b13f2df560312133d3ff2009cf6c60" datatype="html">
         <source>You can support us by purchasing our branded merchandise.</source>
         <target>Możesz nas wspierać, kupując nasze markowe towary.</target>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import {BrandCardComponent} from './brand-card.component';
 import {FontAwesomeTestingModule} from '@fortawesome/angular-fontawesome/testing';
@@ -23,7 +23,7 @@ describe('BrandCardComponent', () => {
   let component: BrandCardComponent;
   let fixture: ComponentFixture<BrandCardComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         BrandCardComponent

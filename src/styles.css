@@ -25,7 +25,7 @@ ul, li, p, a {
 
 /*
   Make the scrollbar always visible to prevent page jumping
-  between big and small main.
+  between big and small pages.
  */
 html {
   overflow-y: scroll;

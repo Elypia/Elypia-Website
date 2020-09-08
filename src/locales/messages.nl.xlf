@@ -606,22 +606,6 @@
           <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="a15ed1dd7a4d96a707c1d7cdb0c760bcb20e1ee8" datatype="html">
-        <source>If you have a PayPal account you can donate using the attached credit/debit card, bank account, or PayPal balance.</source>
-        <target>Als u een PayPal-account hebt, kunt u doneren met de bijgevoegde kredietkaart / bankkaart, bankrekening of PayPal-saldo.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
-        <source>PayPal</source>
-        <target>PayPal</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="8184c05d8fd8d596166564a65b926f266a071533" datatype="html">
         <source>Donate directly on the site with your debit or credit card. All donations using this method are processed by Stripe; we won't process or store your information.</source>
         <target>Doneer rechtstreeks op de site met uw bank of kredietkaart. Alle donaties die deze methode gebruiken, worden verwerkt door Stripe; we zullen uw informatie niet verwerken of opslaan.</target>

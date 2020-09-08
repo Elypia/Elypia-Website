@@ -122,28 +122,12 @@
           <context context-type="linenumber">107</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
-        <source>PayPal</source>
-        <target>PayPal</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">98</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="b56d5a5b4954332e22e3693c13eafb66c7b4fa36" datatype="html">
         <source>Donate by transfering money or setting up a standing order directly to our company bank account.</source>
         <target state="translated">Faites un don en transférant de l'argent ou en établissant un ordre permanent directement sur le compte bancaire de notre entreprise.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
           <context context-type="linenumber">53</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a15ed1dd7a4d96a707c1d7cdb0c760bcb20e1ee8" datatype="html">
-        <source>If you have a PayPal account you can donate using the attached credit/debit card, bank account, or PayPal balance.</source>
-        <target>Si vous avez un compte PayPal, vous pouvez faire un don en utilisant votre carte de crédit / débit, votre compte bancaire ou votre solde PayPal.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">99</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4eb36eee0c420c1f329eedecd87f2770d41df484" datatype="html">

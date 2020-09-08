@@ -13,8 +13,6 @@ stages:
   - deploy-docker
   - deploy-k8s
 
-# All cache are uploaded and downloaded everywhere to avoids
-# tasks or other builds from removing eachothers files.
 cache:
   policy: pull-push
   paths:

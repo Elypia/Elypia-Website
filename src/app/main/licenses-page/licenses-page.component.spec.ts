@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import {LicensesPageComponent} from './licenses-page.component';
 import {LoggerTestingModule} from 'ngx-logger/testing';
@@ -9,7 +9,7 @@ describe('LicensesPageComponent', () => {
   let component: LicensesPageComponent;
   let fixture: ComponentFixture<LicensesPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         LicensesPageComponent

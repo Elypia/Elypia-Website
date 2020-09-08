@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import {DonateMethodComponent} from './donate-method.component';
 import {MatCardModule} from '@angular/material/card';
@@ -26,7 +26,7 @@ describe('DonateMethodComponent', () => {
   let component: DonateMethodComponent;
   let fixture: ComponentFixture<DonateMethodComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ DonateMethodComponent ],
       imports: [

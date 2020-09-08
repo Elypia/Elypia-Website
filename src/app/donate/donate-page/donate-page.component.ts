@@ -31,7 +31,7 @@ export class DonatePageComponent {
   private static readonly Description: MetaDefinition = {
     name: 'description',
     content: 'Support Elypia by using any of the methods to donate which include bank transfer, ' +
-             'card, PayPal, or buying merchandise on Redbubble.'
+             'card, or buying merchandise on Redbubble.'
   };
 
   constructor(private titleService: Title, private meta: Meta, private matSnackBar: MatSnackBar) {

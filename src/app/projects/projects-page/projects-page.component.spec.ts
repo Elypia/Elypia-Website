@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import {ProjectsPageComponent} from './projects-page.component';
 import {ProjectComponent} from '../project/project.component';
@@ -25,7 +25,7 @@ describe('ProjectsComponent', () => {
   let component: ProjectsPageComponent;
   let fixture: ComponentFixture<ProjectsPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         ProjectsPageComponent,

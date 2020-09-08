@@ -4,9 +4,6 @@
   be a small optimization of compliance related change, but
   doesn't add any significant functionality.
 
-  This is pre-filled with example values, feel free to
-  remove them before populating the template.
-  
   If you feel a heading is irrelevant, just remove it.
 -->
 
@@ -15,4 +12,4 @@
 
 ## Motivation
 
-/label ~Improvement 
+/label ~Improvement

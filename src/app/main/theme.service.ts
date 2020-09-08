@@ -56,8 +56,11 @@ export class ThemeService {
     ThemeService.LightTheme
   ];
 
-  /** The currenly selected theme, defaults to {@link DarkTheme}. */
-  selectedTheme: Theme = ThemeService.DarkTheme;
+  /**
+   * The currenly selected theme, defaults to undefined.
+   * This allows us to apply no-theme, so it uses the system configured theme instead.
+   */
+  selectedTheme: Theme = undefined;
 
   /**
    * @param overlayContainer The overlay container, used
@@ -86,7 +89,7 @@ export class ThemeService {
     const theme: Theme[] = this.All.filter((t) => t.class === storedThemeClass);
 
     if (theme.length === 1)
-      this.setTheme(theme[0]);
+      this.selectedTheme = theme[0];
     else if (theme.length > 1)
       this.logger.warn('Multiple themes matched the class stored class name.');
   }
@@ -97,23 +100,8 @@ export class ThemeService {
    *
    * @param theme The new theme the user wants to have.
    */
-  public changeTheme(theme: Theme): void {
-    localStorage.setItem('theme', theme.class);
-    this.setTheme(theme);
-  }
-
-  /**
-   * Set the selected theme to the specified theme.
-   *
-   * @param theme The new theme to set the website to.
-   */
   public setTheme(theme: Theme): void {
-    const classes: DOMTokenList = this.overlayContainer.getContainerElement().classList;
-
-    if (this.selectedTheme)
-      classes.remove(this.selectedTheme.class);
-
+    localStorage.setItem('theme', theme.class);
     this.selectedTheme = theme;
-    classes.add(theme.class);
   }
 }

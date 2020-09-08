@@ -40,13 +40,23 @@ $dark-primary: mat-palette($mat-grey, 900, 700, 900);
 $dark-accent: mat-palette($mat-grey, 100, 50, 200);
 $dark-theme: mat-dark-theme($dark-primary, $dark-accent);
 
-@include elypia-website-theme($dark-theme);
-
 /* Light Theme */
 $light-primary: mat-palette($mat-blue, 700, 600, 800);
 $light-accent: mat-palette($mat-blue, 700, 600, 800);
 $light-theme: mat-light-theme($light-primary, $light-accent);
 
-.elypia-light-theme {
+@media (prefers-color-scheme: dark) {
+  @include elypia-website-theme($dark-theme);
+}
+
+@media (prefers-color-scheme: light) {
+  @include elypia-website-theme($light-theme);
+}
+
+[data-theme="elypia-dark-theme"] {
+  @include elypia-website-theme($dark-theme);
+}
+
+[data-theme="elypia-light-theme"] {
   @include elypia-website-theme($light-theme);
 }

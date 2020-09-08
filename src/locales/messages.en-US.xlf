@@ -111,23 +111,6 @@
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="a15ed1dd7a4d96a707c1d7cdb0c760bcb20e1ee8" datatype="html">
-        <source>
-        If you have a PayPal account you can donate using the attached
-        credit/debit card, bank account, or PayPal balance.
-      </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">97</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
-        <source>PayPal</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">96</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="36a03b173b6a862a4e333ae51ae5375d1a3488b7" datatype="html">
         <source>
         If you use our link to Humble Bundle, we get a cut on purchases
@@ -135,14 +118,14 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b9ee844dcd34fd750182c3c0b5ea733f2be61d30" datatype="html">
         <source>Humble Bundle</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">104</context>
+          <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0a53c6d53b13f2df560312133d3ff2009cf6c60" datatype="html">
@@ -151,14 +134,14 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">113</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="396b64d7eb70deee0075f9256bb991890051feb5" datatype="html">
         <source>Redbubble</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">112</context>
+          <context context-type="linenumber">104</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2b2d274f7c96bc9f0957c1177e45c674609f4136" datatype="html">
@@ -170,7 +153,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="98d33199f9bbf639ba8c43f881d73c763e5e4f7b" datatype="html">

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {async, TestBed} from '@angular/core/testing';
+import {TestBed, waitForAsync} from '@angular/core/testing';
 import {AppComponent} from './app.component';
 import {CommonModule} from '@angular/common';
 import {RouterTestingModule} from '@angular/router/testing';
@@ -32,7 +32,7 @@ import {ToolbarModule} from './toolbar/toolbar.module';
 import {FooterModule} from './footer/footer.module';
 
 describe('AppComponent', () => {
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent

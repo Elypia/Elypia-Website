@@ -71,7 +71,6 @@ import {faInfoCircle} from '@fortawesome/pro-solid-svg-icons/faInfoCircle';
 import {faCopyright} from '@fortawesome/pro-regular-svg-icons/faCopyright';
 import {faUniversity} from '@fortawesome/pro-solid-svg-icons/faUniversity';
 import {faCreditCard} from '@fortawesome/pro-solid-svg-icons/faCreditCard';
-import {faPaypal} from '@fortawesome/free-brands-svg-icons/faPaypal';
 import {faTshirt} from '@fortawesome/pro-solid-svg-icons/faTshirt';
 import {faDownload} from '@fortawesome/pro-solid-svg-icons/faDownload';
 import {faPaste} from '@fortawesome/pro-duotone-svg-icons/faPaste';
@@ -194,7 +193,6 @@ export class AppModule {
       faLinkedin,
       faMastodon,
       faPaste,
-      faPaypal,
       faRedditAlien,
       faStar,
       faTshirt,

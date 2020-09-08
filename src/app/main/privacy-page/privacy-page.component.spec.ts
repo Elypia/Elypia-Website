@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import {PrivacyPageComponent} from './privacy-page.component';
 import {MatCardModule} from '@angular/material/card';
@@ -24,7 +24,7 @@ describe('PrivacyComponent', () => {
   let component: PrivacyPageComponent;
   let fixture: ComponentFixture<PrivacyPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         PrivacyPageComponent

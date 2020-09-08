@@ -7,20 +7,20 @@
 ## About
 This is the frontend for the Elypia website.
 
-# Requirements
+## Requirements
 * [Elypia API]
-* [Angular 9+]
-* [NodeJS 12.15.0]
+* [Angular 10+][Angular]
+* [NodeJS 12.15.0][NodeJS]
 
 ## Open-Source
-This project is open-source under the [Apache 2.0]!  
+This project is open-source under the [Apache 2.0]!
 While not legal advice, you can find a [TL;DR] that sums up what you're
 allowed and not allowed to do along with any requirements if you want
-to use or derive work from this source code.  
+to use or derive work from this repository.
 
-**The repository includes our trade name and registered trademarks, 
-which are not granted under the license. Please do not use these 
-except as required to describe the origin of work.** 
+**The repository includes our trade name and registered trademarks,
+which are not granted under the license. Please do not use these
+except as required to describe the origin of work.**
 
 [matrix-community]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
 [discord-guild]: https://discord.com/invite/hprGMaM "Discord Invite"
@@ -28,8 +28,8 @@ except as required to describe the origin of work.**
 [gitlab]: https://gitlab.com/Elypia/elypia-website/commits/master "Repository on GitLab"
 [elypia-donate]: https://elypia.org/donate "Donate to Elypia"
 [Elypia API]: https://gitlab.com/Elypia/elypia-api "Elypia API"
-[NodeJS 12.15.0]: https://nodejs.org/en/ "NodeJS"
-[Angular 9+]: https://angular.io "Angular CLI"
+[NodeJS]: https://nodejs.org/en/ "NodeJS"
+[Angular]: https://angular.io "Angular CLI"
 [Apache 2.0]: https://www.apache.org/licenses/LICENSE-2.0 "Apache 2.0 License"
 [TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "TL;DR of Apache 2.0"
 

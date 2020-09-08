@@ -14,7 +14,7 @@
   ~ limitations under the License.
   -->
 
-<div id="elypia-app" class="mat-app-background" [ngClass]="themeService.selectedTheme.class">
+<div id="elypia-app" class="mat-app-background" [attr.data-theme]="themeService.selectedTheme?.class">
   <app-toolbar class="non-content" [MenuTree]="MenuTree"></app-toolbar>
   <main id="content">
     <router-outlet></router-outlet>

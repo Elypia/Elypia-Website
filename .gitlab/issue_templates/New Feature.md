@@ -2,9 +2,6 @@
 <!--
   This is for new features which don't exist on the site yet.
 
-  This is pre-filled with example values, feel free to
-  remove them before populating the template.
-  
   If you feel a heading is irrelevant, just remove it.
 -->
 
@@ -19,4 +16,4 @@
 -->
 ## Interface
 
-/label ~"New Feature" 
+/label ~"New Feature"

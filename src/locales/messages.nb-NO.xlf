@@ -50,14 +50,6 @@
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7b91a702d1a370fb73395068c225031722ea42bf" datatype="html">
-        <source>PayPal</source>
-        <target>PayPal</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
-          <context context-type="linenumber">96</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
         <source>Source Code</source>
         <target>Kildekode</target>
