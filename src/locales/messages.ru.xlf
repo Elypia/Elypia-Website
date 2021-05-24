@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="ru">
+    <body>
+      <trans-unit id="4b55867fcad9a6b37942dac61f366f51fef0be2a" datatype="html">
+        <source>Elypia - некоммерческая организация общественных интересов (CIC)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7ca4488779e42bfeefe827d4f4706f4f9136b87" datatype="html">
+        <source>
+        Хотя мы стараемся быть держаться за счёт подписки и услуг, нам выгодно получать пожертвования,
+        чтобы всё, что мы делаем было как можно более бесплатным. Как некоммерческая организация,
+        финансирование - это то, что позволяет нам продолжать разрабатывать бесплатное программное
+		обеспечение с открытым исходным кодом и предоставлять бесплатные или доступные услуги.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36b945004457fa674ef4598444390392dfcac265" datatype="html">
+        <source>
+        В качестве компании общественного интереса мы также сможем получать доход
+        за счёт продажи подписки и услуг или предоставления хостинговых решений
+        для наших проектов с открытым исходным кодом.
+        Пожертвования не будут единственной формой дохода для Elypia, но они очень приветствуются
+        и высоко ценятся.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="faa2e36d8a02346d34d5960e4b104ace3c98c127" datatype="html">
+        <source>Куда уходят пожертвования?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7d8f7d56964d5f4b1733073af184e4fa55aa712" datatype="html">
+        <source>
+        В настоящее время большинство расходов связаны с технической инфраструктурой или
+        или юридическими обязательствами по поддержанию работоспособности Elypia CIC, её
+        веб-сайтов и услуг. Сюда входят домены, хостинг, доставка контента, командировки
+        или бумажная работа, а также любые ежегодные сборы или требования для выполнения
+		обязательств компании в рамках юридического обоснования.
+        Некоторые проекты могут понести расходы, если для них необходимы новые материалы
+		или брендинг. Мы надеемся, что в будущем Elypia сможет обеспечить зарплату тем,
+        кто вносит свой вклад и руководит проектами Elypia.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b56d5a5b4954332e22e3693c13eafb66c7b4fa36" datatype="html">
+        <source>
+          Пожертвовать, перечислив деньги или создав долгосрочное
+          платёжное поручение непосредственно на банковский счёт
+		  нашей компании.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7ec3699e8d381ae4371066b98b36e22a2478ce9" datatype="html">
+        <source>Имя счёта: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c60cf19eb3d49a7f0e045881ebd9733f74b6dad8" datatype="html">
+        <source>Номер счёта: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fbb4b710b04174effd1bb999565583d64ddf8e4" datatype="html">
+        <source>Код банка: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d85ad59682b27633be6ded5942692b892fe7467a" datatype="html">
+        <source>Банк (Только UK/Фунт стерлингов)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8184c05d8fd8d596166564a65b926f266a071533" datatype="html">
+        <source>
+        Пожертвовать прямо на сайте с помощью дебетовой или кредитной карты.
+        Все пожертвования при использовании этого метода обрабатываются
+		компанией Stripe; мы не обрабатываем и не храним вашу информацию.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4eb36eee0c420c1f329eedecd87f2770d41df484" datatype="html">
+        <source>Карта (Stripe)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36a03b173b6a862a4e333ae51ae5375d1a3488b7" datatype="html">
+        <source>
+        Если вы используете нашу ссылку на Humble Bundle, то мы получаем
+		долю от ваших покупок и вы даже можете изменить ползунок процента
+		при оформлении заказа, чтобы решить, сколько получит Elypia!
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9ee844dcd34fd750182c3c0b5ea733f2be61d30" datatype="html">
+        <source>Humble Bundle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0a53c6d53b13f2df560312133d3ff2009cf6c60" datatype="html">
+        <source>
+        Вы можете поддержать нас, приобретая нашу фирменную атрибутику.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="396b64d7eb70deee0075f9256bb991890051feb5" datatype="html">
+        <source>Redbubble</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b2d274f7c96bc9f0957c1177e45c674609f4136" datatype="html">
+        <source>
+      Обратите внимание, что мы являемся некоммерческой компанией, а не организацией с
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>благотворительным статусом<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+      и не освобождены от налогов; пожертвования не имеют права на
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>налоговые льготы<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donate/donate-page/donate-page.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="98d33199f9bbf639ba8c43f881d73c763e5e4f7b" datatype="html">
+        <source>Это адрес зарегистрированного офиса и корреспонденции компании Elypia, а не место работы или проживания.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76b8339d5b6a70b6871600727ac3a9510e59d26f" datatype="html">
+        <source>Исходный код</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b4a8dc37d77316017b4f1dbd7d7f6f3f99b6d4d" datatype="html">
+        <source>Вносите вклад в исходный код сайта на GitLab</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="037f8b3b3e81f493484aa8a79f2907772b2c6fd4" datatype="html">
+        <source>Библиотеки с открытым исходным кодом</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="76df1be6731bf45664d3b8089cb7af5d8ba901ef" datatype="html">
+        <source>Просмотр лицензий для всех библиотек с открытым исходным кодом, которые мы используем</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc82fa89983785cb60daa0a7516c611fc02b5cd1" datatype="html">
+        <source>Авторское право</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer/footer.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14dd90d51c67e6935128bce4b11139d0461a69ac" datatype="html">
+        <source>Медиа-кит</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c7a008837e00d4b383a578c2af9b1ee1b43694cd" datatype="html">
+        <source>
+        Это для пользователей или издателей, которые могут захотеть ссылаться на Elypia и использовать её брендинг.
+        На этой странице описаны некоторые материалы, которые можно использовать, а также рекомендации по их использованию.
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f86e01b6434153e65151d92721bba90520d89f9" datatype="html">
+        <source>Рекомендации</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b2b2da474421bd0a87719658f2ef9c2c3ebf8e87" datatype="html">
+        <source>Предпочтительно сохранить логотип в неизменном виде, но вы можете изменить оттенок.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8746a063d10f3b94ef2abb9f7e9389f46c105df" datatype="html">
+        <source>Не изменяйте и не перенастраивайте логотип Elypia, за исключением случаев, оговорённых в явном виде.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e646036efe65c8fd750583c8b1c64c44a7ceffff" datatype="html">
+        <source>Не используйте брендинг Elypia там, где это может навести на мысль, что мы одобряем ваш контент.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="774f25dfbea8c011048dcedb2edb2319784c7eef" datatype="html">
+        <source>Логотип Elypia от Nikky</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ada1858c9ce113261202d110484643d58ea8d81" datatype="html">
+        <source>Логотип Elypia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4d324c5c37ab5b7632bc29b3309678b436944647" datatype="html">
+        <source>Логотип Elypia без заливки от Nikky</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d32feaeffd77c36b768827b38eab5e4d9101b7c5" datatype="html">
+        <source>Значок Elypia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2797b3afbb63cd70e7c5db230d7c77ca28deb128" datatype="html">
+        <source>Иконка Elypia от Nikky</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9549b29b8c3e30523c81b57bb1919e21656c88d" datatype="html">
+        <source>Иконка Elypia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc0135e02c154f58b98df20dc1348e006e3027be" datatype="html">
+        <source>Логотип Elypia с нашим именем</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bfd2aee4175e367129e7497713c2b5824b722a7e" datatype="html">
+        <source>Текстовый логотип Elypia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bed12632058f5b965544cae66344f5142a314ab0" datatype="html">
+        <source>Текст Elypia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c1fdf33a27a2ce7f5fb5393d585bf8f53170b8b" datatype="html">
+        <source>Цветовая палитра Elypia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f12fce1bf3707dc7e7a7ccafef738fabbc11c47" datatype="html">
+        <source>Синий</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f61371ef20c6f460c4ec7552cf021823e4919d82" datatype="html">
+        <source>Белый</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adb4562d2dbd3584370e44496969d58c511ecb63" datatype="html">
+        <source>Затемнённый</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c606c35acfee5d5f96dc214cab8e0a5f37ca890" datatype="html">
+        <source>Тёмный</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aebf7fdda6d9b5ca1fb79dd3282aa1fab066a55b" datatype="html">
+        <source>Оч. тёмный</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e11b1522c1aa749441e882efc0d5f6b5bc0e880d" datatype="html">
+        <source>Хотите скачать всё?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="599c31627b5a8acd4b0d63f9d1284ed7620dd014" datatype="html">
+        <source>
+      <x id="START_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;fa-icon&gt;"/><x id="CLOSE_TAG_FA-ICON" ctype="x-fa-icon" equiv-text="&lt;/fa-icon&gt;"/>Скачать медиа-кит
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/press-kit-page/press-kit-page.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6834fa6b43d1ecbdf147c48dd9c4d72f1484571d" datatype="html">
+        <source>Источник</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/projects/project/project.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Эл. почта</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e26b2d49f57be965a2b3b7995fa97d0ef4b9cb42" datatype="html">
+        <source>
+            Вам будет предложено подтвердить его после регистрации!
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2da217bb0248e900437a6a4224280d238de92f6c" datatype="html">
+        <source>
+              Пожалуйста, введите действительный адрес электронной почты!
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="339e91ae7bdbea4e5271b735253fa4238181a4ac" datatype="html">
+        <source>
+              Электронная почта обязательна!
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Пароль</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84dafd890f7a415e69a7e8a11b8c397b1916b769" datatype="html">
+        <source>
+            Рассматривали ли вы возможность использования менеджера паролей?
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="032fff8849ccc29d1ab02ac37420606a976cdd24" datatype="html">
+        <source>
+            Пароль должен содержать от 8 до 72 символов!
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c562b9f9ce8bd9a18001ba5ba8f3545748089514" datatype="html">
+        <source>
+            Пароль обязателен!
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bcd1e439caba9926b076fbcad03d4837a1674a8c" datatype="html">
+        <source>Подтверждение пароля</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3bc24a3fbe456746530df41a51215ec6e81c15c" datatype="html">
+        <source>
+            Пароль должен совпадать!
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7996757c79a1c08f21ec4be3208d6e7a8684ba4d" datatype="html">
+        <source>Запомнить пароль!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5b4cd0272163bc86ab653f5d4ea93f8145b9a5c" datatype="html">
+        <source>
+        Похоже, что вы здесь недавно, поэтому мы вывели для вас форму регистрации!
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/login-form/login-form.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da9f823f3cb5214dce447f76585cf91400a928d7" datatype="html">
+        <source>
+    Выбор языка
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d11dbabad41c17e8a730550caceb0f3e0deb9666" datatype="html">
+        <source>Чтобы внести свой вклад и поддержать Elypia, не обязательно уметь писать код; помогите с переводом на Weblate!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/locale-selection/locale-selection.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71dc0ad61c5c2a1a04d50af50ab8a713d61c8ac4" datatype="html">
+        <source>Текстовый логотип Elypia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60c855c323706a04ccd2ff22d634bde9b6233bbf" datatype="html">
+        <source>Темы</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/toolbar/toolbar/toolbar.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1bd566f1e843040be061facc31fee721112397ab" datatype="html">
+        <source>Мы любим бесплатное программное обеспечение с открытым исходным кодом!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/home-page/home-page.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b833c823f920b72bf3f5a2a19bdf1fa18451b042" datatype="html">
+        <source>
+      Мы хотим сделать разработку программного обеспечения предприятельного уровня более
+      простой в освоении и использовании, а также поддержать те отрасли, в которых нет
+	  актуального или застрявшего в прошлом несвободного программного обеспечения.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/home-page/home-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="890a87543cce9330edc40891f6e68dfb500995c7" datatype="html">
+        <source>Рисунок Элипии-тян в стиле аниме от Vukory</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5499b81e5db6d551e39b1731b360d787148bfea2" datatype="html">
+        <source>Введение</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c3f6c7fab89483702c4345aac49dbc9a681248a" datatype="html">
+        <source>
+          Elypia является некоммерческой организацией с
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+            общественным участием<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          , расположенная в Великобритании, которая стремится привнести больше свободного
+		  программного обеспечения с открытым исходным кодом в различные отрасли.
+          Это начинается с разработки программного обеспечения, ориентированного на начинающих
+          разработчиков, и, надеюсь, перейдёт в другие области, не связанные с программным обеспечением, что может
+          помочь образовательным учреждениям или менее развитым секторам получить альтернативу
+		  заброшенным устаревшим приложениям.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="70b89f55170a7a596275b49c4ca52ec2ec3a7c9b" datatype="html">
+        <source>Статья Википедии о компании общественных интересов</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a91783e9c0f790ed49edae730f9156070ed9dd5" datatype="html">
+        <source>Права</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="830979944e037e9a6232f1d13d4e11fb758a460e" datatype="html">
+        <source>
+          Компания с общественными интересами - это некоммерческая организация в Великобритании, которая
+          имеет структуру компании с ограниченной ответственностью, но обязуется использовать свои излишки
+		  на благо общества, а не на благо своих директоров. Как CIC, Elypia обязана следовать своему
+		  Уставу и Заявлению об общественных интересах, которые можно найти на сайте
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+            Companies House<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          Все проекты, за которые берётся Elypia, будут соответствовать целям, указанным в вышеупомянутых документах.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d0c0255d90186de88c0a6e77b0fbca8a31174b5" datatype="html">
+        <source>Elypia CIC в открытом доступе в Companies House</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd8fea6883aa5d60999b1ab27276b128d51441fa" datatype="html">
+        <source>Миссия</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="942ed2dfc8ee50abe0b6cd6913af529b0d9dec16" datatype="html">
+        <source>
+          Elypia хочет помочь будущему программного обеспечения и технологий путём
+		  предоставления FOSS (бесплатного программного обеспечения с открытым исходным кодом) общественности. Мы
+		  хотим видеть больше библиотек и фреймворков, позволяющих начинающим разработчикам создавать
+		  приложения уровня предприятий для небольших целей, готовых взять эти знания с собой для
+		  поддержки других проектов и предприятий. Мы также хотим помочь создать современное,
+		  безопасное и надёжное программное обеспечение, на которое можно ссылаться или использовать
+		  для малого бизнеса, не беспокоясь об устаревших приложениях, которые
+		  больше не поддерживаются и не имеют возможной или доступной альтернативы.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/about-page/about-page.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
+        <source>Политика конфиденциальности</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1422bbaa6bc29532c521bdec4a2d3309dd978c03" datatype="html">
+        <source>Последнее обновление 12 декабря 2019 года</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="164604e24c00d9cdf2eadeb0dc6bd4ab266e74e5" datatype="html">
+        <source>
+      Эта политика конфиденциальности относится только к тому, что работает на серверах Elypia, независимо от того,
+      какой сайт или услугу вы используете. Если вы подключены к стороннему хосту;
+	  вам следует ознакомиться с соответствующей политикой конфиденциальности вашего хоста.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="792306841e29a0b1b0abed4b8948928b612d8948" datatype="html">
+        <source>
+      Ни один из наших сайтов или сервисов не хранит личную информацию о пользователях, а наши веб-серверы настроены так, что
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>журнал доступа<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+      отключен, поэтому мы не видим информацию о вашем запросе, такую как
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>IP-адрес<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> или
+      <x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        user-agent<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d961e1f3ed6b3f9dd6c5968552eadc750735b12" datatype="html">
+        <source>Документация по User-Agent через MDN Web Docs (Mozilla)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db57e4e0d030ab5ce723bee08f400bc6b9bd6bf5" datatype="html">
+        <source>
+      Мы используем <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>CloudFlare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>  в качестве
+      сети доставки контента (CDN), которая собирает и позволяет нам просматривать совокупные данные о трафике,
+      такие как общее количество запросов, количество уникальных посетителей, и какие страны преимущественно пользуются нашими услугами.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72c5be0eb262e5ebc365e9c0cbabbcd779146ade" datatype="html">
+        <source>
+      Если у вас есть какие-либо опасения или вопросы относительно нашей политики конфиденциальности, или если у вас есть запрос, пожалуйста,
+      отправьте письмо по адресу <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>dpo@elypia.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> где выбранное
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        Должностное лицо по защите данных (DPO)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+      сможет оказать вам поддержку.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0b35ba3224ef995996fd36a4ab03c44be79d64d" datatype="html">
+        <source>Определение и требования к должностному лицу по защите данных</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78ab20361c236d2fa3bd642eb6cc1afe0ce9e759" datatype="html">
+        <source>Постановление ЕС</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d75f3b3238c5c85f925dda873327bcb16795514c" datatype="html">
+        <source>
+      Постановление Европейского Парламента, также известная как Закон ЕС о cookie, регулирует
+      использование cookie (или других носителей информации на стороне клиента) и согласие. Мы минимизируем
+	  использование файлов
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        cookie<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> и
+      <x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
+        хранилища<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> без снижения функциональности веб-сайтов или услуг.
+      Мы не используем и, <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>скорее всего,<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> никогда не будем использовать или добавлять аналитические файлы cookie или трекеры,
+      однако мы храним некоторые данные для технических целей или для настройки на стороне клиента.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ca4b21373007e824df525ab9cbe21c018572843" datatype="html">
+        <source>Документация по Cookies через MDN Web Docs (Mozilla)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b0c85cc0e98f1b83a5207b60555c81934345996" datatype="html">
+        <source>Документация по (локальному/сеансовому) хранению данных через MDN Web Docs (Mozilla)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e7b17d13f3fa32af1778e07c3546a5206171878" datatype="html">
+        <source>
+      При встраивании сторонних сценариев с других веб-сайтов также могут добавляться сторонние файлы cookie.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f8a0e630700db3e35d5da02a1250dc27a11f792d" datatype="html">
+        <source>Это определённый вручную список файлов cookie, которые могут быть установлены на нашем сайте или в наших службах.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9325fd97686f8fdb769ea2f66c939262ef003f1" datatype="html">
+        <source>Это определённый вручную список данных для хранения, которые могут быть установлены на нашем сайте или в наших службах.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/privacy-page/privacy-page.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a183f4e1c55faaada746132a5f0e75e0fb79aa0a" datatype="html">
+        <source>Лицензии с открытым исходным кодом</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/licenses-page/licenses-page.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5fa6cbf1e680cadca733a8d000b75e87388cae9d" datatype="html">
+        <source>
+      Возможно, это не станет сюрпризом, но для разработки сайта мы используем множество библиотек с открытым исходным кодом.
+      Вы можете просмотреть необработанную версию списка, перейдя по ссылке
+      <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>здесь<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main/licenses-page/licenses-page.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="583a4094fd518339567a2c0f876a1868a008e985" datatype="html">
+        <source>ЗФ: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">Цвет заднего фона из цветовой палитры Elypia.</note>
+      </trans-unit>
+      <trans-unit id="716d3d46a6222779e682155138f9a866643386b2" datatype="html">
+        <source>ПФ: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/press-kit/company-color/company-color.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">Цвет переднего фона из палитры цветов Elypia.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

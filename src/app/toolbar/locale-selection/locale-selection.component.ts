@@ -64,7 +64,8 @@ export class LocaleSelectionComponent implements OnInit {
     new Locale('English (US)', 'en-US', 'en'),
     new Locale('Français', 'fr'),
     new Locale('Nederlands', 'nl'),
-    new Locale('Polski', 'pl')
+    new Locale('Polski', 'pl'),
+	new Locale('Русский', 'ru')
   ];
 
   /**
